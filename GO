@@ -57,6 +57,20 @@ def listGames(list):
 
 #--------------------------------------------------------------------------------
 
+def packGames(list):
+   archive=os.getcwd()+"/games.tar"
+   if os.path.isfile(archive):
+      os.remove(archive)
+   os.system("tar cvf "+archive)
+   os.chdir(os.environ['HOME']+"/"+games_dir)
+
+   for game in games_list:
+      os.system("tar rvf "+archive+" "+game[0])
+
+   os.system("gzip "+archive)
+
+#--------------------------------------------------------------------------------
+
 def hexDump(game):
    full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
    print "Read '"+full_path+"'"
@@ -153,6 +167,8 @@ parser=argparse.ArgumentParser(description='Test Zif')
 
 parser.add_argument('-l', '--list', dest='list', action='store_true',
                     help="list tests without running them")
+parser.add_argument('-p', '--pack', dest='pack', action='store_true',
+                    help="create a package of story files")
 parser.add_argument('-b', '--build', dest='build', action='store_true',
                     help="pull and rebuild Zif")
 parser.add_argument('-x', '--hex', dest='hex', metavar='#', type=int, default=0,
@@ -181,6 +197,8 @@ if args.build:
 
 if args.list:
    listGames(games_list)
+elif args.pack:
+   packGames(games_list)
 elif args.hex != 0:
    hexDump(games_list[args.hex - 1])
 elif args.frotz != 0:
