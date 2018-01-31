@@ -1,0 +1,186 @@
+#!/usr/bin/python
+
+import os
+import json
+import sys
+import hashlib
+import termios
+import argparse
+
+#--------------------------------------------------------------------------------
+# Write a line of text to the console and log file
+
+def logWrite(text):
+   print text,
+   log.write(text)
+
+#--------------------------------------------------------------------------------
+# Write a line of text to the console and log file
+
+def logWriteLn(text):
+   logWrite(text+"\n")
+
+#--------------------------------------------------------------------------------
+# Report an error to the console and log file
+
+def logError(text):
+   logWriteLn("ERROR: "+text)
+
+#--------------------------------------------------------------------------------
+# Calculate the MD5 checksum for a file
+
+def md5(filename):
+
+    hash = hashlib.md5()
+
+    with open(filename) as file:
+        for block in iter(lambda: file.read(4096), b""):
+            hash.update(block)
+
+    return hash.hexdigest()
+
+#--------------------------------------------------------------------------------
+# 
+
+def restoreTermIO():
+   tio = termios.tcgetattr(0)
+   tio[3] = tio[3] | termios.ECHO | termios.ICANON
+   termios.tcsetattr(0, termios.TCSANOW, tio)
+
+#--------------------------------------------------------------------------------
+
+def listGames(list):
+   i=0
+   for game in games_list:
+      i=i+1
+      print "#%02u  " % (i) + os.path.basename(game[0])
+
+#--------------------------------------------------------------------------------
+
+def hexDump(game):
+   full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
+   print "Read '"+full_path+"'"
+   with open(full_path) as file:
+      print "Write 'hex.log'"
+      out=open("hex.log", "w")
+      offset=0
+      for data in iter(lambda: file.read(16), b""):
+         out.write("%06X : " % (offset))
+         for ch in data:
+            out.write("%02X " % (ord(ch)))
+         out.write(": ")
+         for ch in data:
+            byte=ord(ch)
+            if ((byte >= 0x20) and (byte <= 0x7F)):
+               out.write(ch)
+            else:
+               out.write('.')
+         out.write('\n')
+         offset=offset+16
+      out.close();
+
+#--------------------------------------------------------------------------------
+
+def runSingleGame(game):
+   full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
+   os.system("Zif/zif --trace --term "+full_path)
+
+#--------------------------------------------------------------------------------
+
+def runOnFrotz(game):
+   full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
+   os.system(os.environ['HOME']+"/OpenSource/frotz-2.43d/frotz "+full_path)
+
+#--------------------------------------------------------------------------------
+
+def runAllGames(list):
+      ignored=0
+      clean=0
+      errors=0
+      warnings=0
+
+      for game in games_list:
+
+         full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
+
+         logWriteLn("================================================================================")
+
+         if not os.path.isfile(full_path):
+            logError("Story file '"+full_path+"' not found")
+         else:
+            logWriteLn(" File : "+os.path.basename(game[0]))
+            logWriteLn(" MD5  : "+md5(full_path))
+            logWriteLn(" Path : "+os.path.dirname(game[0]))
+            logWriteLn("--------------------------------------------------------------------------------")
+
+            input_file="input/"+os.path.basename(game[0])+".in"
+
+            status=os.system("Zif/zif --batch --info --term --width 80 --print --input "+input_file+" "+full_path)
+            if status==0:
+               clean=clean+1
+            else:
+               logError("Exited with a fault [%u]" % (status))
+
+            out_log="print.log"
+            if not os.path.isfile(out_log):
+               logError("No output log '"+out_log+"'")
+            else:
+               with open(out_log) as f:
+                  for line in f:
+                     if "ERR:" in line:
+                        errors = errors + 1
+                     if "WRN:" in line:
+                        warnings = warnings + 1
+                     logWrite(line)
+
+            os.remove(out_log)
+
+      for file in ["undo_0.sav", "undo_1.sav"]:
+         if os.path.isfile(file):
+            os.remove(file)
+
+      logWriteLn("================================================================================")
+      logWriteLn("Games      : %8u" % (len(games_list)))
+      logWriteLn("Ignored    : %8u" % (ignored))
+      logWriteLn("Clean exit : %8u" % (clean))
+      logWriteLn("Errors     : %8u" % (errors))
+      logWriteLn("Warnings   : %8u" % (warnings))
+      logWriteLn("--------------------------------------------------------------------------------")
+
+#--------------------------------------------------------------------------------
+
+parser=argparse.ArgumentParser(description='Test Zif')
+
+parser.add_argument('-l', '--list', dest='list', action='store_true',
+                    help="list tests without running them")
+parser.add_argument('-x', '--hex', dest='hex', metavar='#', type=int, default=0,
+                    help="hex dump the story file")
+parser.add_argument('-z', '--zif', dest='test', metavar='#', type=int, default=0,
+                    help="run a single test")
+parser.add_argument('-f', '--frotz', dest='frotz', metavar='#', type=int, default=0,
+                    help="run a single test on frotz")
+
+args=parser.parse_args()
+
+#--------------------------------------------------------------------------------
+
+log=0
+
+games_dir="Data/Fun/Games/InteractiveFiction/Games"
+games_list_file="games_list.json"
+
+games_list=json.load(open(games_list_file))
+
+if args.list:
+   listGames(games_list)
+elif args.hex != 0:
+   hexDump(games_list[args.hex - 1])
+elif args.frotz != 0:
+   runOnFrotz(games_list[args.frotz - 1])
+elif args.test == 0:
+   with open("tst.log", "w") as log:
+      runAllGames(games_list)
+else:
+   runSingleGame(games_list[args.test - 1])
+
+restoreTermIO()

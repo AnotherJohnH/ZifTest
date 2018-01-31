@@ -1,0 +1,4015 @@
+
+================================================================================
+ File : 905.z5
+ MD5  : 4c5067169b834d247a30bb08d1039896
+ Path : AdamCadre
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+The phone rings.
+
+Oh, no - how long have you been asleep? Sure, it was a tough night, but... This 
+is bad. This is very bad.
+
+The phone rings.
+
+  -----
+9:05 by Adam Cadre
+v1.11 (2012.0724) / Original release 2000.0103
+  -----
+
+Bedroom (in bed)
+This bedroom is extremely spare, with dirty laundry scattered haphazardly all 
+over the floor. Cleaner clothing can be found in the dresser. A bathroom lies 
+to the south, while a door to the east leads to the living room.
+
+On the end table are a telephone, a wallet and some keys.
+
+The phone rings.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : photopia.z5
+ MD5  : 95f0fc4260fcb93b8ff3fa05331ea03b
+ Path : AdamCadre
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Photopia 1.30 is a stripped-down version designed for online play. The 
+recommended version is 2.01, which runs in a Glulx player. Links are available 
+at http://adamcadre.ac.
+
+Would you like instructions? 
+Please answer yes or no.> no
+
+[ "Will you read me a story?"
+  
+  "Read you a story? What fun would that be? I've
+  got a better idea: let's tell a story together."]
+
+Speeding down Montgomery Boulevard
+The streetlights are bright. Unbearably bright. You have to squint as hard as 
+you can to keep your retinas from bursting into flame.
+
+"Welcome back to the land of the LIVING, bud," Rob says. "You planning to stick 
+around for a while or you gonna pass out again? Cause one thing I've learned 
+about chicks is that they actually DON'T LIKE IT when you pass out on them in 
+the middle of gettin' it on. You hear me? So if that's, like, your PLAN, then 
+I'm droppin' you off and showin' up solo."
+
+You don't exactly remember where the day went, but as you listen to Rob rant 
+on, bits of it start to float back to you: a day on the slopes, the brisk 
+February wind against your face; polishing off a keg back at the lodge; those 
+two girls you and Rob had hit it off with, the ones who'd given you their 
+address in town. "We all should get together sometime!" they'd said. Of course, 
+Rob insisted that by "sometime" they'd meant "later tonight." You hadn't been 
+so sure, but then you'd blacked out before you could argue the point.
+
+How Rob came to be driving your car you're not exactly sure. Apparently he 
+couldn't wait till you were sober enough to drive it yourself. From the way 
+he's weaving all over the road, he also apparently couldn't wait till HE was 
+sober enough to drive it, either.
+
+Rob changes the radio station a few times, eventually settling on the station 
+you were listening to in the first place.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : varicella.z8
+ MD5  : e6ca7605efc9299c14c7b38f1b4a2e7f
+ Path : AdamCadre
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+Varicella by Adam Cadre
+
+(1) Start a new game in full color 
+(2) Start a new game in limited color 
+(3) Start a new game without color 
+(4) Restore a saved game 
+(5) How to play interactive fiction 
+(6) Special commands 
+(7) Credits 
+(8) Test whether your interpreter correctly handles color 
+(9) Quit 
+
+> 
+
+Monochrome it is. Press a key to begin!
+
+You are Primo Varicella, Palace Minister at the Palazzo del Piemonte. This 
+title is unlikely to impress anyone. Piedmont is the laughingstock of the 
+Carolingian League, and the Palace Ministry has devolved into little more than 
+a glorified (and not even especially glorified) butlership: your duties include 
+organizing banquets, overseeing the servants, and greeting visitors. It is safe 
+to assume that the War Minister and the Coffers Minister lose little sleep over 
+your presence in the King's Cabinet.
+
+But Charles Martel was a Palace Minister, and he turned back the Moors at Tours 
+lo these many years ago. His son Pepin was a Palace Minister, and he became 
+King of the Franks. It is not unprecedented for Palace Ministers to make 
+something of themselves. One might even say it is tradition. All you need is an 
+opportunity.
+
+And that opportunity is now.
+
+King Charles was not an old king. Indeed, he had a good forty years left in 
+him. Perhaps even fifty. But an assassin's bullet or a well-placed icepick can 
+steal fifty years in less time than it takes to say the words. And a sudden 
+illness? An illness such as the one King Charles contracted two days ago? 
+Perhaps not as quick, but just as effective. For if this letter you've just 
+received is correct, just such a disease has claimed the life of the King. This 
+leaves the principality in the hands of his son, Prince Charles. Prince Charles 
+is five years old. Piedmont, it seems, will be requiring the services of a 
+regent for the foreseeable future. And you can think of no better candidate 
+than yourself.
+
+Of course, you shall scarcely be alone in seeking the position. The King's 
+Cabinet is not a small body. And your fellow ministers will no doubt try all 
+sorts of unseemly tactics in their quest for the throne. Some will try bribery. 
+Others will employ treachery. A few may even resort to brute force. But would 
+Primo Varicella stoop to using one of these methods? Perish the thought! You're 
+better than that. You shall employ all three.
+
+It will be an uphill struggle, to say the least. Of those soon to be clamoring 
+for the regency, you are among the lowest in rank. But you are not without a 
+number of advantages. The drama to unfold will play out in the palace -- your 
+palace. Time is also on your side: at present, only you and the Queen know of 
+the King's demise. And you've known of his illness for a couple of days now, 
+days in which you've hatched a flawless plan. There should be little to stand 
+in the way of your ascent to power so long as you put your plan into action 
+immediately.
+
+Or at least as soon as this manicure is finished. One must have one's 
+priorities.
+
+V A R I C E L L A
+written and programmed by Adam Cadre
+Version 1.14 (31 August 1999) / Serial number 9339
+Written in Inform 6.15, library 6/7
+
+Salon
+You've funneled the lion's share of the palace improvements budget -- and most 
+likely the tiger's share as well -- into renovating the salon... not that the 
+Philistines you live among are equipped to appreciate it. From the plush 
+Quattordici chairs to the handsome volumes in the library to the imported Ming 
+tea service to the steward you hired to attend to your grooming needs, this is 
+an oasis of taste and comfort in what is otherwise a fairly uncomfortable and 
+tasteless building. Ah, well. When you become Regent you'll have greater 
+latitude to redecorate. The arched windows overlook the western gardens, while 
+the exit leads east.
+
+The steward shapes the final nail with a pair of scissors.
+
+>Are you sure you want to quit? ZIF quit
+
+================================================================================
+ File : Adventureland.z5
+ MD5  : a42545bd17330ae5e6fed02270ccfb4a
+ Path : AdventureInternational/AdventureLand
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+A voice booms out ...
+Treasures have an * in their name. Say 'SCORE'
+If you need a hint on something, try 'HELP'.
+
+ADVENTURELAND
+An Interactive Classic by Scott Adams (circa 1979/80)
+Release 1 / Serial number 961111 / Inform v6.05 Library 6/2
+Standard interpreter 1.0
+
+Forest
+You're in a forest.
+
+Obvious exits: North, South, East, West, Up.
+
+You can also see: trees
+
+>n
+
+Forest
+
+You can see a trees here.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : ADVLAND.Z5
+ MD5  : 0df3b73fbbbbe19f391087e883785169
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+A voice booms out ...
+Treasures have an * in their name. Say 'SCORE'
+If you need a hint on something, try 'HELP'.
+
+ADVENTURELAND
+An Interactive Classic by Scott Adams (circa 1980)
+Release 1 / Serial number 941017 / Interpreter 0 Version A
+(Compiled by Inform v1404)
+
+Forest
+You're in a forest.
+
+Obvious exits: North, South, East, West, Up.
+
+You can also see: trees
+
+>
+I beg your pardon?
+
+>no
+That was a rhetorical question.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : ADVSAMP.Z5
+ MD5  : f6c0c505240abaf6da6126f94557f41b
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 65                                  
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+A voice BOOOOMS out: Welcome to Adventure International's Mini-Adventure 
+Sampler! This is a small but complete Adventure. You must find the 3 hidden 
+Treasures and store them away! Say: `score` to see how well you're doing!  
+Remember you can always say `HELP` 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+I've stored 0 treasures. On a scale from 0 to 100 that rates a 0. 
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : BBANZAI.Z5
+ MD5  : 6192508b354e132c789c91025144e60d
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 14                                  
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+`Buckaroo Banzai` Adventure by Scott Adams & Phillip Case 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : COUNT.Z5
+ MD5  : ed27f81d3b16b065fff9f54dfdbd4f66
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                   THE COUNT                                    
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to ADVEWNTURE: 5 `THE COUNT`. Dedicated to Alvin Files.  I see I was 
+put to bed. Its AFternoon & I overslept! 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : FUNHOUSE.Z5
+ MD5  : 3acebdf645178ecc92b72e793bb78578
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                               MYSTERY FUN HOUSE                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to ADVENTURE 7, `MYSTERY FUN HOUSE` by Scott Adams Dedicated to Marin 
+Computer Center. I'm carrying: Shoes, Watch, Hard dry chewing gum 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : GHOSTWN.Z5
+ MD5  : ee6c7d8c92a1f43b6dfe207dcd296f21
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                   GHOST TOWN                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to Adventure 9 `GHOST TOWN` by Scott Adams dedicated: the Cherens 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+You've made 0 BONUS points out of a possible 50 in 3 moves I've stored 0 
+treasures. On a scale from 0 to 100 that rates a 0. 
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : GVOYAGE.Z5
+ MD5  : ee36e0de8f5f3497a4fa24808a0bc755
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                               THE GOLDEN VOYAGE                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to Adventure 12: `THE GOLDEN VOYAGE` by William Demas & Scott Adams 
+Dedicated: British band `QUEEN` 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+I have failed my mission 
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : HULK.Z5
+ MD5  : ee7f6085038cec3da7e1bbe2205dc1a4
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 2                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Scott Adams presents Marvel Adventure #1 by Scott Adams with Art by John Romita 
+Sr, Mark Gruenwald & Kem McNair. Series outline by Scott Adams and John Byrne & 
+Bob Budiansky. Dedicated: Stan Lee, My wife Alexis & CIS CBers!  With Special 
+Thanks to Joe Calamari & Jim Shooter! 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+O.K. I've stored 0 treasures. On a scale from 0 to 100 that rates a 0. 
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : 10lndns.z5
+ MD5  : a29296627adce823aa1216b2ad2cf101
+ Path : AdventureInternational/mysterious
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 10                                  
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+QZIF quit
+
+================================================================================
+ File : AKYRZ.Z5
+ MD5  : 97b79f9d49ec64efc71999a985355ed5
+ Path : AdventureInternational/mysterious
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 8                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to MYSTERIOUS ADVENTURE No. 8 by Brian Howarth & Cliff Ogden (C) 1983 
+The King says: 'Save the Princess & find the Jewels Your reward will be  
+Priceless!` 
+> 
+> quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : ARROW1.Z5
+ MD5  : 93fb01909da288367e6240bc298f27f0
+ Path : AdventureInternational/mysterious
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 3                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Good luck on ARROW OF DEATH (Pt.1) 
+For those who journey in Dreams.. 
+> 
+> quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : ARROW2.Z5
+ MD5  : 0642669eb1898cd694f5a1ae23bb55b7
+ Path : AdventureInternational/mysterious
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 4                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+ARROW OF DEATH (Pt.2) 
+There is no joy in reality 
+> 
+> quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : BATON.Z5
+ MD5  : 63d4ddcb4ca2e5a46dcc898e8fec7527
+ Path : AdventureInternational/mysterious
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 1                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to MYSTERIOUS ADVENTURES 
+Prepare yourself for anything! 
+> 
+> quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : CIRCUS.Z5
+ MD5  : ea56d531eedcef416bbeb5597bc3ae36
+ Path : AdventureInternational/mysterious
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 6                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Roll up! Roll up! 
+The CIRCUS is in town! 
+> 
+> quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : FEASIBIL.Z5
+ MD5  : eeae4fcf2af56bd9628d5adc9602a0af
+ Path : AdventureInternational/mysterious
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 7                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+  FEASIBILITY EXPERIMENT By B.Howarth & W.Barnes A soft voice whispers - 
+Ultimate Warrior,  Gather the *Treasures* of our Ancient Culture or we are 
+DOOMED! 
+> 
+> quit
+O.K. 
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : PERSEUS.Z5
+ MD5  : fcc54df22c3e9b8f31f59071a2e631b5
+ Path : AdventureInternational/mysterious
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 9                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to Mysterious Adventure No.9 PERSEUS & ANDROMEDA 
+Dedicated to A.J.HARDING and staff at MOLIMERX LTD. Who made this possible 
+> 
+> quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : PULSAR7.Z5
+ MD5  : f6a66558a445799fdac464416f594d56
+ Path : AdventureInternational/mysterious
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 5                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to `ESCAPE FROM PULSAR 7` by Brian Howarth & Wherner Barnes Dedicated 
+to Wherner's Mother - MILDRED. 
+
+> 
+> quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : TIMEMACH.Z5
+ MD5  : 000155ca182a5279ce7189d64ecbd2fe
+ Path : AdventureInternational/mysterious
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 2                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to THE TIME MACHINE 
+For LIZ & MICHAEL my Wife & Son 
+> 
+> quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : WAXWORKS.Z5
+ MD5  : 0f2d250e8a5c187eeb2ce2fc080d084b
+ Path : AdventureInternational/mysterious
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 11                                  
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to MYSTERIOUS ADVENTURE #11 ' Waxworks ' (C) 1983 by Brian Howarth & 
+Cliff Ogden Dedicated to Margaret 
+I remember coming to the Waxworks.. I must have dozed off. I'm locked in! It's 
+SPOOKY! 
+> 
+> quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : ODYSSEY.Z5
+ MD5  : abd6a644b494a3d94d333a5ee7ab5b28
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                STRANGE ODYSSEY                                 
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to Adventure: 6 `STRANGE ODYSSEY` by Scott Adams. Dedicated to the 
+Novaks.  
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : PIRATE.Z5
+ MD5  : 8c4e799206a0a74bd071bfad8f518044
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                PIRATE ADVENTURE                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+* Welcome to Adventure number 2: `pirate adventure` by Alexis & Scott Adams, 
+dedicated: Ted Heeren & Paul Sharland Remember you can always ask for `help`.  
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : PYRAMID.Z5
+ MD5  : b8028c56dcf4fc29ac6f7191e9988344
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                PYRAMID OF DOOM                                 
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to Adventure: 8 `PYRAMID OF DOOM` By Alvin Files & Scott Adams 
+Dedicated to Ray Harshaw! 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : RET2PIRT.Z5
+ MD5  : 68ea51681d830f4f3a0d7d6db51163ee
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 14                                  
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Adventure 14 by Scott Adams. For my Mom! I hear an alarm clock ringing 
+somewhere. Everything is not exactly dark, but it's too FUZZY to see! 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : SAVAGE1.Z5
+ MD5  : c06f2825dd6896ffe937dced56057ee6
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                             SAVAGE ISLAND, PART I                              
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to Adventure 10: `SAVAGE ISLAND, Part I` by Scott Adams, dedicated: 
+Dennis Brent.  
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : SAVAGE2.Z5
+ MD5  : 5f67ec6cbde059557dfdef34215561fa
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                              SAVAGE ISLAND PART 2                              
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to Adventure 11 `SAVAGE ISLAND PART 2` by Scott Adams & Russ Wetmore. 
+Dedicated to Adventure Fans everywhere. metallic voice whispers in my mind: 
+`Vocalize password Please` 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+OK 
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : SCRTMISS.Z5
+ MD5  : ef398495b5c6c892935be0014a082e57
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                               MISSION IMPOSSIBLE                               
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to Adventure number 3 `MISSION IMPOSSIBLE` by Scott Adams, Dedicated to 
+Maegen Adams.  A minute ago someone ran out of this room! By the way I seem to 
+be carrying something!  Someone came in the room, he saw me and ran out! 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+*   B O O O O O O O O O M ! * * * * * * 
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : SORCOCC.Z5
+ MD5  : 9bb8fbe5da0cd00ad99d60ecc0a397cd
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 13                                  
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Adventure 13 by Scott Adams, dedicated to: Roe Adams (not a relative) and 
+Richard Adams (Brother and favorite Beta Tester)! 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : SPIDERMN.Z5
+ MD5  : 38dccec66a426f7980accdd827b77bdd
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                  ADVENTURE 2                                   
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Questprobe 2: SPIDERMAN by Scott Adams. CBM64 version by Brian Howarth. Artwork 
+by Teoman Irmak. 
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : VOODOO.Z5
+ MD5  : e1c3479245e17381b2e29928973f4288
+ Path : AdventureInternational
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                 VOODOO CASTLE                                  
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+S
+Welcome to ADVENTURE:4, `VOODOO CASTLE` by Alexis ADAMS. Dedicated to all MOMS! 
+
+WHAT SHALL I DO? 
+WHAT SHALL I DO? quit
+This adventure is over. Do you want to try this adventure again? nZIF quit
+
+================================================================================
+ File : coldiron.z8
+ MD5  : f270f7afa5761eff43ceaf44408d3a49
+ Path : AndrewPlotkin
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+Isn't it always like that? You spent a hot morning chivvying the plow and the 
+Bishop up and down the north field. No satisfaction there -- it's just to turn 
+in the clover. The view and the Bishop's hind end never change -- a mule's ass 
+no matter what you call the mule, and Reverd Pearson has lectured you enough 
+about calling him "the Bishop," but you figure he's your mule so you can call 
+him what you like -- the mule, that is, not Reverd Pearson -- anyway, a whole 
+morning and now it's time to chop the wood, and your good axe has gone missing.
+
+Reverd Pearson would say you're a careless lunkhead who'd lose his ear if it 
+wasn't nailed on. You figure he's right, a man of the cloth, but that doesn't 
+mean piskeys didn't steal the thing. You know about piskeys.
+
+Cold Iron
+A hot summer's tale by Andrew Plotkin ("Lyman Clive Charles")
+Release 6 / Serial number 111119 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
+(Type ABOUT for credits and game information.)
+
+Your Front Room
+Reverd Pearson says a man's home is his fortress. Your home is two rooms of 
+dressed timber, but the roof doesn't leak, so that's fine. Not enough of a 
+fortress to keep out the piskeys, though, it seems. The front door is west, and 
+east is where you sleep in back.
+
+A maplewood table stands in the center of this room. It's your home's pride 
+(though the Reverd has warned you about pride) -- a handsome furnishing that 
+your cousin down the road made for you when your house was raised. Every time 
+you walk in you're pleased to see it. Only there should be an axe leaning 
+against the table's corner, and there isn't.
+
+A battered book is lying on the table, though.
+
+>Are you sure you want to quit? ZIF quit
+
+================================================================================
+ File : dreamhold.z8
+ MD5  : d6d50741db0ee9abb60dcb595724f465
+ Path : AndrewPlotkin
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+Time shifts and flattens, days and decades folding aside like pages in a book. 
+You can see--
+
+THE DREAMHOLD
+A tutorial adventure by Andrew Plotkin. Copyright 2003-4.
+First-time players should type "about".
+Release 5 / Serial number 041231 / Inform v6.21 Library 6/10 
+
+You wrench your eyes open. Rough grey stone. Grey stone ceiling. Your head 
+hurts, and -- You're lying on the floor. You're staring at the ceiling, and 
+it's rough and grey, and you don't recognize it.
+
+You roll slowly (smooth cold floor?) and try to sit up. It hurts. You crawl 
+upright. The walls, rough stone also, scrape your aching fingers. You can't -- 
+there was white agony, felt like raw light tearing you apart. You can't 
+remember anything after that.
+
+You can't remember anything before that. Gone. You clutch at memory, and 
+there's nothing but empty air.
+
+Cell
+This space, barely wider than outstretched arms, seems to have been chopped raw 
+and square from unfinished stone. Only the floor is smooth -- a fine white 
+surface beneath your feet. There is a narrow gap in the east wall.
+
+[Don't know how to get started? Type "help" and then hit enter.]
+
+>Are you sure you want to quit? ZIF quit
+
+================================================================================
+ File : etude.z5
+ MD5  : cc9d483dee1c2c75cf2a5750c10a5c29
+ Path : AndrewPlotkin/etude
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+TerpEtude: A Z-machine Interpreter Exerciser
+By Andrew Plotkin (erkyrath@netcom.com)
+Release 2 / built with Inform v6.11
+Tests compliance with Z-Machine Standards Document 0.99.
+
+NOTE: This program does not test everything in the Z-Spec. Passing all the 
+tests in this program does NOT guarantee that your interpreter is 
+Z-Spec-compliant.
+
+For that matter, this program may have mistakes in it. I don't think it does, 
+but you should not assume it is the Fount of All Z-Machineness. If you find 
+something strange, check the Z-Spec, check existing interpreters, check 
+Infocom's interpreters, and then send me mail if you're still confused.
+
+Options: (hit Enter by itself to display this menu)
+  . (period): Exit TerpEtude
+  1: Version
+  2: Recent changes to TerpEtude
+  3: Header flags analysis
+  4: Styled text
+  5: Colored text
+  6: Multiplication, division, remainder
+  7: Accented character output
+  8: Single-key input
+  9: Full-line input
+  10: Timed single-key input
+  11: Timed full-line input
+  12: Pre-loading of input line
+  13: Undo capability
+  14: Printing before quitting
+
+> 3
+
+Your interpreter claims to follow revision 1.0 of the Z-Spec.
+
+Interpreter claims that colored text IS available.
+Interpreter claims that emphasized (bold) text IS available.
+Interpreter claims that italic (or underlined) text IS available.
+Interpreter claims that fixed-width text IS available.
+Interpreter claims that sound effects ARE NOT available.
+Interpreter claims that timed input IS available.
+
+Interpreter claims that "undo" IS available.
+
+> 6
+
+This tests signed multiplication, division, and modulo operations. All these 
+operations are supposed to be signed. (The Z-Spec 0.2 erroneously says they are 
+unsigned; this is corrected in 0.99.)
+
+I am assuming the convention that division always rounds towards zero (not 
+towards negative infinity), and (A % B) always has the same sign as A. These 
+conventions seem to be common among existing C/C++ compilers. The Infocom 
+interpreters also follow these conventions. (But they are not guaranteed by the 
+C and C++ standards. Those only require that (A/B)*B + (A%B) == A, for all A 
+and all nonzero B.)
+
+13 * 5 = 65 (ok)
+13 * -5 = -65 (ok)
+-13 * 5 = -65 (ok)
+-13 * -5 = 65 (ok)
+13 / 5 = 2 (ok)
+13 / -5 = -2 (ok)
+-13 / 5 = -2 (ok)
+-13 / -5 = 2 (ok)
+13 % 5 = 3 (ok)
+13 % -5 = 3 (ok)
+-13 % 5 = -3 (ok)
+-13 % -5 = -3 (ok)
+
+This aspect of your interpreter appears to behave according to spec.
+
+> .
+
+Goodbye.
+ZIF quit
+
+================================================================================
+ File : freefall.z5
+ MD5  : 3e7898a1e767a2de61336ff2ff4bb1f4
+ Path : AndrewPlotkin
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+You wake up. You have no memory of who you are, or where you are, or what you 
+have been doing. A peculiarly vibrating, tinny music pours from an invisible 
+source. Then you see the tremendous chunk of stone falling towards you...
+
+Okay, so maybe this isn't a serious entry in the interactive-fiction contest. 
+Please don't give away the joke to anyone else (on Usenet, or elsewhere.)
+
+If you find that pieces aren't falling on their own (I mean, if they only fall 
+when you hit Z or Space) it's not my fault. Not all interpreters support the 
+timed-input opcodes.
+
+ -- Andrew Plotkin
+
+[Hit a key to quit.]
+
+uZIF quit
+
+================================================================================
+ File : huntdark.z5
+ MD5  : 9c35de485d28bb9d754f061107e80b9a
+ Path : AndrewPlotkin
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Hunter, in Darkness
+A Cave Crawl by "Dave Ahl Jr." (Andrew Plotkin)
+First-time players should type "about".
+Release 4 / Serial number 991119 / Inform v6.21 Library 6/9 
+
+Nearly -- nearly. The animal stink is rank and close. You raise your crossbow, 
+try to peer beyond dark, wet stone.
+
+>about
+"This game was conceived of and fully outlined in early June of 1999."
+
+And it was, too. All that discussion of compassless games, and mazes, and 
+whether "Hunt the Wumpus" was really IF, made me giggle. I already had this on 
+the drawing board. I didn't start any of that discussion, either -- although I 
+contributed a few comments that I knew would turn out relevant.
+
+Hunter, in Darkness came in eighth in the 1999 Interactive Fiction Competition. 
+I might perhaps have done better if I'd included a walkthrough, or hints. Never 
+know now, eh?
+
+I'm not including hints now, because this is no longer a Competition game. 
+Different strictures apply. You can easily find a walkthrough, or ask for help. 
+However, I will say this:
+
+No serious mapping is necessary, or even useful, in playing this game. If you 
+think you need to start drawing a map, you're wrong.
+
+Type "credits" for full accreditation.
+
+Hunter, in Darkness is copyright 1999 by Andrew Plotkin, <erkyrath@netcom.com>. 
+Comments and bug reports are welcome.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : shade.z5
+ MD5  : 299d6cd034af144c2c7c94c2fdceb4f5
+ Path : AndrewPlotkin
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+    *** SHADE ***
+A brief story by "Ampe R. Sand" (Andrew Plotkin)
+First-time players should type "about".
+Release 3 / Serial number 001127 / Inform v6.21 Library 6/10 
+
+Odd, how the light just makes your apartment gloomier. Pre-dawn darkness pools 
+in the corners and around the tops of walls. Your desk lamp glares yellow, but 
+the shadows only draw your eyes and deepen.
+
+Not much of an apartment, no. One desk, paper-piled, with a dusty computer 
+shoved to the side. Your futon. Second-hand stereo sitting on a cardboard 
+crate. A kitchen nook one way and a bathroom nook the other, with a closet to 
+the side. A broad mirror tries to make the place seem twice its size; it 
+halfway works. One window, whose shade is down, and the front door firmly shut.
+
+Your luggage is piled untidily by the door. A potted hyacinth sits beneath the 
+window.
+
+You are sprawled on the futon, staring up into that gloom. Your eyes feel 
+gritty. But it's too late -- early -- no time left for sleep, anyway. In a few 
+hours your ride will arrive.
+
+On the desk are your to-do list and a travel book.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : sherbet.z5
+ MD5  : 53bf7a60017e06998cc1542cf35f76fa
+ Path : AndrewPlotkin
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+               The Meteor, The Stone And A Long Glass Of Sherbet 
+
+                        [Please press SPACE to begin.]
+[ I shall be telling this with a sigh
+  Somewhere ages and ages hence:
+  Two roads diverged in a wood, and I -
+  I took the one less travelled by,
+  And that has made all the difference.
+  
+  -- Robert Frost, "The Road Not Taken"]
+
+Another day wasted as guest of the Empress, a wretchedly long tour of the 
+breath-taking Boreal Falls, conducted as ever by the Lady Amilia. As if she 
+weren't bad enough, an honour guard of soldiers, their breast-plates red in the 
+setting sun, march ahead of the procession and protect you from seeing anything 
+unrehearsed. It's a dog's life being an Ambassador.
+
+The Meteor, the Stone and a Long Glass of Sherbet
+The Interactive Memoirs of a Diplomat
+Copyright (c) 1996 by Angela M. Horns
+Winning entry in the 1996 Interactive Fiction Competition
+(Please type "help" if you would like instructions.)
+Release 2 / Serial number 961216 / Inform v6.10 Library 6/3
+Standard interpreter 1.0
+
+Watling Street (in the cushioned basket)
+The ancient paved road stretches for miles to the south, turning very slowly to 
+the northeast along a mossy stone wall. From up here on your elephant's 
+wickerwork basket, you're just level with the branches of the old Imperial 
+hunting woods inside the wall.
+
+Having been stuck in this cushioned basket with the Lady Amilia every day for a 
+fortnight, you're just desperate to get away.
+
+The procession of elephants shuffles on, their enormous soles slapping onto the 
+flagstones with a dull, regular boom.
+
+>no
+That was a rhetorical question.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : SoFar.z8
+ MD5  : 9ed2128ac97285ddf44650178629f477
+ Path : AndrewPlotkin
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+Hot, foul, and dark. How did indoor theater become so fashionable? Well enough 
+in spring rain or winter, but not in the thick, dead afternoon of high summer. 
+And though Rito and Imita looks very fine, shining with electric moonslight in 
+the enclosed gloom, you're much more aware of being crammed in neck-by-neck 
+with your sweaty fellow citizens.
+
+Damn the crowd, in truth: your mood was hot, foul, and dark when you sat down. 
+Aessa was supposed to meet you here. She's made excuses before, and you don't 
+think about what it might mean. Try not to think, rather. Just watch the story. 
+One of your favorites. But it's miserably hot, and you just aren't caught up in 
+the play...
+
+SO FAR
+An Interactive Catharsis
+Copyright 1996 by Andrew Plotkin.
+(First-time players should type "about".)
+Release 6 / Serial number 961218 / Inform v1502 Library 5/12
+Standard interpreter 1.0
+
+Lower Theater (on the bench)
+If nothing else, you have a good seat. The stage is only a few rows to the 
+north. People are jammed on benches in every direction; you think the aisle is 
+somewhere to the west.
+
+The play is into the final act. Rito has finally found out about Imita's 
+affair, and he stalks the stage, whipping voice and hands about himself. A 
+footfall behind him; he turns, and sees Imita. She backs a step at the force of 
+his gaze.
+
+>I beg your pardon?
+
+>That was a rhetorical question.
+
+The players continue....
+
+   Rito:
+   How come you, harlot? Dare you come this way,
+   your skin yet dark with Tato's shadow's stain?
+
+   Imita:
+   Young lord, I will not kneel. And shadowed dark,
+   or white with rays of moon or sun or moon,
+   my flesh is mine. Or nearly so; I find --
+
+   Rito:
+   Say on! What more has hated Tato done?
+
+You shake your head, trying to net your straying thoughts, and catch a flash of 
+copper hair. A few rows back, by the aisle -- Aessa couldn't have shown up and not
+ seen you, could she? She wouldn't be avoiding you.
+
+>Are you sure you want to quit? ZIF quit
+
+================================================================================
+ File : sutwin.z5
+ MD5  : a470890cbb1346a2416fac05dccd002d
+ Path : AndrewPlotkin
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+The Space Under the Window
+By Andrew Plotkin
+[First-time players should type "about" and "credits".]
+Release 2 / Serial number 970402 / Inform v6.11
+
+The window is closed, so you can't go inside.
+
+    ***
+
+>
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : Tangle.z5
+ MD5  : 8b89a493f9ceba1da9193cdefdd02b31
+ Path : AndrewPlotkin
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+On the whole, it was worth the trip. The plains really were broad and 
+grain-gold, if scarred with fences and agricultural crawlers. The mountains 
+were overwhelming. And however much of the capital city is crusted with squat 
+brick and faceless concrete hulks, there are still flashes of its historic 
+charm. You've seen spires above the streets -- tiny green parks below tenements 
+-- hidden jewels of fountains beyond walls. Any bland alley can conceal 
+balconies wrought into iron gardens, fiery mosaics, a tree or bed of flowers 
+nurtured by who knows who.
+
+This alley, however, is a total washout. It ends in flat bare dirty brick, and 
+you've found nothing but a door which lacks even the courtesy of a handle. 
+Maybe you should call it a day.
+
+Spider And Web
+Interactive Fiction
+Copyright 1997-8 by Andrew Plotkin.
+(First-time players should type "about". For credits, "credits".)
+Release 4 / Serial number 980226 / Inform v6.14 Library 6/6
+Standard interpreter 1.0
+
+End of Alley
+It's a narrow dead end here, with walls rising oppressively high in three 
+directions. The alley is quite empty, bare even of trash. (Your guidebook 
+warned you: the police are as efficient about litter laws as about everything 
+else they do.) You can retreat to the south.
+
+A plain metal door faces you to the east, near the alley's end. It's firmly 
+shut.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : tess.z5
+ MD5  : f5f7f39a17d4a5f405834a2c7ffb1bd7
+ Path : AndrewPlotkin
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+You have reached the final part of your mission. You have gained access to the 
+complex, and all but the last procedure has been performed. Now comes a time of 
+waiting, in which you must search for the hidden 12-word message that will aid 
+you at the final step. But what choice will you make when that time comes?
+
+BEYOND THE TESSERACT
+An Abstract Adventure by David Lo
+Ported to Inform by Andrew Plotkin
+First-time players should type "about".
+Release 2 / Serial number 031227 / Inform v6.21 Library 6/11 beta S
+
+You are in a researcher's office.
+(Exits: north, west.)
+
+You can see a CRT here.
+
+>n
+
+You are in a green house.
+(Exits: south, west.)
+
+You can see a large circular reflector here.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : weather.z5
+ MD5  : cc322af1a8ca3d8c943b24b84bda3f98
+ Path : AndrewPlotkin
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Waiting on the shore; sand yields beneath my feet
+The water shouts and roars and rushes
+And breaks on the rocks, and
+Never comes near to where I wait.
+
+[Hit any key.] 
+
+The picnic is going full blast, which is exactly why you've wandered away from 
+it. It's not that you don't like your new companions; it's just that after 
+weeks of spending each day around them, a noisy weekend cook-out isn't the way 
+to relax. Some exploration -- on your own -- is an appealing thought.
+
+None of them noticed you drifting away, anyhow.
+
+A CHANGE IN THE WEATHER
+An Interactive Short Story
+Copyright 1995-6 by Andrew Plotkin. Please copy and play freely.
+(First-time players should type "about".)
+Release 6 / Serial number 960613 / Inform v1405 Library 5/8
+
+Edge Of Meadow
+The grasses are fragrant under the sunshine of a late, late summer afternoon. A 
+stream chatters by at your feet, and a weathered old wooden bridge stretches 
+across it to the east. Beyond the stream, a scrubby hillside stretches upward.
+
+The shouts of the volleyball players and the boom-box thump are pleasantly far 
+off to the west.
+
+>e
+The bridge creaks as you cross it, and sways a bit.
+
+Stream Bank
+A slope descends to the noisy stream to the west. The old wooden bridge which 
+spans it leans comfortably against the bank at your feet. To the east rises the 
+flank of the hill, shining in the afternoon sunlight; two usable trails lead up 
+around it, to the south and the northeast.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : advent.z3
+ MD5  : 7d65de53a02d0b8419eb29a516c8b23c
+ Path : CrowtherAndWoods/Adventure
+--------------------------------------------------------------------------------
+ZIF Version : z3
+
+Welcome to Adventure! Do you need instructions? (y/n) ZIF WRN: show_status
+>
+(Please type y or n) ZIF WRN: show_status
+>no
+
+ADVENTURE
+A Modern Classic
+Based on Adventure by Willie Crowther and Don Woods (1977)
+And prior adaptations by David M. Baggett (1993), Graham Nelson (1994), and 
+others
+Adapted once more by Jesse McGrew (2015)
+Release 1 / Serial number 151001 / ZILF 0.7 lib J3
+
+At End Of Road
+You are standing at the end of a road before a small brick building. Around you 
+is a forest. A small stream flows out of the building and down a gully.
+
+> ZIF WRN: show_status
+quit
+In 0 turns, you scored 36 points out of a possible 350.
+Your score qualifies you as a Novice Class Adventurer.
+To achieve the next higher rating, you need 65 more points.
+
+Are you sure you want to quit? (y/n) ZIF WRN: show_status
+>y
+
+Thanks for playing.
+ZIF quit
+
+================================================================================
+ File : Advent.z5
+ MD5  : ee2242e155fd8910921b0f8e04019a3a
+ Path : CrowtherAndWoods/Adventure
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+(Please type HELP for instructions and information.)
+
+ADVENTURE
+The Interactive Original
+By Will Crowther (1976) and Don Woods (1977)
+Reconstructed in three steps by:
+Donald Ekman, David M. Baggett (1993) and Graham Nelson (1994)
+[In memoriam Stephen Bishop (1820?-1857): GN]
+
+Release 9 / Serial number 060321 / Inform v6.31 Library 6/11 S
+
+At End Of Road
+You are standing at the end of a road before a small brick building. Around you 
+is a forest. A small stream flows out of the building and down a gully.
+
+>e
+
+Inside Building
+You are inside a building, a well house for a large spring.
+
+There are some keys on the ground here.
+
+There is tasty food here.
+
+There is a shiny brass lamp nearby.
+
+There is an empty bottle here.
+
+>take bottle
+Taken.
+
+>out
+
+At End Of Road
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : Advent.z6
+ MD5  : ce036f80e37b34ac74f15329e4392089
+ Path : CrowtherAndWoods/Adventure
+--------------------------------------------------------------------------------
+ZIF Version : z6
+
+ZIF WRN: set_wind_style
+ZIF WRN: window_size
+ZIF WRN: move_window
+ZIF WRN: set_wind_style
+ZIF WRN: window_size
+ZIF WRN: move_window
+ZIF WRN: set_wind_style
+ZIF WRN: window_size
+ZIF WRN: move_window
+ZIF WRN: set_wind_style
+
+Note:  This file was compiled from Graham Nelson's Release 5. Some interpreters 
+may complain about there being no graphics file. This is because there isn't 
+one (yet). Hopefully the interpreters will play the file anyway. This file is 
+provided as an example of the use of the Version 6 format for text only games.
+Please report any Version 6 related problems to me.
+
+Jason C. Penney
+jpenney@jczorkmid.net
+
+This game was compiled with V6Lib version 0.827 (private beta)
+
+If things scroll off of the screen that shouldn't (like the windows on the top 
+of the screen, then your interpreter probably doesn't support V6 correctly.
+
+[Press any key to start][ Use the command 'style'
+  to toggle different
+  screen layouts.
+  
+  [Press any key to start]]
+
+Welcome to Adventure!
+
+ADVENTURE
+The Interactive Original
+By Will Crowther (1973) and Don Woods (1977)
+Reconstructed in three steps by:
+Donald Ekman, David M. Baggett (1993) and Graham Nelson (1994)
+[In memoriam Stephen Bishop (1820?-1857): GN]
+(Ported to the Version 6 Z-Machine by Jason C. Penney)
+Release 10 / Serial number 011123 / Inform v6.21 Library 6/10
+
+At End Of Road
+You are standing at the end of a road before a small brick building. Around you 
+is a forest. A small stream flows out of the building and down a gully.
+
+>ZIF WRN: window_size
+ZIF WRN: move_window
+ZIF WRN: set_wind_style
+Sorry, that can't be corrected.
+
+>Are you sure you want to quit? ZIF quit
+
+================================================================================
+ File : Advent.z8
+ MD5  : a56063b098eed8d0ab0e77ebab69c273
+ Path : CrowtherAndWoods/Adventure
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+Welcome to Adventure!!  Would you like instructions?
+**  Please answer Yes or No.
+Welcome to Adventure!!  Would you like instructions?
+** OK.
+
+You are standing at the end of a road before a small brick 
+building.
+Around you is a forest.  A small stream flows out of the building 
+and
+down a gully.
+* Do you really wish to quit now?
+** OK.
+You scored 32 out of a possible 350, using 1 turn.
+You are obviously a rank 
+amateur.  Better luck next time.
+To achieve the next higher rating, you need 3 
+more ZIF quit
+
+================================================================================
+ File : Advent_Crowther.z8
+ MD5  : b402256333265af616690a9f31b36796
+ Path : CrowtherAndWoods/Adventure
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+Adventure
+Colossal Cave by William Crowther, ported by Chris Conley
+Release 4 / Serial number 150118 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) 
+
+Welcome to Adventure!! Would you like instructions?
+
+  Please respond yes or no. > 
+(Type ABOUT for details about this specific Inform 7 implementation.)
+
+You are standing at the end of a road before a small brick building. Around you 
+is a forest. A small stream flows out of the building and down a gully.
+
+>I don't know that word. 
+
+>examine what? 
+
+>I don't know that word. 
+
+>
+================================================================================
+ File : metamorp.z5
+ MD5  : 2f2ba6d986b4c11132e9be23c1dcb61a
+ Path : EmilyShort
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+You wake to stillness.  The hammering, banging, and shouting that kept you 
+awake half the night are gone.  The air is cold, and something smells burnt.  
+Your master's experiments must be finished, but with what result?
+
+Something hesitates on the edge of your consciousness, the memory of unquiet 
+dreams...
+
+Then you see.  You have been sent, again.  The taste of ash is on your lips, 
+the grit in your eyes.  And you blink...
+
+Metamorphoses
+Copyright Emily Short 2000.
+First time players may wish to type ABOUT.
+Release 4 / Serial number 020222 / Inform v6.15 Library 6/10 
+
+Bare Room
+A formless place, such as you have often seen before; where dreams end and 
+tasks begin.  The floor is uneven, cupped like the palm of your master's hand.  
+ The walls shimmer with the artifice of your sending.
+
+A loose rock lies near your foot.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : pytho.z8
+ MD5  : 5b2541f58a26593b0fdaab2efcb516b5
+ Path : EmilyShort
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+A small room.  Three men; you recognize only one.
+
+"You, Soteria," says the leader.  "I understand you have an invitation to the 
+Celebration of the Night of the Comet."
+
+Heat floods your face.  How does he know that?  "I have an invitation, but I 
+wasn't sure-- that is, I wasn't planning--"
+
+"You'll go," he says.
+
+The words die half-formed.  An urgent command overrides your personal doubts.
+
+"What am I to do?"
+
+"Speak to the Physician -- he's one of ours, but we've been unable to speak to 
+him of late.  Find out anything he knows about the King's illness.  And protect 
+the King."
+
+"From what?"
+
+The leader smiles a little wryly.  "I wish I could tell you, girl.  This is the 
+Night of the Comet.  It could be anything."
+
+                    [ Hit RETURN to continue... ]
+
+As you turn to go, one of the others touches your arm.  "How did you get an 
+invitation? We've all been trying for months--"
+
+"Someone gave it to me," you say curtly.  "A rendezvous of sorts."
+
+"But--"
+
+"Don't worry, I'll attend to my duty," you say.  Adding, mostly to yourself: 
+"The masked man won't be there anyway, I'm sure."  Since he became an outlaw 
+shortly after he invited you...
+
+Pytho's Mask
+Copyright (c) 2001 by Emily Short.  (First-time users should type 'help'.)
+Release 3 / Serial number 020223 / Inform v6.15 Library 6/10 
+
+Terrace
+A terrace of lunar marble, surrounded by a low balustrade.  It gleams softly of 
+its own in the darkening night.
+
+To the west, shallow steps descend to the enclosure of the Square Garden; east 
+beckons the brilliance of the Sun Court.
+
+The minister of the moon stands at the far end, gazing upwards.
+
+>Are you sure you want to quit? ZIF quit
+
+================================================================================
+ File : slouch.z5
+ MD5  : 962d33b3fbc1f35b32370e634b9e8732
+ Path : FosterAndRavipinto
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+*clunk*
+
+The rotating tin cylinder within the phonograph vibrates slightly as a brass 
+needle scrapes against it. The sound of a throat being cleared emerges from the 
+machine's hornshell speaker, followed by a thin, haunting voice.
+
+"March the 16th."
+
+A deep, shaky breath.
+
+"I dread to say it, but I believe I am going mad. The -- *moments* -- come more 
+frequently now. I fear that I have found what I have sought, and I shall now 
+pay the price for it."
+
+The scrape of a chair across flagstone. A sigh.
+
+"Chaos treads the halls of Bedlam; her work is evident everywhere..."
+
+Slouching Towards Bedlam
+An entry in the 9th Annual Interactive-Fiction Competition
+Copyright 2003 by Star C. Foster and Daniel Ravipinto
+[First time players should type 'about'. Credits are available via 'credits'.]
+Release 1 / Serial number 030925 / Inform v6.21 Library 6/10 
+
+Office
+A massive cedar desk, well-polished and worn, looks elegantly out-of-place 
+among the chaos. Papers, files, and books cover nearly every flat surface in 
+the room.
+
+There is a phonograph on the table near the window.
+
+A black cube on wheels sits near the door to the south.
+
+>
+I beg your pardon?
+
+>no
+That was a rhetorical question.
+
+The phonograph continues to play.
+
+"I discredit my profession; examining madness as if the world were a fluent thing and sanity as malleable as the warm wax of a candle."
+
+>quit
+/(?? QUITleaveenddone ??)\ y
+ZIF quit
+
+================================================================================
+ File : minster.z5
+ MD5  : e343b97402ea4220bf19bb3fe39ae008
+ Path : GarethRees
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                                                                    
+              Upon this Oath that I shall heere you give,           
+              For ne Gold ne Silver as long as you live,            
+              Neither for love you beare towards your Kinne,        
+              Nor yet to no great Man preferment to wynne:          
+              That you disclose the secret that I shall you teach,  
+              Neither by writing nor by no swift speech;            
+              But only to him which you be sure                     
+              Hath ever searched after the secrets of Nature.       
+              To him you may reveal the secrets of this Art,        
+              Under the covering of Philosophie before this world   
+                                                       you depart.  
+                -- "Theatrum Chemicum Britannicum" (1652)           
+                                                                    
+             
+             
+                           C H R I S T M I N S T E R
+                           An interactive conspiracy
+                            Gareth Rees, August 1995
+                            
+                             [press a key to begin]
+
+You haven't seen your brother Malcolm since he received his fellowship at 
+Biblioll College - pressure of work was his excuse not to come down to London. 
+So when you received that telegram from him you leapt at the excuse to come up 
+to the university town of Christminster for the day and visit him.
+
+CHRISTMINSTER
+An Interactive Conspiracy by Gareth Rees.
+
+Please type "help licence" for details about the absence of warranty and about 
+how you may distribute "Christminster". Type "help" for instructions.
+Release 4 / Serial number 961117 / Inform v1502 Library 5/12
+Standard interpreter 1.0
+
+Chapel Street
+It is a hot summer's day in Christminster, the kind of day that makes you think 
+of strawberries and cream and punting on the river. The morning sunlight beams 
+down on the cobbles and on the great wooden gate of Biblioll College to the 
+east.
+
+The gate is closed.
+
+>no
+That was a rhetorical question.
+
+Somewhere in the distance, the clock of Biblioll College chimes the half-hour.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : Balances.z5
+ MD5  : f2cb8f94a7e8df3b850a758da26fa387
+ Path : GrahamNelson/Balances
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+[Welcome to a short story called "Balances", one of the example games for the 
+Inform design system. Some people may recognise the setting, but others might 
+like to type "how do spells work" - the game responds to a few such questions.] 
+
+You feel a little confused as to how you got here. Something to do with 
+Helistar!  That's right, and how the world is so far off balance nowadays, 
+after the Great Change.
+
+BALANCES
+An Interactive Short Story 
+Copyright (c) 1994, 1995, 1996 by Graham Nelson.
+Release 5 / Serial number 961216 / Inform v6.10 Library 6/3
+Standard interpreter 1.0
+
+Ramshackle Hut
+Until quite recently, someone lived here, you feel sure. Now the furniture is 
+matchwood and the windows are glassless. Outside, it is a warm, sunny day, and 
+grasslands extend to the low hills on the horizon.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : curses-r10.z3
+ MD5  : 9fb520602e9fd259b057e4c5f3f6d434
+ Path : GrahamNelson/Curses
+--------------------------------------------------------------------------------
+ZIF Version : z3
+
+It's become a matter of pride now not to give up. That tourist map of Paris 
+must be up here somewhere in all this clutter, even if it has been five years 
+since your last trip. And it's your own fault. It looks as if your 
+great-grandfather was the last person to tidy up these lofts...
+
+CURSES
+An Interactive Diversion
+Copyright (c) 1993/4 by Graham Nelson. New players should type "help".
+Release 10 / Serial number 940120  (Compiled by Inform v1171)
+
+Attic
+The attics, full of low beams and awkward angles, begin here in a relatively 
+tidy area which extends north, south and east. The wooden floorboards seem 
+fairly sound, just as well considering how heavy all these teachests are. But 
+the old wiring went years ago, and there's no electric light.
+
+A hinged trapdoor in the floor stands open, and light streams in from below.
+
+ZIF WRN: show_status
+>
+I beg your pardon?
+
+ZIF WRN: show_status
+>no
+That was a rhetorical question.
+
+ZIF WRN: show_status
+>quit
+Are you sure you want to quit? ZIF WRN: show_status
+y
+ZIF quit
+
+================================================================================
+ File : curses-r12.z5
+ MD5  : 7dc987e893cfc1d4fd953f301fe51fe0
+ Path : GrahamNelson/Curses
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                              Welcome to CURSES
+
+                        [Please press SPACE to begin.]
+[ Curses are like young chickens,
+  they always come home to roost.
+  
+  -- Robert Southey (1774-1843),
+     "The Curse of Kehama"]
+
+It's become a matter of pride now not to give up. That tourist map of Paris 
+must be up here somewhere in all this clutter, even if it has been five years 
+since your last trip. And it's your own fault. It looks as if your 
+great-grandfather was the last person to tidy up these lofts...
+
+CURSES
+An Interactive Diversion
+Copyright (c) 1993/4 by Graham Nelson. New players should type "help".
+Release 12 for Acorn User / Serial number 940604
+Compiled by Inform v1258 / Interpreter 0 Version A
+
+Attic
+The attics, full of low beams and awkward angles, begin here in a relatively 
+tidy area which extends north, south and east. The wooden floorboards seem 
+fairly sound, just as well considering how heavy all these teachests are. But 
+the old wiring went years ago, and there's no electric light.
+
+A hinged trapdoor in the floor stands open, and light streams in from below.
+
+>no
+That was a rhetorical question.
+
+>quit
+Are you sure you want to quit? [ At the end of the day victory belongs to the Curses,
+  Who shout in shrill triumph
+  Over the utter rout of the defeated house.
+  
+  -- Aeschylus, "Seven Against Thebes"]
+
+y
+ZIF quit
+
+================================================================================
+ File : curses-r7.z3
+ MD5  : 8e15f0de60c1a479e122067a207b53af
+ Path : GrahamNelson/Curses
+--------------------------------------------------------------------------------
+ZIF Version : z3
+
+ZIF WRN: checksum fail
+
+It's become a matter of pride now not to give up. That tourist map of Paris 
+must be up here somewhere in all this clutter, even if it has been five years 
+since your last trip. And it's your own fault. It looks as if your 
+great-grandfather was the last person to tidy up these lofts...
+
+CURSES
+An Interactive Diversion
+Copyright (c) 1993 by Graham Nelson. New players should type "help".
+Release 7 / Serial number 930428  (Compiled by Inform v549)
+
+Attic
+The attics, full of low beams and awkward angles, begin here in a relatively 
+tidy area which extends north, south and east. The wooden floorboards seem 
+fairly sound, just as well considering how heavy all these teachests are. But 
+the old wiring went years ago, and there's no electric light.
+
+A hinged trapdoor in the floor stands open, and light streams in from below.
+
+ZIF WRN: show_status
+>
+I beg your pardon?
+
+ZIF WRN: show_status
+>no
+That was a rhetorical question.
+
+ZIF WRN: show_status
+>quit
+Are you sure you want to quit? ZIF WRN: show_status
+y
+ZIF quit
+
+================================================================================
+ File : curses.z5
+ MD5  : f06a42a29a5a4e6aa70958c9ae4c37cd
+ Path : GrahamNelson/Curses
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                              Welcome to CURSES
+
+                        [Please press SPACE to begin.]
+[ Curses are like young chickens,
+  they always come home to roost.
+  
+  -- Robert Southey (1774-1843),
+     "The Curse of Kehama"]
+
+It's become a matter of pride now not to give up. That tourist map of Paris 
+must be up here somewhere in all this clutter, even if it has been five years 
+since your last trip. And it's your own fault. It looks as if your 
+great-grandfather was the last person to tidy up these lofts...
+
+CURSES
+An Interactive Diversion
+Copyright (c) 1993, 1994, 1995 by Graham Nelson.
+Release 16 / Serial number 951024 / Inform v1600 Library 5/12
+Standard interpreter 1.0
+
+Attic
+The attics, full of low beams and awkward angles, begin here in a relatively 
+tidy area which extends north, south and east. The wooden floorboards seem 
+fairly sound, just as well considering how heavy all these teachests are. But 
+the old wiring went years ago, and there's no electric light.
+
+A hinged trapdoor in the floor stands open, and light streams in from below.
+
+>no
+That was a rhetorical question.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : dejavu.z3
+ MD5  : 3ca392b9de429d26da6fff22419aac3a
+ Path : GrahamNelson
+--------------------------------------------------------------------------------
+ZIF Version : z3
+
+ZIF WRN: checksum fail
+
+What a horrid dream, all about compiling something. Thank heavens you've 
+finally woken up, even if you seem to have been sleep-walking. As you dizzily 
+shake your head, you can't help feeling this place is somehow familiar...
+
+DEJA VU
+An Interactive Demonstration
+Copyright (c) 1993 by Graham Nelson. All rights given away.
+Release 1 / Serial number 930921  (Compiled by Inform v634)
+
+Y2 Rock Room
+You are in a large room, with a passage to the south, a passage to the west, 
+and a wall of broken rock to the east. There is a large "Y2" on a rock in the 
+room's centre.
+
+Sitting on top of the Y2 rock is a featureless white cube.
+
+A little red car is parked here.
+
+ZIF WRN: show_status
+>
+I beg your pardon?
+
+ZIF WRN: show_status
+>no
+That was a rhetorical question.
+
+ZIF WRN: show_status
+>quit
+Are you sure you want to quit? ZIF WRN: show_status
+y
+ZIF quit
+
+================================================================================
+ File : gntests.z5
+ MD5  : e35a6bb32fb677356554cebebca7736f
+ Path : GrahamNelson
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+This is a collection of the six test programs which came attached to the Z-Spec 
+0.99 file (spec.tex.) No changes have been made, except for the idiot menu 
+system glued to the front.
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+4Colour display testing
+The interpreter says colours are available.  Let's see...
+
+black on red
+black on green
+black on yellow
+black on blue
+black on magenta
+black on cyan
+black on white
+red on black
+red on green
+red on yellow
+red on blue
+red on magenta
+red on cyan
+red on white
+green on black
+green on red
+green on yellow
+green on blue
+green on magenta
+green on cyan
+green on white
+yellow on black
+yellow on red
+yellow on green
+yellow on blue
+yellow on magenta
+yellow on cyan
+yellow on white
+blue on black
+blue on red
+blue on green
+blue on yellow
+blue on magenta
+blue on cyan
+blue on white
+magenta on black
+magenta on red
+magenta on green
+magenta on yellow
+magenta on blue
+magenta on cyan
+magenta on white
+cyan on black
+cyan on red
+cyan on green
+cyan on yellow
+cyan on blue
+cyan on magenta
+cyan on white
+white on black
+white on red
+white on green
+white on yellow
+white on blue
+white on magenta
+white on cyan
+
+########
+########
+########
+########
+########
+########
+########
+########
+
+(Default colours.) Press SPACE to clear.
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+5Interpreter declarations:
+
+(In Flags 1...)
+Colours available?  yes
+Boldface available?  yes
+Italic available?  yes
+Fixed-pitch font available?  yes
+Timed keyboard input available?  yes
+
+(In Flags 2.  The following four questions have meaningful answers only if bits 
+3, 4, 5 and 7 of Flags 2 were set in advance: to do this, alter the game file 
+by setting byte 16 to 184 and then run it again.)
+Pictures available?  no
+UNDO available?  no
+Mouse available?  no
+Sound effects available?  no
+
+Interpreter (machine) number 0 version A
+
+Screen height: 56 lines
+Screen width: 80 fixed-pitch font characters
+Screen height in units: 0
+Screen width in units: 0
+Font height in units: 1
+Font width (of a '0') in units: 1
+
+Default background colour: 
+Default foreground colour: 
+
+Font 1 available?  yes
+Font 2 available?  no
+Font 3 available?  no
+Font 4 available?  no
+
+Standard specification claimed by the interpreter: 1.0
+
+(Press SPACE to clear.)
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+0ZIF quit
+
+================================================================================
+ File : Jigsaw.z8
+ MD5  : 1bf8b3f6edbffb0f83bb61dbb56dd17d
+ Path : GrahamNelson/Jigsaw
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+                              Welcome to JIGSAW
+
+                        [Please press SPACE to begin.]
+[ After such knowledge, what forgiveness?  Think now
+  History has many cunning passages, contrived corridors
+  And issues, deceives with whispering ambitions,
+  Guides us by vanities.
+  
+                        -- T. S. Eliot, Gerontion (1920)]
+
+Prologue  -  Century Park
+
+New Year's Eve, 1999, a quarter to midnight and where else to be but Century 
+Park! Fireworks cascade across the sky, your stomach rumbles uneasily, music 
+and lasers howl across the parkland... Not exactly your ideal party (especially 
+as that rather attractive stranger in black has slipped back into the crowds) - 
+but cheer up, you won't live to see the next.
+
+JIGSAW
+An Interactive History
+Copyright (c) 1995 by Graham Nelson
+Release 3 / Serial number 951129 / Inform v1600 Library 6/1
+Standard interpreter 1.0
+
+Century Park
+At one side of the great Park, on a gravel path which runs west to northeast 
+beside poplar trees. Crowds of celebrants are enjoying themselves to the north, 
+having abandoned the canvas marquee east.
+
+>That was a rhetorical question.
+
+>Are you sure you want to quit? ZIF quit
+
+================================================================================
+ File : Jigsaw_Footnotes.z5
+ MD5  : 8d3b44a8a1831cd8f7115076793d3c0b
+ Path : GrahamNelson/Jigsaw
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                         JIGSAW: Rules and Footnotes
+
+                        [Please press SPACE to begin.]
+[                          Think now
+  She gives when our attention is distracted
+  And what she gives, gives with such subtle confusions
+  That the giving famishes the craving.
+  
+                        -- T. S. Eliot, Gerontion (1920)]
+
+ 
+
+ZIF quit
+
+================================================================================
+ File : Jigsaw_Game.z5
+ MD5  : 75cd1f267b1c8a4d78bc063b8f3d7f47
+ Path : GrahamNelson/Jigsaw
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+                              Welcome to JIGSAW
+
+                        [Please press SPACE to begin.]
+[ After such knowledge, what forgiveness?  Think now
+  History has many cunning passages, contrived corridors
+  And issues, deceives with whispering ambitions,
+  Guides us by vanities.
+  
+                        -- T. S. Eliot, Gerontion (1920)]
+
+Prologue  -  Century Park
+
+New Year's Eve, 1999, a quarter to midnight and where else to be but Century 
+Park! Fireworks cascade across the sky, your stomach rumbles uneasily, music 
+and lasers howl across the parkland... Not exactly your ideal party (especially 
+as that rather attractive stranger in black has slipped back into the crowds) - 
+but cheer up, you won't live to see the next.
+
+JIGSAW
+An Interactive History
+Copyright (c) 1995 by Graham Nelson
+Release 3 / Serial number 951129 / Inform v1600 Library 6/1
+Standard interpreter 1.0
+
+Century Park
+At one side of the great Park, on a gravel path which runs west to northeast 
+beside poplar trees. Crowds of celebrants are enjoying themselves to the north, 
+having abandoned the canvas marquee east.
+
+>no
+That was a rhetorical question.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : AMindForevereVoyaging.z4
+ MD5  : 7df2c4bf8f7c42b7daaa17d9af18ccb1
+ Path : Infocom/AMindForeverVoyaging
+--------------------------------------------------------------------------------
+ZIF Version : z4
+
+                      "Tomorrow never yet
+                       On any human being rose or set."
+                                       -- William Marsden
+
+[Hit any key to continue.]
+You "hear" a message coming in on the official message line: "PRISM? Perelman 
+here. The psych tests have all checked out at 100%, which means that you've 
+recovered from the, ah, awakening without any trauma or other serious effects. 
+We'll be ready to begin the simulation soon. By the way, your piece is in the 
+current issue of Dakota Online."
+
+A Mind Forever Voyaging
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1985 by Infocom, Inc. All rights reserved.
+A Mind Forever Voyaging is a trademark of Infocom, Inc.
+Release 77 / Serial number 850814
+
+You have entered Communications Mode. The following locations are equipped with 
+communication outlets:
+   PRISM Project Control Center (PPCC)
+   Research Center Rooftop (RCRO)
+   Dr. Perelman's Office (PEOF)
+   PRISM Facility Cafeteria (PCAF)
+   Maintenance Core (MACO)
+   World News Network Feed (WNNF)
+To activate a specific outlet, submit the associated code.
+
+>no
+You sound rather negative.
+
+>quit
+Do you really want to quit? (y/n) >y
+ZIF quit
+
+================================================================================
+ File : HITCHHIK.z5
+ MD5  : 23abb66bad86a0fd8907a71705bca283
+ Path : Infocom/HitchhikersGuideToTheGalaxy
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+THE HITCHHIKER'S GUIDE TO THE GALAXY
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1984 by Infocom, Inc. All rights reserved.
+Release 31 / Serial number 871119 / Interpreter 0 Version A
+
+You wake up. The room is spinning very gently round your head. Or at least it 
+would be if you could see it which you can't.
+
+It is pitch black.
+
+>
+I beg your pardon?
+
+>no
+You sound rather negative.
+
+>quit
+We are about to give you your score. Put on your peril-sensitive sunglasses 
+now. (Hit RETURN or ENTER when ready.) >y
+
+Your score is 0 of a possible 400, in 1 turn.
+Do you wish to leave the game? (Y is affirmative): >
+ZIF quit
+
+================================================================================
+ File : leather.z3
+ MD5  : 1a2a4d9d89fb95d0cc7fb66695f6ada7
+ Path : Infocom/Leather
+--------------------------------------------------------------------------------
+ZIF Version : z3
+
+ZIF WRN: show_status
+   Some material in this story may not be suitable for children, especially the 
+parts involving sex, which no one should know anything about until reaching the 
+age of eighteen (twenty-one in certain states). This story is also unsuitable 
+for censors, members of the Moral Majority, and anyone else who thinks that sex 
+is dirty rather than fun.
+   The attitudes expressed and language used in this story are representative 
+only of the views of the author, and in no way represent the views of Infocom, 
+Inc. or its employees, many of whom are children, censors, and members of the 
+Moral Majority. (But very few of whom, based on last year's Christmas Party, 
+think that sex is dirty.)
+   By now, all the folks who might be offended by LEATHER GODDESSES OF PHOBOS 
+have whipped their disk out of their drive and, evidence in hand, are 
+indignantly huffing toward their dealer, their lawyer, or their favorite 
+repression-oriented politico. So... Hit the RETURN/ENTER key to ZIF WRN: show_status
+begin!
+
+ZIF WRN: show_status
+The place: Upper Sandusky, Ohio. The time: 1936. The beer: at a nickel a mug, 
+you don't ask for brand names. All you know is that your fifth one tasted as 
+bad as the first.
+
+LEATHER GODDESSES OF PHOBOS
+Infocom interactive fiction -- a racy space-age spoof
+Copyright (c) 1986 by Infocom, Inc. All rights reserved.
+LEATHER GODDESSES OF PHOBOS is a trademark of Infocom, Inc.
+Release 59 / Serial number 860730
+
+Joe's Bar
+   An undistinguished bar, yet the social center of Upper Sandusky. The front 
+door is almost lost amidst the hazy maze of neon that shrouds the grimy glass 
+of the south wall. Doors marked "Ladies" and "Gents" lead, respectively, 
+northeast and northwest.
+   You feel an urge.
+
+ZIF WRN: show_status
+>no
+You sound rather negative.
+
+ZIF WRN: show_status
+>quit
+In 1 turn, you have achieved a score of, um, oh, call it 0 out of 9309 points. 
+This gives you the rank of Sandusky Stablehand.
+
+Do you wish to leave the game? (Y is affirmative): ZIF WRN: show_status
+>y
+ZIF quit
+
+================================================================================
+ File : PlanetFall.z3
+ MD5  : 004e9491546b02181d85cb89f8824f89
+ Path : Infocom/PlanetFall
+--------------------------------------------------------------------------------
+ZIF Version : z3
+
+PLANETFALL
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1983 by Infocom, Inc. All rights reserved.
+PLANETFALL is a trademark of Infocom, Inc.
+Release 37 / Serial number 851003
+
+Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This 
+morning's assignment for a certain lowly Ensign Seventh Class: scrubbing the 
+filthy metal deck at the port end of Level Nine. With your Patrol-issue 
+self-contained multi-purpose all-weather scrub brush you shine the floor with a 
+diligence born of the knowledge that at any moment dreaded Ensign First Class 
+Blather, the bane of your shipboard existence, could appear.
+
+Deck Nine
+This is a featureless corridor similar to every other corridor on the ship. It 
+curves away to starboard, and a gangway leads up. To port is the entrance to 
+one of the ship's primary escape pods. The pod bulkhead is closed.
+
+ZIF WRN: show_status
+>quit
+Your score would be 0 (out of 80 points). It is Day 1 of your adventure. 
+Current Galactic Standard Time (adjusted to your local day-cycle) is 4455.
+This score gives you the rank of Beginner.
+
+Do you wish to leave the game? (Y is affirmative): ZIF WRN: show_status
+>y
+ZIF quit
+
+================================================================================
+ File : StationFall.z3
+ MD5  : 3ef2bf1f0eb8f481054ebd4dd2c9d592
+ Path : Infocom/StationFall
+--------------------------------------------------------------------------------
+ZIF Version : z3
+
+It's been five years since your planetfall on Resida. Your heroics in saving 
+that doomed world resulted in a big promotion, but your life of dull scrubwork 
+has been replaced by a life of dull paperwork. Today you find yourself amidst 
+the administrative maze of Deck Twelve on a typically exciting task: an 
+emergency mission to Space Station Gamma Delta Gamma 777-G 59/59 Sector 
+Alpha-Mu-79 to pick up a supply of Request for Stellar Patrol Issue Regulation 
+Black Form Binders Request Form Forms...
+
+STATIONFALL
+Infocom interactive fiction -- a science fiction story
+Copyright (c) 1987 by Infocom, Inc. All rights reserved.
+STATIONFALL is a trademark of Infocom, Inc.
+Release 107 / Serial number 870430
+ZIF WRN: show_status
+
+Deck Twelve
+   You are in the heart of the administrative level of the ship, the largest 
+level of the S.P.S. Duffy or any other Stellar Patrol ship for that matter. The 
+corridor continues starboard and a room lies aft. Beyond the door to port lies 
+the bulk of the Duffy. Next to the door is a slot.
+
+ZIF WRN: show_status
+>quit
+It is Day 1 of your adventure. Current Galactic Standard Time (adjusted to your 
+local day-cycle) is 4435. Your score is 0 (of 80 points), giving you the rank 
+of Insignificant Nobody.
+
+Do you wish to leave the game? (Y is affirmative): ZIF WRN: show_status
+>y
+ZIF quit
+
+================================================================================
+ File : Suspended.z3
+ MD5  : 0a7e9f0082e7c0b21ad3ad2dd1316732
+ Path : Infocom/Suspeneded
+--------------------------------------------------------------------------------
+ZIF Version : z3
+
+SUSPENDED: INTERLOGIC Science Fiction
+Copyright (c) 1983 by Infocom, Inc. All rights reserved.
+SUSPENDED and INTERLOGIC are trademarks of Infocom, Inc.
+Release 8 / Serial number 840521
+
+FC ALERT! Planetside systems are deteriorating. FC imbalance detected. 
+Emergency reviving systems completed. You are now in control of the complex.
+
+SENSA INTERRUPT: Seismic aftershock detected ten meters north of Beta FC. 
+Tremor intensity 9.7. Projected damage: connecting cables in Primary and 
+Secondary Channels.
+
+FC INTERRUPT: All Robots, report locations.
+
+IRIS: In the Weather Monitors.
+WALDO: In the Gamma Repair.
+SENSA: In the Central Chamber.
+AUDA: In the Entry Area.
+POET: In the Central Chamber.
+WHIZ: In the Advisory Peripheral.
+
+ZIF WRN: show_status
+>quit
+There have been 3,000 casualties (original population: 30,172,000) in 0 cycles.
+Do you wish to leave the game? (Y is affirmative): ZIF WRN: show_status
+>y
+ZIF quit
+
+================================================================================
+ File : Trinity.z4
+ MD5  : 04266c459f77d02a76375eb15c3c4779
+ Path : Infocom
+--------------------------------------------------------------------------------
+ZIF Version : z4
+
+Copyright (C)1986 Infocom, Inc. All rights reserved.
+
+[Press any key to begin.]
+
+Sharp words between the superpowers. Tanks in East Berlin. And now, reports the 
+BBC, rumors of a satellite blackout. It's enough to spoil your continental 
+breakfast.
+
+But the world will have to wait. This is the last day of your $599 London 
+Getaway Package, and you're determined to soak up as much of that authentic 
+English ambience as you can. So you've left the tour bus behind, ditched the 
+camera and escaped to Hyde Park for a contemplative stroll through the 
+Kensington Gardens.
+
+Palace Gate
+
+A tide of perambulators surges north along the crowded Broad Walk. Shaded 
+glades stretch away to the northeast, and a hint of color marks the western 
+edge of the Flower Walk.
+
+>no
+[You must address characters directly.]
+
+>quit
+[Your score is 0 points out of 100, in 1 move. This gives you the rank of Tourist.
+]
+
+Are you sure you want to leave the story now?
+
+[Please type YES or NO.] >y
+
+ZIF quit
+
+================================================================================
+ File : zdungeon.z5
+ MD5  : 7137677616ea4d9e480d6cf3f4746dc4
+ Path : Infocom/Zork
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+ZORK
+
+Welcome to ZORK.
+Release 13 / Serial number 040826 / Inform v6.14 Library 6/7
+West of House
+This is an open field west of a white house, with a boarded front door.
+There is a small mailbox here.
+A rubber mat saying 'Welcome to Zork!' lies by the door.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : zork1.z5
+ MD5  : b732a93a6244ddd92a9b9a3e3a46c687
+ Path : Infocom/Zork
+--------------------------------------------------------------------------------
+ZIF Version : z3
+
+ZORK I: The Great Underground Empire
+Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved.
+ZORK is a registered trademark of Infocom, Inc.
+Revision 88 / Serial number 840726
+
+West of House
+You are standing in an open field west of a white house, with a boarded front 
+door.
+There is a small mailbox here.
+
+ZIF WRN: show_status
+>
+I beg your pardon?
+
+ZIF WRN: show_status
+>no
+There was no verb in that sentence!
+
+ZIF WRN: show_status
+>quit
+Your score is 0 (total of 350 points), in 0 moves.
+This gives you the rank of Beginner.
+Do you wish to leave the game? (Y is affirmative): ZIF WRN: show_status
+>y
+ZIF quit
+
+================================================================================
+ File : zork2.z5
+ MD5  : 5bcd91ee055e9bd42812617571be227b
+ Path : Infocom/Zork
+--------------------------------------------------------------------------------
+ZIF Version : z3
+
+ZORK II: The Wizard of Frobozz
+Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved.
+ZORK is a registered trademark of Infocom, Inc.
+Version 48 / Serial number 840904
+
+Inside the Barrow
+You are inside an ancient barrow hidden deep within a dark forest. The barrow 
+opens into a narrow tunnel at its southern end. You can see a faint glow at the 
+far end.
+A strangely familiar brass lantern is lying on the ground.
+A sword of Elvish workmanship is on the ground.
+
+ZIF WRN: show_status
+>
+I beg your pardon?
+
+ZIF WRN: show_status
+>no
+There was no verb in that sentence!
+
+ZIF WRN: show_status
+>quit
+Your score would be 0 (total of 400 points), in 0 moves.
+This score gives you the rank of Beginner.
+Do you wish to leave the game? (Y is affirmative): ZIF WRN: show_status
+>y
+ZIF quit
+
+================================================================================
+ File : zork3.z5
+ MD5  : ffda9ee2d428fa2fa8e75a1914ff6959
+ Path : Infocom/Zork
+--------------------------------------------------------------------------------
+ZIF Version : z3
+
+As in a dream, you see yourself tumbling down a great, dark staircase. All 
+about you are shadowy images of struggles against fierce opponents and 
+diabolical traps. These give way to another round of images: of imposing stone 
+figures, a cool, clear lake, and, now, of an old, yet oddly youthful man. He 
+turns toward you slowly, his long, silver hair dancing about him in a fresh 
+breeze. "You have reached the final test, my friend! You are proved clever and 
+powerful, but this is not yet enough! Seek me when you feel yourself worthy!" 
+The dream dissolves around you as his last words echo through the void....
+
+ZORK III: The Dungeon Master
+Copyright 1982 by Infocom, Inc. All rights reserved.
+ZORK is a trademark of Infocom, Inc.
+Release 17 / Serial number 840727
+
+Endless Stair
+You are at the bottom of a seemingly endless stair, winding its way upward 
+beyond your vision. An eerie light, coming from all around you, casts strange 
+shadows on the walls. To the south is a dark and winding trail.
+Your old friend, the brass lantern, is at your feet.
+
+ZIF WRN: show_status
+>
+I beg your pardon?
+
+ZIF WRN: show_status
+>no
+There was no verb in that sentence!
+
+ZIF WRN: show_status
+>quit
+Your potential is 0 of a possible 7, in 0 moves.
+Do you wish to leave the game? (Y is affirmative): ZIF WRN: show_status
+>y
+ZIF quit
+
+================================================================================
+ File : ztuu.z5
+ MD5  : d8e1578470cbc676e013e03d72c93141
+ Path : Infocom/Zork
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+"It is with great hope and expectation I send you on this mission," the Grand 
+Inquisitor intones, his voice booming like distant, rumbling thunderheads. "We 
+have discovered what appears to be a piece of the Great Underground Empire, 
+never before explored. I would have sent Grubald the Bold, but he's busy. As is 
+Matchlick the Mighty. So, 'tis you."
+
+"What of Linklaw the Lucky?" you ask shyly.
+
+"Laid up. I'm afraid 'tis you and none other. A simple, solo quest, one of fun 
+and mirth, mischief and merriment, a jaunt, an excursion, a simple outing. 
+Merely explore, enjoy yourself, and bring back news of what lies there, 
+long-ago buried for countless ages."
+
+"And Fretsham the Fortunate?" you ask hopefully.
+
+"A fatality!" the Inquisitor booms. "Here," he says with evaporating patience, 
+"take these and be of good cheer." He thrusts into your hands two things: a 
+brass lantern of dubious quality; and a plastic sword of no antiquity or use 
+whatsoever.
+
+"But what of Kolchack the --"
+
+"Enough! Kolchack is contracted. Remember, who is the boss of you!"  He pauses 
+briefly as if awaiting a reply. Then without warning, he answers his own 
+question. "Me! I am the boss of you! Now begone!"
+
+And with that, you embark on...
+
+Zork: The Undiscovered Underground, a text adventure prequel to Zork Grand Inquisitor
+
+Copyright 1997 by Activision Inc.
+Written by Marc Blank and Mike Berlyn, programmed by Gerry Kevin Wilson.
+Release 16 / Serial number 970828 / Inform v6.13 Library 6/2
+Standard interpreter 1.0
+
+New Excavation
+You are standing at the entrance of a narrow, waist-high tunnel that winds out 
+of sight to the northeast. This, you have been told, is the entrance to the 
+newfound areas of the Great Underground Empire. In your left hand hangs a 
+rather unconvincing replica of the traditional adventurer's brass lantern. In 
+the other is an ersatz-Elvish sword of no antiquity whatsoever. Its plastic 
+blade, dull as a bread knife, barely reflects the lantern's dim and uneven 
+glow.
+
+>
+I beg your pardon?
+
+>no
+That was a rhetorical question.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : anchor.z8
+ MD5  : c043df8624e0e1e9fda92f1a74b6e402
+ Path : MichaelGentry
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+                             A N C H O R H E A D
+
+               [Press 'R' to restore; any other key to begin]
+[ The oldest and strongest emotion of mankind
+  is fear, and the oldest and strongest kind
+  of fear is fear of the unknown.
+  
+  -- H.P. Lovecraft]
+
+November, 1997.
+
+You take a deep breath of salty air as the first raindrops begin to spatter the 
+pavement, and the swollen, slate-colored clouds that blanket the sky mutter 
+ominous portents amongst themselves over the little coastal town of Anchorhead.
+
+Squinting up into the glowering storm, you wonder how everything managed to 
+happen so fast. The strange phone call over a month ago, from a lawyer claiming 
+to represent the estate of some distant branch of Michael's family, was 
+bewildering enough in itself... but then the sudden whirlwind of planning and 
+decisions, legal details and travel arrangements, the packing up and shipping 
+away of your entire home, your entire life...
+
+Now suddenly here you are, after driving for the past two days straight, over a 
+thousand miles away from the familiar warmth of Texas, getting ready to move 
+into the ancestral mansion of a clan of relatives so far removed that not even 
+Michael has ever heard of them. And you've only been married since June and 
+none of this was any of your idea in the first place, and already it's starting 
+to rain.
+
+These days, you often find yourself feeling confused and uprooted.
+
+You shake yourself and force the melancholy thoughts from your head, trying to 
+focus on the errand at hand. You're to meet with the real estate agent and pick 
+up the keys to your new house while Michael runs across town to take care of 
+some paperwork at the university. He'll be back to pick you up in a few 
+minutes, and then the two of you can begin the long, precarious process of 
+settling in.
+
+A sullen belch emanates from the clouds, and the rain starts coming down harder 
+-- fat, cold drops smacking loudly against the cobblestones. Shouldn't it be 
+snowing in New England at this time of year? With a sigh, you open your 
+umbrella.
+
+Welcome to Anchorhead...[                 * THE FIRST DAY *
+  
+  I was far from home, and the spell of the eastern
+  sea was upon me.
+  
+  -- H.P. Lovecraft]
+
+ANCHORHEAD
+An interactive gothic by Michael S. Gentry
+
+(Type HELP or ABOUT for some useful information.)
+
+Release 5 / Serial number 990206 / Inform v6.15 Library 6/7
+
+Outside the Real Estate Office
+A grim little cul-de-sac, tucked away in a corner of the claustrophobic tangle 
+of narrow, twisting avenues that largely constitute the older portion of 
+Anchorhead. Like most of the streets in this city, it is ancient, shadowy, and 
+leads essentially nowhere. The lane ends here at the real estate agent's 
+office, which lies to the east, and winds its way back toward the center of 
+town to the west. A narrow, garbage-choked alley opens to the southeast.
+
+>The street goes west from here. You can enter the office to the east or the 
+alley to the southeast.
+
+>Are you sure you want to quit? ZIF quit
+
+================================================================================
+ File : Acheton.z8
+ MD5  : b88a24ade42399411f4e018e4799abe9
+ Path : Phoenix/Acheton
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+Welcome to Adventure!
+
+Acheton
+An adventure game by David Seal, Jonathan Thackray and Jonathan Partington 
+(Cambridge University, 1978-80)
+[This translation: version 1.111115 / Phoenix v1.04 / Inform v6.32
+Please type "inform" for further details.]
+
+ACHETON  -  version 1.005
+Copyright 1981  D.J.Seal, J.G.Thackray and J.R.Partington
+
+Would you like instructions?
+Somewhere not far away is a passage into a strange and wondrous land
+called Acheton.  Many have found vast fortunes there, though some have
+become eternally lost.  Magic is said to work there.  I will be your
+eyes and ears.  Direct me with commands of one or two words.  I should
+warn you that I only look at the first five letters of each word, so
+you'll have to abbreviate northeast to NE for example.  If I say "I
+don't understand that!", it may mean that you are using words outside my
+vocabulary, or it may mean that what you are asking of me is totally and
+utterly inappropriate.  I should also warn you that life in Acheton is
+very dangerous, and not for the inexperienced adventurer.  If you do not
+come up to this standard, I suggest you try the Colossal Cave adventure
+first.
+   Furthermore, I should inform you that a masters' section of Acheton
+exists, and that you will have to find your own way there.
+   For a list of useful words and a few general hints, type "HELP".  To
+repeat these instructions, type "INFO".
+
+If you have any problems, please contact JGT1, DJS6 or JRP1.
+Good luck!
+You are standing on a good road leading northwards to a farmhouse and
+westwards into a forest.  To the east is an open field.  To the south
+is a slight depression, the bottom of which is not visible from here.
+> Are you certain you want to quit?
+
+You have scored 50 points out of a maximum of 1500.
+You are obviously a rank amateur.
+To achieve the next higher rating you need 5 more points.
+
+Do you want another game?
+Well, that's got rid of you then!
+ZIF quit
+
+================================================================================
+ File : Avon.z5
+ MD5  : 429120646a7f7126d49226401f82af0a
+ Path : Phoenix/Avon
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+
+Avon
+An adventure game by Jonathan R. Partington (Cambridge University, 1982)
+[This translation: version 1.111115 / Phoenix v1.04 / Inform v6.32
+Please type "inform" for further details.]
+
+All hail, great master! grave sir, hail!
+
+AVON - Version 1.04. All comments to JRP1 please.
+
+Welcome ever smiles, and farewell goes out sighing.
+Shall I a tale unfold?
+y
+
+One day, after watching (or perhaps reading) too many Shakespeare
+plays, you find yourself wandering around a wondrously enchanted land.
+Here they use a richer language than is usual and you come across
+scenes which may remind you of certain Shakespearean plays.
+
+How you are going to return successfully to the present day is
+something that you will have to find out for yourself but it
+may be worthwhile to keep any valuables you come across.
+
+An exhaustive knowledge of the Shakespearean canon is not necessary,
+as in most cases just the problems rather than the solutions
+are pinched from Shakespeare. Hints are probably available from
+JRP1 if you get completely stuck.
+
+For more basic advice, type HELP.
+You are standing on a flat plain. From here it seems that all the
+world's a stage, and all the men and women merely players: they
+have their exits and their entrances to the north, south, east and west.
+> quit
+All's well that ends well. Are you sure you want to finish?
+y
+You scored 10 points out of a maximum of 425.
+Once more into the breach, dear friend?
+n
+Our revels now are ended.
+ZIF quit
+
+================================================================================
+ File : Crobe.z5
+ MD5  : a8c591e79d957c12d59758244d6d955f
+ Path : Phoenix/Crobe
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+
+Crobe
+An adventure game by Jonathan R. Partington (Cambridge University, 1986)
+[This translation: version 1.111115 / Phoenix v1.04 / Inform v6.32
+Please type "inform" for further details.]
+
+Crobe - version 1.09. Please contact JRP1 in case of trouble.
+Welcome to the caverns of Crobe!
+Do you want some inside information?
+y
+You have been summoned to the seaport of Crobe, a town
+where much devastation has taken place thanks to an evil
+creature called Karg, who is king of a band of trolls. It
+is your task to dispose of this menace, who has fled to
+a hideaway under the cliffs of Crobe.
+
+You know also of a mighty wizard called the Warden of Crobe,
+who may aid you if suitably impressed by your prowess.
+
+Good luck - you will need it!
+You are standing on an east-west road which runs between
+the walls of Crobe and an impenetrable forest. At this
+point there is a gateway north into the town of Crobe.
+> quit
+Are you certain you want to quit?
+y
+You scored 10 points out of a maximum of 300.
+Fancy another game then?
+n
+Goodbye, Adieu, Auf Wiedersehen, Adios and ***FINISHED.
+ZIF quit
+
+================================================================================
+ File : CountdownToDoom.z5
+ MD5  : 1fd4f4478886cbbcb51f76a6ab29599c
+ Path : Phoenix/Doom
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Would you like the story so far?
+> y
+DOOMAWANGARA. Abbr: Doom. 
+
+Climate: varies dramatically from desert to jungle, glacier to swamp [N.B. 
+Reason unknown; exogeologists baffled]. Atmosphere intensely volatile; 
+explorers must guard against rapid corrosion of equipment and spaceship alike. 
+
+Dangers: Atmosphere, as above. Automatic defence system. Also the artefacts, 
+reputed to have been the home, aeons ago, of the Ancients; none who has entered 
+them has ever returned. 
+
+Special features: The large number of crashed spaceships littering its surface, 
+many of which had been carrying treasure from one planet to another, make Doom 
+a potentially lucrative source of income for that special breed of explorer 
+known as adventurer. 
+
+[Extract from Intergalactic Times, 3,7,187/qbf.] 
+
+You set off from Earth in your one-man ship, and are soon orbiting Doom.
+Before you can contemplate a landing, however, your ship comes under a violent 
+attack from Doom's automatic defence system. "No wonder most ships never come 
+back!", you tell yourself as your ship tumbles out of control towards Doom's 
+surface, with you playing the controls like the expert you are.
+Nothing you can do can prevent the crash-landing, however, and your ship hits 
+the ground with a force that would have killed you had you not jumped up at the 
+last moment to absorb some of the momentum... 
+
+You are painfully aware that your ship will corrode away to nothing in Doom's 
+atmosphere unless you can take off within 400 turns. Unfortunately, the ship's 
+cargo hold now needs replacement equipment:
+
+some dilithium crystals for power (very dangerous to handle) 
+a motor unit 
+a navigation unit box 
+a life support system 
+a medikit 
+and a nuclear reactor 
+
+Of course, should you be able to pick up the odd bit of treasure while you're 
+getting these, nobody - least of all you - is likely to complain. 
+The clock is ticking!
+
+Countdown to Doom
+V1.03 Copyright (c) 2000 by Peter D. Killworth
+Release 1 / Serial number 000920 / Inform v6.21 Library 6/10 
+
+Control room
+You are standing in what used to be the control room of your spaceship, but 
+after the attack it looks more like a junkyard. The only usable exit is north, 
+as the others are covered by a delicate patina of squashed solid-state 
+circuitry.
+A ruined console lies to one side, barely operating. Only one button seems to 
+be functional.
+There is some explosive on the floor, with a self-igniting fuse.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : LastDaysOfDoom.z5
+ MD5  : 2167be13ad03a43a161e5a8c9fa75bac
+ Path : Phoenix/Doom
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Would you like the story so far?
+> y
+DOOMAWANGARA. Abbr: Doom. 
+
+Climate: varies dramatically from desert to jungle, glacier to swamp [N.B. 
+Reason unknown; exogeologists baffled]. Atmosphere intensely volatile; 
+explorers must guard against rapid corrosion of equipment and spaceship alike. 
+
+Dangers: Atmosphere, as above. Automatic defence system. Also the artefacts, 
+reputed to have been the home, aeons ago, of the Ancients; none who has entered 
+them has ever returned. 
+
+Special features: The large number of crashed spaceships littering its surface, 
+many of which had been carrying treasure from one planet to another, make Doom 
+a potentially lucrative source of income for that special breed of explorer 
+known as adventurer. 
+
+[Extract from Intergalactic Times, 3,7,187/qbf.] 
+
+The message flashes out across the known universe (and quite a bit of the rest 
+of it, too): the planet Doomawangara (Doom for short) is showing increasing 
+signs of instability! Its whole solar system is moving erratically - almost as 
+if someone (or something) were trying to attract attention... 
+Doomquakes,  eruptions, and other quite nasty things are happening on the 
+planet's surface, and goodness knows WHAT underneath it. 
+To cap it all, another artefact has turned up, not far from a ruined, walled, 
+city. The experts reckon that the planet will probably explode in a few days. 
+Any sane individual would keep well away. 
+
+You, as the only person ever to survive Doom twice (AND two artefacts!), lose 
+no time in preparing an expedition. You have many memories of Doom, and - 
+somehow - want to help if you can. 
+
+You, your trusty robot dog, which you acquired last trip (see 'Return to Doom', 
+an excellent game even if I say so myself), and a team of three, set out. You 
+attempt to land near the artefact, since there is no point in walking further 
+than you need. But the ship's navigation is thrown off by what you assume is a 
+collection of masscons below the surface. 
+
+The ship plunges downwards, but you and the navigator manage to bring it almost 
+to an even keel, and make a safe but bumpy landing. The ground rumbles in all 
+directions in an unpleasant manner. You belatedly remember a set of renegade 
+robots with whom you had some unfinished business on Doom, too...
+
+Last Days of Doom
+V1.01 Copyright (c) 1999 by Peter D. Killworth
+Release 1 / Serial number 000801 / Inform v6.21 Library 6/10 
+
+Control room
+You are standing in the extremely well-equipped control room of your spaceship, 
+which reflects the increase in your wealth following your last adventure. The 
+only exit is north to the cargo hold.
+Your robot dog is sitting here.
+Petrov, your navigator, is standing alertly here.
+Dimi, your engineer, is here.
+Kara, your second-in-command, is with you.
+Your console area is to one side, apparently operating perfectly. The main 
+control button awaits your use.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : ReturnToDoom.z5
+ MD5  : 844e85660b6abdc924d271336018c14a
+ Path : Phoenix/Doom
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Would you like the story so far?
+> y
+DOOMAWANGARA. Abbr: Doom. 
+
+Climate: varies dramatically from desert to jungle, glacier to swamp [N.B. 
+Reason unknown; exogeologists baffled]. Atmosphere intensely volatile; 
+explorers must guard against rapid corrosion of equipment and spaceship alike. 
+
+Dangers: Atmosphere, as above. Automatic defence system. Also the artefacts, 
+reputed to have been the home, aeons ago, of the Ancients; none who has entered 
+them has ever returned. 
+
+Special features: The large number of crashed spaceships littering its surface, 
+many of which had been carrying treasure from one planet to another, make Doom 
+a potentially lucrative source of income for that special breed of explorer 
+known as adventurer. 
+
+[Extract from Intergalactic Times, 3,7,187/qbf.] 
+
+You are flying through the universe, minding your own business, when a 
+desperate distress call hits your transceiver: "Mayday! Mayday! The 'Galapoxi', 
+taking the ambassador of Regina on an important mission to Fluxo, has just 
+crashed on Doom! Ship disintegrating fast! We have left the ship for safety - 
+there are only three of us, plus the ambassador, left alive. Rescue needed 
+imminently. Please hurry ... heading for cleft ... 
+
+You - as the only person ever to survive Doom (see 'Countdown to Doom' - 
+advertisement) immediately steer your ship for that dangerous planet once 
+again. This time you are prepared! (And your ship is now rather better equipped 
+than last time.) You land safely near to the last location of the signals. Now 
+could be your finest hour (or maybe longer)...
+
+Return to Doom
+V1.01 Copyright (c) 2000 by Peter D. Killworth
+Release 1 / Serial number 000831 / Inform v6.21 Library 6/10 
+
+Control Room
+You are standing in the control room of your spaceship, which has been newly 
+refurbished following your last adventure. The only exit is north to the cargo 
+hold.
+
+Your console area is to one side, operating perfectly. The main control button 
+awaits your use.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : Fyleet.z5
+ MD5  : ae56c277eb4dea21accf0cab876c00a9
+ Path : Phoenix/Fyleet
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+
+Fyleet
+An adventure game by Jonathan R. Partington (Cambridge University, 1985)
+[This translation: version 1.990823 / Phoenix v1.0 / Inform v6.21
+Please type "inform" for further details.]
+
+Fyleet - version 2.01
+Welcome to the ruins of Fyleet!
+If you get any problems, please contact JRP1.
+New BRIEF/TERSE, NORMAL/STANDARD and VERBOSE options available.
+Please tell me what heroic name you wish to be known by.
+Fred
+Would you like instructions?
+y
+A few generations ago, the ancient elven kingdom of Fyleet
+fell. Orcs and hobgoblins, some serving the evil deity Demnos,
+looted the fortress of Fyleet and took its treasures into
+their dark chambers beneath. You are an adventurer of great
+courage and some wits, and have arrived in the area having
+heard tales of Zygmund, an evil priest of Demnos, a deity
+bitterly hated by your own god, Hurgenpor...
+If you don't know how to start a game like this, try HELP.
+You are in the ruins of the ancient fortress of Fyleet.
+Around you lies a thick pine forest, which appears to have been
+cleared a bit to your west; there are also paths to the east
+and north, while to the south some steps lead down into the ground.
+> quit
+Are you certain you want to quit?
+y
+You scored 10 points out of a maximum of 600.
+Care to try your hand again?
+n
+Well go and do some work then.
+ZIF quit
+
+================================================================================
+ File : Hamil.z5
+ MD5  : 2572d60bf8c50517f3977bf4837b869d
+ Path : Phoenix/Hamil
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+
+Hamil
+An adventure game by Jonathan R. Partington (Cambridge University, 1982)
+[This translation: version 1.111115 / Phoenix v1.04 / Inform v6.32
+Please type "inform" for further details.]
+
+HAMIL - version 3.03. All comments to JRP1 please.
+Do you want me to set the scene?
+y
+
+For more info on how to proceed, type HELP.
+
+Welcome to Hamil, a world containing many wondrous and
+terrifying things.  The story so far...
+
+You have discovered that the outside world is dangerous. Pursued for
+many days and nights by hordes of hostile beings, you have arrived,
+breathless, at a sanctuary. It seems that you are trapped, as it would
+be foolhardy to venture outside again. However, there may be more to this
+place than you think...
+
+You are at the western end of a primitive stone chapel. Light
+streams in through the windows, which are set high above your
+reach in the entirely featureless walls of the building.
+A plain arch leads northwards to the world outside which,
+as you know from experience, is extremely hostile.
+> quit
+If you quit now you will have scored 10 points out of
+a maximum of 300.
+Are you certain you want to quit?
+y
+Do you want another game, oh heroic one?
+n
+
+Well, that's got rid of you then I suppose.
+ZIF quit
+
+================================================================================
+ File : Murdac.z5
+ MD5  : 570179d4f21b2f600862dbffbb5afc3e
+ Path : Phoenix/Murdac
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+
+Murdac
+An adventure game by Jonathan R. Partington (Cambridge University, 1982)
+[This translation: version 1.111115 / Phoenix v1.04 / Inform v6.32
+Please type "inform" for further details.]
+
+Welcome to the Land of Murdac. This is version 1.07.
+
+Type HELP for basic information, and BLURB for the full story.
+All comments to JRP1 please. New commands BRIEF/TERSE,
+NORMAL/STANDARD, VERBOSE and EXAMINE have now been added.
+You are standing outside the door of a small flint hut.
+There are paths off to the east, west and south.
+The door is locked.
+> y
+I don't understand that!
+> quit
+Are you certain you want to quit?
+y
+You scored 10 points out of a maximum of 250.
+Another game, your Extravagance?
+n
+Another time, perhaps.
+ZIF quit
+
+================================================================================
+ File : Nidus.z5
+ MD5  : b30a31151679b08a5a77c2908105b82a
+ Path : Phoenix/Nidus
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+
+Nidus
+An adventure game by Adam Atkinson (Cambridge University, 1986)
+[This translation: version 1.140416 / Phoenix v1.04 / Inform v6.33
+Please type "inform" for further details.]
+
+NIDUS version 1.0
+If any problems, comments, or questions, contact AJFA1
+See AJFA1.BOTHER:NOTICE for useful information on known uncured bugs,
+and anything else I think useful to publicise.
+Would you like some background information ?
+y
+You are a typical adventuring type - brave, resourceful, and fearless.
+After a career of non-trivially heroic actions, you decided to show
+the forces of Chaos just who was boss, and so set out to pay them a
+visit. As soon as you expressed this intent, however, you were magically
+transported to another place - you feel sure that it is a convenient
+prison world set up by the Lords of Chaos to store such as yourself.
+It seems as though they no longer think to check on its inhabitants, so
+perhaps you can escape and destroy your captors, using things brought
+to the Nidus over the millennia.
+For help, type HELP !
+You are in a broderer's room. Presumably some embroidery whiz offended
+the Powers That Be sufficiently to warrant exile here. It does not
+seem to be at use at the moment, and there is no sign of recent
+habitation either. Exits are south-west and north.
+A length of silken thread is here. It looks very fine, and is
+most likely valuable.
+> quit
+Are you certain you want to quit?
+y
+Your score is 5 out of a maximum possible score of 250 points.
+Do you want to play again ?
+n
+Well, that's got rid of at least one of us then!
+ZIF quit
+
+================================================================================
+ File : Parc.z5
+ MD5  : 64939a74f8cf5c0e8283b9615b77a369
+ Path : Phoenix/Parc
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+
+Parc
+An adventure game by John Rennie (Cambridge University, 1983)
+[This translation: version 1.111115 / Phoenix v1.04 / Inform v6.32
+Please type "inform" for further details.]
+
+Do you want an introduction to Parc?
+y
+                   Parc - Version 001.
+                  --------------------
+
+      (Please address any comments or moans to jr26.)
+
+You have offered your services to the kingdom of Parc as an
+adventurer. Their problem is a mad Alchemist whose maniac
+experiments are making everybody's life a misery. You are
+asked to deal with the Alchemist, and of course if you should
+come upon any treasures in your travels nobody will mind if
+you hang on to them!
+
+   Good luck!
+
+You are standing in a clearing in a dense forest. The sun is shining
+birds are singing and it's a beautiful day. From the west you can hear
+the sound of running water and to the east is the entrance to a dark
+building beside which is written:
+     "PING NAROTT. ALCHEMIST.
+        PRIVATE PROPERTY. "
+In all other directions the forest stretches as far as you can see.
+> quit
+Are you certain you want to quit?
+y
+
+You have scored 0 points out of 400!
+Think you can do better?
+n
+Auf Wiedersehen.
+ZIF quit
+
+================================================================================
+ File : BrandX.z5
+ MD5  : 3ed209d2372ca4432c206099002215f6
+ Path : Phoenix/PhilosophersQuest
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+
+BrandX
+An adventure game by Peter Killworth and Jonathan Mestel (Cambridge University, 
+1983)
+[This translation: version 1.111115 / Phoenix v1.04 / Inform v6.32
+Please type "inform" for further details.]
+
+Welcome to Brand X (Version 0.00)!
+You don't need instructions, so you won't get any.
+Problems, comments and suggestions to PDK1 or AJM8.
+You are standing in a small shop which normally has various goods
+displayed for sale. There are areas of the shop
+obviously intended for the display of treasure.
+There is an exit south, above which hangs
+a large sign, which reads:
+
+       ---------------------------------
+       !                                !
+       !    ADVENTURERS PLEASE NOTE     !
+       !                                !
+       !    ONLY TWO IMPLEMENTS MAY     !
+       !                                !
+       !    BE REMOVED FROM THIS SHOP   !
+       !                                !
+       !    UNDER PENALTY OF DEATH      !
+       !                                !
+       !    SO CHOOSE CAREFULLY!        !
+       !                                !
+       !              Z. O'R. K.        !
+       !               pp. R. Witt Co.  !
+       !                                !
+       ----------------------------------
+
+There is an aqualung with a full tank of oxygen here. It
+turns on automatically upon contact with water.
+There is a fluffy lace-edged cushion here.
+There is a bunch of keys here.
+A piece of sausage is curled up here.
+There is a small teabag on the floor here.
+> quit
+Are you certain you want to quit?
+y
+
+You have scored 0 points out of a maximum of 300.
+Would you like another game?
+n
+Well, that's got rid...etc.
+ZIF quit
+
+================================================================================
+ File : Sangraal.z5
+ MD5  : 58db5221d8b413cacddd2d58a0a0906f
+ Path : Phoenix/Sangraal
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+
+Sangraal
+An adventure game by Jonathan R. Partington (Cambridge University, 1987)
+[This translation: version 1.990823 / Phoenix v1.0 / Inform v6.21
+Please type "inform" for further details.]
+
+Welcome to the Quest of the Sangraal. This is version 1.18.
+All comments and complaints to JRP1, please.
+Would you like some background information?
+y
+The Dark Ages have arrived, and in King Demas's kingdom
+the knights of the Chaise Longue have been sent forth from
+Castle Moan to redeem the honour of the realm by a quest
+for the Sangraal (or Holy Grail). Visions of this mystical
+object have been vouchsafed to knights of great purity and
+prowess, but, so far, nobody has managed to bring the thing
+back for the royal trophy case. It is up to you...
+You are standing by the drawbridge in Castle Moan. A
+cheering crowd urges you to go out to certain death on
+a quest for the Sangraal, as have many knights before you.
+The road leads out northwards over the drawbridge.
+> quit
+If you quit now, you will have scored 10 points out of 650.
+Are you certain you want to quit?
+y
+Would you like another game?
+n
+Well, that's got rid of you then!
+ZIF quit
+
+================================================================================
+ File : Spycatcher.z5
+ MD5  : 78b8033fb653757d6c75840c08c147e0
+ Path : Phoenix/SpySnatcher
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+
+Spycatcher
+An adventure game by Jonathan R. Partington and Jonathan Thackray (Cambridge 
+University, 1989)
+[This translation: version 1.111115 / Phoenix v1.04 / Inform v6.32
+Please type "inform" for further details.]
+
+Spycatcher version 0.12. (C) J.R. Partington and J.G. Thackray, 1989.
+
+Welcome, agent number 3084.
+Do you want to be told the details of your mission?
+y
+ You have been summoned to MI7 headquarters, popularly known as
+'The Zoo' in order to unmask a mole. The chief of MI7, Sir
+Arthur Cayley (known to his friends as 'Z') is extremely
+worried, because the plans for the new Sonic Macrothrodule are
+believed to have been leaked. They were kept in the safe in his
+office, and were there yesterday when he came in at 9 a.m.; the
+safe had been disturbed when he checked it this morning but the
+plans were still there. Z reckons that it would take at least an
+hour to remove the plans, copy them, and return them.
+
+ With Cayley is Superintendent Hardy of Special Branch, who has
+been assigned to MI7 on special duties for some weeks.
+
+ "We're off for a drink in the 'Cloak and Dagger' now," says Z.
+"Take a look round. Because of your unofficial position we can't
+openly give you access to the files, but if I were you I'd start
+with my secretary's office while she's downstairs -- she'll have
+details of my movements yesterday, as well. You can probably
+rule out Newton, who is abroad, and Brauer, who's on holiday.
+
+ Nobody else knows you're in the building now that a new
+Security guard has come on duty. The guard usually patrols at
+about 7 p.m. Don't let anyone see you, or you'll have to abandon
+the investigation. Come and find us if you think you have some
+useful information. Good luck!"
+
+ Cayley and Hardy are joined by a third person as they go down the stairs.
+
+ Are you ready to start?
+y
+You are at the Southern end of the first-floor corridor, which
+seems to be fairly brightly lit throughout: for security
+purposes the lights seem to be fixed to be on at all times.
+Three doors confront you at this point, each bearing the name of
+their alleged occupants. To the south, the notice says "Sir
+Arthur Cayley K.B.E. M.A. Head of Department." To the west, a
+similar sign says "Miss Pell. Secretary." and to the east the
+notice says "Russell. Accounts" There is further corridor to the
+north, with several more closed doors leading off it.
+> quit
+Are you certain you want to quit?
+y
+You scored 5 points out of a maximum of about 270.
+You have achieved the rating "Licensed to Breathe".
+Would you like another game?
+n
+Well, that's got rid of you then!
+ZIF quit
+
+================================================================================
+ File : Xeno.z5
+ MD5  : b2aef5de8e5f7ba49fd4fe33f299364a
+ Path : Phoenix/Xeno
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Welcome to Adventure!
+
+Xeno
+An adventure game by Jonathan Mestel (Cambridge University, 1989)
+[This translation: version 1.111115 / Phoenix v1.04 / Inform v6.32
+Please type "inform" for further details.]
+
+XENOPHOBIA Version 3.7
+
+This is the fourth released version, so should be relatively bug-free.
+Please type PLEASE. If you are new to this type of game type HELP.
+Should I describe your predicament?
+y
+
+You wake up slowly with a frightful headache to vaguely familiar
+surroundings. There is a loud and curiously soothing swishing noise in
+your ear. After a while you realise that you are on a train, and that
+the noise you can hear is your watch as you prop up your head. You are
+lying on an entire seat and feel lousy.
+Slowly you sit up and look around you. As you do so, someone badtemperedly
+occupies the half of the seat you just vacated. You can remember next to 
+nothing
+about yourself and how you came to be where you are. It is a disturbing 
+feeling.
+There are various people around, but most of them are showing a deliberate
+lack of interest in you. I imagine you are an unattractive sight.
+You are in a railway carriage at the end furthest from the destination
+of the train. The main passageway continues through a black, rickety
+connecting tunnel into another carriage.
+You are facing the same way as the train.
+There is a copper-coloured Yale key here.
+> quit
+Are you sure you want to quit?
+y
+You've scored 32 points out of about 300.
+Do you want another game?
+n
+See you anon.
+ZIF quit
+
+================================================================================
+ File : Aisle.z5
+ MD5  : e3dfab39accfabcd26f1e90afdd39529
+ Path : SamBarlow
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+[ 
+                              - A I S L E -
+  
+                              by Sam Barlow
+  
+  You are about to read a story. Or rather, part of a story. You will be
+  be asked to define the story by controlling one instant in the life of
+  the man whose story it is. Your intervention will begin and end the
+  story. But be warned; there are many stories and not all of the stories
+  are about the same man.
+  ]
+
+Late Thursday night. You've had a hard day and the last thing you need is this: 
+shopping. Luckily, the place is pretty empty and you're progressing rapidly.
+
+On to the next aisle.
+
+Interesting... fresh Gnocchi--you haven't had any of that since... Rome.
+
+The aisle stretches to the north, and back to the south. The shelves on either 
+side of you block your view of the rest of the supermarket, with only the 
+brightly coloured aisle markers visible.
+
+You have stopped your trolley next to the pasta section, bright plastic bags 
+full of pale skin-tone shapes.
+
+There is a brunette woman a few metres ahead, filling her trolley with sauces.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : czech.z5
+ MD5  : 55adde4d8904b1dc4c6483136d6c61b9
+ Path : unknown
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+CZECH: the Comprehensive Z-machine Emulation CHecker, version 0.8
+Test numbers appear in [brackets].
+
+print works or you wouldn't be seeing this.
+
+Jumps [2]: jump.je..........jg.......jl.......jz...offsets..
+Variables [32]: push/pull..store.load.dec.......inc.......
+    dec_chk...........inc_chk.........
+Arithmetic ops [70]: add.......sub.......
+    mul........div...........mod...........
+Logical ops [114]: not....and.....or.....art_shift........log_shift........
+Memory [144]: loadw.loadb..storeb..storew...
+Subroutines [152]: call_1s.call_2s..call_vs2...call_vs.....ret.
+    call_1n.call_2n..call_vn..call_vn2..
+    rtrue.rfalse.ret_popped.
+    Computed call...
+    check_arg_count................
+Objects [193]: get_parent....get_sibling.......get_child......jin.......
+    test_attr......set_attr....clear_attr....set/clear/test_attr..
+    get_next_prop......get_prop_len/get_prop_addr....
+    get_prop..........put_prop ..........
+    remove..insert.......
+    Spec1.0 length-64 props...........
+Indirect Opcodes [283]: load..................store.........................
+    pull...............inc...............dec...............
+    inc_chk...............dec_chk...............
+Misc [401]: test...random.verify.piracy.
+Header (No tests)
+    standard 1.0 
+    interpreter 0 A ()
+    Flags on: color, boldface, italic, fixed-space, timer, 
+    Flags off: pictures, sound, transcripting on, fixed-pitch on, redraw 
+pending, using pictures, using undo, using mouse, using colors, using sound, 
+using menus, 
+    Screen size: 80x56; in 1x1 units: 0x0
+    Default color: current on current
+
+Print opcodes [407]: Tests should look like... '[Test] opcode (stuff): stuff'
+print_num (0, 1, -1, 32767,-32768, -1): 0, 1, -1, 32767, -32768, -1
+[413] print_char (abcd): abcd
+[417] new_line:
+
+There should be an empty line above this line.
+print_ret (should have newline after this)
+.
+print_addr (Hello.): Hello.
+
+print_paddr (A long string that Inform will put in high memory):
+A long string that Inform will put in high memory
+Abbreviations (I love 'xyzzy' [two times]): I love 'xyzzy'  I love 'xyzzy'
+
+[424] print_obj (Test Object #1Test Object #2): Test Object #1Test Object #2
+
+Performed 425 tests.
+Passed: 406, Failed: 0, Print tests: 19
+Didn't crash: hooray!
+Last test: quit!
+ZIF quit
+
+================================================================================
+ File : inhumane.z5
+ MD5  : 84d3ce7ccfafb873736490811a0cc78c
+ Path : unknown
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+You awaken in your tent, lying on the floor, with a hangover like you wouldn't 
+believe. As you lever yourself up, you notice that there is complete silence 
+instead of the usual morning complaints of the workers and Roboff's usual 
+shouting. This can only mean one thing - Roboff must have finally run off on 
+you. Panicked, you look around and see your amulet lying on the floor. At least 
+Roboff had the sense to not trigger off your alarm. Knowing him, he also had 
+the sense to take the emergency radio. How the megakrip are you going to get 
+out of this one?
+
+INHUMANE: An Infralogic Massacre. Copyright (C) by Infobom
+Inhumane and Infobom are trademarks of Sadistic Software, Ins.
+Revision 2 / Serial Number 31415926 / Inform v1405 Library 5/8
+First-time players should type "about".
+
+In Your Tent
+You are in your tent in the encampment. The tent appears to have been 
+completely cleaned out. It is very hot in here and getting hotter. The tent 
+flap to the south is open.
+On the ground is the ancient jeweled amulet that you "borrowed" from Mr. 
+Meshugge.
+
+>
+All right, be that way.
+
+>no
+That was a rhetorical question.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+
+================================================================================
+ File : LostPig.z8
+ MD5  : aaf0b90fbb31717481c02832bf412070
+ Path : unknown
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+Pig lost! Boss say that it Grunk fault. Say Grunk forget about closing gate. 
+Maybe boss right. Grunk not remember forgetting, but maybe Grunk just forget. 
+Boss say Grunk go find pig, bring it back. Him say, if Grunk not bring back 
+pig, not bring back Grunk either. Grunk like working at pig farm, so now Grunk 
+need find pig.
+
+Lost Pig
+And Place Under Ground
+Release 2 / Serial number 080406 / Inform v6.30 6/11 / ZCODE-1-070917-994E
+(For help, use "HELP".)
+
+Outside
+Grunk think that pig probably go this way. It hard to tell at night time, 
+because moon not bright as sun. There forest to east and north. It even darker 
+there, and Grunk hear lots of strange animal. West of Grunk, there big field 
+with little stone wall. Farm back to south.
+
+>Huh?
+
+>Really all done with story? ZIF quit
+
+================================================================================
+ File : nameless.z8
+ MD5  : 23463b7ca67cae8cce7e367b53498e45
+ Path : unknown
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+ATDT3635377
+
+CONNECT 1200
+
+****************************************
+*                                      *
+*                  /                   *
+*     ENDLESS BBS // 172-END-LESS      *
+*                 /                    *
+*                                      *
+*     (c) 1984, 1985, 1986, 1987       *
+*                                      *
+*     SysOp: Endless                   *
+*                                      *
+*     Co-SysOpz:                       *
+*         Bordz: Lninja, Ultrex        *
+*         Gamez: Nameless, Warden      *
+*         Warez: Crossbolt             *
+*                                      *
+****************************************
+
+   ENDLESS BBS MENU   
+   B>ordz    C>hatz
+   G>amez    M>ailz
+   W>arez    Q>uitz
+
+120 MINUTEZ REMAINING!
+(10 Std) B C G M W Q>> G
+
+A>dventure
+N>ameless Quest v2.0.12
+M>ain menu
+
+119 MINUTEZ REMAINING!
+(10 Std) A N M>> N
+
+Nameless Quest v2.0.12
+by Nameless
+
+Nameless Tavern (exits: NW)
+You are standing in a large tavern with creaky wooden floors. Laughter and 
+commotion surround your every move while light flickers from candles atop 
+wooden tables. The bartender nods at you as he tends to his customers.
+
+Type ABOUT to learn about Nameless Quest!
+Type VERBS for a list of commands!
+
+Someone walks up to the bar and orders a Wizard's Potion.
+
+Hanging on the wall is a dartboard. There are three red darts stuck in it!
+
+>You do not seem to have entered a command!
+
+>Are you sure you want to quit? 
+NO CARRIER
+ZIF quit
+
+================================================================================
+ File : strictz.z5
+ MD5  : 4f6ec9eb0fa7f8b5e8c87e541b7ae819
+ Path : unknown
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Strict Z Test
+
+According to the Z-Machine Standards Document, "objects are numbered 
+consecucutively from 1 upward, with object number 0 being used to mean 
+"nothing" (though there is formally no such object)." Hence, it seems 
+reasonable that operations on object number 0 should either fail or, if that is 
+not an option, do nothing. These tests are written with that assumption.
+
+Please note that whenever a test is flagged as "correct", that only means that 
+an instruction returned zero or non-zero (or branched / didn't branch) when it 
+was supposed to. Not that it necessarily returned the correct value. If no 
+result is written the result was not tested, and the test was only included to 
+test the stability of the interpreter.
+
+Would you like to make a transcript of the test results? (Y/N) 
+Transcript? (Y/N) no
+
+Testing @jin:
+
+@jin 5 6 => FALSE (correct)
+@jin 6 5 => TRUE (correct)
+@jin 0 5 => FALSE (correct)
+@jin 0 0 => TRUE (correct)
+
+Testing @get_child:
+
+@get_child 5 => 6 (correct)
+@get_child 7 => 0 (correct)
+@get_child 0 => 0 (correct)
+
+Testing @get_parent:
+
+@get_parent 5 => 0 (correct)
+@get_parent 6 => 5 (correct)
+@get_parent 0 => 0 (correct)
+
+Testing @get_sibling:
+
+@get_sibling 5 => 0 (correct)
+@get_sibling 6 => 7 (correct)
+@get_sibling 0 => 0 (correct)
+
+Testing @get_prop_addr:
+
+@get_prop_addr 5 4 => 571 (correct)
+@get_prop_addr 7 4 => 0 (correct)
+@get_prop_addr 0 4 => 0 (correct)
+
+Testing @get_prop:
+
+@get_prop 5 4 => 1 (correct)
+@get_prop 6 4 => 0 (correct)
+@get_prop 0 4 => 0 (correct)
+
+Testing @clear_attr:
+
+@clear_attr 5 0
+@clear_attr 5 1
+@clear_attr 0 0
+@clear_attr 0 1
+
+Testing @set_attr:
+
+@set_attr 5 0
+@set_attr 5 1
+@set_attr 0 0
+
+(Note: An attempt has been made to set attribute number 0 in object number 0. 
+If the @test_attr test below indicates that this attribute has been set, the 
+interpreter did not ignore the instruction as it should have done.)
+
+Testing @test_attr:
+
+@test_attr 5 0 => TRUE (correct)
+@test_attr 5 1 => TRUE (correct)
+@test_attr 6 0 => FALSE (correct)
+@test_attr 6 1 => FALSE (correct)
+@test_attr 0 0 => FALSE (correct)
+@test_attr 0 1 => FALSE (correct)
+
+Testing @insert_obj:
+
+@insert_obj 7 5
+@insert_obj 0 5
+@insert_obj 5 0
+@insert_obj 0 0
+
+Testing remove_obj:
+
+@remove_obj 7
+@remove_obj 0
+
+Testing get_next_prop:
+
+@get_next_prop 5 5 => 4 (correct)
+@get_next_prop 6 4 => 0 (correct)
+@get_next_prop 0 4 => 0 (correct)
+
+Test completed!
+
+Press any key.
+qZIF quit
+================================================================================
+Games      :       98
+Ignored    :        0
+Clean exit :       98
+Errors     :        0
+Warnings   :       56
+--------------------------------------------------------------------------------
