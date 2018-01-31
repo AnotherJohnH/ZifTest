@@ -153,6 +153,8 @@ parser=argparse.ArgumentParser(description='Test Zif')
 
 parser.add_argument('-l', '--list', dest='list', action='store_true',
                     help="list tests without running them")
+parser.add_argument('-b', '--build', dest='build', action='store_true',
+                    help="pull and rebuild Zif")
 parser.add_argument('-x', '--hex', dest='hex', metavar='#', type=int, default=0,
                     help="hex dump the story file")
 parser.add_argument('-z', '--zif', dest='test', metavar='#', type=int, default=0,
@@ -170,6 +172,12 @@ games_dir="Data/Fun/Games/InteractiveFiction/Games"
 games_list_file="games_list.json"
 
 games_list=json.load(open(games_list_file))
+
+if args.build:
+   os.chdir("Zif")
+   os.system("git pull --rebase")
+   os.system("scons")
+   os.chdir("..")
 
 if args.list:
    listGames(games_list)
