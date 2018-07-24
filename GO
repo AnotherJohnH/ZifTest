@@ -95,71 +95,72 @@ def hexDump(game):
 
 #--------------------------------------------------------------------------------
 
-def runSingleGame(game):
+def playOnZif(game):
    full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
    os.system("Zif/zif --trace --term "+full_path)
 
 #--------------------------------------------------------------------------------
 
-def runOnFrotz(game):
+def playOnFrotz(game):
    full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
    os.system(os.environ['HOME']+"/OpenSource/frotz-2.43d/frotz "+full_path)
 
 #--------------------------------------------------------------------------------
 
-def runAllGames(list):
-      ignored=0
-      clean=0
-      errors=0
-      warnings=0
+def testSingleGame(game):
+   global errors, warnings
 
-      for game in games_list:
+   status = -1
+   logWriteLn("================================================================================")
 
-         full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
+   full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
+   if not os.path.isfile(full_path):
+      logError("Story file '"+full_path+"' not found")
+   else:
+      logWriteLn(" File : "+os.path.basename(game[0]))
+      logWriteLn(" MD5  : "+md5(full_path))
+      logWriteLn(" Path : "+os.path.dirname(game[0]))
+      logWriteLn("--------------------------------------------------------------------------------")
 
-         logWriteLn("================================================================================")
+      input_file="input/"+os.path.basename(game[0])+".in"
+      status = os.system("Zif/zif --batch --info --term --width 80 --print --input "+input_file+
+                    " "+full_path)
+      if status!=0:
+         logError("Exited with a fault [%u]" % (status))
 
-         if not os.path.isfile(full_path):
-            logError("Story file '"+full_path+"' not found")
-         else:
-            logWriteLn(" File : "+os.path.basename(game[0]))
-            logWriteLn(" MD5  : "+md5(full_path))
-            logWriteLn(" Path : "+os.path.dirname(game[0]))
-            logWriteLn("--------------------------------------------------------------------------------")
-
-            input_file="input/"+os.path.basename(game[0])+".in"
-
-            status=os.system("Zif/zif --batch --info --term --width 80 --print --input "+input_file+" "+full_path)
-            if status==0:
-               clean=clean+1
-            else:
-               logError("Exited with a fault [%u]" % (status))
-
-            out_log="print.log"
-            if not os.path.isfile(out_log):
-               logError("No output log '"+out_log+"'")
-            else:
-               with open(out_log) as f:
-                  for line in f:
-                     if "ERR:" in line:
-                        errors = errors + 1
-                     if "WRN:" in line:
-                        warnings = warnings + 1
-                     logWrite(line)
-
-            os.remove(out_log)
+      out_log="print.log"
+      if not os.path.isfile(out_log):
+         logError("No output log '"+out_log+"'")
+      else:
+         with open(out_log) as f:
+            for line in f:
+               if "ERR:" in line:
+                  errors = errors + 1
+               if "WRN:" in line:
+                  warnings = warnings + 1
+               logWrite(line)
+         os.remove(out_log)
 
       for file in ["undo_0.sav", "undo_1.sav"]:
          if os.path.isfile(file):
             os.remove(file)
 
-      logWriteLn("================================================================================")
-      logWriteLn("Games      : %8u" % (len(games_list)))
-      logWriteLn("Ignored    : %8u" % (ignored))
-      logWriteLn("Clean exit : %8u" % (clean))
-      logWriteLn("Errors     : %8u" % (errors))
-      logWriteLn("Warnings   : %8u" % (warnings))
-      logWriteLn("--------------------------------------------------------------------------------")
+   return status 
+
+#--------------------------------------------------------------------------------
+
+def testAllGames(list):
+   clean=0
+   for game in games_list:
+      if testSingleGame(game) == 0:
+         clean=clean+1
+
+   logWriteLn("================================================================================")
+   logWriteLn("Games      : %8u" % (len(games_list)))
+   logWriteLn("Clean exit : %8u" % (clean))
+   logWriteLn("Errors     : %8u" % (errors))
+   logWriteLn("Warnings   : %8u" % (warnings))
+   logWriteLn("--------------------------------------------------------------------------------")
 
 #--------------------------------------------------------------------------------
 
@@ -173,16 +174,20 @@ parser.add_argument('-b', '--build', dest='build', action='store_true',
                     help="pull and rebuild Zif")
 parser.add_argument('-x', '--hex', dest='hex', metavar='#', type=int, default=0,
                     help="hex dump the story file")
-parser.add_argument('-z', '--zif', dest='test', metavar='#', type=int, default=0,
+parser.add_argument('-t', '--test', dest='test', metavar='#', type=int, default=0,
                     help="run a single test")
+parser.add_argument('-z', '--zif', dest='zif', metavar='#', type=int, default=0,
+                    help="play story on zif")
 parser.add_argument('-f', '--frotz', dest='frotz', metavar='#', type=int, default=0,
-                    help="run a single test on frotz")
+                    help="play story frotz")
 
 args=parser.parse_args()
 
 #--------------------------------------------------------------------------------
 
 log=0
+errors=0
+warnings=0
 
 games_dir="Data/Fun/Games/InteractiveFiction/Games"
 games_list_file="games_list.json"
@@ -192,7 +197,7 @@ games_list=json.load(open(games_list_file))
 if args.build:
    os.chdir("Zif")
    os.system("git pull --rebase")
-   os.system("scons")
+   os.system("scons debug=1")
    os.chdir("..")
 
 if args.list:
@@ -202,11 +207,14 @@ elif args.pack:
 elif args.hex != 0:
    hexDump(games_list[args.hex - 1])
 elif args.frotz != 0:
-   runOnFrotz(games_list[args.frotz - 1])
-elif args.test == 0:
+   playOnFrotz(games_list[args.frotz - 1])
+elif args.zif!= 0:
+   playOnZif(games_list[args.zif - 1])
+elif args.test != 0:
    with open("tst.log", "w") as log:
-      runAllGames(games_list)
+      testSingleGame(games_list[args.test - 1])
 else:
-   runSingleGame(games_list[args.test - 1])
+   with open("tst.log", "w") as log:
+      testAllGames(games_list)
 
 restoreTermIO()
