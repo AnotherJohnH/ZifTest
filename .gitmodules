@@ -1,3 +1,6 @@
 [submodule "Zif"]
 	path = Zif
 	url = https://github.com/AnotherJohnH/Zif.git
+[submodule "Platform"]
+	path = Platform
+	url = https://github.com/AnotherJohnH/Platform.git

@@ -1,4 +1,11 @@
+*.o
+*.a
+*.bc
+*.tgz
+.DS_Store
+.sconsign.dblite
 trace.log
 hex.log
 frotz.log
-*.tar.gz
+scrape
+cache
