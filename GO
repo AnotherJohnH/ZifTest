@@ -62,7 +62,7 @@ def packGames(list):
    if os.path.isfile(archive):
       os.remove(archive)
    os.system("tar cvf "+archive)
-   os.chdir(os.environ['HOME']+"/"+games_dir)
+   os.chdir(games_dir)
 
    for game in games_list:
       os.system("tar rvf "+archive+" "+game[0])
@@ -72,7 +72,7 @@ def packGames(list):
 #--------------------------------------------------------------------------------
 
 def hexDump(game):
-   full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
+   full_path=games_dir+"/"+game[0]
    print "Read '"+full_path+"'"
    with open(full_path) as file:
       print "Write 'hex.log'"
@@ -96,13 +96,13 @@ def hexDump(game):
 #--------------------------------------------------------------------------------
 
 def playOnZif(game):
-   full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
+   full_path=games_dir+"/"+game[0]
    os.system("Zif/zif --trace --term "+full_path)
 
 #--------------------------------------------------------------------------------
 
 def playOnFrotz(game):
-   full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
+   full_path=games_dir+"/"+game[0]
    os.system(os.environ['HOME']+"/OpenSource/frotz-2.43d/frotz "+full_path)
 
 #--------------------------------------------------------------------------------
@@ -113,7 +113,7 @@ def testSingleGame(game):
    status = -1
    logWriteLn("================================================================================")
 
-   full_path=os.environ['HOME']+"/"+games_dir+"/"+game[0]
+   full_path=games_dir+"/"+game[0]
    if not os.path.isfile(full_path):
       logError("Story file '"+full_path+"' not found")
    else:
@@ -189,7 +189,7 @@ log=0
 errors=0
 warnings=0
 
-games_dir="Data/Fun/Games/InteractiveFiction/Games"
+games_dir=os.environ["HOME"]+"/Data/Fun/Games/InteractiveFiction/Games"
 games_list_file="games_list.json"
 
 games_list=json.load(open(games_list_file))
