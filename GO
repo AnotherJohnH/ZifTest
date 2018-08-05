@@ -123,6 +123,9 @@ def testSingleGame(game):
       logWriteLn("--------------------------------------------------------------------------------")
 
       input_file="input/"+os.path.basename(game[0])+".in"
+      if not os.path.isfile(input_file):
+         input_file="input/default.in"
+
       status = os.system("Zif/zif --batch --info --term --width 80 --print --input "+input_file+
                     " "+full_path)
       if status!=0:
@@ -191,6 +194,11 @@ warnings=0
 
 games_dir=os.environ["HOME"]+"/Data/Fun/Games/InteractiveFiction/Games"
 games_list_file="games_list.json"
+games_results="tst.log"
+
+#games_dir="."
+#games_list_file="list.json"
+#games_results="results.log"
 
 games_list=json.load(open(games_list_file))
 
@@ -211,10 +219,10 @@ elif args.frotz != 0:
 elif args.zif!= 0:
    playOnZif(games_list[args.zif - 1])
 elif args.test != 0:
-   with open("tst.log", "w") as log:
+   with open(games_results, "w") as log:
       testSingleGame(games_list[args.test - 1])
 else:
-   with open("tst.log", "w") as log:
+   with open(games_results, "w") as log:
       testAllGames(games_list)
 
 restoreTermIO()
