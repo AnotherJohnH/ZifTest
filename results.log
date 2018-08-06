@@ -11861,7 +11861,6 @@ here.
  MD5  : def357504c71f8f839f0362cccb0bdf0
  Path : cache
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [256]
 ZIF Version : z5
 
 After the magical wall was erected around the kingdom, the cost of farm labor 
@@ -11877,8 +11876,22 @@ by Jack Welch
 Release 2 / Serial number 180105 / ZILF 0.8 lib J4
 
 The Family Farm
+Not much is left of the farm, just the tumble down shack you call home and an 
+old stable. The town is off to the west.
+
+Bessy the cow anxiously chews her last wad of cud.
+
+> 
+...
+
+> no
+That was a rhetorical question.
+
+> quit
+Are you sure you want to quit? (y/n) >y
+
+Thanks for playing.
 ZIF quit
-ZIF ERR: PC=00494a OP=59 00 : Bad PC
 ================================================================================
  File : jet.z8
  MD5  : 44a9c8fba99defa7721e484a331512ca
@@ -19122,7 +19135,7 @@ y
 
 ================================================================================
 Games      :      419
-Clean exit :      413
-Errors     :        6
+Clean exit :      414
+Errors     :        5
 Warnings   :     1661
 --------------------------------------------------------------------------------
