@@ -196,9 +196,9 @@ games_dir=os.environ["HOME"]+"/Data/Fun/Games/InteractiveFiction/Games"
 games_list_file="games_list.json"
 games_results="tst.log"
 
-#games_dir="."
-#games_list_file="list.json"
-#games_results="results.log"
+games_dir="."
+games_list_file="list.json"
+games_results="results.log"
 
 games_list=json.load(open(games_list_file))
 

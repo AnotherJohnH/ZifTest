@@ -15336,7 +15336,6 @@ ZIF quit
  MD5  : dc172394647fb926651b28b39be6eba6
  Path : cache
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [256]
 ZIF Version : z5
 
 MURDER AT THE DIOGENES CLUB
@@ -15359,21 +15358,22 @@ used when trying to move without being seen or heard (i.e., sneaking), trying
 to steal something, picking a lock, escaping from bonds, disguising yourself, 
 and similar activities.
 
-Please enter bonus for Artifice (0-3)> qent, and it is not to every man's taste. 
-On the other hand, as members need not associate with each other, we are 
-tolerant of each other. Provided a man does nothing to disturb the club itself, 
-our members accept him. Indeed, Mr. Sherlock Holmes was one of the more hotly 
-disputed members permitted to join, because of his public position and the 
-sometimes resultant noise. It was only his longtime good behaviour as a guest, 
-and our great respect for his brother Mycroft that resulted in his election."
-ZIF quit
-ZIF ERR: PC=00e940 OP=00 D2 : Illegal op
-================================================================================
+Please enter bonus for Artifice (0-3)> q
+Please enter bonus for Artifice (0-3)> u
+Please enter bonus for Artifice (0-3)> i
+Please enter bonus for Artifice (0-3)> t
+Please enter bonus for Artifice (0-3)> 
+
+Please enter bonus for Artifice (0-3)> y
+Please enter bonus for Artifice (0-3)> 
+
+Please enter bonus for Artifice (0-3)> 
+
+Please enter bonus for Artifice (0-3)> ================================================================================
  File : sh3.z5
  MD5  : a572d67ec0ba0f61c0a5ba96895f0a84
  Path : cache
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [256]
 ZIF Version : z5
 
 DEATH AT APPLEDORE TOWERS
@@ -15396,9 +15396,18 @@ used when trying to move without being seen or heard (i.e., sneaking), trying
 to steal something, picking a lock, escaping from bonds, disguising yourself, 
 and many other similar activities.
 
-Please enter bonus for Artifice (0-3)> qZIF quit
-ZIF ERR: PC=00e9b7 OP=34 03 : Bad frame pointer
-================================================================================
+Please enter bonus for Artifice (0-3)> q
+Please enter bonus for Artifice (0-3)> u
+Please enter bonus for Artifice (0-3)> i
+Please enter bonus for Artifice (0-3)> t
+Please enter bonus for Artifice (0-3)> 
+
+Please enter bonus for Artifice (0-3)> y
+Please enter bonus for Artifice (0-3)> 
+
+Please enter bonus for Artifice (0-3)> 
+
+Please enter bonus for Artifice (0-3)> ================================================================================
  File : sh4.z5
  MD5  : 8933c85eb9235fe68e24f9c02b639dd7
  Path : cache
@@ -15425,51 +15434,18 @@ used when trying to move without being seen or heard (i.e., sneaking), trying
 to steal something, picking a lock, escaping from bonds, disguising yourself, 
 and many other similar activities.
 
-Please enter bonus for Artifice (0-3)> q which always gives short descriptions 
-of locations (even if you haven't been there before).
+Please enter bonus for Artifice (0-3)> q
+Please enter bonus for Artifice (0-3)> u
+Please enter bonus for Artifice (0-3)> i
+Please enter bonus for Artifice (0-3)> t
+Please enter bonus for Artifice (0-3)> 
 
-Athletics (includes fitness, adroitness, fortitude, pugnacity, fisticuffs): 
-This skill reflects your ability to perform actions and maneuvers requiring 
-balance, coordination, speed, agility and quickness. Such actions can include 
-fighting, avoiding attacks, running, climbing, riding, swimming, etc.
+Please enter bonus for Artifice (0-3)> y
+Please enter bonus for Artifice (0-3)> 
 
-Please enter bonus for Athletics (0-3)> u which always gives short descriptions 
-of locations (even if you haven't been there before).
+Please enter bonus for Artifice (0-3)> 
 
-Communication (includes interviewing, acting, mingling, negotiating, 
-diplomacy): This skill reflects your ability to talk with, negotiate with, and 
-gain information from people. It also reflects your "social graces" and social 
-adaptivity, as well as your ability to act and to hide your own thoughts and 
-feelings.
-
-Please enter bonus for Communication (0-3)> i which always gives short 
-descriptions of locations (even if you haven't been there before).
-
-Intuition (includes sensibility, insight, reasoning, deduction, luck): This 
-skill reflects your ability to understand and correlate information, clues, 
-etc. It also reflects your ability to make guesses and to have hunches.
-
-Please enter bonus for Intuition (0-3)> t which always gives short descriptions 
-of locations (even if you haven't been there before).
-
-Observation (includes perception, alertness, empathy): This skill reflects how 
-much information you gather through visual perception.
-
-Please enter bonus for Observation (0-3)> 
-
-Please enter bonus for Observation (0-3)> y which always gives short 
-descriptions of locations (even if you haven't been there before).
-
-Scholarship (includes education, science, current events, languages): This 
-skill reflects your training and aptitude with various studies and sciences -- 
-foreign languages, art, history, current events, chemistry, tobaccory, biology, 
-etc.
-
-Please enter bonus for Scholarship (0-3)> 
-
-Please enter bonus for Scholarship (0-3)> 
-
-Please enter bonus for Scholarship (0-3)> ================================================================================
+Please enter bonus for Artifice (0-3)> ================================================================================
  File : shade.z5
  MD5  : 299d6cd034af144c2c7c94c2fdceb4f5
  Path : cache
@@ -17997,7 +17973,6 @@ ZIF quit
  MD5  : 02ccd2412f879dd8a9cd342566def5ec
  Path : cache
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [256]
 ZIF Version : z5
 
 Wizard's Castle game from July/August 1980 issue of Recreational Computing 
@@ -18058,9 +18033,330 @@ only in the displaying of coordinates and in teleporting, so the only thing to
 bear in mind is that whichever mode you are playing in, you simply need to 
 enter the coordinates when teleporting in the same order as they are printed.
 
-Enter C, N, S or M to select mode: nZIF quit
-ZIF ERR: PC=001109 OP=1C 01 : Bad PC
-================================================================================
+Enter C, N, S or M to select mode: n
+Wizard's Castle game from July/August 1980 issue of Recreational Computing 
+magazine
+
+Written for Exidy Sorceror by Joseph R. Power
+
+Modified for Heath Microsoft BASIC by J. F. Stetson
+
+Rewritten for Graham Nelson's Inform by Adam Biltcliffe with help from the 
+folks on ifMUD.
+
+Do you want to play in Classic mode, Normal mode, Statistician mode or 
+Cartographer mode?
+
+Classic mode is as close as possible to the original text, including typos and 
+miscellaneous ugliness. If you're not on a nostalgia trip, normal mode contains 
+less typos and presents a few things (such as the final game summary) in a 
+slightly neater way. Statistician mode is similar to normal mode but uses the 
+status line to display your attributes and equipment instead of printing them 
+out at the start of each turn. Cartographer mode ('m'ap mode) uses the status 
+line to display a map of the current dungeon level.
+
+The other notable difference is in the coordinate systems. In the original 
+game, the 'x' axis was the vertical axis, and the 'y' axis the horizontal. All 
+the new versions use the normally-accepted axes. This change manifests itself 
+only in the displaying of coordinates and in teleporting, so the only thing to 
+bear in mind is that whichever mode you are playing in, you simply need to 
+enter the coordinates when teleporting in the same order as they are printed.
+
+Enter C, N, S or M to select mode: o
+Wizard's Castle game from July/August 1980 issue of Recreational Computing 
+magazine
+
+Written for Exidy Sorceror by Joseph R. Power
+
+Modified for Heath Microsoft BASIC by J. F. Stetson
+
+Rewritten for Graham Nelson's Inform by Adam Biltcliffe with help from the 
+folks on ifMUD.
+
+Do you want to play in Classic mode, Normal mode, Statistician mode or 
+Cartographer mode?
+
+Classic mode is as close as possible to the original text, including typos and 
+miscellaneous ugliness. If you're not on a nostalgia trip, normal mode contains 
+less typos and presents a few things (such as the final game summary) in a 
+slightly neater way. Statistician mode is similar to normal mode but uses the 
+status line to display your attributes and equipment instead of printing them 
+out at the start of each turn. Cartographer mode ('m'ap mode) uses the status 
+line to display a map of the current dungeon level.
+
+The other notable difference is in the coordinate systems. In the original 
+game, the 'x' axis was the vertical axis, and the 'y' axis the horizontal. All 
+the new versions use the normally-accepted axes. This change manifests itself 
+only in the displaying of coordinates and in teleporting, so the only thing to 
+bear in mind is that whichever mode you are playing in, you simply need to 
+enter the coordinates when teleporting in the same order as they are printed.
+
+Enter C, N, S or M to select mode: 
+
+Wizard's Castle game from July/August 1980 issue of Recreational Computing 
+magazine
+
+Written for Exidy Sorceror by Joseph R. Power
+
+Modified for Heath Microsoft BASIC by J. F. Stetson
+
+Rewritten for Graham Nelson's Inform by Adam Biltcliffe with help from the 
+folks on ifMUD.
+
+Do you want to play in Classic mode, Normal mode, Statistician mode or 
+Cartographer mode?
+
+Classic mode is as close as possible to the original text, including typos and 
+miscellaneous ugliness. If you're not on a nostalgia trip, normal mode contains 
+less typos and presents a few things (such as the final game summary) in a 
+slightly neater way. Statistician mode is similar to normal mode but uses the 
+status line to display your attributes and equipment instead of printing them 
+out at the start of each turn. Cartographer mode ('m'ap mode) uses the status 
+line to display a map of the current dungeon level.
+
+The other notable difference is in the coordinate systems. In the original 
+game, the 'x' axis was the vertical axis, and the 'y' axis the horizontal. All 
+the new versions use the normally-accepted axes. This change manifests itself 
+only in the displaying of coordinates and in teleporting, so the only thing to 
+bear in mind is that whichever mode you are playing in, you simply need to 
+enter the coordinates when teleporting in the same order as they are printed.
+
+Enter C, N, S or M to select mode: q
+Wizard's Castle game from July/August 1980 issue of Recreational Computing 
+magazine
+
+Written for Exidy Sorceror by Joseph R. Power
+
+Modified for Heath Microsoft BASIC by J. F. Stetson
+
+Rewritten for Graham Nelson's Inform by Adam Biltcliffe with help from the 
+folks on ifMUD.
+
+Do you want to play in Classic mode, Normal mode, Statistician mode or 
+Cartographer mode?
+
+Classic mode is as close as possible to the original text, including typos and 
+miscellaneous ugliness. If you're not on a nostalgia trip, normal mode contains 
+less typos and presents a few things (such as the final game summary) in a 
+slightly neater way. Statistician mode is similar to normal mode but uses the 
+status line to display your attributes and equipment instead of printing them 
+out at the start of each turn. Cartographer mode ('m'ap mode) uses the status 
+line to display a map of the current dungeon level.
+
+The other notable difference is in the coordinate systems. In the original 
+game, the 'x' axis was the vertical axis, and the 'y' axis the horizontal. All 
+the new versions use the normally-accepted axes. This change manifests itself 
+only in the displaying of coordinates and in teleporting, so the only thing to 
+bear in mind is that whichever mode you are playing in, you simply need to 
+enter the coordinates when teleporting in the same order as they are printed.
+
+Enter C, N, S or M to select mode: u
+Wizard's Castle game from July/August 1980 issue of Recreational Computing 
+magazine
+
+Written for Exidy Sorceror by Joseph R. Power
+
+Modified for Heath Microsoft BASIC by J. F. Stetson
+
+Rewritten for Graham Nelson's Inform by Adam Biltcliffe with help from the 
+folks on ifMUD.
+
+Do you want to play in Classic mode, Normal mode, Statistician mode or 
+Cartographer mode?
+
+Classic mode is as close as possible to the original text, including typos and 
+miscellaneous ugliness. If you're not on a nostalgia trip, normal mode contains 
+less typos and presents a few things (such as the final game summary) in a 
+slightly neater way. Statistician mode is similar to normal mode but uses the 
+status line to display your attributes and equipment instead of printing them 
+out at the start of each turn. Cartographer mode ('m'ap mode) uses the status 
+line to display a map of the current dungeon level.
+
+The other notable difference is in the coordinate systems. In the original 
+game, the 'x' axis was the vertical axis, and the 'y' axis the horizontal. All 
+the new versions use the normally-accepted axes. This change manifests itself 
+only in the displaying of coordinates and in teleporting, so the only thing to 
+bear in mind is that whichever mode you are playing in, you simply need to 
+enter the coordinates when teleporting in the same order as they are printed.
+
+Enter C, N, S or M to select mode: i
+Wizard's Castle game from July/August 1980 issue of Recreational Computing 
+magazine
+
+Written for Exidy Sorceror by Joseph R. Power
+
+Modified for Heath Microsoft BASIC by J. F. Stetson
+
+Rewritten for Graham Nelson's Inform by Adam Biltcliffe with help from the 
+folks on ifMUD.
+
+Do you want to play in Classic mode, Normal mode, Statistician mode or 
+Cartographer mode?
+
+Classic mode is as close as possible to the original text, including typos and 
+miscellaneous ugliness. If you're not on a nostalgia trip, normal mode contains 
+less typos and presents a few things (such as the final game summary) in a 
+slightly neater way. Statistician mode is similar to normal mode but uses the 
+status line to display your attributes and equipment instead of printing them 
+out at the start of each turn. Cartographer mode ('m'ap mode) uses the status 
+line to display a map of the current dungeon level.
+
+The other notable difference is in the coordinate systems. In the original 
+game, the 'x' axis was the vertical axis, and the 'y' axis the horizontal. All 
+the new versions use the normally-accepted axes. This change manifests itself 
+only in the displaying of coordinates and in teleporting, so the only thing to 
+bear in mind is that whichever mode you are playing in, you simply need to 
+enter the coordinates when teleporting in the same order as they are printed.
+
+Enter C, N, S or M to select mode: t
+Wizard's Castle game from July/August 1980 issue of Recreational Computing 
+magazine
+
+Written for Exidy Sorceror by Joseph R. Power
+
+Modified for Heath Microsoft BASIC by J. F. Stetson
+
+Rewritten for Graham Nelson's Inform by Adam Biltcliffe with help from the 
+folks on ifMUD.
+
+Do you want to play in Classic mode, Normal mode, Statistician mode or 
+Cartographer mode?
+
+Classic mode is as close as possible to the original text, including typos and 
+miscellaneous ugliness. If you're not on a nostalgia trip, normal mode contains 
+less typos and presents a few things (such as the final game summary) in a 
+slightly neater way. Statistician mode is similar to normal mode but uses the 
+status line to display your attributes and equipment instead of printing them 
+out at the start of each turn. Cartographer mode ('m'ap mode) uses the status 
+line to display a map of the current dungeon level.
+
+The other notable difference is in the coordinate systems. In the original 
+game, the 'x' axis was the vertical axis, and the 'y' axis the horizontal. All 
+the new versions use the normally-accepted axes. This change manifests itself 
+only in the displaying of coordinates and in teleporting, so the only thing to 
+bear in mind is that whichever mode you are playing in, you simply need to 
+enter the coordinates when teleporting in the same order as they are printed.
+
+Enter C, N, S or M to select mode: 
+
+Wizard's Castle game from July/August 1980 issue of Recreational Computing 
+magazine
+
+Written for Exidy Sorceror by Joseph R. Power
+
+Modified for Heath Microsoft BASIC by J. F. Stetson
+
+Rewritten for Graham Nelson's Inform by Adam Biltcliffe with help from the 
+folks on ifMUD.
+
+Do you want to play in Classic mode, Normal mode, Statistician mode or 
+Cartographer mode?
+
+Classic mode is as close as possible to the original text, including typos and 
+miscellaneous ugliness. If you're not on a nostalgia trip, normal mode contains 
+less typos and presents a few things (such as the final game summary) in a 
+slightly neater way. Statistician mode is similar to normal mode but uses the 
+status line to display your attributes and equipment instead of printing them 
+out at the start of each turn. Cartographer mode ('m'ap mode) uses the status 
+line to display a map of the current dungeon level.
+
+The other notable difference is in the coordinate systems. In the original 
+game, the 'x' axis was the vertical axis, and the 'y' axis the horizontal. All 
+the new versions use the normally-accepted axes. This change manifests itself 
+only in the displaying of coordinates and in teleporting, so the only thing to 
+bear in mind is that whichever mode you are playing in, you simply need to 
+enter the coordinates when teleporting in the same order as they are printed.
+
+Enter C, N, S or M to select mode: y
+Wizard's Castle game from July/August 1980 issue of Recreational Computing 
+magazine
+
+Written for Exidy Sorceror by Joseph R. Power
+
+Modified for Heath Microsoft BASIC by J. F. Stetson
+
+Rewritten for Graham Nelson's Inform by Adam Biltcliffe with help from the 
+folks on ifMUD.
+
+Do you want to play in Classic mode, Normal mode, Statistician mode or 
+Cartographer mode?
+
+Classic mode is as close as possible to the original text, including typos and 
+miscellaneous ugliness. If you're not on a nostalgia trip, normal mode contains 
+less typos and presents a few things (such as the final game summary) in a 
+slightly neater way. Statistician mode is similar to normal mode but uses the 
+status line to display your attributes and equipment instead of printing them 
+out at the start of each turn. Cartographer mode ('m'ap mode) uses the status 
+line to display a map of the current dungeon level.
+
+The other notable difference is in the coordinate systems. In the original 
+game, the 'x' axis was the vertical axis, and the 'y' axis the horizontal. All 
+the new versions use the normally-accepted axes. This change manifests itself 
+only in the displaying of coordinates and in teleporting, so the only thing to 
+bear in mind is that whichever mode you are playing in, you simply need to 
+enter the coordinates when teleporting in the same order as they are printed.
+
+Enter C, N, S or M to select mode: 
+
+Wizard's Castle game from July/August 1980 issue of Recreational Computing 
+magazine
+
+Written for Exidy Sorceror by Joseph R. Power
+
+Modified for Heath Microsoft BASIC by J. F. Stetson
+
+Rewritten for Graham Nelson's Inform by Adam Biltcliffe with help from the 
+folks on ifMUD.
+
+Do you want to play in Classic mode, Normal mode, Statistician mode or 
+Cartographer mode?
+
+Classic mode is as close as possible to the original text, including typos and 
+miscellaneous ugliness. If you're not on a nostalgia trip, normal mode contains 
+less typos and presents a few things (such as the final game summary) in a 
+slightly neater way. Statistician mode is similar to normal mode but uses the 
+status line to display your attributes and equipment instead of printing them 
+out at the start of each turn. Cartographer mode ('m'ap mode) uses the status 
+line to display a map of the current dungeon level.
+
+The other notable difference is in the coordinate systems. In the original 
+game, the 'x' axis was the vertical axis, and the 'y' axis the horizontal. All 
+the new versions use the normally-accepted axes. This change manifests itself 
+only in the displaying of coordinates and in teleporting, so the only thing to 
+bear in mind is that whichever mode you are playing in, you simply need to 
+enter the coordinates when teleporting in the same order as they are printed.
+
+Enter C, N, S or M to select mode: 
+
+Wizard's Castle game from July/August 1980 issue of Recreational Computing 
+magazine
+
+Written for Exidy Sorceror by Joseph R. Power
+
+Modified for Heath Microsoft BASIC by J. F. Stetson
+
+Rewritten for Graham Nelson's Inform by Adam Biltcliffe with help from the 
+folks on ifMUD.
+
+Do you want to play in Classic mode, Normal mode, Statistician mode or 
+Cartographer mode?
+
+Classic mode is as close as possible to the original text, including typos and 
+miscellaneous ugliness. If you're not on a nostalgia trip, normal mode contains 
+less typos and presents a few things (such as the final game summary) in a 
+slightly neater way. Statistician mode is similar to normal mode but uses the 
+status line to display your attributes and equipment instead of printing them 
+out at the start of each turn. Cartographer mode ('m'ap mode) uses the status 
+line to display a map of the current dungeon level.
+
+The other notable difference is in the coordinate systems. In the original 
+game, the 'x' axis was the vertical axis, and the 'y' axis the horizontal. All 
+the new versions use the normally-accepted axes. This change manifests itself 
+only in the displaying of coordinates and in teleporting, so the only thing to 
+bear in mind is that whichever mode you are playing in, you simply need to 
+enter the coordinates when teleporting in the same order as they are printed.
+
+Enter C, N, S or M to select mode: ================================================================================
  File : weather.z5
  MD5  : cc322af1a8ca3d8c943b24b84bda3f98
  Path : cache
@@ -18781,7 +19077,6 @@ ZIF Version : z5
  MD5  : c5ab984c1bceff927737072f26ec743a
  Path : cache
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [256]
 ZIF Version : z5
 
                           CAMEL
@@ -18813,9 +19108,29 @@ If help does not find you after command six, you lose.
 Good luck and good camelling !!
 You are in the middle of the desert at an oasis.
 You have travelled 0 miles altogether.
-What is your command? nZIF quit
-ZIF ERR: PC=000567 OP=1C 02 : Stack underflow
-================================================================================
+What is your command? nYou have travelled 0 miles altogether.
+What is your command? o----------W A R N I N G---------- Get a drink
+You have travelled 0 miles altogether.
+What is your command? 
+What is your command? qThe pygmies have captured you. Camel and people soup is
+their favourite dish !!!!!
+
+Want a new camel and a new game? uGood luck and good camelling !!
+You are in the middle of the desert at an oasis.
+You have travelled 0 miles altogether.
+What is your command? iYou have travelled 0 miles altogether.
+What is your command? t----------W A R N I N G---------- Get a drink
+You have travelled 0 miles altogether.
+What is your command? 
+What is your command? yThe pygmies have captured you. Camel and people soup is
+their favourite dish !!!!!
+
+Want a new camel and a new game? 
+Good luck and good camelling !!
+You are in the middle of the desert at an oasis.
+You have travelled 0 miles altogether.
+What is your command? 
+What is your command? ================================================================================
  File : zdungeon.z5
  MD5  : 7137677616ea4d9e480d6cf3f4746dc4
  Path : cache
@@ -19135,7 +19450,7 @@ y
 
 ================================================================================
 Games      :      419
-Clean exit :      414
-Errors     :        5
+Clean exit :      418
+Errors     :        1
 Warnings   :     1661
 --------------------------------------------------------------------------------
