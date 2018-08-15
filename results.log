@@ -7140,7 +7140,6 @@ ZIF quit
  MD5  : ab12a09ebff537509761c18c66534c4b
  Path : cache
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [256]
 ZIF Version : z5
 
 ================================================================================
@@ -24804,7 +24803,7 @@ A small program to test mouse behaviour with various interpreters.
 [Press any key to return to previous menu.]
 ================================================================================
 Games      :      560
-Clean exit :      557
+Clean exit :      558
 Errors     :        2
 Warnings   :     1718
 --------------------------------------------------------------------------------
