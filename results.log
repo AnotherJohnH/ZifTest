@@ -1595,13 +1595,6 @@ You have scored 0 of 100 points.
 Your score ranks you as a beginner.
 ZIF quit
 ================================================================================
- File : The_Algophilists'_Penury.z5
- MD5  : 26f2ab6ca721077a09d4413709a2f46e
- Path : cache
---------------------------------------------------------------------------------
-ERROR: Exited with a fault [512]
-ERROR: No output log 'print.log'
-================================================================================
  File : ZTUU.z5
  MD5  : 7feee3dc2a3372f99fa32fc7f8a33805
  Path : cache
@@ -4828,13 +4821,6 @@ That was a rhetorical question.
 Are you sure you want to quit? y
 ZIF quit
 ================================================================================
- File : They're_After_You!.z5
- MD5  : b49d343bed36e4954280d30466c92cf3
- Path : cache
---------------------------------------------------------------------------------
-ERROR: Exited with a fault [512]
-ERROR: No output log 'print.log'
-================================================================================
  File : farm.z5
  MD5  : b981d4a92ac9af4770dbec80cd7a39d0
  Path : cache
@@ -6732,6 +6718,29 @@ That was a rhetorical question.
 >quit
 Are you sure you want to quit? 
 y
+ZIF quit
+================================================================================
+ File : The_Algophilists__Penury.z5
+ MD5  : 26f2ab6ca721077a09d4413709a2f46e
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+The Algophilists' Penury
+An Interactive Fiction by Jon Stall
+Release 1 / Serial number 120528 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
+
+Our Miserable Abode
+We were algophilists, and this was our miserable abode. On the occidental 
+periphery of our hovel a portal led into domains more tenebrous.
+
+In the midst of our abode stood the stele, the locus of our lascivious longuer.
+
+>I beg your pardon?
+
+>That was a rhetorical question.
+
+>Are you sure you want to quit? 
 ZIF quit
 ================================================================================
  File : winter.z5
@@ -9476,6 +9485,34 @@ That was a rhetorical question.
 
 >quit
 -- Are you sure you want to quit? y
+ZIF quit
+================================================================================
+ File : fingertips_I_don_t_understand_you.z5
+ MD5  : af08824caee471d4ba132d79897715c6
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Fingertips: I don't understand you
+An Interactive Fiction by Matt Weiner
+Release 1 / Serial number 120314 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
+
+Fingertip
+Tell me what you want to do.
+
+>
+I didn't understand that.
+
+    *** The End ***
+
+Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last command, 
+read ABOUT the game, or get an EXPLANATION of what's happening?
+> no
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last command, 
+read ABOUT the game, or get an EXPLANATION of what's happening?
+> quit
 ZIF quit
 ================================================================================
  File : Mountain.z5
@@ -14189,13 +14226,6 @@ That was a rhetorical question.
 Are you sure you want to quit? y
 ZIF quit
 ================================================================================
- File : fingertips_I_don't_understand_you.z5
- MD5  : af08824caee471d4ba132d79897715c6
- Path : cache
---------------------------------------------------------------------------------
-ERROR: Exited with a fault [512]
-ERROR: No output log 'print.log'
-================================================================================
  File : scald.z5
  MD5  : b7c161464e6852eb3ab2c39541b3f253
  Path : cache
@@ -15702,6 +15732,33 @@ You have achieved the rating "Licensed to Breathe".
 Would you like another game?
 n
 Well, that's got rid of you then!
+ZIF quit
+================================================================================
+ File : They_re_After_You!.z5
+ MD5  : b49d343bed36e4954280d30466c92cf3
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version : z5
+
+Yeeow! Run along now, and keep running if you know what's good for you, because
+
+They're After You!
+An Interactive Fiction by Bob Reeves
+Release 1 / Serial number 110310 / Inform 7 build 6F95 (I6/v6.31 lib 6/12N) 
+
+Running
+You're running.
+
+>
+I beg your pardon?
+
+>no
+That was a rhetorical question.
+
+The world hurtles by. You barely notice a ditch running parallel to your path.
+
+>quit
+Are you sure you want to quit? y
 ZIF quit
 ================================================================================
  File : kiiwii.z5
@@ -21329,6 +21386,41 @@ I need you to get me out of it."
 
 >Are you sure you want to quit? ZIF quit
 ================================================================================
+ File : Treasures_of_a_Slaver_s_Kingdom.z8
+ MD5  : cf462312d4f39d3547803b93516d74f3
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+TREASURES OF A SLAVER'S KINGDOM
+An Authorized ENCOUNTER CRITICAL Quest
+Adapted by S. John Ross from the lost classic.
+Original game by Dr. Saul Leeman, with Henry and Dinah Riley.
+Release 9 / CogniKing SN-130614 / I7-5T18 (I6/v6.31 lib 6/12N) 
+
+".... In the science-swept world of VANTH, a young BARBARIAN has escaped the 
+shackles of his bondage. Now a wanderer in the slave-master's realm, his 
+destiny is his own and his QUEST is clear: pillage upon the wealth of the 
+kingdom, and defeat the SLAVER KING once and for all!"
+
+Depress a key to continue, mighty BARBARIAN!     
+
+ 
+OPEN PLAIN
+A gentle breeze ripples the sparse grasses here, under a blood-red sun. There 
+are many paths. You see mountains to the distant east. You feel a manly 
+twitching in your thews, enlivened by the freedom of the open country.
+
+You can see a GLADIUS SWORD here.
+
+>I attaint thee, varlet! Thy verbiage, it affrighteth me! Your game manual, or 
+the HELP command, might give aid and succor.
+
+>In 1 turn, you hath achieved a Quest Rate of 0 out of 500 points. This gives 
+you the rank of "Churl Gone Astray".
+
+Do you wish to leave the game? (Y is affirmative): ZIF quit
+================================================================================
  File : TheValleyHouse.z8
  MD5  : c7b958e8df58a37fcec114d4de153121
  Path : cache
@@ -21611,6 +21703,37 @@ Aunt Emma sits by the window, dutifully reading her Bible.
 >That was a rhetorical question.
 
 >Are you sure you want to quit? ZIF quit
+================================================================================
+ File : If_I_Wasn_t_Shy.z8
+ MD5  : dace38f92cdd7c84be74e02c32c4b23f
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+It's Tuesday, 7:39 PM exactly. I clock off at eight. Until then, I'm stuck at 
+the checkout.
+
+If I Wasn't Shy
+A lifetime of shyness by Joey Jones
+Release 1 / Serial number 120324 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
+
+Checkout (on the stool)
+I'm sitting on a hard stool, back slouched, fingertips poised to grasp frozen 
+peas and punch in numbers on the register. Really though it's so quiet I mostly 
+just look out the window. The big clock above the intercom speakers ticks 
+slowly.
+
+Before me are the many aisles of the supermarket.
+
+>I beg your pardon?
+
+>That was a rhetorical question.
+
+"This week only: loin of pork, 79 cents per pound," intones the sonorous 
+announcer over the intercom.
+
+>Are you sure you want to quit? 
+ZIF quit
 ================================================================================
  File : kidnapsea.z8
  MD5  : 6ded127beda6c0bfb2c9444fbe79981f
@@ -22885,13 +23008,6 @@ chocolate chips and chocolate icing.
 >I beg your pardon?
 
 >================================================================================
- File : If_I_Wasn't_Shy.z8
- MD5  : dace38f92cdd7c84be74e02c32c4b23f
- Path : cache
---------------------------------------------------------------------------------
-ERROR: Exited with a fault [512]
-ERROR: No output log 'print.log'
-================================================================================
  File : vespers.z8
  MD5  : 161fcdbd801811ddbf3034fac7539645
  Path : cache
@@ -23060,13 +23176,6 @@ The dock stretches to the east into the little town of Shalandria.
 >That was a rhetorical question.
 
 >Are you sure you want to quit? ZIF quit
-================================================================================
- File : Treasures_of_a_Slaver's_Kingdom.z8
- MD5  : cf462312d4f39d3547803b93516d74f3
- Path : cache
---------------------------------------------------------------------------------
-ERROR: Exited with a fault [512]
-ERROR: No output log 'print.log'
 ================================================================================
  File : Easter_Eggs.z8
  MD5  : 042fa360c2e887df4457566533dd6460
@@ -24695,7 +24804,7 @@ A small program to test mouse behaviour with various interpreters.
 [Press any key to return to previous menu.]
 ================================================================================
 Games      :      560
-Clean exit :      552
+Clean exit :      557
 Errors     :        2
 Warnings   :     1718
 --------------------------------------------------------------------------------

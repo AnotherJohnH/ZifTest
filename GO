@@ -137,6 +137,7 @@ def testSingleGame(game):
       out_log="print.log"
       if not os.path.isfile(out_log):
          logError("No output log '"+out_log+"'")
+         errors = errors + 1
       else:
          with open(out_log) as f:
             for line in f:
@@ -193,8 +194,9 @@ def getGames(cache_dir, games_list_file):
          for ext in ext_list:
             for root, dirnames, filenames in os.walk(extract_dir):
                for filename in fnmatch.filter(filenames, '*.'+ext):
-                  print root+'/'+filename
                   nice_filename=filename.replace(' ', '_')
+                  nice_filename=nice_filename.replace("'", '_')
+                  print root+'/'+filename
                   shutil.copy2(root+'/'+filename, cache_dir+'/'+nice_filename)
 
    # Compile a list of all the files
@@ -203,7 +205,6 @@ def getGames(cache_dir, games_list_file):
    for ext in ext_list:
       os.system("scrape --cache "+cache_dir+" --ext "+ext)
       for filename in glob.glob(cache_dir+'/*.'+ext):
-         print filename
          game_list += [filename]
 
    with open(games_list_file, 'w') as outfile:
