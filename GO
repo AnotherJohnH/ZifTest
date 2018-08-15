@@ -1,6 +1,9 @@
 #!/usr/bin/python
 
 import os
+import shutil
+import glob
+import fnmatch
 import json
 import sys
 import hashlib
@@ -53,7 +56,7 @@ def listGames(list):
    i=0
    for game in games_list:
       i=i+1
-      print "#%02u  " % (i) + os.path.basename(game[0])
+      print "#%02u  " % (i) + os.path.basename(game)
 
 #--------------------------------------------------------------------------------
 
@@ -65,14 +68,14 @@ def packGames(list):
    os.chdir(games_dir)
 
    for game in games_list:
-      os.system("tar rvf "+archive+" "+game[0])
+      os.system("tar rvf "+archive+" "+game)
 
    os.system("gzip "+archive)
 
 #--------------------------------------------------------------------------------
 
 def hexDump(game):
-   full_path=games_dir+"/"+game[0]
+   full_path=games_dir+"/"+game
    print "Read '"+full_path+"'"
    with open(full_path) as file:
       print "Write 'hex.log'"
@@ -96,13 +99,13 @@ def hexDump(game):
 #--------------------------------------------------------------------------------
 
 def playOnZif(game):
-   full_path=games_dir+"/"+game[0]
+   full_path=games_dir+"/"+game
    os.system("Zif/zif --trace --term "+full_path)
 
 #--------------------------------------------------------------------------------
 
 def playOnFrotz(game):
-   full_path=games_dir+"/"+game[0]
+   full_path=games_dir+"/"+game
    os.system(os.environ['HOME']+"/OpenSource/frotz-2.43d/frotz "+full_path)
 
 #--------------------------------------------------------------------------------
@@ -113,16 +116,16 @@ def testSingleGame(game):
    status = -1
    logWriteLn("================================================================================")
 
-   full_path=games_dir+"/"+game[0]
+   full_path=games_dir+"/"+game
    if not os.path.isfile(full_path):
       logError("Story file '"+full_path+"' not found")
    else:
-      logWriteLn(" File : "+os.path.basename(game[0]))
+      logWriteLn(" File : "+os.path.basename(game))
       logWriteLn(" MD5  : "+md5(full_path))
-      logWriteLn(" Path : "+os.path.dirname(game[0]))
+      logWriteLn(" Path : "+os.path.dirname(game))
       logWriteLn("--------------------------------------------------------------------------------")
 
-      input_file="input/"+os.path.basename(game[0])+".in"
+      input_file="input/"+os.path.basename(game)+".in"
       if not os.path.isfile(input_file):
          input_file="input/default.in"
 
@@ -158,6 +161,7 @@ def testAllGames(list):
       if testSingleGame(game) == 0:
          clean=clean+1
 
+   logWriteLn("")
    logWriteLn("================================================================================")
    logWriteLn("Games      : %8u" % (len(games_list)))
    logWriteLn("Clean exit : %8u" % (clean))
@@ -167,8 +171,52 @@ def testAllGames(list):
 
 #--------------------------------------------------------------------------------
 
+def getGames(cache_dir, games_list_file):
+
+   # Create list of interesting file extensions
+   ext_list = []
+   for version in range(8):
+      ext_list += ['z'+str(version+1)]
+      ext_list += ['Z'+str(version+1)]
+   # ext_list += ['zblorb']
+   # ext_list += ['ZBLORB']
+
+   # Get and decompress zip files
+   os.system("scrape --cache "+cache_dir+" --ext zip")
+   for filename in glob.glob(cache_dir+'/*.zip'):
+      #print filename
+      extract_dir=filename+"_extract"
+      if not os.path.isdir(extract_dir):
+         os.system("mkdir "+extract_dir)
+         os.system("unzip -d "+extract_dir+" "+filename)
+
+         for ext in ext_list:
+            for root, dirnames, filenames in os.walk(extract_dir):
+               for filename in fnmatch.filter(filenames, '*.'+ext):
+                  print root+'/'+filename
+                  nice_filename=filename.replace(' ', '_')
+                  shutil.copy2(root+'/'+filename, cache_dir+'/'+nice_filename)
+
+   # Compile a list of all the files
+   game_list = []
+
+   for ext in ext_list:
+      os.system("scrape --cache "+cache_dir+" --ext "+ext)
+      for filename in glob.glob(cache_dir+'/*.'+ext):
+         print filename
+         game_list += [filename]
+
+   with open(games_list_file, 'w') as outfile:
+      json.dump(game_list, outfile, indent=3)
+
+   return
+
+#--------------------------------------------------------------------------------
+
 parser=argparse.ArgumentParser(description='Test Zif')
 
+parser.add_argument('-g', '--get', dest='get', action='store_true',
+                    help="get story files")
 parser.add_argument('-l', '--list', dest='list', action='store_true',
                     help="list tests without running them")
 parser.add_argument('-p', '--pack', dest='pack', action='store_true',
@@ -208,7 +256,9 @@ if args.build:
    os.system("scons debug=1")
    os.chdir("..")
 
-if args.list:
+if args.get:
+   getGames("cache", games_list_file)
+elif args.list:
    listGames(games_list)
 elif args.pack:
    packGames(games_list)
