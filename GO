@@ -179,8 +179,7 @@ def getGames(cache_dir, games_list_file):
    for version in range(8):
       ext_list += ['z'+str(version+1)]
       ext_list += ['Z'+str(version+1)]
-   # ext_list += ['zblorb']
-   # ext_list += ['ZBLORB']
+   ext_list += ['zblorb']
 
    # Get and decompress zip files
    os.system("scrape --cache "+cache_dir+" --ext zip")
