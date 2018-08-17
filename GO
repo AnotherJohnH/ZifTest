@@ -240,10 +240,6 @@ log=0
 errors=0
 warnings=0
 
-games_dir=os.environ["HOME"]+"/Data/Fun/Games/InteractiveFiction/Games"
-games_list_file="games_list.json"
-games_results="tst.log"
-
 games_dir="."
 games_list_file="list.json"
 games_results="results.log"
