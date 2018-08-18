@@ -20,6 +20,8 @@
 // SOFTWARE.
 //------------------------------------------------------------------------------
 
+#include "unistd.h"
+
 #include "STB/ConsoleApp.h"
 #include "STB/Option.h"
 #include "STB/XML.h"
@@ -37,16 +39,13 @@
 class ScrapeApp : public STB::ConsoleApp
 {
 private:
-   STB::Option<const char*> host{   'H', "host",  "Remote hostname",  "ifarchive.org"};
-   STB::Option<const char*> path{   'P', "path",  "Remote path",      "/if-archive/games/zcode/"};
-   STB::Option<const char*> ext{    'E', "ext",   "File extension",   "z5"};
-   STB::Option<const char*> cache{  'C', "cache", "Cache directory",  "cache"};
-   STB::Option<const char*> list_fn{'L', "list",  "List output file", "list.json"};
+   STB::Option<const char*> host{   'H', "host",  "Remote hostname",   "ifarchive.org"};
+   STB::Option<const char*> path{   'P', "path",  "Remote path",       "/if-archive/games/zcode/"};
+   STB::Option<const char*> ext{    'E', "ext",   "File extension",    "z5"};
+   STB::Option<const char*> cache{  'C', "cache", "Cache directory",   "cache"};
+   STB::Option<unsigned>    delay{  'D', "delay", "Delay per GET (s)", 1};
 
-   void findLinks(STB::Http&               http,
-                  const STB::XML::Element& xml,
-                  PLT::File&               list,
-                  bool&                    first)
+   void findLinks(STB::Http& http, const STB::XML::Element& xml)
    {
       for(const auto& element : xml)
       {
@@ -74,22 +73,15 @@ private:
                          (const char*)host, local_path.c_str(), file.c_str());
                   bool ok = http.getFile(local_path, file);
                   printf(" - %s\n", ok ? "OK" : "FAIL");
-              }
 
-              if (first)
-              {
-                 first = false;
-              }
-              else
-              {
-                 list.printf(",\n");
-              }
-
-               list.printf("   [\"%s\"]", file.c_str());
+                  // XXX sleep here for a bit to avoid anoying the server
+                  //     and other users of the server
+                  sleep(delay);
+               }
             }
          }
 
-         findLinks(http, element, list, first);
+         findLinks(http, element);
       }
    }
 
@@ -100,23 +92,13 @@ private:
       if(http.open((const char*)host))
       {
          std::string file = (const char*) cache;
-         file += '/';
-         file += "index.html";
+         file += "/index.html";
 
          if(http.getFile((const char*)path, file))
          {
             STB::XML::Document xml(file, /* require_prolog */ false);
-            PLT::File          list(nullptr, list_fn);
 
-            if (list.openForWrite())
-            {
-               list.printf("[\n");
-
-               bool first = true;
-               findLinks(http, xml, list, first);
-
-               list.printf("\n]\n");
-            }
+            findLinks(http, xml);
          }
 
          http.close();
