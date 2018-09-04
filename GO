@@ -189,17 +189,18 @@ def getGames(cache_dir, games_list_file):
    for filename in glob.glob(cache_dir+'/*.zip'):
       #print filename
       extract_dir=filename+"_extract"
+
       if not os.path.isdir(extract_dir):
          os.system("mkdir "+extract_dir)
          os.system("unzip -d "+extract_dir+" "+filename)
 
-         for ext in ext_list:
-            for root, dirnames, filenames in os.walk(extract_dir):
-               for filename in fnmatch.filter(filenames, '*.'+ext):
-                  nice_filename=filename.replace(' ', '_')
-                  nice_filename=nice_filename.replace("'", '_')
-                  print root+'/'+filename
-                  shutil.copy2(root+'/'+filename, cache_dir+'/'+nice_filename)
+      for ext in ext_list:
+         for root, dirnames, filenames in os.walk(extract_dir):
+            for filename in fnmatch.filter(filenames, '*.'+ext):
+               nice_filename=filename.replace(' ', '_')
+               nice_filename=nice_filename.replace("'", '_')
+               print root+'/'+filename
+               shutil.copy2(root+'/'+filename, cache_dir+'/'+nice_filename)
 
    # Compile a list of all the files
    game_list = []

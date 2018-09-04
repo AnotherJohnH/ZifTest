@@ -10464,6 +10464,30 @@ That was a rhetorical question.
 Are you sure you want to quit? y
 ZIF quit
 ================================================================================
+ File : Reor_s_Bush-Cave_-EXPLICIT_-_AB.zblorb
+ MD5  : 914599658157b242c7b17fc9cbc5e227
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+There is no score in this story.
+
+Reor's Bush-Cave -EXPLICIT - ABRIDGED ZBLORB VERSION
+(The Sprout Pouch pt 4) by Richard Headkid
+Release 1 / Serial number 170406 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) 
+
+WARNING!!! THIS VERSION OF THE GAME CONTAINS CONSTANT, EXTREMELY FOUL LANGUAGE, 
+ALCOHOL AND DRUG USE, AND IT IS FULL OF ADULT SITUATIONS (INCLUDING SEXUAL 
+CONTENT)!!!
+
+IT IS NOT RECOMMENDED FOR MINORS OR ANYONE WHO IS OFFENDED BY ANYTHING!!!
+
+DO YOU AGREE THAT YOU ARE 18 OR OLDER & THAT YOU ARE NOT OFFENDED BY ANYTHING?
+
+(Y/N) >> Please answer yes or no.> Well... you're probably better of this way.
+
+ *** GAME OVER ZIF quit
+================================================================================
  File : Retro_Fatale.z5
  MD5  : defff92868c4cd88112b31f5e2a880fb
  Path : cache
@@ -10813,6 +10837,48 @@ Would you like another game?
 n
 Well, that's got rid of you then!
 ZIF quit
+================================================================================
+ File : Santa_s_Sleigh_Ride.zblorb
+ MD5  : ffedbbd629a291a6f4a93fe10a8f4182
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+Every Christmas it's been a joy to give presents to all the good little girls 
+and boys. Hauling presents, climbing down chimneys: it's no easy job being the 
+guy who lives to bring joy throughout the world on Christmas, but you, Santa, 
+are up to the challenge. Now you've made almost all your gift-giving rounds, 
+and the only thing between you and a good eleven months of well-deserved rest 
+is the last house, the Madisons'. 
+
+Before you land your sleigh, you double-check your gift list in your magic book 
+to make sure you have all the Madisons' gifts: A Barbie for Kelly Madison, a 
+Batman action figure for Justin Madison, a Wii for the whole family, a bone for 
+their dog, Tina, and two bags full of candy and toys for the kids' stockings. 
+Yep, that's everything! You park your sleigh on the Madisons' rooftop, and exit 
+the sleigh. 
+(Note that new players should type ABOUT.)
+
+Santa's Sleigh Ride
+A moment in the life of Santa Claus by Molly Geene
+Release 4 / Serial number 081227 / Inform 7 build 5U92 (I6/v6.31 lib 6/12N) 
+
+Rooftop
+Newly fallen snow sits gently on the roof. Nearby, you spot a chimney you can 
+climb down.
+
+Your sleigh sits nearby, right where you parked it.
+
+Leading the sleigh is your trusty Reindeer Brigade, without which you couldn't 
+make a single Christmas delivery.
+
+>I beg your pardon?
+
+>That was a rhetorical question.
+
+Cupid champs at his bit.
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
  File : Savoir-Faire.zblorb
  MD5  : 8f37bc20a23120ac398be895ebdbd8a2
@@ -12894,6 +12960,29 @@ space between your home and the river to the south.
 ================================================================================
  File : The_Algophilists__Penury.z5
  MD5  : 26f2ab6ca721077a09d4413709a2f46e
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+The Algophilists' Penury
+An Interactive Fiction by Jon Stall
+Release 1 / Serial number 120528 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
+
+Our Miserable Abode
+We were algophilists, and this was our miserable abode. On the occidental 
+periphery of our hovel a portal led into domains more tenebrous.
+
+In the midst of our abode stood the stele, the locus of our lascivious longuer.
+
+>I beg your pardon?
+
+>That was a rhetorical question.
+
+>Are you sure you want to quit? 
+ZIF quit
+================================================================================
+ File : The_Algophilists__Penury.zblorb
+ MD5  : 84f424d8148442d571644e2fab694a4f
  Path : cache
 --------------------------------------------------------------------------------
 ZIF Version : z8
@@ -20978,6 +21067,34 @@ wall before you.
 >I beg your pardon?
 
 >[The only verbs are LOOK, EXAMINE, INVENTORY, TAKE OFF, and SLEEP.]
+
+>Are you sure you want to quit? ZIF quit
+================================================================================
+ File : fingertips-_what_s_that_blue_th.zblorb
+ MD5  : 9d10e19bb653abe5b96b60d0a8a36e36
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version : z8
+
+The footsteps behind you seem to be getting louder, closer, as you run.  You're 
+reaching the end of your breath, legs burning with the effort.  You don't know 
+if you should keep running or stop, wait here or even turn around and fight.
+
+You get the feeling your next move is the defining point of your life.
+
+fingertips: what's that blue thing doing here
+An Interactive Fiction by Ruth Alfasso version 1.05
+Release 1 / Serial number 120304 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
+
+Crossroad
+The road rolls on in front of you.  To the north the road continues, to the 
+east, a set of stairs descends and there is a doorway to the west.  Make your 
+move wisely, you only get one. 
+
+>I don't understand you.  Perhaps you'd like to play "fingertips:  I don't 
+understand you" instead.
+
+>That was a rhetorical question.
 
 >Are you sure you want to quit? ZIF quit
 ================================================================================
@@ -32684,8 +32801,8 @@ on or before June 30, 1998. Thanks for your patience!
 ZIF quit
 
 ================================================================================
-Games      :      789
-Clean exit :      785
+Games      :      793
+Clean exit :      789
 Errors     :        4
 Warnings   :     1731
 --------------------------------------------------------------------------------
