@@ -209,6 +209,8 @@ def getGames(cache_dir, games_list_file):
       for filename in glob.glob(cache_dir+'/*.'+ext):
          game_list += [filename]
 
+   game_list.sort()
+
    with open(games_list_file, 'w') as outfile:
       json.dump(game_list, outfile, indent=3)
 
