@@ -4302,7 +4302,7 @@ You find yourself alone in a dingy room. You have no recollection of how you
 got here. All you know is that you were having a pretty good time with your 
 friends only a few hours ago, and now here you are. You feel like its a good 
 thing that you've read tons of spy books. Maybe all those tricks can help you 
-out. Time to leave this dingy room and get some ZIF WRN: print_unicode
+out. Time to leave this dingy room and get some ZIF WRN: op print_unicode unimplemented
 information
 
 Dingy Room
@@ -5281,7 +5281,7 @@ ZIF Version : z8
 
 Fragile Shells
 An Interactive Escape by Stephen Granade
-Copyright ZIF WRN: print_unicode
+Copyright ZIF WRN: op print_unicode unimplemented
  2010 by Stephen Granade. All rights reserved.
 Type ABOUT for more information.
 Release 6 / Serial number 111109 / Inform 7 build 5Z71 (I6/v6.31 lib 6/12N) 
@@ -5716,7 +5716,7 @@ ZIF Version : z8
 
 The powerful sun radiating down from the endless blue sky. Vast empty 
 wilderness for as far as the eye can see. Running through the glorious scrubby 
-grasslands, running, running, running ZIF WRN: print_unicode
+grasslands, running, running, running ZIF WRN: op print_unicode unimplemented
 free
 
 The flash of a patent leather boot. A net coming down over your head. Cold. Why 
@@ -5729,12 +5729,12 @@ Type HELP for help, and ABOUT for a little background.
 
 Your Stall
 You jerk await. It really is cold. Okay, your stall is draughty at the best of 
-times, but ZIF WRN: print_unicode
+times, but ZIF WRN: op print_unicode unimplemented
 tonight You drag yourself to your hooves and poke your head out.
 
 That's odd: the gate is open. Your keeper, Lee, would never leave the gate 
 open. Then you remember: Lee didn't tuck you in last night, it was that new 
-stallman ZIF WRN: print_unicode
+stallman ZIF WRN: op print_unicode unimplemented
  sorry, junior keeper. You thought there was something shifty about him. No 
 matter. A night of exploration awaits.
 
@@ -6292,7 +6292,7 @@ ZIF Version : z8
 
 In The House of Professor Evil: The HAM HOUSE
 An Utterly Epic Text Adventure from Cumberland Games
-Copyright ZIF WRN: print_unicode
+Copyright ZIF WRN: op print_unicode unimplemented
  2006-2008 by S. John Ross. All rights reserved.
 Release 10 \ SN-081124 \ I7-5U92 (I6/v6.31 lib 6/12N) 
 Type Help if you're confused or About if you're curious.
@@ -9136,7 +9136,7 @@ I know, I know I know, we're gonna be late. But here's the thing: I'm in a
 coma. Yeah.
 
 And my brain has put together this bizarre fantasy world, to try and keep me 
-sane, or protect my fragile psyche from the trauma ZIF WRN: print_unicode
+sane, or protect my fragile psyche from the trauma ZIF WRN: op print_unicode unimplemented
 of whatever the coma is about, and I can't wake up until I escape from the 
 dream-world. And that's gonna take a while, because I am really comfortable. I 
 mean in the dream-world and also in the real world, right here.
@@ -12567,7 +12567,7 @@ Release 1 / Serial number 131201 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N)
 Graven Chamber
 This area seems intended as an architectural focal point of the tomb, and you 
 stand on an apparent line of symmetry that should indicate the position of the 
-burial ZIF WRN: print_unicode
+burial ZIF WRN: op print_unicode unimplemented
 chamberbut you haven't found that chamber yet.
 
 Northeast: Canopic Chamber. East: a statue of the queen. West: a statue of the 
@@ -13141,12 +13141,14 @@ Another attempt could not conceivably be made. Could it?
 Please answer yes or no.
 
 > ================================================================================
- File : The_Colour_of_Magic_(Graphics).zblorb
+ File : The_Colour_of_Magic__Graphics_.zblorb
  MD5  : fbb84a3789219ee42b9964679f38b119
  Path : cache
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [512]
-ERROR: No output log 'print.log'
+ZIF Version : z6
+
+ZIF ERR: op picture_data unimplemented
+ZIF quit
 ================================================================================
  File : The_Crystal_Palace.zblorb
  MD5  : ebdeee3a839e27ebd1400176c6a75812
@@ -13184,7 +13186,7 @@ ZIF Version : z8
 
 The Day That Love Came To Play
 A Single Moment at the End of the World
-Copyright ZIF WRN: print_unicode
+Copyright ZIF WRN: op print_unicode unimplemented
  2012 by S. John Ross. All Rights Reserved.
 Release 2 \ SN-120325 \ I7-6G60 (I6/v6.32 lib 6/12N) 
 
@@ -20172,12 +20174,11 @@ Please press SPACE to continue.
  MD5  : 7de0807c2d09af5266b448c04b69dfde
  Path : cache
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [256]
 ZIF Version : z6
 
-ZIF WRN: mouse_window
+ZIF WRN: mouse_window unimplemented
+ZIF ERR: picture_table unimplemented
 ZIF quit
-ZIF ERR: PC=0022f5 OP=BE 1C : Unimplement op
 ================================================================================
  File : forms.z5
  MD5  : b4852ac4c00e4ce2d74efd35cae6b753
@@ -22506,14 +22507,14 @@ death...
 Lecture Feature
 An Interactive Fiction by Paul Equinox Collins
 Release 1 / Serial number 140813 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
-ZIF WRN: print_unicode
+ZIF WRN: op print_unicode unimplemented
  Copyright 1999-2014 Paul Equinox Collins.  With thanks to the rec.arts.int-fict
 ion community for help and advice.
 
 Bathroom, Scummett block (in the bath)
 The narrow, dingy bathroom of Scummett block is furnished with a bath and a 
-toilet.  The wallpaper peels miserably, as though ZIF WRN: print_unicode
- knowing from the first that it was doomed to languish in a humid cesspit ZIF WRN: print_unicode
+toilet.  The wallpaper peels miserably, as though ZIF WRN: op print_unicode unimplemented
+ knowing from the first that it was doomed to languish in a humid cesspit ZIF WRN: op print_unicode unimplemented
  it could never quite summon the motivation to stand upright.  The stippled 
 glass on this shady side of the building admits little light, but the door 
 leading south into the corridor is outlined in faint brightness.
@@ -24527,10 +24528,10 @@ ZIF quit
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: draw_picture
-ZIF WRN: draw_picture
-Resume play on a game ? ZIF WRN: draw_picture
-ZIF WRN: draw_picture
+ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
+Resume play on a game ? ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
 Resume play on a game ? 
 Welcome to MYSTERIOUS ADVENTURES 
 Prepare yourself for anything! 
@@ -24543,10 +24544,10 @@ WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: draw_picture
-ZIF WRN: draw_picture
-Resume play on a game ? ZIF WRN: draw_picture
-ZIF WRN: draw_picture
+ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
+Resume play on a game ? ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
 Resume play on a game ? 
 Welcome to THE TIME MACHINE 
 For LIZ & MICHAEL my Wife & Son 
@@ -24559,10 +24560,10 @@ WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: draw_picture
-ZIF WRN: draw_picture
-Resume play on a game ? ZIF WRN: draw_picture
-ZIF WRN: draw_picture
+ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
+Resume play on a game ? ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
 Resume play on a game ? 
 Good luck on ARROW OF DEATH (Pt.1) 
 For those who journey in Dreams.. 
@@ -24575,10 +24576,10 @@ WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: draw_picture
-ZIF WRN: draw_picture
-Resume play on a game ? ZIF WRN: draw_picture
-ZIF WRN: draw_picture
+ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
+Resume play on a game ? ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
 Resume play on a game ? 
 ARROW OF DEATH (Pt.2) 
 There is no joy in reality 
@@ -24591,10 +24592,10 @@ WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: draw_picture
-ZIF WRN: draw_picture
-Resume play on a game ? ZIF WRN: draw_picture
-ZIF WRN: draw_picture
+ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
+Resume play on a game ? ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
 Resume play on a game ? 
 Welcome to `ESCAPE FROM PULSAR 7` by Brian Howarth & Wherner Barnes Dedicated 
 to Wherner's Mother - MILDRED. 
@@ -24608,10 +24609,10 @@ WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: draw_picture
-ZIF WRN: draw_picture
-Resume play on a game ? ZIF WRN: draw_picture
-ZIF WRN: draw_picture
+ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
+Resume play on a game ? ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
 Resume play on a game ? 
 Roll up! Roll up! 
 The CIRCUS is in town! 
@@ -24624,10 +24625,10 @@ WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: draw_picture
-ZIF WRN: draw_picture
-Resume play on a game ? ZIF WRN: draw_picture
-ZIF WRN: draw_picture
+ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
+Resume play on a game ? ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
 Resume play on a game ? 
   FEASIBILITY EXPERIMENT By B.Howarth & W.Barnes A soft voice whispers - 
 Ultimate Warrior,  Gather the *Treasures* of our Ancient Culture or we are 
@@ -24642,10 +24643,10 @@ This adventure is over. Do you want to try this adventure again? ZIF quit
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: draw_picture
-ZIF WRN: draw_picture
-Resume play on a game ? ZIF WRN: draw_picture
-ZIF WRN: draw_picture
+ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
+Resume play on a game ? ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
 Resume play on a game ? 
 Welcome to MYSTERIOUS ADVENTURE No. 8 by Brian Howarth & Cliff Ogden (C) 1983 
 The King says: 'Save the Princess & find the Jewels Your reward will be  
@@ -24659,10 +24660,10 @@ WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: draw_picture
-ZIF WRN: draw_picture
-Resume play on a game ? ZIF WRN: draw_picture
-ZIF WRN: draw_picture
+ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
+Resume play on a game ? ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
 Resume play on a game ? 
 Welcome to Mysterious Adventure No.9 PERSEUS & ANDROMEDA 
 Dedicated to A.J.HARDING and staff at MOLIMERX LTD. Who made this possible 
@@ -24675,10 +24676,10 @@ WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: draw_picture
-ZIF WRN: draw_picture
-Resume play on a game ? ZIF WRN: draw_picture
-ZIF WRN: draw_picture
+ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
+Resume play on a game ? ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
 Resume play on a game ? 
 Welcome to Mysterious Adventure No.10 TEN LITTLE INDIANS By Brian Howarth & 
 Wherner Barnes 
@@ -24692,10 +24693,10 @@ This adventure is over. Do you want to try this adventure again? ZIF quit
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: draw_picture
-ZIF WRN: draw_picture
-Resume play on a game ? ZIF WRN: draw_picture
-ZIF WRN: draw_picture
+ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
+Resume play on a game ? ZIF WRN: op draw_picture unimplemented
+ZIF WRN: op draw_picture unimplemented
 Resume play on a game ? 
 Welcome to MYSTERIOUS ADVENTURE #11 ' Waxworks ' (C) 1983 by Brian Howarth & 
 Cliff Ogden Dedicated to Margaret 
@@ -25189,7 +25190,7 @@ ZIF Version : z5
 1899: You have decided to spend this year's summer vacation in London again. In 
 spite of the unfortunate events which took place when you went there the first 
 time a couple of years ago, you really liked the place. So you boarded the 
-Orient Express in ZIF WRN: print_unicode
+Orient Express in ZIF WRN: op print_unicode unimplemented
 Orova, prepared to take along sleep until your arrival in Paris.
 
 You awake - startled. You're feeling incredibly hungry. It is this deep hunger 
@@ -25330,7 +25331,7 @@ ZIF quit
 --------------------------------------------------------------------------------
 ZIF Version : z5
 
-This game is ZIF WRN: print_unicode
+This game is ZIF WRN: op print_unicode unimplemented
 2007 David Hughes.
 
 It's probably for the best (or worst?) that you gave money to a begging gypsy 
@@ -25551,7 +25552,7 @@ exit.
 That was a rhetorical question.
 
 >quit
-ZIF WRN: sound_effect
+ZIF WRN: op sound_effect unimplemeneted
 You have so far scored 0 out of a possible 3, in 2 turns, earning you the rank 
 of civil servant.
 Are you sure you want to quit? y
@@ -26761,7 +26762,7 @@ ZIF quit
 --------------------------------------------------------------------------------
 ZIF Version : z6
 
-ZIF WRN: mouse_window
+ZIF WRN: mouse_window unimplemented
 Sorry, your terp screen size is too small (0x0). You need at least 600x400 
 (recommended 640x480 or larger).
 Goodbye.
@@ -27774,12 +27775,44 @@ A sturdy plasteel door on the south wall seems to be the only way out.
  MD5  : 60337be5844e805e46e345c4b8650738
  Path : cache
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [256]
 ZIF Version : z6
 
-ZIF quit
-ZIF ERR: PC=004418 OP=F0 3F : Unimplement op
-================================================================================
+               Welcome to
+
+              Att Scoddams
+
+     Sophisticated Basic Adventure:
+
+         Sunburst Contamination
+               
+
+Instructions
+               
+Load game.
+               
+Start game.
+               
+Reset computer.
+
+You are George Raft, an employee at a small space trading company on earth. You 
+have borrowed a small trading space craft to visit your girlfriend on Geeron in 
+the Geisti system. The weekend has now come to an end, and it's time for you to 
+get back to earth again.
+
+Your loan of the ship is quite inofficial, and you know that if you don't get 
+it back in time, your employment is history.
+
+Sunburst Contamination.
+Copyright Att Scoddams 1982
+(Type 'about' for help)
+
+Entrance to space harbor.
+
+You stand right outside the entrance to Geeron Space harbor. To the east there 
+is a green park, and through the guarded gate to the north you can see your 
+ship.
+
+>ty================================================================================
  File : sutwin.z5
  MD5  : a470890cbb1346a2416fac05dccd002d
  Path : cache
@@ -27890,8 +27923,19 @@ ZIF quit
  MD5  : 9317613cc3abb527b80f46e906738c24
  Path : cache
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [256]
-ERROR: No output log 'print.log'
+ZIF WRN: ZCOD section not found in zblorb file
+ZIF Version : z8
+
+                            the Blood lust Warrior
+                                by Zorkfire games
+
+                              An Interactive RPG
+
+   Start the story - from the beginning    :    (SPACE)
+                   - from a saved position :       R
+   Quit                                    :       Q
+
+Please press SPACE to continue.
 ================================================================================
  File : tKatC-SE.z8
  MD5  : 15d848b51d32c915c396b8f0ce918c03
@@ -30894,14 +30938,14 @@ ZIF Version : z5
 Testing your interpreter:
 Interpreter 0 version 65
 ZSpec 1.0
-Wait a ZIF WRN: sound_effect
+Wait a ZIF WRN: op sound_effect unimplemeneted
 second...
 
 Wait, please!!!n
 Wait, please!!!o
 Wait, please!!!
 
-Wait, please!!!qZIF WRN: sound_effect
+Wait, please!!!qZIF WRN: op sound_effect unimplemeneted
 
 [Your frantic typing suggests that the timed input feature of your interpreter 
 is not behaving properly.]
@@ -31191,7 +31235,7 @@ ZIF quit
 
 ================================================================================
 Games      :      793
-Clean exit :      789
-Errors     :        4
-Warnings   :      101
+Clean exit :      793
+Errors     :        2
+Warnings   :      102
 --------------------------------------------------------------------------------

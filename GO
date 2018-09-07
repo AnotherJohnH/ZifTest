@@ -198,6 +198,8 @@ def getGames(cache_dir, games_list_file):
             for filename in fnmatch.filter(filenames, '*.'+ext):
                nice_filename=filename.replace(' ', '_')
                nice_filename=nice_filename.replace("'", '_')
+               nice_filename=nice_filename.replace('(', '_')
+               nice_filename=nice_filename.replace(')', '_')
                shutil.copy2(root+'/'+filename, cache_dir+'/'+nice_filename)
 
    # Compile a list of all the files
