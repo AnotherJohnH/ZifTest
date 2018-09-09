@@ -15779,10 +15779,16 @@ Please answer yes or no.
  MD5  : fbb84a3789219ee42b9964679f38b119
  Path : cache
 --------------------------------------------------------------------------------
+ERROR: Exited with a fault [256]
 ZIF Version : z6
 
-ZIF ERR: op picture_data unimplemented
+ZIF WRN: op picture_data unimplemented
+ZIF WRN: op picture_data unimplemented
+ZIF WRN: op picture_data unimplemented
+ZIF WRN: op draw_picture unimplemented
+
 ZIF quit
+ZIF ERR: PC=00DF89: 77    2OP:17 : Division by zero
 ================================================================================
  File : The_Crystal_Palace.zblorb
  MD5  : ebdeee3a839e27ebd1400176c6a75812
@@ -18539,10 +18545,8 @@ ZIF quit
 --------------------------------------------------------------------------------
 ZIF Version : z3
 
-Welcome to Adventure! Do you need instructions? (y/n) ZIF WRN: show_status
->
-(Please type y or n) ZIF WRN: show_status
->no
+Welcome to Adventure! Do you need instructions? (y/n) >
+(Please type y or n) >no
 
 ADVENTURE
 A Modern Classic
@@ -18556,14 +18560,12 @@ At End Of Road
 You are standing at the end of a road before a small brick building. Around you 
 is a forest. A small stream flows out of the building and down a gully.
 
-> ZIF WRN: show_status
-quit
+> quit
 In 0 turns, you scored 36 points out of a possible 350.
 Your score qualifies you as a Novice Class Adventurer.
 To achieve the next higher rating, you need 65 more points.
 
-Are you sure you want to quit? (y/n) ZIF WRN: show_status
->y
+Are you sure you want to quit? (y/n) >y
 
 Thanks for playing.
 ZIF quit
@@ -21017,26 +21019,21 @@ You are standing in the living room. It's actually more of
 a lab than a living room. But it does have a nice fireplace.
 There is a lab bench nearby. Exits lead off to the north, south and east.
 
-ZIF WRN: show_status
 >
 Huh?
 
-ZIF WRN: show_status
 >no
 Huh?
 
-ZIF WRN: show_status
 >n
 
 Sitting Room
 You are standing in a sitting room. There are shelves nearby.
 Exit to the south.
 
-ZIF WRN: show_status
 >take
 Be more specific.
 
-ZIF WRN: show_status
 >quit
 ZIF quit
 ================================================================================
@@ -22574,18 +22571,14 @@ Sitting on top of the Y2 rock is a featureless white cube.
 
 A little red car is parked here.
 
-ZIF WRN: show_status
 >
 I beg your pardon?
 
-ZIF WRN: show_status
 >no
 That was a rhetorical question.
 
-ZIF WRN: show_status
 >quit
-Are you sure you want to quit? ZIF WRN: show_status
-y
+Are you sure you want to quit? y
 ZIF quit
 ================================================================================
  File : detective.z5
@@ -24167,7 +24160,16 @@ by Zach Matley
 Release 60 / Serial number 001227 / Inform v6.21
 
 Press 'i' for more information. Press any other key to begin
-ZIF ERR: op picture_data unimplemented
+ZIF WRN: op picture_data unimplemented
+ZIF WRN: op picture_data unimplemented
+
+Error: Graphics file not found
+This games requires the Zork Zero graphics file made by Infocom. Please review 
+instructions for set up.
+
+If you do not own a copy a Zork Zero, you can still play the text-based version 
+of this game.
+Press any key to exit.
 ZIF quit
 ================================================================================
  File : forms.z5
@@ -25304,15 +25306,12 @@ Corner Of Zen Street
 This is the corner of Zen street which runs to the north. Baluthar street is to 
 the south.
 
-ZIF WRN: show_status
 >
 I beg your pardon?
 
-ZIF WRN: show_status
 >no
 That was a rhetorical question.
 
-ZIF WRN: show_status
 >n
 
 Near The Restaurant
@@ -25321,15 +25320,12 @@ Gordan's restaurant. You could go back south.
 
 A single lamp post stands here, eluminating the street.
 
-ZIF WRN: show_status
 >take
 (the lamp post)
 That's fixed in place.
 
-ZIF WRN: show_status
 >quit
-Are you sure you want to quit? ZIF WRN: show_status
-y
+Are you sure you want to quit? y
 ZIF quit
 ================================================================================
  File : hangar_22.z5
@@ -28242,26 +28238,21 @@ You are standing at the edge of a large wheat field.
 The field stretches off to the north.
 To the south you see a barn house.
 
-ZIF WRN: show_status
 >
 Huh?
 
-ZIF WRN: show_status
 >no
 Huh?
 
-ZIF WRN: show_status
 >n
 You enter the field and find several areas
 where the wheat is burned, forming passages.
 However, the passages are twisty and circle
 back often and you end up back where you started.
 
-ZIF WRN: show_status
 >take
 Be more specific.
 
-ZIF WRN: show_status
 >quit
 ZIF quit
 ================================================================================
@@ -38352,7 +38343,7 @@ I beg your pardon?
 >
 ================================================================================
 Games      :      793
-Clean exit :      793
-Errors     :        2
-Warnings   :      123
+Clean exit :      792
+Errors     :        1
+Warnings   :      105
 --------------------------------------------------------------------------------
