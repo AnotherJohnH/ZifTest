@@ -177,6 +177,10 @@ def getGames(cache_dir, games_list_file):
    if not os.path.isdir(cache_dir):
       os.system("mkdir "+cache_dir)
 
+   # some special cases
+   os.system("scrape --path /if-archive/infocom/interpreters/tools/ --cache "+cache_dir+" --ext z5")
+   os.system("scrape --path /if-archive/infocom/interpreters/tools/ --cache "+cache_dir+" --ext zip")
+
    # Create list of interesting file extensions
    ext_list = []
    for version in range(8):
