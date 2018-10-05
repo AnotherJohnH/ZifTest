@@ -17688,6 +17688,108 @@ the weekend?
 >Just because you are imagining me doesn't mean I'm a mindreader.
 
 >================================================================================
+ File : Virtuality.zblorb
+ MD5  : dcb3aa25d907429225fabf0f63721a41
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z8
+ZIF Checksum : 39D4
+
+Hi, I'm your computer! Without me you can't play! There are a few things I 
+would like to inform you, as this game is technically a little different. So do 
+read!
+
+It is because of MY great kindness that I included the command "use", which you 
+should be very grateful for! The help menu, however, is not to be frequented, 
+and is only for those who are at the brink of giving up. I noticed that the 
+points updating system slows the computer a bit. So, it is off on default, and 
+WOW, the computer works like magic! You can, of course, turn the score updating 
+on with "score update on". Naturally, you would get tired of waiting, and would 
+want to turn it back off with "score update off"!
+
+The greatest hint in this game is to READ EVERYTHING! In fact, examining will 
+be of so much help to you, I will even give you points for doing so! Talking 
+about points, this game has objectives and achievements, which will also give 
+you points! Lots of points!!! To view them, you can use "achievements"! There 
+are also some useful information under "statistics"! As a matter of fact, you 
+need not know all these, as I am about to give you the WALKTHROUGH! First, you 
+must...
+
+What? You want to start the game already? You don't want my advice? Hey, I 
+could spoil the whole game for you! I can let you win! Ah well, here it is, 
+then...
+
+Virtuality
+An Interactive Fiction by Mark
+Release 1 / Serial number 100131 / Inform 7 build 5Z71 (I6/v6.31 lib 6/12N) 
+
+Grassy Field
+It is a warm day. You are in a beautiful grassy field that seems to extend 
+forever in all directions. A cool breeze refreshes you. Flowers decorate the 
+place with bright shades of pink, blue and yellow. You feel relaxed and happy.
+
+>I beg your pardon?
+
+>That was a rhetorical question.
+
+>
+Grassy Field
+It is a warm day. You are in a beautiful grassy field that seems to extend 
+forever in all directions. A cool breeze refreshes you. Flowers decorate the 
+place with bright shades of pink, blue and yellow. You feel relaxed and happy.
+
+>(the coin)
+You already have that.
+
+Computer Room
+"That's all you paid for," says Bobby, throwing you out of the Virtual Reality 
+machine, "You can't expect luxury to last forever!"
+
+For some unknown reason, you had been captured and walled into this room with 
+this stupid Bobby. You had been spending the past few hours in that Virtual 
+Reality machine, experiencing paradise like it never was. But now, you are down 
+to your last penny, and you have finally come to realise that it's about time 
+you escape. Nevertheless, you are still tempted to spend your last penny for a 
+final minute of luxury.
+
+You are in a small room with no doors, no windows and no easy means of escape. 
+The only things here of significance are a table, a computer set, a cardboard 
+box and Bobby, a high tech talking machine that keeps bugging you with a 
+strangely persuasive voice to try out its Virtual Reality machine (VR).
+
+Bobby is a machine with advanced AI and can talk. However, it seems only to be 
+able to talk about its Virtual Reality machine. Whoever put you in this room 
+must have put Bobby there to torture you.
+
+You have never before seen a Virtual Reality machine. And now that you have 
+seen it, you love it. It is sadly ultimately controlled by Bobby, who demands 
+payment for you to use it.
+
+The computer is really old and rusty. But at least it's free for use.
+
+A monitor is stuck to the wall. It is free for use too.
+
+A keyboard is stuck to the monitor in some futuristic fashion.
+
+For your convenience, and your convenience only, there is a chair where you can 
+sit in a relaxed position while using the computer. My, you would never be able 
+to use the computer without the chair!
+
+The table is at the other side of the room, away from all the technology. On it 
+are a manual and a glass.
+
+The cardboard box is a box made of cardboard (obviously). You feel a magical 
+force coming from inside the cardboard box, which is lying on its side and is 
+big enough for you to walk into. It is closed.
+
+Come to think about it, the dustbin might also be of significance. It always is 
+in escape games.
+
+"It's paradise, I tell you, once you use my luxurious Virtual Reality machine!" 
+says Bobby, motioning you towards the Virtual Reality machine.
+
+>Are you sure you want to quit? ZIF quit
+================================================================================
  File : WAXWORKS.Z5
  MD5  : 0f2d250e8a5c187eeb2ce2fc080d084b
  Path : cache
@@ -39187,8 +39289,8 @@ I beg your pardon?
 
 >
 ================================================================================
-Games      :      795
-Clean exit :      794
+Games      :      796
+Clean exit :      795
 Errors     :        1
 Warnings   :       87
 --------------------------------------------------------------------------------
