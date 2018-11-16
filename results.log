@@ -22735,7 +22735,7 @@ Header (No tests)
     Flags off: pictures, sound, transcripting on, fixed-pitch on, redraw 
 pending, using pictures, using undo, using mouse, using colors, using sound, 
 using menus, 
-    Screen size: 80x56; in 1x1 units: 0x0
+    Screen size: 80x55; in 1x1 units: 0x0
     Default color: current on current
 
 Print opcodes [407]: Tests should look like... '[Test] opcode (stuff): stuff'
@@ -34842,6 +34842,48 @@ You already have that.
 
 >Are you sure you want to quit? ZIF quit
 ================================================================================
+ File : stonecage.z5
+ MD5  : 4b3018d9f533fc606bf5e842589f42ea
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : 2E6C
+
+You and Nok have been chasing the deer since before sunrise. Your legs are 
+scratched and tired. As you approach the woods, you see smoke above the trees, 
+and Nok stops.
+
+The Stone Cage
+Written in 24 hours for the 4th Hours of Inform by Kevan Davis
+Release 1 / Serial number 091103 / Inform 7 build 5Z71 (I6/v6.31 lib 6/12N) 
+
+Hillside
+It is early, and the grass is wet. The woods are thin enough that you can see 
+the low, yellow sun through the trees. Thin trails of smoke curl up into the 
+sky above.
+
+Nok stares at the smoke. He steps slowly back, and gestures for you to enter 
+the forest alone.
+
+>
+I beg your pardon?
+
+>no
+That was a rhetorical question.
+
+>n
+Nok stops you with a gesture, and points east into the woods.
+
+>take
+(the trees)
+You reach up and tear a branch from a nearby tree.
+
+Nok grunts.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+================================================================================
  File : strictz.z5
  MD5  : 4f6ec9eb0fa7f8b5e8c87e541b7ae819
  Path : cache
@@ -39289,8 +39331,8 @@ I beg your pardon?
 
 >
 ================================================================================
-Games      :      796
-Clean exit :      795
+Games      :      797
+Clean exit :      796
 Errors     :        1
 Warnings   :       87
 --------------------------------------------------------------------------------
