@@ -18123,6 +18123,38 @@ What do you want to take?
 Are you sure you want to quit? y
 ZIF quit
 ================================================================================
+ File : Walk_Among_Us.zblorb
+ MD5  : 1b284cb024f8f7d2d9812a8d626beb00
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z8
+ZIF Checksum : A7AA
+
+Halloween night has been great this year. The concert was awesome, and now, 
+while you are already going home, you've spotted a gorgeous chick. Who knows, 
+maybe the night is not finished yet...
+
+Walk Among Us
+An Interactive Horror Punk by Roberto Colnaghi
+Release 1 / Serial number 181031 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) 
+
+The Chainsaw
+The Chainsaw is the local watering hole and concert hall, and tonight the venue 
+of a great concert. Now it's finished, and people are leaving, but you noticed 
+a girl, and you really don't want to let her go without at least trying. The 
+exit is west.
+
+>I beg your pardon?
+
+>That was a rhetorical question.
+
+>You can't go that way.
+
+>(a girl)
+I don't suppose a girl would care for that.
+
+>Are you sure you want to quit? ZIF quit
+================================================================================
  File : Wallpaper.zblorb
  MD5  : c488a6dd71361e78c73386833f65e8c0
  Path : cache
@@ -22735,7 +22767,7 @@ Header (No tests)
     Flags off: pictures, sound, transcripting on, fixed-pitch on, redraw 
 pending, using pictures, using undo, using mouse, using colors, using sound, 
 using menus, 
-    Screen size: 80x55; in 1x1 units: 0x0
+    Screen size: 80x56; in 1x1 units: 0x0
     Default color: current on current
 
 Print opcodes [407]: Tests should look like... '[Test] opcode (stuff): stuff'
@@ -39331,8 +39363,8 @@ I beg your pardon?
 
 >
 ================================================================================
-Games      :      797
-Clean exit :      796
+Games      :      798
+Clean exit :      797
 Errors     :        1
 Warnings   :       87
 --------------------------------------------------------------------------------
