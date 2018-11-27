@@ -35236,7 +35236,7 @@ ZIF quit
  MD5  : 9317613cc3abb527b80f46e906738c24
  Path : cache
 --------------------------------------------------------------------------------
-ZIF WRN: ZCOD section not found in zblorb file
+ZIF WRN: ZCOD chunk not found in zblorb file
 ZIF Version  : z8
 ZIF Checksum : 179C
 
