@@ -1352,6 +1352,63 @@ n
 Our revels now are ended.
 ZIF quit
 ================================================================================
+ File : B7_Snare.z8
+ MD5  : 028eddd4000f78fa83627d6c40f6c5a5
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z8
+ZIF Checksum : 2EF0
+
+                 "To be able to fill leisure intelligently 
+                   is the last product of civilisation." 
+                         - Bertrand Russell. 
+
+       
+                 "Finally a game worth playing." 
+                         - Soolin, 'Games'.
+
+Every day the same old grind, working for a miserable sum that only just allows 
+for a comfortable existence, in a job with very little satisfaction.  It robs 
+all your time, too; time you could fill with the million exciting projects 
+flowing through your head.  So what are you going to do to break out of the 
+rut?  How are you going to escape from the mire of bureaucracy that intrudes 
+into every aspect of life?  Not by buying tickets in the State Lottery every 
+week, that's for sure. No sir, the only way is to be bold, one big step.  So, 
+you decide to steal five hundred million credits, and now is the point when 
+action is required.  Brace yourself and plunge in - run the program on your 
+terminal and then buy the exit visas.  But make sure you get your gun out of 
+hiding first because today's the day.  It's going to be a big one; a very big 
+one.  It almost seems a shame that you have to keep your secrets to yourself.  
+But you just can't trust anyone, you know.
+
+SNARE
+An Interactive Blake's 7 adventure
+Copyright (c) 1997 - 2003 by Andrew Williams.
+Type HELP for basic commands.
+Release 1 / Serial number 150118 / Inform v6.32 Library 6/10 SD
+
+Plaza
+You are standing in a wide open square in the better part of the LonDome.  
+Bright sunlight shines through the white, translucent skin of the Dome high 
+above.  All around you, people bustle about on unknown errands, mostly avoiding 
+the seedy-looking alley to the south.  A small bookstall lies northeast, and 
+stairs lead down to the subsurface shuttle terminal.  The view, however, is 
+dominated by the imposing building in the east, it's marble facade soaring up 
+to the heights of the Dome.
+
+You can see a security guard here.
+
+>I beg your pardon?
+
+>That was a rhetorical question.
+
+>You can't go that way.
+
+>(the security guard)
+This is no time to play at soldiers.
+
+>Are you sure you want to quit? ZIF quit
+================================================================================
  File : BALT.Z5
  MD5  : 421b32742a15a05d3f888fb7feebb97e
  Path : cache
@@ -16276,8 +16333,7 @@ Always examine everything you see!)
 
 >What do you want to take?
 
->Are you sure you want to quit? 
-ZIF quit
+>Are you sure you want to quit? ZIF quit
 ================================================================================
  File : The_Garden_of_Verging_Paths.zblorb
  MD5  : b148dfb2f4669539f25363acfed87c55
@@ -35236,7 +35292,6 @@ ZIF quit
  MD5  : 9317613cc3abb527b80f46e906738c24
  Path : cache
 --------------------------------------------------------------------------------
-ZIF WRN: ZCOD chunk not found in zblorb file
 ZIF Version  : z8
 ZIF Checksum : 179C
 
@@ -39363,8 +39418,8 @@ I beg your pardon?
 
 >
 ================================================================================
-Games      :      798
-Clean exit :      797
+Games      :      799
+Clean exit :      798
 Errors     :        1
-Warnings   :       87
+Warnings   :       86
 --------------------------------------------------------------------------------
