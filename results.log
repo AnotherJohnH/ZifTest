@@ -22823,7 +22823,7 @@ Header (No tests)
     Flags off: pictures, sound, transcripting on, fixed-pitch on, redraw 
 pending, using pictures, using undo, using mouse, using colors, using sound, 
 using menus, 
-    Screen size: 80x56; in 1x1 units: 0x0
+    Screen size: 80x54; in 1x1 units: 0x0
     Default color: current on current
 
 Print opcodes [407]: Tests should look like... '[Test] opcode (stuff): stuff'
@@ -39416,10 +39416,891 @@ stupid Pawns? It's not fair!"
 >
 I beg your pardon?
 
->
+>================================================================================
+ File : crashme.z5
+ MD5  : ec9b0233fffeece157f2dc6431e40c1a
+ Path : extra
+--------------------------------------------------------------------------------
+ERROR: Exited with a fault [256]
+ZIF Version  : z5
+ZIF Checksum : 15FD
+This program generates random Z-code which is run to test the robustness of 
+your Z-machine interpreter. Most likely this will infinite loop. Do not run if 
+you can't kill your interpreter when it is tightly looping.
+Will attempt to write CRASHME.MEM which should be a valid Z-machine game which 
+contains the same code that will be run.
+Press 'q' to abort.
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to read outside memory using -> **]
+
+[** Programming error: tried to write to ->0 in the string array "
+[** Programming error: tried to print (string) on something not a string **]
+", which has entries 1 up to 11 **]
+ZIF quit
+ZIF ERR: PC=0004EF  01 01 E3                      2OP-01  #0x01 #0xE3 : Bad PC
 ================================================================================
-Games      :      799
-Clean exit :      798
-Errors     :        1
+ File : etude.z5
+ MD5  : cc9d483dee1c2c75cf2a5750c10a5c29
+ Path : extra
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : 1DB6
+
+TerpEtude: A Z-machine Interpreter Exerciser
+By Andrew Plotkin (erkyrath@netcom.com)
+Release 2 / built with Inform v6.11
+Tests compliance with Z-Machine Standards Document 0.99.
+
+NOTE: This program does not test everything in the Z-Spec. Passing all the 
+tests in this program does NOT guarantee that your interpreter is 
+Z-Spec-compliant.
+
+For that matter, this program may have mistakes in it. I don't think it does, 
+but you should not assume it is the Fount of All Z-Machineness. If you find 
+something strange, check the Z-Spec, check existing interpreters, check 
+Infocom's interpreters, and then send me mail if you're still confused.
+
+Options: (hit Enter by itself to display this menu)
+  . (period): Exit TerpEtude
+  1: Version
+  2: Recent changes to TerpEtude
+  3: Header flags analysis
+  4: Styled text
+  5: Colored text
+  6: Multiplication, division, remainder
+  7: Accented character output
+  8: Single-key input
+  9: Full-line input
+  10: Timed single-key input
+  11: Timed full-line input
+  12: Pre-loading of input line
+  13: Undo capability
+  14: Printing before quitting
+
+> 1
+
+TerpEtude: A Z-machine Interpreter Exerciser
+By Andrew Plotkin (erkyrath@netcom.com)
+Release 2 / built with Inform v6.11
+Tests compliance with Z-Machine Standards Document 0.99.
+
+NOTE: This program does not test everything in the Z-Spec. Passing all the 
+tests in this program does NOT guarantee that your interpreter is 
+Z-Spec-compliant.
+
+For that matter, this program may have mistakes in it. I don't think it does, 
+but you should not assume it is the Fount of All Z-Machineness. If you find 
+something strange, check the Z-Spec, check existing interpreters, check 
+Infocom's interpreters, and then send me mail if you're still confused.
+
+> 2
+
+In the beginning, TerpEtude was written. That was release DRAFT-1.
+
+   Release 2:
+Accented-out test: Added ability to display characters in bold, underline, and 
+fixed-width styles.
+Accented-out test: Noted that >> and << are, in fact, tested correctly.
+Given-text test: It's the game file's job to print the given text before it 
+calls @read. Fixed test to do this.
+Timed-string test: Changed test to do both "invisible" and "visible" interrupts 
+(only one interrupt in three actually prints text.)
+
+   Upcoming Test Features:
+List of terminating characters
+Fonts
+Stream 3 nesting
+
+   Credits:
+Title: Jon Ferro
+Spec Aid: Graham, SJ, PDD, and the rest of the crowd
+
+> 3
+
+Your interpreter claims to follow revision 1.0 of the Z-Spec.
+
+Interpreter claims that colored text IS available.
+Interpreter claims that emphasized (bold) text IS available.
+Interpreter claims that italic (or underlined) text IS available.
+Interpreter claims that fixed-width text IS available.
+Interpreter claims that sound effects ARE NOT available.
+Interpreter claims that timed input IS available.
+
+Interpreter claims that "undo" IS available.
+
+> 4
+
+Interpreter claims that emphasized (bold) text IS available.
+Interpreter claims that italic (or underlined) text IS available.
+Interpreter claims that fixed-width text IS available.
+
+Test of emphasized (bold) text.
+...normal font...
+Test of italic (or underlined) text.
+...normal font...
+Test of reverse-video text.
+...normal font...
+Test of fixed-width text (using "font off", which sets a header bit).
+...normal font...
+Test of fixed-width text (using "@set_text_style 8").
+
+Now we will try combining styles. The Z-Spec does not require interpreters to 
+display combined styles, so the lines below may not have all the styles they 
+say they do.
+
+Test of bold, italic text.
+Test of bold, reverse text.
+Test of italic, reverse text.
+Test of bold, italic, reverse text.
+
+The following are all printed with "font off" (that is, the header bit remains 
+set, even though "style roman" statements occur.)
+Test of fixed, bold text.
+Test of fixed, italic text.
+Test of fixed, reverse text.
+Test of fixed, bold, italic text.
+Test of fixed, bold, reverse text.
+Test of fixed, italic, reverse text.
+Test of fixed, bold, italic, reverse text.
+
+End of styles test.
+
+> 5
+
+Interpreter claims that colored text IS available.
+
+In the square below, you should see vertical stripes of background color 
+(matching the column headers) and horizontal rows of foreground color (that is, 
+all # marks in a row the same color.)
+
+Bk Rd Gr Yl Bl Mg Cy Wh
+## ## ## ## ## ## ## ## : Black
+## ## ## ## ## ## ## ## : Red
+## ## ## ## ## ## ## ## : Green
+## ## ## ## ## ## ## ## : Yellow
+## ## ## ## ## ## ## ## : Blue
+## ## ## ## ## ## ## ## : Magenta
+## ## ## ## ## ## ## ## : Cyan
+## ## ## ## ## ## ## ## : White
+
+> 6
+
+This tests signed multiplication, division, and modulo operations. All these 
+operations are supposed to be signed. (The Z-Spec 0.2 erroneously says they are 
+unsigned; this is corrected in 0.99.)
+
+I am assuming the convention that division always rounds towards zero (not 
+towards negative infinity), and (A % B) always has the same sign as A. These 
+conventions seem to be common among existing C/C++ compilers. The Infocom 
+interpreters also follow these conventions. (But they are not guaranteed by the 
+C and C++ standards. Those only require that (A/B)*B + (A%B) == A, for all A 
+and all nonzero B.)
+
+13 * 5 = 65 (ok)
+13 * -5 = -65 (ok)
+-13 * 5 = -65 (ok)
+-13 * -5 = 65 (ok)
+13 / 5 = 2 (ok)
+13 / -5 = -2 (ok)
+-13 / 5 = -2 (ok)
+-13 / -5 = 2 (ok)
+13 % 5 = 3 (ok)
+13 % -5 = 3 (ok)
+-13 % 5 = -3 (ok)
+-13 % -5 = -3 (ok)
+
+This aspect of your interpreter appears to behave according to spec.
+
+> 7
+
+This displays all the accented characters (encoding values 155 to 223). You 
+will have to inspect your interpreter's display to make sure they appear 
+correctly.
+
+For the record, an umlaut is two dots; an acute accent is the one that slants 
+up to the right; a grave accent is the one that slants down to the right; a 
+circumflex is a pointy hat; a tilde is a squiggly hat; a ring is a ring; a 
+cedilla is the little hook that hangs down below the C. Thorn looks like a 
+capital D whose vertical bar extends both up and down, and Eth looks like a D 
+with a little cross-stroke.
+
+NOTE: Inform 6.11 contradicts the Z-Spec 0.99 document, on the subject of the 
+European angle-quotes (the ones that look like '>>' and '<<'). The Z-Spec says 
+that the character '>>' is code 162, and '<<' is 163. However, Inform 6.11 
+(following the Z-Spec 0.2) compiles '@>>' as 163, and '@<<' as 162. The 
+concensus is that the Z-Spec 0.2 and Inform 6.11 are wrong, and Z-Spec 0.99 and 
+later are correct.
+
+a-umlaut:›   o-umlaut:œ   u-umlaut:   A-umlaut:ž
+O-umlaut:Ÿ   U-umlaut:    sz-ligature:¡   >>-quotes:¢
+<<-quotes:£   e-umlaut:¤   i-umlaut:¥   y-umlaut:¦
+E-umlaut:§   I-umlaut:¨   a-acute:©   e-acute:ª
+i-acute:«   o-acute:¬   u-acute:­   y-acute:®
+A-acute:¯   E-acute:°   I-acute:±   O-acute:²
+U-acute:³   Y-acute:´   a-grave:µ   e-grave:¶
+i-grave:·   o-grave:¸   u-grave:¹   A-grave:º
+E-grave:»   I-grave:¼   O-grave:½   U-grave:¾
+a-circumflex:¿   e-circumflex:À   i-circumflex:Á   o-circumflex:Â
+u-circumflex:Ã   A-circumflex:Ä   E-circumflex:Å   I-circumflex:Æ
+O-circumflex:Ç   U-circumflex:È   a-ring:É   A-ring:Ê
+o-slash:Ë   O-slash:Ì   a-tilde:Í   n-tilde:Î
+o-tilde:Ï   A-tilde:Ð   N-tilde:Ñ   O-tilde:Ò
+ae-ligature:Ó   AE-ligature:Ô   c-cedilla:Õ   C-cedilla:Ö
+thorn:×   eth:Ø   Thorn:Ù   Eth:Ú
+pound-symbol:Û   oe-ligature:Ü   OE-ligature:Ý   inverse-!:Þ
+inverse-?:ß   
+
+Type a digit (0..7) to repeat this list in a different text style, or "." to 
+end this test.
+Options: 0: normal; 1: bold; 2: italic; 3: bold italic; 4: fixed-width; 5: 
+fixed bold; 6: fixed italic; 7: fixed bold italic.
+
+Accents> .
+
+> 
+
+Options: (hit Enter by itself to display this menu)
+  . (period): Exit TerpEtude
+  1: Version
+  2: Recent changes to TerpEtude
+  3: Header flags analysis
+  4: Styled text
+  5: Colored text
+  6: Multiplication, division, remainder
+  7: Accented character output
+  8: Single-key input
+  9: Full-line input
+  10: Timed single-key input
+  11: Timed full-line input
+  12: Pre-loading of input line
+  13: Undo capability
+  14: Printing before quitting
+
+> 8
+
+This tests input of accented (actually, all) characters. Type characters; you 
+will see what characters your interpreter thought you typed. Hit "." to return 
+to the main menu.
+
+AccentedInput> A
+code=65: ASCII character 'A'
+AccentedInput> B
+code=66: ASCII character 'B'
+AccentedInput> C
+code=67: ASCII character 'C'
+AccentedInput> 
+
+code=10: control character 'ctrl-J' (should NOT occur)
+AccentedInput> .
+
+Test finished.
+
+> 
+
+Options: (hit Enter by itself to display this menu)
+  . (period): Exit TerpEtude
+  1: Version
+  2: Recent changes to TerpEtude
+  3: Header flags analysis
+  4: Styled text
+  5: Colored text
+  6: Multiplication, division, remainder
+  7: Accented character output
+  8: Single-key input
+  9: Full-line input
+  10: Timed single-key input
+  11: Timed full-line input
+  12: Pre-loading of input line
+  13: Undo capability
+  14: Printing before quitting
+
+> 9
+
+This tests input of accented (actually, all) characters. Enter a line of text; 
+it will be broken down, and you will see a list of what characters your 
+interpreter thought you typed. Remember that the interpreter is supposed to 
+reduce everything to lower-case.
+
+Hit Enter by itself to return to the main menu.
+
+AccentedInput> ABC
+
+code=65: ASCII character 'A'
+code=66: ASCII character 'B'
+code=67: ASCII character 'C'
+
+AccentedInput> 
+
+> 10
+
+Your interpreter claims (by its header bit) that it DOES support timed input.
+
+When you begin this test, asterisks should appear at the rate of one per 
+second. If they appear at the rate of one every ten seconds, your interpreter 
+is using the incorrect timing rate caused by an old bug in ZIP. If an entire 
+line of ten asterisks appears all at once every ten seconds, your interpreter 
+is not properly flushing its buffer.
+
+Hit "." to return to the main menu, or any other key to begin the test. Hit any 
+key to stop the test while it is running.
+
+TimedKey> A
+B
+The timing interrupt function was not called at all. Either your interpreter 
+does not support timed input, or you terminated the test before one second 
+elapsed. (Or your interpreter has the "slow" bug and you terminated the test 
+before ten seconds elapsed.)
+
+Your interpreter claims to support timed input. This aspect of your interpreter 
+appears to behave WRONG.
+
+Hit "." to return to the main menu, or any other key to begin the test. Hit any 
+key to stop the test while it is running.
+
+TimedKey> C
+
+The timing interrupt function was not called at all. Either your interpreter 
+does not support timed input, or you terminated the test before one second 
+elapsed. (Or your interpreter has the "slow" bug and you terminated the test 
+before ten seconds elapsed.)
+
+Your interpreter claims to support timed input. This aspect of your interpreter 
+appears to behave WRONG.
+
+Hit "." to return to the main menu, or any other key to begin the test. Hit any 
+key to stop the test while it is running.
+
+TimedKey> .
+> 
+
+Options: (hit Enter by itself to display this menu)
+  . (period): Exit TerpEtude
+  1: Version
+  2: Recent changes to TerpEtude
+  3: Header flags analysis
+  4: Styled text
+  5: Colored text
+  6: Multiplication, division, remainder
+  7: Accented character output
+  8: Single-key input
+  9: Full-line input
+  10: Timed single-key input
+  11: Timed full-line input
+  12: Pre-loading of input line
+  13: Undo capability
+  14: Printing before quitting
+
+> 11
+
+Your interpreter claims (by its header bit) that it DOES support timed input.
+
+When you begin this test, you should be able to enter a line of input in the 
+usual fashion. Every three seconds, a line of text will appear. (If the lines 
+appear at the rate of one every thirty seconds, your interpreter is using the 
+incorrect timing rate caused by an old bug in ZIP.)
+
+Interrupts actually are occuring once per second; every third interrupt prints 
+a line of text, and the other two have no visible effect. After each line, your 
+input should be redrawn so that you can continue typing and editing it.
+
+Hit "." to return to the main menu, or any other key to begin the test. Type 
+"." on a line by itself to stop the test.
+
+TimedString> A
+Beginning test...
+
+TimedString> BC
+
+You just typed "BC".
+
+TimedString> .
+
+You just typed ".".
+
+Test terminated.
+The timing interrupt function was not called at all. Either your interpreter 
+does not support timed input, or you terminated the test before one second 
+elapsed. (Or your interpreter has the "slow" bug and you terminated the test 
+before ten seconds elapsed.)
+
+Your interpreter claims to support timed input. This aspect of your interpreter 
+appears to behave WRONG.
+
+> 12
+
+This tests whether your interpreter supports being handed input by the game 
+file. (For example, after a function key is hit in Beyond Zork, the command 
+prompt appears with text already in place -- whatever text you had typed before 
+you interrupted it with the function key.)
+
+The command prompt below should appear with the word "Given" already visible 
+after it. You should be able to type more characters, or go back and edit the 
+given character as if you had typed them yourself.
+
+If you see the word "Given" twice, your interpreter is printing the given 
+characters, which it shouldn't (that's the responsibility of the game file.)
+
+Preload> GivenHello
+You just typed "Hello".
+
+> 13
+
+This tests the interpreter's ability to do single and multiple "undo" commands.
+
+Your interpreter claims (by its header bit) that it DOES support undo.
+
+Simulating first move...
+Save succeeded.
+
+Simulating second move...
+Save succeeded.
+
+Hit "." to abort this test, or any other key to try "undo".
+SingleUndo> 
+
+First undo...
+Undo succeeded (undid second move).
+
+Hit "." to abort this test, or any other key to try a second "undo". (In many 
+interpreters, executing the second "undo" will return to exactly the same point 
+as the first one. If this occurs, and you see this message a second time (or 
+more), your interpreter only supports single-move undo.)
+MultipleUndo> 
+
+Second undo...
+Undo succeeded (undid first move).
+
+Your interpreter claims to support "undo", and it does. In fact, it supports 
+multiple "undo". This aspect of your interpreter appears to behave according to 
+spec.
+
+> 14
+
+This tests if you can read text which is displayed immediately before the 
+program quits. (It is not clear whether this is covered by the Z-Spec. However, 
+some games -- including some original Infocom games -- display important 
+closing text and then immediately quit.)
+
+Hit "." to return to the main menu, or any other key to print a line of text 
+and then quit. If the line of text does not appear, or appears and vanishes too 
+quickly to read, your interpreter will have trouble with those games.
+
+ClosingText> 
+
+This is a final line of text. Goodbye.
+ZIF quit
+================================================================================
+ File : gntests.z5
+ MD5  : e35a6bb32fb677356554cebebca7736f
+ Path : extra
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : E59B
+
+This is a collection of the six test programs which came attached to the Z-Spec 
+0.99 file (spec.tex.) No changes have been made, except for the idiot menu 
+system glued to the front.
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+ 
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+1
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+ 
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+ 
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+2Accented characters test in font 1
+
+Decimal code:  character     name  plain ASCII equivalent
+
+155:   ›     a-umlaut  ae
+156:   œ     o-unlaut  oe
+157:        u-umlaut  ue
+158:   ž     A-umlaut  Ae
+159:   Ÿ     O-umlaut  Oe
+160:         U-umlaut  Ue
+161:   ¡     sz-ligature  ss
+162:   ¢     quotation mark  >> or "
+163:   £     quotation mark  << or "
+164:   ¤     e-umlaut  e
+165:   ¥     i-umlaut  i
+166:   ¦     y-umlaut  y
+167:   §     E-umlaut  E
+168:   ¨     I-umlaut  I
+169:   ©     a-acute  a
+170:   ª     e-acute  e
+171:   «     i-acute  i
+172:   ¬     o-acute  o
+173:   ­     u-acute  u
+174:   ®     y-acute  y
+175:   ¯     A-acute  A
+176:   °     E-acute  E
+177:   ±     I-acute  I
+178:   ²     O-acute  O
+179:   ³     U-acute  U
+180:   ´     Y-acute  Y
+181:   µ     a-grave  a
+182:   ¶     e-grave  e
+183:   ·     i-grave  i
+184:   ¸     o-grave  o
+185:   ¹     u-grave  u
+186:   º     A-grave  A
+187:   »     E-grave  E
+188:   ¼     I-grave  I
+189:   ½     O-grave  O
+190:   ¾     U-grave  U
+191:   ¿     a-circumflex  a
+192:   À     e-circumflex  e
+193:   Á     i-circumflex  i
+194:   Â     o-circumflex  o
+195:   Ã     u-circumflex  u
+196:   Ä     A-circumflex  A
+197:   Å     E-circumflex  E
+198:   Æ     I-circumflex  I
+199:   Ç     O-circumflex  O
+200:   È     U-circumflex  U
+201:   É     a-ring  a
+202:   Ê     A-ring  A
+203:   Ë     o-slash  o
+204:   Ì     O-slash  O
+205:   Í     a-tilde  a
+206:   Î     n-tilde  n
+207:   Ï     o-tilde  o
+208:   Ð     A-tilde  A
+209:   Ñ     N-tilde  N
+210:   Ò     O-tilde  O
+211:   Ó     ae-ligature  ae
+212:   Ô     AE-ligature  AE
+213:   Õ     c-cedilla  c
+214:   Ö     C-cedilla  C
+215:   ×     Icelandic thorn  th
+216:   Ø     Icelandic eth  th
+217:   Ù     Icelandic Thorn  Th
+218:   Ú     Icelandic Eth  Th
+219:   Û     pound symbol  L
+220:   Ü     oe-ligature oe
+221:   Ý     OE-ligature OE
+222:   Þ     upside-down !
+223:   ß     upside-down ?
+
+Please press SPACE.
+
+Font 4 unavailable.
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+ 
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+3Keyboard input code testing
+(Press keys to see how they respond, and press SPACE to finish.)
+
+10 error: code 10 should not have been returned
+ 32 
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+ 
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+4Colour display testing
+The interpreter says colours are available.  Let's see...
+
+black on red
+black on green
+black on yellow
+black on blue
+black on magenta
+black on cyan
+black on white
+red on black
+red on green
+red on yellow
+red on blue
+red on magenta
+red on cyan
+red on white
+green on black
+green on red
+green on yellow
+green on blue
+green on magenta
+green on cyan
+green on white
+yellow on black
+yellow on red
+yellow on green
+yellow on blue
+yellow on magenta
+yellow on cyan
+yellow on white
+blue on black
+blue on red
+blue on green
+blue on yellow
+blue on magenta
+blue on cyan
+blue on white
+magenta on black
+magenta on red
+magenta on green
+magenta on yellow
+magenta on blue
+magenta on cyan
+magenta on white
+cyan on black
+cyan on red
+cyan on green
+cyan on yellow
+cyan on blue
+cyan on magenta
+cyan on white
+white on black
+white on red
+white on green
+white on yellow
+white on blue
+white on magenta
+white on cyan
+
+########
+########
+########
+########
+########
+########
+########
+########
+
+(Default colours.) Press SPACE to clear.
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+ 
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+ 
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+5Interpreter declarations:
+
+(In Flags 1...)
+Colours available?  yes
+Boldface available?  yes
+Italic available?  yes
+Fixed-pitch font available?  yes
+Timed keyboard input available?  yes
+
+(In Flags 2.  The following four questions have meaningful answers only if bits 
+3, 4, 5 and 7 of Flags 2 were set in advance: to do this, alter the game file 
+by setting byte 16 to 184 and then run it again.)
+Pictures available?  no
+UNDO available?  no
+Mouse available?  no
+Sound effects available?  no
+
+Interpreter (machine) number 0 version A
+
+Screen height: 54 lines
+Screen width: 80 fixed-pitch font characters
+Screen height in units: 0
+Screen width in units: 0
+Font height in units: 1
+Font width (of a '0') in units: 1
+
+Default background colour: 
+Default foreground colour: 
+
+Font 1 available?  yes
+Font 2 available?  no
+Font 3 available?  no
+Font 4 available?  no
+
+Standard specification claimed by the interpreter: 1.0
+
+(Press SPACE to clear.)
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+ 
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+ 
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+6Testing timed input
+
+If you press no keys, five messages should appear, one second apart.  If you do 
+press a key, the test should finish at once.
+
+Test complete.
+
+Now the same test for 1/10th of a second (though probably not all interpreters 
+will be fast enough to make the interval quite that brief).
+
+ 
+Test complete.
+
+Please press SPACE.
+
+1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
+Exit
+0ZIF quit
+================================================================================
+ File : random.z5
+ MD5  : 162c98187e9b162fed9b18d681c1eba6
+ Path : extra
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : C468
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: 
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: n
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: o
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: 
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: n
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: 
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: t
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: a
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: k
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: e
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: 
+
+Inform Randomization Test version 1.0, by David Griffith August 2002
+
+1) Bellcurve graph.
+2) Spread graph.
+q) Quit.
+
+Please select a test: qZIF quit
+
+================================================================================
+Games      :      803
+Clean exit :      801
+Errors     :        2
 Warnings   :       86
 --------------------------------------------------------------------------------

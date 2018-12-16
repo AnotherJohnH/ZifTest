@@ -100,7 +100,7 @@ def hexDump(game):
 
 def playOnZif(game):
    full_path=games_dir+"/"+game
-   os.system("Zif/zif --trace --term "+full_path)
+   os.system("Zif/zif --term "+full_path)
 
 #--------------------------------------------------------------------------------
 
@@ -147,10 +147,6 @@ def testSingleGame(game):
                   warnings = warnings + 1
                logWrite(line)
          os.remove(out_log)
-
-      for file in ["undo_0.sav", "undo_1.sav"]:
-         if os.path.isfile(file):
-            os.remove(file)
 
    return status 
 
@@ -208,6 +204,11 @@ def getGames(cache_dir, games_list_file):
 
    # Compile a list of all the files
    game_list = []
+
+   game_list += ["extra/crashme.z5"]
+   game_list += ["extra/etude.z5"]
+   game_list += ["extra/gntests.z5"]
+   game_list += ["extra/random.z5"]
 
    for ext in ext_list:
       os.system("scrape --cache "+cache_dir+" --ext "+ext)

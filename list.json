@@ -797,5 +797,9 @@
    "cache/zracer.z5", 
    "cache/zsnake.z5", 
    "cache/ztrek.z5", 
-   "cache/zugzwang.z5"
+   "cache/zugzwang.z5", 
+   "extra/crashme.z5", 
+   "extra/etude.z5", 
+   "extra/gntests.z5", 
+   "extra/random.z5"
 ]
