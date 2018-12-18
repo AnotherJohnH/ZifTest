@@ -13314,8 +13314,13 @@ Standard interpreter 1.0
 
 Z-Machine version › 1998 Kevin Bracey (kbracey@acorn.co.uk)
 
-Sorry, SameGame needs a screen size of at least 46x14.
-ZIF quit
+Use cursor keys or the mouse to select a ball.
+Remove that ball and its matching neighbours by pressing Enter.
+Balls can only be removed if two or more neighbours match.
+The more balls that are removed each turn, the higher the score.
+A bonus of 500 points is awarded if all balls are removed.
+
+[Press any key to begin]
 ================================================================================
  File : Sangraal.z5
  MD5  : 954d26e207e43bc79fad46a285687e09
@@ -22823,7 +22828,7 @@ Header (No tests)
     Flags off: pictures, sound, transcripting on, fixed-pitch on, redraw 
 pending, using pictures, using undo, using mouse, using colors, using sound, 
 using menus, 
-    Screen size: 80x54; in 1x1 units: 0x0
+    Screen size: 80x56; in 1x1 units: 80x56
     Default color: current on current
 
 Print opcodes [407]: Tests should look like... '[Test] opcode (stuff): stuff'
@@ -33791,7 +33796,7 @@ ZIF quit
 ZIF Version  : z6
 ZIF Checksum : FA12
 ZIF WRN: mouse_window unimplemented
-Sorry, your terp screen size is too small (0x0). You need at least 600x400 
+Sorry, your terp screen size is too small (80x56). You need at least 600x400 
 (recommended 640x480 or larger).
 Goodbye.
 
@@ -39927,12 +39932,6 @@ system glued to the front.
 
 1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
 Exit
- 
-1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
-Exit
-
-1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
-Exit
 1
 
 1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
@@ -40146,10 +40145,10 @@ Sound effects available?  no
 
 Interpreter (machine) number 0 version A
 
-Screen height: 54 lines
+Screen height: 56 lines
 Screen width: 80 fixed-pitch font characters
-Screen height in units: 0
-Screen width in units: 0
+Screen height in units: 56
+Screen width in units: 80
 Font height in units: 1
 Font width (of a '0') in units: 1
 
