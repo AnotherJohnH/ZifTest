@@ -98,6 +98,53 @@ the key to the vault door.
 Are you sure you want to quit? y
 ZIF quit
 ================================================================================
+ File : 7doctors.z5
+ MD5  : 6ded67267909881984cb963971fb6a94
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : 67AA
+
+Your previous six incarnations have been kidnapped by various old foes. You 
+must rescue them before these foes take advantage of the absences of you from 
+the time-stream. You have been given a bag containing six time-rings. When you 
+find another Doctor, give it to them, and they will return to their place in 
+Time and Space.
+
+If you have not played this game before, please type ABOUT.
+
+The Seven Doctors
+An Interactive Fiction Adventure based on the BBC TV Show
+Release 1 / Serial number 981219 / Inform v6.15 Library 6/5
+Standard interpreter 1.0
+
+Control Room
+A white room, the walls are decorated with roundels. There is a constant hum in 
+the background. The area is illuminated with a soft light. In the centre of the 
+room is the hexagonal control console, on which is a red lever, a black switch, 
+a grey button, and a radiation meter. To the south, there is a short passage, 
+leading to a room beyond
+
+The doors to the outside world are closed
+
+You can also see a coat-stand (on which is a hat) and a scanner screen here.
+
+>
+I beg your pardon?
+
+>no
+That was a rhetorical question.
+
+>n
+You can't, since the door is in the way.
+
+>take
+What do you want to take?
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
+================================================================================
  File : 905.z5
  MD5  : 4c5067169b834d247a30bb08d1039896
  Path : cache
@@ -10554,6 +10601,89 @@ The wind turns the grass northwest.
 What do you want to take?
 
 >quit
+Are you sure you want to quit? y
+ZIF quit
+================================================================================
+ File : Mercury_Trucking.z5
+ MD5  : f0e48ad31c787ba3812c375b199f39d3
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : 3245
+
+[                      *
+  M e r c u r y                        *
+                 T r u c k i n g
+     *                            C o m p a n y
+              *
+                                      --O--
+        .            Small
+                     Quick
+           The hottest in the system!    .
+  
+              Call 0-900-HAULZ-ASS          *]
+
+                                                                          [-->]
+
+A dreaming, curled up tight, drifts nowhere in a straight line, a ballistic 
+path (though gravity's say in the matter is hard to hear above all the noise). 
+Half-imagined stories, half-remembered people sail by, fish-eye-lensing, and 
+fragmenting into a sonorous black. 
+
+An insistent hand has been shaking you by the shoulder, and though you've 
+managed to ignore it all this time, it's suddenly and jarringly unbearable. 
+Angrily you turn round and the world shrinks around your face.
+
+'What am I?'
+
+Cold, thirsty, immobile
+Queasy yellow light and sour smells -- the acrid plastic smell of synthetic 
+clothing and human closeness. You cough, you sweat, you nervously shake, but 
+you do not move. You cannot. Something stiflingly close to you, something cold, 
+clamps you down.
+
+Now what?
+no
+Panic floods through you -- you can't even move your head.
+
+Now what?
+n
+This paralysis panics a muffled scream from the back of your throat and it is 
+then that you remember that it's just another working day. They always start 
+like this.
+                                                                          [-->]t
+
+                    *         *         *         *         *
+
+THE MERCURY TRUCKING COMPANY
+An Interactive Job Worth Doing 
+(c) 1998--1999 Alan Trewartha 
+
+(First time players, type 'HELP')
+
+Release 0 / Serial number 990424
+Inform v6.13 Library 6/8 
+Standard interpreter 1.0 (0A)
+Library serial number 981213
+
+                    *         *         *         *         *
+
+                               1 -- Punching In
+
+Feelings -- pins and needles -- unexpectedly flood into your arms and 
+desperately you flex your fingers. So the paralysis is wearing off: how about 
+the forgetfulness, huh? "What am I doing here?", you wonder. Hmm, the lid of 
+this cryogenic sleep pod is distractingly close to your face. A sleep pod -- so 
+you've been sleeping the weeks away until the ship (no, your ship) reaches, 
+um... here. Is it always so difficult to concentrate when you wake up in these 
+damn things?
+
+Now what?
+ake
+That's not a verb I recognise.
+
+Now what?
+quit
 Are you sure you want to quit? y
 ZIF quit
 ================================================================================
@@ -22829,7 +22959,7 @@ Header (No tests)
 pending, using pictures, using undo, using mouse, using colors, using sound, 
 using menus, 
     Screen size: 80x56; in 1x1 units: 80x56
-    Default color: current on current
+    Default color: white on black
 
 Print opcodes [407]: Tests should look like... '[Test] opcode (stuff): stuff'
 print_num (0, 1, -1, 32767,-32768, -1): 0, 1, -1, 32767, -32768, -1
@@ -40152,8 +40282,8 @@ Screen width in units: 80
 Font height in units: 1
 Font width (of a '0') in units: 1
 
-Default background colour: 
-Default foreground colour: 
+Default background colour: black
+Default foreground colour: white
 
 Font 1 available?  yes
 Font 2 available?  no
@@ -40298,8 +40428,8 @@ q) Quit.
 Please select a test: qZIF quit
 
 ================================================================================
-Games      :      803
-Clean exit :      801
+Games      :      805
+Clean exit :      803
 Errors     :        2
 Warnings   :       86
 --------------------------------------------------------------------------------
