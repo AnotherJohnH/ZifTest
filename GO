@@ -74,27 +74,9 @@ def packGames(list):
 
 #--------------------------------------------------------------------------------
 
-def hexDump(game):
+def dump(game):
    full_path=games_dir+"/"+game
-   print "Read '"+full_path+"'"
-   with open(full_path) as file:
-      print "Write 'hex.log'"
-      out=open("hex.log", "w")
-      offset=0
-      for data in iter(lambda: file.read(16), b""):
-         out.write("%06X : " % (offset))
-         for ch in data:
-            out.write("%02X " % (ord(ch)))
-         out.write(": ")
-         for ch in data:
-            byte=ord(ch)
-            if ((byte >= 0x20) and (byte <= 0x7F)):
-               out.write(ch)
-            else:
-               out.write('.')
-         out.write('\n')
-         offset=offset+16
-      out.close();
+   os.system("Zif/zdmp "+full_path)
 
 #--------------------------------------------------------------------------------
 
@@ -223,16 +205,20 @@ def getGames(cache_dir, games_list_file):
 
 parser=argparse.ArgumentParser(description='Test Zif')
 
+parser.add_argument('-a', '--all', dest='all', action='store_true',
+                    help="build, pull and run")
+parser.add_argument('-b', '--build', dest='build', action='store_true',
+                    help="pull and rebuild Zif")
 parser.add_argument('-g', '--get', dest='get', action='store_true',
                     help="get story files")
+parser.add_argument('-r', '--run', dest='run', action='store_true',
+                    help="run all the tests")
 parser.add_argument('-l', '--list', dest='list', action='store_true',
                     help="list tests without running them")
 parser.add_argument('-p', '--pack', dest='pack', action='store_true',
                     help="create a package of story files")
-parser.add_argument('-b', '--build', dest='build', action='store_true',
-                    help="pull and rebuild Zif")
-parser.add_argument('-x', '--hex', dest='hex', metavar='#', type=int, default=0,
-                    help="hex dump the story file")
+parser.add_argument('-d', '--dump', dest='dump', metavar='#', type=int, default=0,
+                    help="Dump the story file")
 parser.add_argument('-t', '--test', dest='test', metavar='#', type=int, default=0,
                     help="run a single test")
 parser.add_argument('-z', '--zif', dest='zif', metavar='#', type=int, default=0,
@@ -254,29 +240,36 @@ games_results="results.log"
 
 games_list=json.load(open(games_list_file))
 
-if args.build:
+if args.build or args.all:
    os.chdir("Zif")
    os.system("git pull --rebase")
-   os.system("scons debug=1")
+   os.system("scons debug=0")
    os.chdir("..")
 
-if args.get:
+if args.get or args.all:
    getGames("cache", games_list_file)
-elif args.list:
-   listGames(games_list)
-elif args.pack:
-   packGames(games_list)
-elif args.hex != 0:
-   hexDump(games_list[args.hex - 1])
-elif args.frotz != 0:
-   playOnFrotz(games_list[args.frotz - 1])
-elif args.zif!= 0:
-   playOnZif(games_list[args.zif - 1])
-elif args.test != 0:
-   with open(games_results, "w") as log:
-      testSingleGame(games_list[args.test - 1])
-else:
+
+if args.run or args.all:
    with open(games_results, "w") as log:
       testAllGames(games_list)
+
+if args.list:
+   listGames(games_list)
+
+if args.pack:
+   packGames(games_list)
+
+if args.dump != 0:
+   dump(games_list[args.dump - 1])
+
+if args.frotz != 0:
+   playOnFrotz(games_list[args.frotz - 1])
+
+if args.zif!= 0:
+   playOnZif(games_list[args.zif - 1])
+
+if args.test != 0:
+   with open(games_results, "w") as log:
+      testSingleGame(games_list[args.test - 1])
 
 restoreTermIO()
