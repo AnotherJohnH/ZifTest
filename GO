@@ -155,8 +155,12 @@ def getGames(cache_dir, games_list_file):
    if not os.path.isdir(cache_dir):
       os.system("mkdir "+cache_dir)
 
-   os.system("Zif/zcrape --path /if-archive/infocom/interpreters/tools/ --cache "+cache_dir)
-   os.system("Zif/zcrape --cache "+cache_dir)
+   path_list = ["/if-archive/infocom/interpreters/tools/",
+                "/if-archive/infocom/demos/",
+                "/if-archive/games/zcode/"]
+
+   for path in path_list:
+      os.system("Zif/zcrape --path "+path+" --cache "+cache_dir)
 
    # Create list of interesting file extensions
    ext_list = []
@@ -235,7 +239,7 @@ errors=0
 warnings=0
 
 games_dir="."
-games_list_file="list.json"
+games_list_file="stories.json"
 games_results="results.log"
 
 games_list=json.load(open(games_list_file))

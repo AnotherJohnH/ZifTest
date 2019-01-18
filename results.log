@@ -29059,6 +29059,43 @@ You have scored 0 of 100 points.
 Your score ranks you as a beginner.
 ZIF quit
 ================================================================================
+ File : minizork.z3
+ MD5  : e9fc04a4e4576c547dac32af77be434c
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z3
+ZIF Checksum : 70D8
+MINI-ZORK I: The Great Underground Empire
+Copyright (c) 1988 Infocom, Inc. All rights reserved.
+ZORK is a registered trademark of Infocom, Inc.
+Release 34 / Serial number 871124
+
+West of House
+You are standing in an open field west of a white house, with a boarded front 
+door. You could circle the house to the north or south.
+There is a small mailbox here.
+
+>
+[I beg your pardon?]
+
+>no
+[There was no verb in that sentence!]
+
+>n
+North of House
+You are facing the north side of a white house. There is no door here, and all 
+the windows are boarded up. A narrow path winds north through the trees.
+
+>take
+[What do you want to xtak?]
+
+>quit
+Your score is 0 (of 350 points), in 1 move. This gives you the rank of 
+Beginning Adventurer.
+
+Do you wish to leave the game? (Y is affirmative): >y
+ZIF quit
+================================================================================
  File : minster.z5
  MD5  : e343b97402ea4220bf19bb3fe39ae008
  Path : cache
@@ -33778,6 +33815,342 @@ its ripeness.
 Are you sure you want to quit? y
 ZIF quit
 ================================================================================
+ File : sampler1_R26.z3
+ MD5  : ecb00d5e2d40f2d6833b7a135ae215e0
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z3
+ZIF Checksum : E9A3
+
+Welcome to the worlds of Infocom's interactive fiction. This Sampler contains a 
+Tutorial and samples of four Infocom titles: Zork I, Planetfall, Infidel, and 
+The Witness.
+
+The Tutorial is an introduction to the concept of interactive fiction. In it, 
+you will be taken through a brief sample scenario that will allow you to become 
+comfortable with the way to converse with these stories. After the tutorial, 
+there will be a brief explanation of how Infocom's interactive fiction is 
+different from others you might see or hear about.
+
+The sample of Zork I, a fantasy game, includes everything through your 
+discovery of the main caverns of the Great Underground Empire. In Planetfall, a 
+science fiction game, you will scramble to survive a shipwreck and land on a 
+deserted world. If you play Infidel, one of our Tales of Adventure, the sample 
+will include your search for an ancient pyramid buried beneath the desert 
+sands. The sample of The Witness will give you a glimpse of the action in this 
+30's-style detective thriller.
+
+(Hit the RETURN key now to start the tutorial.)>>
+
+Welcome to Infocom's interactive fiction tutorial. Infocom's line represents 
+the state of the art in interactive computer story-telling. In these stories, 
+YOU are the main character. The final outcome is determined solely by YOUR 
+actions. We offer a full line of interactive stories in such genres as Mystery, 
+Fantasy, Science Fiction, and Tales of Adventure. This is a tutorial 
+introduction to Infocom's interactive fiction.
+
+In what follows, text in parentheses (here is an example) is part of the 
+tutorial and not part of the game itself. Infocom's stories start with a 
+description of your location within the story. At the end of the description 
+comes the prompting character ">", which indicates that the game is waiting for 
+you to decide what to do next. If you can't think of what to do, type HELP. Hit 
+the RETURN key to see the opening of the Tutorial Game.no
+
+Tutorial Game
+Copyright (c) 1984 Infocom, Inc. All rights reserved.
+ZORK is a registered trademark of Infocom, Inc.
+PLANETFALL, INFIDEL, and The WITNESS are trademarks of Infocom, Inc.
+Release 26 / Serial number 840731
+
+Living Room
+You are standing in the living room of a large house. The room is bare except 
+for a small, square table in the center of the room.
+An oak door to the east opens into a darkened area and a mahogany door to the 
+south is closed.
+Above the mahogany door is an old sign with some faded lettering.
+A shiny brass lantern is sitting in the center of the table.
+
+>
+(Hit the RETURN key now to continue the tutorial.)n
+
+(In order to proceed you need some idea of your purpose in the story. In one 
+fantasy game, for example, the goal is to obtain treasures; in a mystery game, 
+the goal is to arrest the murderer. The goal of each game is usually presented 
+in the game documentation. The goal for the Tutorial Game is:
+ 
+To trap the prized butterfly that is in the room to the south of the living 
+room.
+
+Hit the RETURN key now to continue the tutorial.)take
+
+(You indicate your desires within the story by typing English sentences. A good 
+rule of thumb in determining the kinds of sentences that will be understood is 
+to think of completing the following sentence: "I want to ... " The three dots 
+stand for the words you will type in. You will often want to see the 
+description of the place you're in: you can type "LOOK AROUND" or, simply, 
+"LOOK" to do just that. Try that now at the prompt. Remember to end all of your 
+typing by hitting the RETURN key.)
+
+>quit
+Your score is 0 (total of 50 points for the Tutorial Game), in 0 moves.
+Do you wish to leave the game? (YES is affirmative): >y
+Your score is 0 (total of 50 points for the Tutorial Game), in 0 moves.
+
+Thanks for playing. Hit the RETURN key to restart the Tutorial/Demonstration.
+
+Welcome to the worlds of Infocom's interactive fiction. This Sampler contains a 
+Tutorial and samples of four Infocom titles: Zork I, Planetfall, Infidel, and 
+The Witness.
+
+The Tutorial is an introduction to the concept of interactive fiction. In it, 
+you will be taken through a brief sample scenario that will allow you to become 
+comfortable with the way to converse with these stories. After the tutorial, 
+there will be a brief explanation of how Infocom's interactive fiction is 
+different from others you might see or hear about.
+
+The sample of Zork I, a fantasy game, includes everything through your 
+discovery of the main caverns of the Great Underground Empire. In Planetfall, a 
+science fiction game, you will scramble to survive a shipwreck and land on a 
+deserted world. If you play Infidel, one of our Tales of Adventure, the sample 
+will include your search for an ancient pyramid buried beneath the desert 
+sands. The sample of The Witness will give you a glimpse of the action in this 
+30's-style detective thriller.
+
+(Hit the RETURN key now to start the tutorial.)>>================================================================================
+ File : sampler1_R52.z3
+ MD5  : f14d76c01ceaea1ad7c0ad697d2c5504
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z3
+ZIF Checksum : DA7B
+
+Welcome to the world of Infocom's interactive fiction! This Sampler contains an 
+interactive fiction Tutorial and excerpts from four Infocom titles: Zork I, 
+Planetfall, Infidel, and The Witness.
+
+The Tutorial introduces you to the concept of interactive fiction. In it, 
+you'll be taken through a brief sample scenario. You'll learn how to 
+communicate with the story and pick up tips for solving the types of puzzles 
+you'll encounter in the excerpts.
+
+The excerpt from Zork I, Infocom's classic fantasy story, includes your 
+discovery of the ancient caverns of the Great Underground Empire. In the sample 
+of Planetfall, a science fiction comedy, you'll find yourself stranded on a 
+deserted alien planet. In Infidel, a challenging Tale of Adventure, you'll be 
+taken to the heart of the Egyptian desert, where you'll search for a great lost 
+pyramid. A sample transcript from The Witness will give you a glimpse of the 
+action in this 30's-style detective thriller.
+
+Now, press the RETURN (or ENTER) key to see a list of the things you can do next.
+
+WHAT DO YOU WANT TO SEE?
+
+If you haven't had any experience with interactive fiction, we suggest you try 
+the Tutorial first. The Tutorial is designed to provide you with whatever help 
+you might need as you explore its sample scenario. In the story excerpts, 
+you'll be on your own.
+
+T - The Tutorial
+
+I - Infidel excerpt -- a Tale of Adventure
+P - Planetfall excerpt -- science fiction
+W - Sample transcript from The Witness -- a mystery
+Z - Zork I excerpt -- a fantasy
+
+B - Blatantly self-serving propaganda
+
+N - Nothing; I'm done with this Sampler for now
+
+Whenever you want to start the Sampler over from the beginning, just type 
+RESTART and press the RETURN (or ENTER) key. If you want to leave the Sampler, 
+type QUIT.
+
+(Please type in the appropriate letter and press the RETURN or ENTER key.)>no
+(Please type in the appropriate letter and press the RETURN or ENTER key.)>n
+Thanks for playing!
+
+ZIF quit
+================================================================================
+ File : sampler1_R53.z3
+ MD5  : fbb8fa8365720cfcc79654bb7de82450
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z3
+ZIF Checksum : 9C7F
+
+Welcome to the world of Infocom's interactive fiction! This Sampler contains an 
+interactive fiction Tutorial and excerpts from four Infocom titles: Zork I, 
+Planetfall, Infidel, and The Witness.
+
+The Tutorial introduces you to the concept of interactive fiction. In it, 
+you'll be taken through a brief sample scenario. You'll learn how to 
+communicate with the story and pick up tips for solving the types of puzzles 
+you'll encounter in the excerpts.
+
+The excerpt from Zork I, Infocom's classic fantasy story, includes your 
+discovery of the ancient caverns of the Great Underground Empire. In the sample 
+of Planetfall, a science fiction comedy, you'll find yourself stranded on a 
+deserted alien planet. In Infidel, a challenging Tale of Adventure, you'll be 
+taken to the heart of the Egyptian desert, where you'll search for a great lost 
+pyramid. A sample transcript from The Witness will give you a glimpse of the 
+action in this 30's-style detective thriller.
+
+Now, press the RETURN (or ENTER) key to see a list of the things you can do next.
+
+WHAT DO YOU WANT TO SEE?
+
+If you haven't had any experience with interactive fiction, we suggest you try 
+the Tutorial first. The Tutorial is designed to provide you with whatever help 
+you might need as you explore its sample scenario. In the story excerpts, 
+you'll be on your own.
+
+T - The Tutorial
+
+I - Infidel excerpt -- a Tale of Adventure
+P - Planetfall excerpt -- science fiction
+W - Sample transcript from The Witness -- a mystery
+Z - Zork I excerpt -- a fantasy
+
+B - Blatantly self-serving propaganda
+
+N - Nothing; I'm done with this Sampler for now
+
+Whenever you want to start the Sampler over from the beginning, just type 
+RESTART and press the RETURN (or ENTER) key. If you want to leave the Sampler, 
+type QUIT.
+
+(Please type in the appropriate letter and press the RETURN or ENTER key.)>no
+(Please type in the appropriate letter and press the RETURN or ENTER key.)>n
+Thanks for playing!
+
+ZIF quit
+================================================================================
+ File : sampler1_R55.z3
+ MD5  : 8c6f2d966dc2ae145d83c340c0d694e1
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z3
+ZIF Checksum : 216F
+
+Welcome to the world of Infocom's interactive fiction! This Sampler contains an 
+interactive fiction Tutorial and excerpts from four Infocom titles: Zork I, 
+Planetfall, Infidel, and The Witness.
+
+The Tutorial introduces you to the concept of interactive fiction. In it, 
+you'll be taken through a brief sample scenario. You'll learn how to 
+communicate with the story and pick up tips for solving the types of puzzles 
+you'll encounter in the excerpts.
+
+The excerpt from Zork I, Infocom's classic fantasy story, includes your 
+discovery of the ancient caverns of the Great Underground Empire. In the sample 
+of Planetfall, a science fiction comedy, you'll find yourself stranded on a 
+deserted alien planet. In Infidel, a challenging Tale of Adventure, you'll be 
+taken to the heart of the Egyptian desert, where you'll search for a great lost 
+pyramid. A sample transcript from The Witness will give you a glimpse of the 
+action in this 30's-style detective thriller.
+
+Now, press the RETURN (or ENTER) key to see a list of the things you can do next.
+
+WHAT DO YOU WANT TO SEE?
+
+If you haven't had any experience with interactive fiction, we suggest you try 
+the Tutorial first. The Tutorial is designed to provide you with whatever help 
+you might need as you explore its sample scenario. In the story excerpts, 
+you'll be on your own.
+
+T - The Tutorial
+
+I - Infidel excerpt -- a Tale of Adventure
+P - Planetfall excerpt -- science fiction
+W - Sample transcript from The Witness -- a mystery
+Z - Zork I excerpt -- a fantasy
+
+B - Blatantly self-serving propaganda
+N - Nothing; I'm done with this Sampler for now
+
+Whenever you want to start the Sampler over from the beginning, just type 
+RESTART and press the RETURN (or ENTER) key. To leave the Sampler, type QUIT.
+
+(Please type in the appropriate letter and press the RETURN or ENTER key.)>no
+(Please type in the appropriate letter and press the RETURN or ENTER key.)>n
+Thanks for playing!
+
+ZIF quit
+================================================================================
+ File : sampler2.z3
+ MD5  : 741a2a584fccbd6d06eaaa7860371b9b
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z3
+ZIF Checksum : 57A0
+Welcome to the world of Infocom's interactive fiction! This Sampler contains an 
+interactive fiction Tutorial, as well as excerpts from three Infocom titles: 
+Zork I, Trinity, and Leather Goddesses of Phobos.
+
+The Tutorial will introduce you to the concept of interactive fiction. In it, 
+you'll be guided through a brief sample scenario taken from Wishbringer, a 
+popular Infocom title. You'll learn how to communicate with an Infocom story, 
+and pick up tips for solving the types of puzzles you'll encounter in the other 
+excerpts. We recommend that you try the Tutorial first, especially if you've 
+had little or no experience with interactive fiction.
+
+The excerpt from Zork I, Infocom's classic fantasy story, includes your 
+discovery of the ancient caverns of the Great Underground Empire. In the 
+Leather Goddesses of Phobos sample, you'll frolick through a zany parody of 
+1930's pulp space opera. In Trinity, a contemporary fantasy, you will search 
+for a dimensional door leading to a strange universe in which fantasy meets 
+reality.
+
+Please hit the RETURN/ENTER key to continue...
+
+WHAT DO YOU WANT TO SEE?
+
+Here are your options:
+
+Run the <I>nteractive fiction Tutorial
+
+Play an excerpt from:
+        <Z>ork I
+        <L>eather Goddesses of Phobos
+        <T>rinity
+
+   Read <B>latantly self-serving propaganda
+
+     or <Q>uit; you've had enough
+
+Type the first letter of your choice, and hit the RETURN/ENTER key.
+
+(Your choice:) >no
+What you typed was invalid. Please try again.
+(Your choice:) >n
+What you typed was invalid. Please try again.
+(Your choice:) >take
+What you typed was invalid. Please try again.
+(Your choice:) >quit
+What you typed was invalid. Please try again.
+(Your choice:) >y
+What you typed was invalid. Please try again.
+
+WHAT DO YOU WANT TO SEE?
+
+Here are your options:
+
+Run the <I>nteractive fiction Tutorial
+
+Play an excerpt from:
+        <Z>ork I
+        <L>eather Goddesses of Phobos
+        <T>rinity
+
+   Read <B>latantly self-serving propaganda
+
+     or <Q>uit; you've had enough
+
+Type the first letter of your choice, and hit the RETURN/ENTER key.
+
+(Your choice:) >
+What you typed was invalid. Please try again.
+(Your choice:) >================================================================================
  File : saveprinceton.z8
  MD5  : bc345bc8336b95804ef2ccee9a472231
  Path : cache
@@ -39423,6 +39796,98 @@ quit
 y
 
 ================================================================================
+ File : zork_1_demo.z3
+ MD5  : 74163af08428d7e7df92be63f15f4681
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z3
+ZIF Checksum : F1D0
+
+Welcome to the worlds of Infocom's interactive fiction. This diskette contains 
+both a Tutorial game and a Demonstration of Zork I (R).
+
+The Tutorial is an introduction to the concept of interactive fiction. In it, 
+you will be taken through a small sample scenario that will allow you to become 
+comfortable with the way these games are played.
+
+The Demonstration is the actual beginning of Zork I, up through your discovery 
+of the main caverns of the Great Underground Empire.
+
+Whenever the word "MORE" appears on your screen, you will need to hit the space 
+bar to see the remainder of the text.
+
+(Hit the RETURN key now to start the tutorial.)
+
+Welcome to the Infocom's interactive fiction tutorial. These games represent 
+the state-of-the-art in interactive computer gaming. In them YOU are the main 
+character in a story in which the final outcome is determined solely by YOUR 
+actions. We offer a full line of interactive stories in such genres as Mystery, 
+Fantasy, Science Fiction, and Tales of Adventure. This is a tutorial 
+introduction to Infocom's interactive fiction.
+ 
+In what follows, text in parentheses (here is an example) is part of the 
+tutorial and not part of the game itself. Infocom's games start with a 
+description of your location within the story. At the end of the description 
+comes the prompting character ">", which indicates that the game is waiting for 
+you to decide what to do next. If you can't think of what to do, type HELP. Hit 
+the RETURN key to see the opening of the Tutorial Game.no
+
+Tutorial Game
+Copyright (c) 1984 Infocom, Inc. All rights reserved.
+ZORK is a registered trademark of Infocom, Inc.
+The WITNESS is a trademark of Infocom, Inc.
+Revision 15 / Serial number 840330
+
+Living Room
+You are standing in the living room of a large house. The room is bare except 
+for a small, square table in the center of the room.
+An oak door to the east opens into a darkened area and a mahogany door to the 
+south is closed.
+Above the mahogany door is an old sign with some faded lettering.
+A shiny brass lantern is sitting in the center of the table.
+
+>
+(Hit the RETURN key now to continue the tutorial.)n
+
+(In order to proceed you need some idea of your purpose in the story. In one 
+fantasy game, for example, the goal is to obtain treasures; in a mystery game, 
+the goal is to arrest the murderer. The goal of each game is usually presented 
+in the game documentation. The goal for the Tutorial Game is:
+ 
+To trap the prized butterfly that is in the room to the south of the living 
+room.
+
+Hit the RETURN key now to continue the tutorial.)take
+
+(You indicate your desires within the game by typing English sentences. A good 
+rule of thumb in determining the kinds of sentences that will be understood is 
+to think of completing the following sentence: "I want to ... " The three dots 
+stand for the words you will type in. You will often want to see the 
+description of the place you're in: you can type "LOOK AROUND" or, simply, 
+"LOOK" to do just that. Try that now at the prompt. Remember to end all of your 
+typing by hitting the RETURN key.)
+
+>quit
+Your score would be 0 (total of 50 points for the Tutorial Game), in 0 moves.
+Do you wish to leave the game? (YES is affirmative): >y
+Your score would be 0 (total of 50 points for the Tutorial Game), in 0 moves.
+
+Thanks for playing. Hit the RETURN key to restart the Tutorial/Demonstration.
+
+Welcome to the worlds of Infocom's interactive fiction. This diskette contains 
+both a Tutorial game and a Demonstration of Zork I (R).
+
+The Tutorial is an introduction to the concept of interactive fiction. In it, 
+you will be taken through a small sample scenario that will allow you to become 
+comfortable with the way these games are played.
+
+The Demonstration is the actual beginning of Zork I, up through your discovery 
+of the main caverns of the Great Underground Empire.
+
+Whenever the word "MORE" appears on your screen, you will need to hit the space 
+bar to see the remainder of the text.
+
+(Hit the RETURN key now to start the tutorial.)================================================================================
  File : zracer.z5
  MD5  : f39905ef58337374a5cf4f45dacf5431
  Path : cache
@@ -40428,8 +40893,8 @@ q) Quit.
 Please select a test: qZIF quit
 
 ================================================================================
-Games      :      805
-Clean exit :      803
+Games      :      812
+Clean exit :      810
 Errors     :        2
 Warnings   :       86
 --------------------------------------------------------------------------------
