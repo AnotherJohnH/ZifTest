@@ -173,9 +173,8 @@ def getGames(cache_dir, games_list_file):
    if not os.path.isdir(cache_dir):
       os.system("mkdir "+cache_dir)
 
-   # some special cases
-   os.system("scrape --path /if-archive/infocom/interpreters/tools/ --cache "+cache_dir+" --ext z5")
-   os.system("scrape --path /if-archive/infocom/interpreters/tools/ --cache "+cache_dir+" --ext zip")
+   os.system("Zif/zcrape --path /if-archive/infocom/interpreters/tools/ --cache "+cache_dir)
+   os.system("Zif/zcrape --cache "+cache_dir)
 
    # Create list of interesting file extensions
    ext_list = []
@@ -184,8 +183,7 @@ def getGames(cache_dir, games_list_file):
       ext_list += ['Z'+str(version+1)]
    ext_list += ['zblorb']
 
-   # Get and decompress zip files
-   os.system("scrape --cache "+cache_dir+" --ext zip")
+   # Find and decompress zip files
    for filename in glob.glob(cache_dir+'/*.zip'):
       extract_dir=filename+"_extract"
 
@@ -211,7 +209,6 @@ def getGames(cache_dir, games_list_file):
    game_list += ["extra/random.z5"]
 
    for ext in ext_list:
-      os.system("scrape --cache "+cache_dir+" --ext "+ext)
       for filename in glob.glob(cache_dir+'/*.'+ext):
          game_list += [filename]
 
