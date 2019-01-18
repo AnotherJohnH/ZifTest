@@ -206,9 +206,9 @@ def getGames(cache_dir, games_list_file):
 parser=argparse.ArgumentParser(description='Test Zif')
 
 parser.add_argument('-a', '--all', dest='all', action='store_true',
-                    help="build, pull and run")
+                    help="pull source, rebuild Zif, get story files and run all tests")
 parser.add_argument('-b', '--build', dest='build', action='store_true',
-                    help="pull and rebuild Zif")
+                    help="pull source and rebuild Zif")
 parser.add_argument('-g', '--get', dest='get', action='store_true',
                     help="get story files")
 parser.add_argument('-r', '--run', dest='run', action='store_true',
