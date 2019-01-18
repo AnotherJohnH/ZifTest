@@ -20,7 +20,7 @@ before_install:
 
 language: cpp
 
-script: scons
+script: GO -a
 
 compiler:
     - clang
