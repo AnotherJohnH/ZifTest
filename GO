@@ -243,7 +243,7 @@ games_list=json.load(open(games_list_file))
 if args.build or args.all:
    os.chdir("Zif")
    os.system("git pull --rebase")
-   os.system("scons debug=0")
+   os.system("scons debug=1")
    os.chdir("..")
 
 if args.get or args.all:
