@@ -61,7 +61,7 @@ def listGames(list):
 #--------------------------------------------------------------------------------
 
 def packGames(list):
-   archive=os.getcwd()+"/games.tar"
+   archive=os.getcwd()+"/cache.tar"
    if os.path.isfile(archive):
       os.remove(archive)
    os.system("tar cvf "+archive)
@@ -252,6 +252,7 @@ if args.get or args.all:
 if args.run or args.all:
    with open(games_results, "w") as log:
       testAllGames(games_list)
+   os.system("git diff results.log")
 
 if args.list:
    listGames(games_list)
