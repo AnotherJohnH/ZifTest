@@ -157,6 +157,7 @@ def getGames(cache_dir, games_list_file):
 
    path_list = ["/if-archive/infocom/interpreters/tools/",
                 "/if-archive/infocom/demos/",
+                "/if-archive/phoenix/hints/zcode/",
                 "/if-archive/games/zcode/"]
 
    for path in path_list:

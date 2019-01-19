@@ -3751,6 +3751,223 @@ n
 Goodbye, Adieu, Auf Wiedersehen, Adios and ***FINISHED.
 ZIF quit
 ================================================================================
+ File : Crobe_hints.z5
+ MD5  : f1e897b95ce9d03a355c9cb236ec30f0
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : 8819
+
+This file contains hints for Crobe, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Crobe was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by Jonathan R. Partington in 1986.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE.]n
+
+This file contains hints for Crobe, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Crobe was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by Jonathan R. Partington in 1986.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE.]n
+
+This file contains hints for Crobe, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Crobe was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by Jonathan R. Partington in 1986.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE.]t
+
+This file contains hints for Crobe, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Crobe was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by Jonathan R. Partington in 1986.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE.]q
+
+This file contains hints for Crobe, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Crobe was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by Jonathan R. Partington in 1986.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE.]y
+
+This file contains hints for Crobe, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Crobe was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by Jonathan R. Partington in 1986.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE.]
+================================================================================
  File : CtDoom.z5
  MD5  : 1fd4f4478886cbbcb51f76a6ab29599c
  Path : cache
@@ -6918,6 +7135,229 @@ Care to try your hand again?
 n
 Well go and do some work then.
 ZIF quit
+================================================================================
+ File : Fyleet_hints.z5
+ MD5  : 64773b6be7ac0f04e297936c444e408d
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : 2DE9
+
+This file contains hints for Fyleet, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Several of these games 
+were later published commercially by Topologika, at which point they were given 
+a built-in hints system. Fyleet was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) dangerous, and 
+walking from the dark into a lit room is safe. So far, that's normal. Phoenix 
+games differ in that they let you take objects in dark rooms, even if you have 
+never seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Fyleet was written by Jonathan R. Partington in 1985.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+n
+
+This file contains hints for Fyleet, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Several of these games 
+were later published commercially by Topologika, at which point they were given 
+a built-in hints system. Fyleet was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) dangerous, and 
+walking from the dark into a lit room is safe. So far, that's normal. Phoenix 
+games differ in that they let you take objects in dark rooms, even if you have 
+never seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Fyleet was written by Jonathan R. Partington in 1985.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+n
+
+This file contains hints for Fyleet, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Several of these games 
+were later published commercially by Topologika, at which point they were given 
+a built-in hints system. Fyleet was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) dangerous, and 
+walking from the dark into a lit room is safe. So far, that's normal. Phoenix 
+games differ in that they let you take objects in dark rooms, even if you have 
+never seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Fyleet was written by Jonathan R. Partington in 1985.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+t
+
+This file contains hints for Fyleet, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Several of these games 
+were later published commercially by Topologika, at which point they were given 
+a built-in hints system. Fyleet was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) dangerous, and 
+walking from the dark into a lit room is safe. So far, that's normal. Phoenix 
+games differ in that they let you take objects in dark rooms, even if you have 
+never seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Fyleet was written by Jonathan R. Partington in 1985.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+q
+
+This file contains hints for Fyleet, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Several of these games 
+were later published commercially by Topologika, at which point they were given 
+a built-in hints system. Fyleet was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) dangerous, and 
+walking from the dark into a lit room is safe. So far, that's normal. Phoenix 
+games differ in that they let you take objects in dark rooms, even if you have 
+never seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Fyleet was written by Jonathan R. Partington in 1985.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+y
+
+This file contains hints for Fyleet, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Several of these games 
+were later published commercially by Topologika, at which point they were given 
+a built-in hints system. Fyleet was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) dangerous, and 
+walking from the dark into a lit room is safe. So far, that's normal. Phoenix 
+games differ in that they let you take objects in dark rooms, even if you have 
+never seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Fyleet was written by Jonathan R. Partington in 1985.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+
 ================================================================================
  File : GA.z5
  MD5  : e4c58199c34b248aeb7e0b37b5bc3079
@@ -11604,6 +12044,229 @@ n
 Well, that's got rid of at least one of us then!
 ZIF quit
 ================================================================================
+ File : Nidus_hints.z5
+ MD5  : bd14999a2aa7cb20e074d32da7f08ca0
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : 3C24
+
+This file contains hints for Nidus, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Many of these games were later 
+published commercially by Topologika, at which point they gained a built-in 
+hints system. Nidus was never published this way. The original version never 
+had hints, nor does the ZCode conversion which is available at the IF Archive. 
+This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Nidus was written by Adam Atkinson in 1986.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+n
+
+This file contains hints for Nidus, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Many of these games were later 
+published commercially by Topologika, at which point they gained a built-in 
+hints system. Nidus was never published this way. The original version never 
+had hints, nor does the ZCode conversion which is available at the IF Archive. 
+This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Nidus was written by Adam Atkinson in 1986.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+n
+
+This file contains hints for Nidus, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Many of these games were later 
+published commercially by Topologika, at which point they gained a built-in 
+hints system. Nidus was never published this way. The original version never 
+had hints, nor does the ZCode conversion which is available at the IF Archive. 
+This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Nidus was written by Adam Atkinson in 1986.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+t
+
+This file contains hints for Nidus, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Many of these games were later 
+published commercially by Topologika, at which point they gained a built-in 
+hints system. Nidus was never published this way. The original version never 
+had hints, nor does the ZCode conversion which is available at the IF Archive. 
+This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Nidus was written by Adam Atkinson in 1986.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+q
+
+This file contains hints for Nidus, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Many of these games were later 
+published commercially by Topologika, at which point they gained a built-in 
+hints system. Nidus was never published this way. The original version never 
+had hints, nor does the ZCode conversion which is available at the IF Archive. 
+This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Nidus was written by Adam Atkinson in 1986.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+y
+
+This file contains hints for Nidus, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Many of these games were later 
+published commercially by Topologika, at which point they gained a built-in 
+hints system. Nidus was never published this way. The original version never 
+had hints, nor does the ZCode conversion which is available at the IF Archive. 
+This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Nidus was written by Adam Atkinson in 1986.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+
+================================================================================
  File : NightBeforeChristmas.zblorb
  MD5  : 870f3abac145291303158c733f017db4
  Path : cache
@@ -12332,6 +12995,229 @@ Think you can do better?
 n
 Auf Wiedersehen.
 ZIF quit
+================================================================================
+ File : Parc_hints.z5
+ MD5  : 5cb0dda3b89a05439b392b7181939500
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : D9D3
+
+This file contains hints for Parc, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Parc was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by John Rennie in 1983.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+n
+
+This file contains hints for Parc, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Parc was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by John Rennie in 1983.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+n
+
+This file contains hints for Parc, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Parc was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by John Rennie in 1983.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+t
+
+This file contains hints for Parc, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Parc was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by John Rennie in 1983.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+q
+
+This file contains hints for Parc, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Parc was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by John Rennie in 1983.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+y
+
+This file contains hints for Parc, a text adventure originally written for the 
+Phoenix computer system at Cambridge University. Several of these games were 
+later published commercially by Topologika, at which point they were given a 
+built-in hints system. Parc was never published this way. The original version 
+never had hints, nor does the ZCode conversion which is available at the IF 
+Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like in later versions 
+of Infocom's games. They are arranged roughly by game area. As in the 
+Topologika games, for some questions you will get a warning before a final, 
+explicit hint is given. One Topologika feature which is missing in this file is 
+the option to inquire after the use of an object. Where necessary, these can be 
+found among the other questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+typical features of Phoenix games that aren't shared by most other text 
+adventures. Note that, as there was no default library, none of these are 
+guaranteed, but a lot of code was shared and these features are common.
+First, walking about in the dark is often (but not always) deadly, and walking 
+from the dark into a lit room is safe. So far, that's normal. Phoenix games 
+differ in that they let you take objects in dark rooms, even if you have never 
+seen these objects before. This is not just useful; in some games it is 
+critical.
+Second, turning objects on and off is generally done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike.
+Finally, if you walk into a room and don't know how to go back to where you 
+were, Phoenix games include the unusual command "back". Be careful, though: 
+this does not work in all circumstances. In particular, it is often made 
+ineffective in mazes.
+
+Crobe was written by John Rennie in 1983.
+These hints were written by Richard Bos in 2011, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+
 ================================================================================
  File : Peacock.z5
  MD5  : 38eb6eae52d22a20ca89a27cd88ab9b0
@@ -13489,6 +14375,163 @@ Would you like another game?
 n
 Well, that's got rid of you then!
 ZIF quit
+================================================================================
+ File : Sangraal_hints.z5
+ MD5  : b0d71acaea13997eca8aeea35015f97a
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : 47A1
+
+This file contains hints for Sangraal, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Many of these games were 
+later published commercially by Topologika, at which point they gained a 
+built-in hints system. Sangraal was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+One tip which may be useful in the game in general is that, if you walk into a 
+room and don't know how to go back to where you were, Phoenix games include the 
+unusual command "back". Be careful, though: this does not work in all 
+circumstances. In particular, it is often made ineffective in mazes.
+
+Sangraal was written by Jonathan R. Partington in 1987.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+n
+
+This file contains hints for Sangraal, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Many of these games were 
+later published commercially by Topologika, at which point they gained a 
+built-in hints system. Sangraal was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+One tip which may be useful in the game in general is that, if you walk into a 
+room and don't know how to go back to where you were, Phoenix games include the 
+unusual command "back". Be careful, though: this does not work in all 
+circumstances. In particular, it is often made ineffective in mazes.
+
+Sangraal was written by Jonathan R. Partington in 1987.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+n
+
+This file contains hints for Sangraal, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Many of these games were 
+later published commercially by Topologika, at which point they gained a 
+built-in hints system. Sangraal was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+One tip which may be useful in the game in general is that, if you walk into a 
+room and don't know how to go back to where you were, Phoenix games include the 
+unusual command "back". Be careful, though: this does not work in all 
+circumstances. In particular, it is often made ineffective in mazes.
+
+Sangraal was written by Jonathan R. Partington in 1987.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+t
+
+This file contains hints for Sangraal, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Many of these games were 
+later published commercially by Topologika, at which point they gained a 
+built-in hints system. Sangraal was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+One tip which may be useful in the game in general is that, if you walk into a 
+room and don't know how to go back to where you were, Phoenix games include the 
+unusual command "back". Be careful, though: this does not work in all 
+circumstances. In particular, it is often made ineffective in mazes.
+
+Sangraal was written by Jonathan R. Partington in 1987.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+q
+
+This file contains hints for Sangraal, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Many of these games were 
+later published commercially by Topologika, at which point they gained a 
+built-in hints system. Sangraal was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+One tip which may be useful in the game in general is that, if you walk into a 
+room and don't know how to go back to where you were, Phoenix games include the 
+unusual command "back". Be careful, though: this does not work in all 
+circumstances. In particular, it is often made ineffective in mazes.
+
+Sangraal was written by Jonathan R. Partington in 1987.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+y
+
+This file contains hints for Sangraal, a text adventure originally written for 
+the Phoenix computer system at Cambridge University. Many of these games were 
+later published commercially by Topologika, at which point they gained a 
+built-in hints system. Sangraal was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged rougly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+One tip which may be useful in the game in general is that, if you walk into a 
+room and don't know how to go back to where you were, Phoenix games include the 
+unusual command "back". Be careful, though: this does not work in all 
+circumstances. In particular, it is often made ineffective in mazes.
+
+Sangraal was written by Jonathan R. Partington in 1987.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+
 ================================================================================
  File : Santa_s_Sleigh_Ride.zblorb
  MD5  : ffedbbd629a291a6f4a93fe10a8f4182
@@ -18678,6 +19721,241 @@ Do you want another game?
 n
 See you anon.
 ZIF quit
+================================================================================
+ File : Xenophobia_hints.z5
+ MD5  : 5981c649247221ab3d1e0c049fa01ebd
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : 5788
+
+This file contains hints for Xenophobia, a text adventure originally written 
+for the Phoenix computer system at Cambridge University. Many of these games 
+were later published commercially by Topologika, at which point they gained a 
+built-in hints system. Xenophobia was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged roughly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+unusual features of Xenophobia that aren't shared by most other text 
+adventures. Note that Xeno is unusual even for a Phoenix game. First, as in 
+most Phoenix games, turning objects on and off is done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike. 
+Walking around in the dark is safe, by the way.
+Second, if you've played other Phoenix games you may be familiar with the 
+command "back", which would usually take you back to the room you just left. 
+This doesn't quite work that way in Xenophobia. For much of the game, you will 
+be walking around compassless, and have to navigate using "left", "right", 
+"forward" and, yes, "back". The result of "back" in Xenophobia is therefore 
+similar, but not quite identical, to its use in other Phoenix games.
+Finally, Xenophobia is a game which attempts to be realistic, and although in 
+many ways "magical realistic" might be a more accurate description, if you find 
+yourself faced with a problem you could face in the real world, applying a 
+real-world solution, even if it doesn't comply with normal adventure game 
+logic, is often a good idea.
+
+Xenophobia was written by Jonathan Mestel in 1989.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+n
+
+This file contains hints for Xenophobia, a text adventure originally written 
+for the Phoenix computer system at Cambridge University. Many of these games 
+were later published commercially by Topologika, at which point they gained a 
+built-in hints system. Xenophobia was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged roughly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+unusual features of Xenophobia that aren't shared by most other text 
+adventures. Note that Xeno is unusual even for a Phoenix game. First, as in 
+most Phoenix games, turning objects on and off is done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike. 
+Walking around in the dark is safe, by the way.
+Second, if you've played other Phoenix games you may be familiar with the 
+command "back", which would usually take you back to the room you just left. 
+This doesn't quite work that way in Xenophobia. For much of the game, you will 
+be walking around compassless, and have to navigate using "left", "right", 
+"forward" and, yes, "back". The result of "back" in Xenophobia is therefore 
+similar, but not quite identical, to its use in other Phoenix games.
+Finally, Xenophobia is a game which attempts to be realistic, and although in 
+many ways "magical realistic" might be a more accurate description, if you find 
+yourself faced with a problem you could face in the real world, applying a 
+real-world solution, even if it doesn't comply with normal adventure game 
+logic, is often a good idea.
+
+Xenophobia was written by Jonathan Mestel in 1989.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+n
+
+This file contains hints for Xenophobia, a text adventure originally written 
+for the Phoenix computer system at Cambridge University. Many of these games 
+were later published commercially by Topologika, at which point they gained a 
+built-in hints system. Xenophobia was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged roughly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+unusual features of Xenophobia that aren't shared by most other text 
+adventures. Note that Xeno is unusual even for a Phoenix game. First, as in 
+most Phoenix games, turning objects on and off is done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike. 
+Walking around in the dark is safe, by the way.
+Second, if you've played other Phoenix games you may be familiar with the 
+command "back", which would usually take you back to the room you just left. 
+This doesn't quite work that way in Xenophobia. For much of the game, you will 
+be walking around compassless, and have to navigate using "left", "right", 
+"forward" and, yes, "back". The result of "back" in Xenophobia is therefore 
+similar, but not quite identical, to its use in other Phoenix games.
+Finally, Xenophobia is a game which attempts to be realistic, and although in 
+many ways "magical realistic" might be a more accurate description, if you find 
+yourself faced with a problem you could face in the real world, applying a 
+real-world solution, even if it doesn't comply with normal adventure game 
+logic, is often a good idea.
+
+Xenophobia was written by Jonathan Mestel in 1989.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+t
+
+This file contains hints for Xenophobia, a text adventure originally written 
+for the Phoenix computer system at Cambridge University. Many of these games 
+were later published commercially by Topologika, at which point they gained a 
+built-in hints system. Xenophobia was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged roughly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+unusual features of Xenophobia that aren't shared by most other text 
+adventures. Note that Xeno is unusual even for a Phoenix game. First, as in 
+most Phoenix games, turning objects on and off is done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike. 
+Walking around in the dark is safe, by the way.
+Second, if you've played other Phoenix games you may be familiar with the 
+command "back", which would usually take you back to the room you just left. 
+This doesn't quite work that way in Xenophobia. For much of the game, you will 
+be walking around compassless, and have to navigate using "left", "right", 
+"forward" and, yes, "back". The result of "back" in Xenophobia is therefore 
+similar, but not quite identical, to its use in other Phoenix games.
+Finally, Xenophobia is a game which attempts to be realistic, and although in 
+many ways "magical realistic" might be a more accurate description, if you find 
+yourself faced with a problem you could face in the real world, applying a 
+real-world solution, even if it doesn't comply with normal adventure game 
+logic, is often a good idea.
+
+Xenophobia was written by Jonathan Mestel in 1989.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+q
+
+This file contains hints for Xenophobia, a text adventure originally written 
+for the Phoenix computer system at Cambridge University. Many of these games 
+were later published commercially by Topologika, at which point they gained a 
+built-in hints system. Xenophobia was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged roughly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+unusual features of Xenophobia that aren't shared by most other text 
+adventures. Note that Xeno is unusual even for a Phoenix game. First, as in 
+most Phoenix games, turning objects on and off is done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike. 
+Walking around in the dark is safe, by the way.
+Second, if you've played other Phoenix games you may be familiar with the 
+command "back", which would usually take you back to the room you just left. 
+This doesn't quite work that way in Xenophobia. For much of the game, you will 
+be walking around compassless, and have to navigate using "left", "right", 
+"forward" and, yes, "back". The result of "back" in Xenophobia is therefore 
+similar, but not quite identical, to its use in other Phoenix games.
+Finally, Xenophobia is a game which attempts to be realistic, and although in 
+many ways "magical realistic" might be a more accurate description, if you find 
+yourself faced with a problem you could face in the real world, applying a 
+real-world solution, even if it doesn't comply with normal adventure game 
+logic, is often a good idea.
+
+Xenophobia was written by Jonathan Mestel in 1989.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+y
+
+This file contains hints for Xenophobia, a text adventure originally written 
+for the Phoenix computer system at Cambridge University. Many of these games 
+were later published commercially by Topologika, at which point they gained a 
+built-in hints system. Xenophobia was never published this way. The original 
+version never had hints, nor does the ZCode conversion which is available at 
+the IF Archive. This file intends to remedy that situation.
+The hints are presented as a nested menu, more or less like Infocom's hints. 
+They are arranged roughly by game area. As in the Topologika games, for some 
+questions you will get a warning before a final, explicit hint is given. One 
+Topologika feature which is missing in this file is the option to inquire after 
+the use of an object. Where necessary, these can be found among the other 
+questions.
+
+Before reading any hints, it might be helpful to get acquainted with some 
+unusual features of Xenophobia that aren't shared by most other text 
+adventures. Note that Xeno is unusual even for a Phoenix game. First, as in 
+most Phoenix games, turning objects on and off is done using just the commands 
+"on" and "off". This applies to switches as well as to lamps and suchlike. 
+Walking around in the dark is safe, by the way.
+Second, if you've played other Phoenix games you may be familiar with the 
+command "back", which would usually take you back to the room you just left. 
+This doesn't quite work that way in Xenophobia. For much of the game, you will 
+be walking around compassless, and have to navigate using "left", "right", 
+"forward" and, yes, "back". The result of "back" in Xenophobia is therefore 
+similar, but not quite identical, to its use in other Phoenix games.
+Finally, Xenophobia is a game which attempts to be realistic, and although in 
+many ways "magical realistic" might be a more accurate description, if you find 
+yourself faced with a problem you could face in the real world, applying a 
+real-world solution, even if it doesn't comply with normal adventure game 
+logic, is often a good idea.
+
+Xenophobia was written by Jonathan Mestel in 1989.
+These hints were written by Richard Bos in 2014, using Inform 6.30.
+Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
+
+[Please press SPACE to continue.]
+
 ================================================================================
  File : Youve_Got_a_Stew_Going.zblorb
  MD5  : 4d599ed7992eb99bc3255324a7604793
@@ -40884,8 +42162,8 @@ q) Quit.
 Please select a test: qZIF quit
 
 ================================================================================
-Games      :      812
-Clean exit :      810
+Games      :      818
+Clean exit :      816
 Errors     :        2
 Warnings   :       86
 --------------------------------------------------------------------------------
