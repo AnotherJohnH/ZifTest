@@ -92,19 +92,20 @@ def playOnFrotz(game):
 
 #--------------------------------------------------------------------------------
 
-def testSingleGame(game):
+def testGame(game, index):
    global errors, warnings
 
    status = -1
    logWriteLn("================================================================================")
+   logWriteLn("Index : "+str(index))
+   logWriteLn("File  : "+os.path.basename(game))
+   logWriteLn("Path  : "+os.path.dirname(game))
 
    full_path=games_dir+"/"+game
    if not os.path.isfile(full_path):
       logError("Story file '"+full_path+"' not found")
    else:
-      logWriteLn(" File : "+os.path.basename(game))
-      logWriteLn(" MD5  : "+md5(full_path))
-      logWriteLn(" Path : "+os.path.dirname(game))
+      logWriteLn("MD5   : "+md5(full_path))
       logWriteLn("--------------------------------------------------------------------------------")
 
       input_file="input/"+os.path.basename(game)+".in"
@@ -135,10 +136,13 @@ def testSingleGame(game):
 #--------------------------------------------------------------------------------
 
 def testAllGames(list):
+   index=0
    clean=0
    for game in games_list:
-      if testSingleGame(game) == 0:
+      index=index+1
+      if testGame(game, index) == 0:
          clean=clean+1
+      
 
    logWriteLn("")
    logWriteLn("================================================================================")
@@ -217,7 +221,7 @@ parser.add_argument('-b', '--build', dest='build', action='store_true',
                     help="pull source and rebuild Zif")
 parser.add_argument('-g', '--get', dest='get', action='store_true',
                     help="get story files")
-parser.add_argument('-r', '--run', dest='run', action='store_true',
+parser.add_argument('-r', '--run', dest='test_all', action='store_true',
                     help="run all the tests")
 parser.add_argument('-l', '--list', dest='list', action='store_true',
                     help="list tests without running them")
@@ -225,7 +229,7 @@ parser.add_argument('-p', '--pack', dest='pack', action='store_true',
                     help="create a package of story files")
 parser.add_argument('-d', '--dump', dest='dump', metavar='#', type=int, default=0,
                     help="Dump the story file")
-parser.add_argument('-t', '--test', dest='test', metavar='#', type=int, default=0,
+parser.add_argument('-t', '--test', dest='test_one', metavar='#', type=int, default=0,
                     help="run a single test")
 parser.add_argument('-z', '--zif', dest='zif', metavar='#', type=int, default=0,
                     help="play story on zif")
@@ -242,12 +246,11 @@ warnings=0
 
 games_dir="."
 games_list_file="stories.json"
-games_results="results.log"
 
 if args.build or args.all:
    os.chdir("Zif")
    os.system("git pull --rebase")
-   os.system("scons debug=0")
+   os.system("scons debug=1")
    os.chdir("..")
 
 if args.get or args.all:
@@ -255,10 +258,10 @@ if args.get or args.all:
 
 games_list=json.load(open(games_list_file))
 
-if args.run or args.all:
-   with open(games_results, "w") as log:
+if args.test_all or args.all:
+   with open("all.log", "w") as log:
       testAllGames(games_list)
-   os.system("git diff results.log")
+   os.system("git diff all.log")
 
 if args.list:
    listGames(games_list)
@@ -269,14 +272,14 @@ if args.pack:
 if args.dump != 0:
    dump(games_list[args.dump - 1])
 
-if args.frotz != 0:
-   playOnFrotz(games_list[args.frotz - 1])
-
 if args.zif!= 0:
    playOnZif(games_list[args.zif - 1])
 
-if args.test != 0:
-   with open(games_results, "w") as log:
-      testSingleGame(games_list[args.test - 1])
+if args.frotz != 0:
+   playOnFrotz(games_list[args.frotz - 1])
+
+if args.test_one != 0:
+   with open("single.log", "w") as log:
+      testGame(games_list[args.test_one - 1], args.test_one)
 
 restoreTermIO()
