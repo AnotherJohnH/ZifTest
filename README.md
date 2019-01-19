@@ -16,9 +16,9 @@ story files and run the regression tests. e.g.
 GO --all
 ```
 
-The first time this done the download phase will take around 15 minutes. Subsequent
-runs will only download new stories and so will likely take just a few seconds 
-during the download phase. For other options try...
+The first time this is done the download phase will take around 20 minutes. Subsequent
+runs will only download new stories and so will likely take around 2 minutes to complete
+all the testing. For other options try...
 
 ```
 GO --help
