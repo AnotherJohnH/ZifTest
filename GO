@@ -158,6 +158,7 @@ def getGames(cache_dir, games_list_file):
    path_list = ["/if-archive/infocom/interpreters/tools/",
                 "/if-archive/infocom/demos/",
                 "/if-archive/phoenix/hints/zcode/",
+                "/if-archive/scott-adams/games/zcode/",
                 "/if-archive/games/zcode/"]
 
    for path in path_list:
@@ -243,16 +244,16 @@ games_dir="."
 games_list_file="stories.json"
 games_results="results.log"
 
-games_list=json.load(open(games_list_file))
-
 if args.build or args.all:
    os.chdir("Zif")
    os.system("git pull --rebase")
-   os.system("scons debug=1")
+   os.system("scons debug=0")
    os.chdir("..")
 
 if args.get or args.all:
    getGames("cache", games_list_file)
+
+games_list=json.load(open(games_list_file))
 
 if args.run or args.all:
    with open(games_results, "w") as log:

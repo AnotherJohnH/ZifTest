@@ -24688,6 +24688,158 @@ That was a rhetorical question.
 Are you sure you want to quit? y
 ZIF quit
 ================================================================================
+ File : desert.z5
+ MD5  : c1e217734422e012b8251e0cfbc28f92
+ Path : cache
+--------------------------------------------------------------------------------
+ZIF Version  : z5
+ZIF Checksum : 0351
+                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+n                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+o                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+n                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+t                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+a                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+k                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+e                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+                                Desert Adventure                                
+
+                             S  Start the game
+
+                             R  Restore a saved game
+
+                             C  Show credits
+
+                             I  Info about playing
+
+                             Q  Quit
+
+qZIF quit
+================================================================================
  File : detective.z5
  MD5  : 822655c9be83e292e06d3d3b1d6a9734
  Path : cache
@@ -42162,8 +42314,8 @@ q) Quit.
 Please select a test: qZIF quit
 
 ================================================================================
-Games      :      818
-Clean exit :      816
+Games      :      819
+Clean exit :      817
 Errors     :        2
 Warnings   :       86
 --------------------------------------------------------------------------------
