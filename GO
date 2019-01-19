@@ -115,7 +115,7 @@ def testGame(game, index):
       status = os.system("Zif/zif --batch --info --term --width 80 --print --input "+input_file+
                     " "+full_path)
       if status!=0:
-         logError("Exited with a fault [%u]" % (status))
+         logError("Exited test #%u with a fault [%u]" % (index, status))
 
       out_log="print.log"
       if not os.path.isfile(out_log):

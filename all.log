@@ -17702,7 +17702,7 @@ File  : The_Colour_of_Magic__Graphics_.zblorb
 Path  : cache
 MD5   : fbb84a3789219ee42b9964679f38b119
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [256]
+ERROR: Exited test #369 with a fault [256]
 ZIF Version  : z6
 ZIF Checksum : 5952
 
@@ -42258,7 +42258,7 @@ File  : crashme.z5
 Path  : extra
 MD5   : ec9b0233fffeece157f2dc6431e40c1a
 --------------------------------------------------------------------------------
-ERROR: Exited with a fault [256]
+ERROR: Exited test #816 with a fault [256]
 ZIF Version  : z5
 ZIF Checksum : 15FD
 This program generates random Z-code which is run to test the robustness of 
