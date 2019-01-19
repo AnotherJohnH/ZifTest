@@ -65,7 +65,6 @@ def packGames(list):
    if os.path.isfile(archive):
       os.remove(archive)
    os.system("tar cvf "+archive)
-   os.chdir(games_dir)
 
    for game in games_list:
       os.system("tar rvf "+archive+" "+game)
@@ -74,46 +73,43 @@ def packGames(list):
 
 #--------------------------------------------------------------------------------
 
-def dump(game):
-   full_path=games_dir+"/"+game
-   os.system("Zif/zdmp "+full_path)
+def dump(path):
+   filename=os.path.basename(path)
+   os.system("Zif/zdmp "+path+" --out "+filename+".dmp")
 
 #--------------------------------------------------------------------------------
 
-def playOnZif(game):
-   full_path=games_dir+"/"+game
-   os.system("Zif/zif --term "+full_path)
+def playOnZif(path):
+   os.system("Zif/zif --term "+path)
 
 #--------------------------------------------------------------------------------
 
-def playOnFrotz(game):
-   full_path=games_dir+"/"+game
-   os.system(os.environ['HOME']+"/OpenSource/frotz-2.43d/frotz "+full_path)
+def playOnFrotz(path):
+   os.system(os.environ['HOME']+"/OpenSource/frotz-2.43d/frotz "+path)
 
 #--------------------------------------------------------------------------------
 
-def testGame(game, index):
+def testGame(path, index, other_args):
    global errors, warnings
 
    status = -1
    logWriteLn("================================================================================")
    logWriteLn("Index : "+str(index))
-   logWriteLn("File  : "+os.path.basename(game))
-   logWriteLn("Path  : "+os.path.dirname(game))
+   logWriteLn("File  : "+os.path.basename(path))
+   logWriteLn("Path  : "+os.path.dirname(path))
 
-   full_path=games_dir+"/"+game
-   if not os.path.isfile(full_path):
-      logError("Story file '"+full_path+"' not found")
+   if not os.path.isfile(path):
+      logError("Story file '"+path+"' not found")
    else:
-      logWriteLn("MD5   : "+md5(full_path))
+      logWriteLn("MD5   : "+md5(path))
       logWriteLn("--------------------------------------------------------------------------------")
 
-      input_file="input/"+os.path.basename(game)+".in"
+      input_file="input/"+os.path.basename(path)+".in"
       if not os.path.isfile(input_file):
          input_file="input/default.in"
 
       status = os.system("Zif/zif --batch --info --term --width 80 --print --input "+input_file+
-                    " "+full_path)
+                         " "+path+" "+other_args)
       if status!=0:
          logError("Exited test #%u with a fault [%u]" % (index, status))
 
@@ -140,7 +136,7 @@ def testAllGames(list):
    clean=0
    for game in games_list:
       index=index+1
-      if testGame(game, index) == 0:
+      if testGame(game, index, "") == 0:
          clean=clean+1
       
 
@@ -240,28 +236,37 @@ args=parser.parse_args()
 
 #--------------------------------------------------------------------------------
 
+if args.all:
+   args.build    = True
+   args.get      = True
+   args.test_all = True
+
+if args.test_one:
+   args.dump = args.test_one
+
+#--------------------------------------------------------------------------------
+
 log=0
 errors=0
 warnings=0
 
-games_dir="."
 games_list_file="stories.json"
 
-if args.build or args.all:
+if args.build:
    os.chdir("Zif")
    os.system("git pull --rebase")
    os.system("scons debug=1")
    os.chdir("..")
 
-if args.get or args.all:
+if args.get:
    getGames("cache", games_list_file)
 
 games_list=json.load(open(games_list_file))
 
-if args.test_all or args.all:
-   with open("all.log", "w") as log:
+if args.test_all:
+   with open("all.out", "w") as log:
       testAllGames(games_list)
-   os.system("git diff all.log")
+   os.system("git diff all.out")
 
 if args.list:
    listGames(games_list)
@@ -269,17 +274,20 @@ if args.list:
 if args.pack:
    packGames(games_list)
 
-if args.dump != 0:
-   dump(games_list[args.dump - 1])
-
 if args.zif!= 0:
    playOnZif(games_list[args.zif - 1])
 
 if args.frotz != 0:
    playOnFrotz(games_list[args.frotz - 1])
 
+if args.dump != 0:
+   dump(games_list[args.dump - 1])
+
 if args.test_one != 0:
-   with open("single.log", "w") as log:
-      testGame(games_list[args.test_one - 1], args.test_one)
+   path=games_list[args.test_one - 1]
+   filename=os.path.basename(path)
+   with open(filename+".out", "w") as log:
+      testGame(path, args.test_one, "--trace")
+      os.rename("trace.log", filename+".trc")
 
 restoreTermIO()
