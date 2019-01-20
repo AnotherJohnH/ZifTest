@@ -483,17 +483,17 @@ You are in an elaborate formal hallway. Exits are east, south, and up.
 
 You can see a rusty knife and Mr Thyme here.
 
->
-I beg your pardon?
+>take knife
+That's not a verb I recognise.
 
->no
-That was a rhetorical question.
+>s
 
->n
-You can't go that way.
+Entrance
+You're at the entrance to this grand estate, where a large red door to the 
+outside.  I hope you aren't planning on leaving before you solve this mystery! 
+The only way to go from here is north.
 
->take
-What do you want to take?
+You can see a brass plaque here.
 
 >quit
 
@@ -502,11 +502,9 @@ the Entrance.
  ***
 
 Would you like to RESTART, RESTORE a saved game or QUIT?
-> y
-Please give one of the answers above.
-> 
-Please give one of the answers above.
-> ================================================================================
+> quit
+ZIF quit
+================================================================================
 Index : 15
 File  : Acheton.z8
 Path  : cache
@@ -682,7 +680,7 @@ At End Of Road
 You are standing at the end of a road before a small brick building. Around you 
 is a forest. A small stream flows out of the building and down a gully.
 
->e
+>in
 
 Inside Building
 You are inside a building, a well house for a large spring.
@@ -695,12 +693,58 @@ There is a shiny brass lamp nearby.
 
 There is an empty bottle here.
 
->take bottle
-Taken.
+>take all
+set of keys: Taken.
+tasty food: Taken.
+brass lantern: Taken.
+small bottle: Taken.
+stream: The bottle is now full of water.
+well house: That's hardly portable.
+spring: That's hardly portable.
+pair of 1 foot diameter sewer pipes: That's hardly portable.
 
 >out
 
 At End Of Road
+
+>s
+
+In A Valley
+You are in a valley in the forest beside a stream tumbling along a rocky bed.
+
+>s
+
+At Slit In Streambed
+At your feet all the water of the stream splashes into a 2-inch slit in the 
+rock. Downstream the streambed is bare rock.
+
+>s
+
+Outside Grate
+You are in a 20-foot depression floored with bare dirt. Set into the dirt is a 
+strong steel grate mounted in concrete. A dry streambed leads into the 
+depression.
+
+>unlock grate
+What do you want to unlock the steel grate with?
+
+>use key
+I only understood you as far as wanting to use.
+
+>unlock gate with key
+You unlock the steel grate.
+
+>open grate
+That's not a verb I recognise.
+
+>down
+(first opening the grate)
+
+Below the Grate
+You are in a small chamber beneath a 3x3 steel grate to the surface. A low 
+crawl over cobbles leads inward to the west.
+
+The grate stands open.
 
 >quit
 Are you sure you want to quit? y

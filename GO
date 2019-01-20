@@ -89,7 +89,7 @@ def playOnFrotz(path):
 
 #--------------------------------------------------------------------------------
 
-def testGame(path, index, other_args):
+def testGame(engine, path, index, other_args):
    global errors, warnings
 
    status = -1
@@ -108,8 +108,13 @@ def testGame(path, index, other_args):
       if not os.path.isfile(input_file):
          input_file="input/default.in"
 
-      status = os.system("Zif/zif --batch --info --term --width 80 --print --input "+input_file+
-                         " "+path+" "+other_args)
+      if engine == "zif":
+         status = os.system("Zif/zif --batch --info --term --width 80 --print --input "+input_file+
+                            " "+path+" "+other_args)
+
+      elif engine == "frotz":
+         status = os.system("frotz -p "+path+" < "+input_file+" | tee print.log")
+
       if status!=0:
          logError("Exited test #%u with a fault [%u]" % (index, status))
 
@@ -131,12 +136,12 @@ def testGame(path, index, other_args):
 
 #--------------------------------------------------------------------------------
 
-def testAllGames(list):
+def testAllGames(engine):
    index=0
    clean=0
    for game in games_list:
       index=index+1
-      if testGame(game, index, "") == 0:
+      if testGame(engine, game, index, "") == 0:
          clean=clean+1
       
 
@@ -212,34 +217,44 @@ def getGames(cache_dir, games_list_file):
 parser=argparse.ArgumentParser(description='Test Zif')
 
 parser.add_argument('-a', '--all', dest='all', action='store_true',
-                    help="pull source, rebuild Zif, get story files and run all tests")
-parser.add_argument('-b', '--build', dest='build', action='store_true',
-                    help="pull source and rebuild Zif")
+                    help="Pull source, build Zif for debug, get story files and run all tests")
+
+parser.add_argument('-f', '--frotz', dest='frotz', action='store_true',
+                    help="Use Frotz not Zif")
+
+parser.add_argument('-b', '--build-dbg', dest='build_dbg', action='store_true',
+                    help="Pull latest source and rebuild debug Zif")
+parser.add_argument('-B', '--build-rel', dest='build_rel', action='store_true',
+                    help="Pull latest source and rebuild release Zif")
+
 parser.add_argument('-g', '--get', dest='get', action='store_true',
-                    help="get story files")
-parser.add_argument('-r', '--run', dest='test_all', action='store_true',
-                    help="run all the tests")
+                    help="Get story files")
+
 parser.add_argument('-l', '--list', dest='list', action='store_true',
                     help="list tests without running them")
 parser.add_argument('-p', '--pack', dest='pack', action='store_true',
                     help="create a package of story files")
+
+parser.add_argument('-r', '--run', dest='run', action='store_true',
+                    help="run all the tests")
+
 parser.add_argument('-d', '--dump', dest='dump', metavar='#', type=int, default=0,
                     help="Dump the story file")
 parser.add_argument('-t', '--test', dest='test_one', metavar='#', type=int, default=0,
-                    help="run a single test")
-parser.add_argument('-z', '--zif', dest='zif', metavar='#', type=int, default=0,
-                    help="play story on zif")
-parser.add_argument('-f', '--frotz', dest='frotz', metavar='#', type=int, default=0,
-                    help="play story frotz")
+                    help="Run a single test on Zif")
+parser.add_argument('-z', '--zif', dest='play', metavar='#', type=int, default=0,
+                    help="Play story")
+parser.add_argument('-w', '--write', dest='write', metavar='#', type=int, default=0,
+                    help="Write test input")
 
 args=parser.parse_args()
 
 #--------------------------------------------------------------------------------
 
 if args.all:
-   args.build    = True
-   args.get      = True
-   args.test_all = True
+   args.build_dbg = True
+   args.get       = True
+   args.run       = True
 
 if args.test_one:
    args.dump = args.test_one
@@ -252,10 +267,13 @@ warnings=0
 
 games_list_file="stories.json"
 
-if args.build:
+if args.build_dbg or args.build_rel:
    os.chdir("Zif")
    os.system("git pull --rebase")
-   os.system("scons debug=1")
+   if args.build_rel:
+      os.system("scons debug=0")
+   else:
+      os.system("scons debug=1")
    os.chdir("..")
 
 if args.get:
@@ -263,9 +281,12 @@ if args.get:
 
 games_list=json.load(open(games_list_file))
 
-if args.test_all:
+if args.run:
    with open("all.out", "w") as log:
-      testAllGames(games_list)
+      if args.frotz:
+         testAllGames("frotz")
+      else:
+         testAllGames("zif")
    os.system("git diff all.out")
 
 if args.list:
@@ -274,11 +295,12 @@ if args.list:
 if args.pack:
    packGames(games_list)
 
-if args.zif!= 0:
-   playOnZif(games_list[args.zif - 1])
-
-if args.frotz != 0:
-   playOnFrotz(games_list[args.frotz - 1])
+if args.play!= 0:
+   path=games_list[args.play - 1]
+   if args.frotz:
+      playOnFrotz(path)
+   else:
+      playOnZif(path)
 
 if args.dump != 0:
    dump(games_list[args.dump - 1])
@@ -287,7 +309,16 @@ if args.test_one != 0:
    path=games_list[args.test_one - 1]
    filename=os.path.basename(path)
    with open(filename+".out", "w") as log:
-      testGame(path, args.test_one, "--trace")
-      os.rename("trace.log", filename+".trc")
+      if args.frotz:
+         testGame("frotz", path, args.test_one, "")
+      else:
+         testGame("zif", path, args.test_one, "--trace")
+         os.rename("trace.log", filename+".trc")
+
+if args.write != 0:
+   path=games_list[args.write - 1]
+   filename=os.path.basename(path)
+   os.system("Zif/zif -k --term "+path)
+   os.rename("key.log", "input/"+filename+".in")
 
 restoreTermIO()

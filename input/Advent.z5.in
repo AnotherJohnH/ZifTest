@@ -1,6 +1,13 @@
-e
-take bottle
+in
+take all
 out
+s
+s
+s
+unlock grate
+use key
+unlock gate with key
+open grate
+down
 quit
 y
-
