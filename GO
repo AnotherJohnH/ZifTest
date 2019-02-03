@@ -80,12 +80,12 @@ def dump(path):
 #--------------------------------------------------------------------------------
 
 def playOnZif(path):
-   os.system("Zif/zif --term "+path)
+   os.system(zif+" --term "+path)
 
 #--------------------------------------------------------------------------------
 
 def playOnFrotz(path):
-   os.system(os.environ['HOME']+"/OpenSource/frotz-2.43d/frotz "+path)
+   os.system(frotz+" "+path)
 
 #--------------------------------------------------------------------------------
 
@@ -109,11 +109,11 @@ def testGame(engine, path, index, other_args):
          input_file="input/default.in"
 
       if engine == "zif":
-         status = os.system("Zif/zif --batch --info --term --width 80 --print --input "+input_file+
+         status = os.system(zif+" --batch --info --term --width 80 --print --input "+input_file+
                             " "+path+" "+other_args)
 
       elif engine == "frotz":
-         status = os.system("frotz -p "+path+" < "+input_file+" | tee print.log")
+         status = os.system(frotz+" -p "+path+" < "+input_file+" | tee print.log")
 
       if status!=0:
          logError("Exited test #%u with a fault [%u]" % (index, status))
@@ -155,10 +155,7 @@ def testAllGames(engine):
 
 #--------------------------------------------------------------------------------
 
-def getGames(cache_dir, games_list_file):
-
-   if not os.path.isdir(cache_dir):
-      os.system("mkdir "+cache_dir)
+def getGames(cache_dir, story_list_file):
 
    path_list = ["/if-archive/infocom/interpreters/tools/",
                 "/if-archive/infocom/demos/",
@@ -207,7 +204,7 @@ def getGames(cache_dir, games_list_file):
 
    game_list.sort()
 
-   with open(games_list_file, 'w') as outfile:
+   with open(story_list_file, 'w') as outfile:
       json.dump(game_list, outfile, indent=3)
 
    return
@@ -261,15 +258,22 @@ if args.test_one:
 
 #--------------------------------------------------------------------------------
 
+frotz             = os.environ['HOME']+"/OpenSource/frotz-2.43d/frotz"
+frotz             = "frotz"
+zif               = "Zif/zif"
+cache_dir         = "cache"
+story_list_file   = "stories.json"
+test_all_out_file = "all.out"
+
+#--------------------------------------------------------------------------------
+
 log=0
 errors=0
 warnings=0
 
-games_list_file="stories.json"
-
 if args.build_dbg or args.build_rel:
    os.chdir("Zif")
-   os.system("git pull --rebase")
+   os.system("git pull --rebase --recurse")
    if args.build_rel:
       os.system("scons debug=0")
    else:
@@ -277,17 +281,17 @@ if args.build_dbg or args.build_rel:
    os.chdir("..")
 
 if args.get:
-   getGames("cache", games_list_file)
+   getGames(cache_dir, story_list_file)
 
-games_list=json.load(open(games_list_file))
+games_list=json.load(open(story_list_file))
 
 if args.run:
-   with open("all.out", "w") as log:
+   with open(test_all_out_file, "w") as log:
       if args.frotz:
          testAllGames("frotz")
       else:
          testAllGames("zif")
-   os.system("git diff all.out")
+   os.system("git diff "+test_all_out_file)
 
 if args.list:
    listGames(games_list)
@@ -318,7 +322,7 @@ if args.test_one != 0:
 if args.write != 0:
    path=games_list[args.write - 1]
    filename=os.path.basename(path)
-   os.system("Zif/zif -k --term "+path)
+   os.system(zif+" -k --term "+path)
    os.rename("key.log", "input/"+filename+".in")
 
 restoreTermIO()

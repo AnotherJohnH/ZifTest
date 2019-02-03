@@ -14684,6 +14684,33 @@ The more balls that are removed each turn, the higher the score.
 A bonus of 500 points is awarded if all balls are removed.
 
 [Press any key to begin]
+
+Thank you for playing SameGame!
+
+My inspiration came from Andrew Plotkin's Freefall and Torbjœrn Andersson's Robots
+.
+
+SameGame is not my idea - I first saw it as Jon Read's version for the Psion 
+Series 3a and Acorn PocketBook II, although it's been around much longer than 
+that. You can get his version from http://www.ecs.soton.ac.uk/~jnr95r
+/psion/samegame.html.
+
+SameGame is an extreme stress test of your interpreter's Standard compliance; 
+it uses file access, the mouse, font 3, colour, the Unicode extension table and 
+print_unicode, together with the rare opcodes print_table and log_shift, just 
+to check your interpreter author is awake.
+
+It should run okay on an interpreter conforming to version 0.2 of the Standard 
+(except it will probably crash if you manually select display mode 4), and 
+perfectly on an interpreter conforming to version 1.0.
+
+I'm afraid I was unable to save your high-score table. Perhaps your interpreter 
+doesn't support file access.
+
+Kevin Bracey, 1998
+
+[Press any key to quit]u
+ZIF quit
 ================================================================================
 Index : 304
 File  : Sangraal.z5
@@ -21035,58 +21062,12 @@ MD5   : ce036f80e37b34ac74f15329e4392089
 ZIF Version  : z6
 ZIF Checksum : 7733
 
-ZIF WRN: set_wind_style
-ZIF WRN: window_size
-ZIF WRN: move_window
-ZIF WRN: set_wind_style
-ZIF WRN: window_size
-ZIF WRN: move_window
-ZIF WRN: set_wind_style
-ZIF WRN: window_size
-ZIF WRN: move_window
-ZIF WRN: set_wind_style
-
-Note:  This file was compiled from Graham Nelson's Release 5. Some interpreters 
-may complain about there being no graphics file. This is because there isn't 
-one (yet). Hopefully the interpreters will play the file anyway. This file is 
-provided as an example of the use of the Version 6 format for text only games.
-Please report any Version 6 related problems to me.
-
-Jason C. Penney
-jpenney@jczorkmid.net
-
-This game was compiled with V6Lib version 0.827 (private beta)
-
-If things scroll off of the screen that shouldn't (like the windows on the top 
-of the screen, then your interpreter probably doesn't support V6 correctly.
-
-[Press any key to start][ Use the command 'style'
+[ Use the command 'style'
   to toggle different
   screen layouts.
   
   [Press any key to start]]
 
-Welcome to Adventure!
-
-ADVENTURE
-The Interactive Original
-By Will Crowther (1973) and Don Woods (1977)
-Reconstructed in three steps by:
-Donald Ekman, David M. Baggett (1993) and Graham Nelson (1994)
-[In memoriam Stephen Bishop (1820?-1857): GN]
-(Ported to the Version 6 Z-Machine by Jason C. Penney)
-Release 10 / Serial number 011123 / Inform v6.21 Library 6/10
-
-At End Of Road
-You are standing at the end of a road before a small brick building. Around you 
-is a forest. A small stream flows out of the building and down a gully.
-
->ZIF WRN: window_size
-ZIF WRN: move_window
-ZIF WRN: set_wind_style
-Sorry, that can't be corrected.
-
->Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 442
 File  : advent.z8
@@ -36625,7 +36606,31 @@ MD5   : f599410415bf18ef1f97f20943e7bf70
 ZIF Version  : z8
 ZIF Checksum : BEB6
 
-Awwwwwww.
+Babe, I'm really sorry, but I'm going to have to cancel dinner. Yeah, I've got 
+to stop the boss from being executed.
+
+Speculative Fiction
+Beginner's Lessons from "The Big Book of Financial Crimes"
+Copyright (c) 2011--2012 by Diane Christoforo and Thomas Mack
+Release 2 / Serial number 120706 / Inform v6.31 Library 6/11 
+First-time players should type ABOUT.
+
+Not a Dungeon
+
+No! My shiniest of shiny objects! Don't fly aw--- Come back! I love you!
+
+Well, now that my girlfriend's mad at me, where were we? Ah, right.
+
+It's kind of boring here. I hear the king hasn't put anybody in the dungeon in 
+over a year. Must make you feel special. It's drafty, being up in the tower, 
+and the stones in the wall have chips and various--- do you really care? 
+They're old. The door looks pretty sturdy. There's some light coming into the 
+room from a window about, uh, twice your height up. Can we leave?
+
+I can see a tapestry, a bed, a vase, a mirror, and an annoying git in a dress 
+here.
+
+>Awwwwwww.
 
 >I can't go that way.
 
@@ -42179,7 +42184,162 @@ MD5   : 71fbfb69d430250439fb29de9d3e7c79
 --------------------------------------------------------------------------------
 ZIF Version  : z5
 ZIF Checksum : FEE7
-================================================================================
+                 Z-SNAKE
+
+                 TOP SCORES
+                1. ZMX   100
+                2. LPK   100
+                3. RFT   100
+                4. DFX    50
+                5. IWJ    50
+
+         Return - New Game
+              I - Instructions
+              A - Adjust Game Speed (currently 7)
+              C - Change Snake Color
+              K - Set Keyboard Commands
+              S - Save Settings and Scores
+              R - Restore Settings and Scores
+              T - Turn sound off
+              V - Version Information
+              Q - Quit
+
+                 Z-SNAKE
+
+                 TOP SCORES
+                1. ZMX   100
+                2. LPK   100
+                3. RFT   100
+                4. DFX    50
+                5. IWJ    50
+
+         Return - New Game
+              I - Instructions
+              A - Adjust Game Speed (currently 7)
+              C - Change Snake Color
+              K - Set Keyboard Commands
+              S - Save Settings and Scores
+              R - Restore Settings and Scores
+              T - Turn sound off
+              V - Version Information
+              Q - Quit
+n                 Z-SNAKE
+
+                 TOP SCORES
+                1. ZMX   100
+                2. LPK   100
+                3. RFT   100
+                4. DFX    50
+                5. IWJ    50
+
+         Return - New Game
+              I - Instructions
+              A - Adjust Game Speed (currently 7)
+              C - Change Snake Color
+              K - Set Keyboard Commands
+              S - Save Settings and Scores
+              R - Restore Settings and Scores
+              T - Turn sound off
+              V - Version Information
+              Q - Quit
+o                 Z-SNAKE
+
+                 TOP SCORES
+                1. ZMX   100
+                2. LPK   100
+                3. RFT   100
+                4. DFX    50
+                5. IWJ    50
+
+         Return - New Game
+              I - Instructions
+              A - Adjust Game Speed (currently 7)
+              C - Change Snake Color
+              K - Set Keyboard Commands
+              S - Save Settings and Scores
+              R - Restore Settings and Scores
+              T - Turn sound off
+              V - Version Information
+              Q - Quit
+
+                 Z-SNAKE
+
+                 TOP SCORES
+                1. ZMX   100
+                2. LPK   100
+                3. RFT   100
+                4. DFX    50
+                5. IWJ    50
+
+         Return - New Game
+              I - Instructions
+              A - Adjust Game Speed (currently 7)
+              C - Change Snake Color
+              K - Set Keyboard Commands
+              S - Save Settings and Scores
+              R - Restore Settings and Scores
+              T - Turn sound off
+              V - Version Information
+              Q - Quit
+n                 Z-SNAKE
+
+                 TOP SCORES
+                1. ZMX   100
+                2. LPK   100
+                3. RFT   100
+                4. DFX    50
+                5. IWJ    50
+
+         Return - New Game
+              I - Instructions
+              A - Adjust Game Speed (currently 7)
+              C - Change Snake Color
+              K - Set Keyboard Commands
+              S - Save Settings and Scores
+              R - Restore Settings and Scores
+              T - Turn sound off
+              V - Version Information
+              Q - Quit
+
+                 Z-SNAKE
+
+                 TOP SCORES
+                1. ZMX   100
+                2. LPK   100
+                3. RFT   100
+                4. DFX    50
+                5. IWJ    50
+
+         Return - New Game
+              I - Instructions
+              A - Adjust Game Speed (currently 7)
+              C - Change Snake Color
+              K - Set Keyboard Commands
+              S - Save Settings and Scores
+              R - Restore Settings and Scores
+              T - Turn sound off
+              V - Version Information
+              Q - Quit
+t                 Z-SNAKE
+
+                 TOP SCORES
+                1. ZMX   100
+                2. LPK   100
+                3. RFT   100
+                4. DFX    50
+                5. IWJ    50
+
+         Return - New Game
+              I - Instructions
+              A - Adjust Game Speed (currently 7)
+              C - Change Snake Color
+              K - Set Keyboard Commands
+              S - Save Settings and Scores
+              R - Restore Settings and Scores
+              T - Turn sound on
+              V - Version Information
+              Q - Quit
+a================================================================================
 Index : 814
 File  : ztrek.z5
 Path  : cache
@@ -43180,5 +43340,5 @@ Please select a test: qZIF quit
 Games      :      819
 Clean exit :      817
 Errors     :        2
-Warnings   :       86
+Warnings   :       73
 --------------------------------------------------------------------------------
