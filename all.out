@@ -14704,9 +14704,6 @@ It should run okay on an interpreter conforming to version 0.2 of the Standard
 (except it will probably crash if you manually select display mode 4), and 
 perfectly on an interpreter conforming to version 1.0.
 
-I'm afraid I was unable to save your high-score table. Perhaps your interpreter 
-doesn't support file access.
-
 Kevin Bracey, 1998
 
 [Press any key to quit]u
