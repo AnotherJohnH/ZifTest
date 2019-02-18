@@ -481,7 +481,7 @@ Release 4 / Serial number 070321 / Inform 7 build 4K41 (I6/v6.31 lib 6/11N)
 Hall
 You are in an elaborate formal hallway. Exits are east, south, and up.
 
-You can see a rusty knife and Mr Thyme here.
+You can see Mr Salt here.
 
 >take knife
 That's not a verb I recognise.
@@ -493,12 +493,12 @@ You're at the entrance to this grand estate, where a large red door to the
 outside.  I hope you aren't planning on leaving before you solve this mystery! 
 The only way to go from here is north.
 
-You can see a brass plaque here.
+You can see a jar of poison, a gun and a brass plaque here.
 
 >quit
 
-    *** Sorry; the murder was committed by Mr Salt using the jar of poison in 
-the Entrance.
+    *** Sorry; the murder was committed by Mr Thyme using the gun in the 
+Bedroom.
  ***
 
 Would you like to RESTART, RESTORE a saved game or QUIT?
@@ -774,7 +774,7 @@ is a forest. A small stream flows out of the building and down a gully.
 
 >examine what? 
 
->I don't know that word. 
+>What? 
 
 >================================================================================
 Index : 20
@@ -1107,6 +1107,8 @@ anything else. You look away before anyone catches you staring.
 Her tall slender body, long silver hair and sparkling blue eyes captivate you - 
 ever since you first laid eyes upon her, you have been unable to think of 
 anything else. You look away before anyone catches you staring.
+
+The band start up a new Tanith waltz.
 
 >That's not a verb I recognise.
 
@@ -2121,6 +2123,8 @@ That was a rhetorical question.
 >n
 The field is hedged off in many directions, including this one.
 
+One of the five thousand pipes up. "Sue God for negligence!"
+
 >take
 (the crowd at the field)
 I don't suppose the crowd at the field would care for that.
@@ -2373,6 +2377,9 @@ You can see a Koran, a Bible, a Torah, a Veda, and The Five Classics here.
 
 >You haven't come this far just to run away! The Koran is right here and so is 
 your lighter.
+
+A campus policeperson strides up to you, aggressive and androgynous. He or she 
+mutters darkly and strides away, tapping furiously on a portable device.
 
 >What do you want to take?
 
@@ -3375,6 +3382,8 @@ An art print is hanging on the wall.
 >Anything, please?
 
 >No. Yes. You think about it for a while.
+
+Felix looks puzzled.
 
 >You look around, but cannot go anywhere while you are sitting on the chair.
 
@@ -4779,11 +4788,10 @@ ZIF Checksum : 4365
                        D       L       S       O       S
 
                            [Press any key to begin.]
-[ Our memories are card-indexes consulted,
-  and then put back in disorder by
-  authorities whom we do not control.
+[ "I only decide about my Universe," continued the man quietly.
+  "My Universe is my eyes and my ears. Anything else is hearsay."
   
-  -- Cyril Connolly, The Unquiet Grave (1944)]
+      -- Douglas Adams, The Restaurant at the End of the Universe]
 
 n
 
@@ -5066,9 +5074,7 @@ exploring instead!
 
 During your wonderful and magical adventure, you pee your pants.
 
-PEE FACT: Asparagus makes pee smell different (as the vegetable breaks down and 
-enters the urine), but only about 40% of people have the genes to detect the 
-difference. ***
+PEE FACT: Pee is odorless until it exits the body. ***
 
 In that game you scored 0 out of a possible 1, in 2 turns, earning you the rank 
 of someone who peed themselves.
@@ -5172,21 +5178,21 @@ watch! Looking again I gain the impression that it is built in the style of a
 grand French chateau: tall towers and pinnacles. The coach rattles on with an 
 urgency I find disarming. 
 There is a woman sitting opposite me.
-Tell me what to do.
+Give me your command.
 >
 I beg your pardon?
-I'm ready for your instructions.
+I await your command.
 >no
 That was a rhetorical question.
 The coach rumbles on...
-I'm ready for your instructions.
+Give me your command.
 >n
 The door prevents me!
 We race on and on through the afternoon.
 Tell me what to do.
 >take
 What do you want to take?
-Give me your command.
+I'm ready for your instructions.
 >quit
 You really wish to leave Transylvania?
 y
@@ -5213,19 +5219,19 @@ pull myself together.
 Carpathia
 Here in the Carpathian mountains, I am a day's journey from my client's abode. 
 But first some rest! East lies the hotel.
-Tell me what to do.
+Give me your command.
 >
 I beg your pardon?
-I'm ready for your instructions.
+I await your command.
 >no
 That was a rhetorical question.
-I'm ready for your instructions.
+Give me your command.
 >n
 That is not possible. Only a coach could cover that distance. And I must rest.
 Tell me what to do.
 >take
 That's hardly portable.
-Give me your command.
+I'm ready for your instructions.
 >quit
 Do you really want to leave Carpathia?
 y
@@ -5588,7 +5594,8 @@ intermittant tears, and you are certain that love will no longer be yours.
 
 >As this is not a game, you cannot quit it.
 
->That's not one of the special words! Are you trying to interact or something?
+>This is a Story, not a game. Please stop trying to participate and focus on 
+your reading.
 
 >I beg your pardon?
 
@@ -5657,7 +5664,7 @@ I beg your pardon?
 That was a rhetorical question.
 
 >n
-I realized I was trapped in this accursed place.
+Despite my best efforts, I couldn't push through.
 
 >take
 (the thoughts and memories)
@@ -6318,7 +6325,7 @@ MD5   : 1f29909c8dbca39fbe5a9947d66bf659
 ZIF Version  : z8
 ZIF Checksum : 239B
 
-Must be Tuesday. Same bar, same crowd, except this week its Cedric who has 
+Must be Tuesday. Same bar, same crowd, except this week its Dick who has 
 stumbled up to you, the one side of his face looking like a sledgehammer had 
 its way with him. 
 
@@ -6337,9 +6344,9 @@ Release 2 / Serial number 120324 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N)
 Bar
 The local dive, home to local ruffians, including yourself. You're at your 
 usual spot along the counter, and everyone else is in their usual spot, except 
-for Cedric whose breath continues to grace your face in an alcoholic fog.
+for Dick whose breath continues to grace your face in an alcoholic fog.
 
-"I'm telling ya," Cedric slurs at you. "All ya need to do is say yes, no, or 
+"I'm telling ya," Dick slurs at you. "All ya need to do is say yes, no, or 
 point at the person who hit me." He fists creak as they clench.
 
 The other regulars pay no attention to the standoff at the bar. After all, it's 
@@ -6347,7 +6354,7 @@ a Tuesday.
 
 >I beg your pardon?
 
->"Well, I need to hit someone," Cedric admits, "so it might as well be you." In 
+>"Well, I need to hit someone," Dick admits, "so it might as well be you." In 
 baseball they call a strike a "swing and a miss..." Unfortunately, this is not 
 baseball.
 
@@ -6626,20 +6633,20 @@ and a keyboard underneath it, both built into the wall. The screen shows what
 appears to resemble the back of two hands, their fingertips concealed. Beneath 
 the hands is a question. Like so:
                                  _         
-             _                  |U|  _     
-            |U|                 | | |U|    
- _          | |                 | | | |  _ 
-|U|         | |                 | | | | |U|
-| |         | |                 | | | | | |
-| |         | |                 | | | | | |
-| |         | |                 | | | | | |
-| |  _   _  | |              _  | | | | | |
+     _       _                  |U|  _     
+    |U|     |U|                 | | |U|    
+    | |     | |                 | | | |  _ 
+    | |     | |                 | | | | |U|
+    | |     | |                 | | | | | |
+    | |     | |                 | | | | | |
+    | |     | |                 | | | | | |
+ _  | |  _  | |              _  | | | | | |
 | |_| |_| |_| |             | |_| |_| |_| |
-|             |    _        |             |
-|             |   /0|       |             |
-|             |  / /       _|             |
-|             | / /       / |             |
-|             |/ /       |  |             |
+|             |        _    |             |
+|             |       |0\   |             |
+|             |_       \ \  |             |
+|             | \       \ \ |             |
+|             |  |       \ \|             |
 |               /         \               |
 |              /           \              |
 |             /             \             |
@@ -6647,16 +6654,17 @@ the hands is a question. Like so:
 How many fingers am I holding up?
 
 >
-You cautiously enter "one" into the keyboard.
+You cautiously enter "six" into the keyboard.
 
-You look at the screen in horror, the number you typed was not the number you 
-intended. There's a harsh white light and the hands reach out of the screen 
-towards you, fingertips grasping your arms and pulling you in.
+After a few moments the screen fades. "Incorrect," a sinister voice whispers 
+behind you. "Thumbs do not count as fingers!" You turn around but there is 
+nothing there.
 
 Press ANY KEY to continue.
-nYou wake up screaming, but you don't know why.
+nYou awake, your dreams forgotten. All that remains is a strange sense of being 
+cheated.
 
-    *** Just another bad dream. ***
+    *** You day is ruined! ***
 
 Would you like to RESTART or QUIT?
 
@@ -6696,9 +6704,9 @@ Common Game Code by Eggerich Von Eggermond
 Basic Screen Effects version 7 by Emily Short
 
 There are four people here. They're called: Everybody, Somebody, Anybody and 
-Nobody. I don't know why, maybe they're original names were even worse? In any 
-case, you have a task that needs to be done. The task is to get a person other 
-than Nobody to fetch the MacGuffin. Who do you choose to go get it?
+Nobody. I don't know why, maybe this is a heavy handed allegory? In any case, 
+you have a task that needs to be done. The task is to get a person other than 
+Nobody to fetch the MacGuffin. Who do you choose to go get it?
 
 >
 You decide not to choose a person to fetch the MacGuffin and so Nobody ends up 
@@ -6771,7 +6779,7 @@ released.
 
 >
 Picking a number at random, you tell The Guv' that you choose cell number 
-"twenty-three thousand, nine hundred and nineteen" to spend the night in.
+"twenty-nine thousand, seven hundred and twenty" to spend the night in.
 
 You are then escorted to that cell where spend a restless night, worrying over 
 whether your maths was right. Early next morning, The Guv' comes in and takes 
@@ -6821,32 +6829,32 @@ Standard Rules version 2/090402 by Graham Nelson
 Common Game Code by Eggerich Von Eggermond
 Basic Screen Effects version 7 by Emily Short
 
-You're relaxing at home, playing the violin when you hear knocking on what 
-sounds like a wooden wall coming from the row of five houses opposite your own. 
-You can't quite recall which of your neighbours has woodworking as a hobby. 
+You're relaxing at home, smoking a pipe when you hear knocking on what sounds 
+like a wooden wall coming from the row of five houses opposite your own. You 
+can't quite recall which of your neighbours has woodworking as a hobby. 
 Fortunately you remember that each house has a unique colour and the owners 
 have a unique name, have a unique nationality, play a different preferred IF 
 game and have a different hobby. You also remember these facts pertaining to 
 your neighbours:
 
-  1.  The person who is Russian plays Child's Play.
-  2.  The person who has a Brown House lives next to the person who likes 
-gardening.
-  3.  Archangel likes rock collecting.
-  4.  Evren plays Three More Visitors.
-  5.  The person who has a Navy House likes cooking.
-  6.  The person who has a Yellow House plays Dash Slapney Patrol Leader.
-  7.  Perdita lives in the fifth house.
-  8.  The person who has a Brown House has a neighbour who plays Apoptosis.
-  9.  The person living in the centre house plays Danse Nocturne.
-10.  The person who is Latvian has a Blue House.
-11.  River has a Fuchsia House.
-12.  The person who is Russian is directly to the left of the person who is 
-Greek.
-13.  Ellis is Belarussian.
-14.  Perdita lives next to the person who is Icelandic.
-15.  The person who likes wine making lives next to the person who has a Blue 
+  1.  Moriarty plays The Chinese Room.
+  2.  Ellis lives next to the person who is British.
+  3.  Ellis lives in the fifth house.
+  4.  The person who has a Navy House has a neighbour who plays Lost Pig.
+  5.  The person who has a Teal House likes writing.
+  6.  The person who likes gardening lives next to the person who has a Green 
 House.
+  7.  Bernie likes storytelling.
+  8.  Shepherd is Italian.
+  9.  The person who has a Navy House lives next to the person who likes 
+hiking.
+10.  The person who is Spanish has a Green House.
+11.  The person who is Irish is directly to the left of the person who is 
+Turkish.
+12.  The person who has a Fuchsia House plays Blue Lacuna.
+13.  The person living in the centre house plays Zork.
+14.  Evren has a White House.
+15.  The person who is Irish plays Child's Play.
 
 So, who is knocking on the wall?
 
@@ -7580,6 +7588,8 @@ I beg your pardon?
 What now? no
 That was a rhetorical question.
 
+Muttley enters and yaps at you.
+
 What now? n
 
 Conservatory
@@ -7589,11 +7599,8 @@ videos, decrepit old computer monitors and a broken lawn mower are piled in the
 centre of the room. You could go north to your back garden or south to your 
 living room.
 
-Muttley is here. He barks at you and puts on his hungry look.
-
 What now? take
-(Muttley)
-I don't suppose Muttley would care for that.
+What do you want to take?
 
 What now? quit
 Are you sure you want to quit? y
@@ -7758,15 +7765,15 @@ suffering. Threatening machinery glares at you from around the walls.
 floor brings back uneasy memories. 
  The open doorway is South.
 
-I await your advice.
+Cue the player....
 >no
  Don't be so negative.
 
-What now, mad one?
+Your turn Napoleon.
 >n
 If you could go that way I'd tell you!
 
-What now, mad one?
+Cue the player....
 >take
 What do you want to take?
 
@@ -7831,7 +7838,7 @@ I beg your pardon?
 >no
 "No!" you squawk. "No no!"
 
-Lucinda frowns in your direction.
+Theodora frowns in your direction.
 
 "It's so fortunate," says the old lady. "That you're of an age -- that is, that 
 the King has been so blessed with an heir who can follow in his footsteps when 
@@ -8108,18 +8115,18 @@ I beg your pardon?
 >no
 That was a rhetorical question.
 
-It's hard to concentrate in this rain.
+The storm rages around you.
 
 >n
 You can't go that way.
 
-Rain buffets you.
+It's hard to concentrate in this rain.
 
 >take
 (the sensor)
 That's fixed in place.
 
-Emerald water hazes your view of the landscape.
+Sheets of water are making the ocean choppy.
 
 All this water probably isn't good for the notebook. You might want to bring it 
 someplace dry if you don't want it to be unreadable before too much longer.
@@ -8950,11 +8957,9 @@ many around Maiden's Wharf.
 
 >That was a rhetorical question.
 
-The turbulent waters suck you downwards.
+You bang your head on a wooden support pole.
 
 >You kick at the water, flapping your arms. Your situation hasn't improved.
-
-The turbulent waters suck you downwards.
 
 >(the Atlantic ocean)
 It's the water that's taking you, to your death.
@@ -9737,8 +9742,8 @@ A lifetime of shyness by Joey Jones
 Release 1 / Serial number 120324 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
 
 Checkout (on the stool)
-I'm sitting on a hard stool, back slouched, fingertips poised to grasp frozen 
-peas and punch in numbers on the register. Really though it's so quiet I mostly 
+I'm sitting on a hard stool, back slouched, fingertips poised to grasp dog food 
+cans and punch in numbers on the register. Really though it's so quiet I mostly 
 just look out the window. The big clock above the intercom speakers ticks 
 slowly.
 
@@ -9895,13 +9900,14 @@ and a bed (empty) here.
 
 >That was a rhetorical question.
 
-You take a deep breath to relieve your constricted windpipe.
+You feel hungry.
 
 A  strange eerie noise echoes across the room.
 
 >You can't go that way.
 
-A strange, eerie noise echoes across the room.
+Your stomach growls. It feels as though you haven't eaten in days - in fact, 
+you don't know what the time is or how long you've been here.
 
 >What do you want to take?
 
@@ -10158,18 +10164,18 @@ I beg your pardon?
 >no
 That was a rhetorical question.
 
-Rocky stares off into the distance, as if he see something there.
+Rocky hums quietly to himself.
 
 >n
 You can't go that way.
 
-Rocky scratches behind his ear.
+Rocky stares off into the distance, as if he see something there.
 
 >take
 (Rocky Stampede)
 I don't suppose Rocky Stampede would care for that.
 
-Rocky coughs.
+Rocky rocks his head in time to the music in his head.
 
 >quit
 Are you sure you want to quit? y
@@ -10452,6 +10458,8 @@ There is a poster on the wall behind the counter.
 
 >You are still sitting. Stand up first.
 
+The bartender looks impatiently at you.
+
 >What do you want to take?
 
 >Are you sure you want to quit? ZIF quit
@@ -10663,16 +10671,17 @@ MD5   : e74766e3c9d76565efe7feadce728984
 ZIF Version  : z8
 ZIF Checksum : 6EC2
 
-Your strength is determined by a roll of 3d6+2: 6,6,4+2=18
+Your strength is determined by a roll of 3d6+2: 2,4,4+2=12
 
-For this game you will have to manage with a strength of 18.
+For this game you will have to manage with a strength of 12.
 
 A Little Like Rogue
 A W&W Scenario by ifnyou
 Release 1 / Serial number 070314 / Inform 7 build 4K41 (I6/v6.31 lib 6/11N) 
 
-Dank room
-The air in this room is dank, heavy with moisture and the smell of mould.
+Cramped room
+This room is so cramped it feels more like a cupboard than anything else - and 
+with a low ceiling, too.
 
 > I beg your pardon?
 
@@ -10715,7 +10724,8 @@ Are you new to Interfractive Fiction, type story info for help and info
 >no
 That was a rhetorical question.
 
-The Evil Robot attacks you with the Lightsaber, causing 14 points of damage!
+The Evil Robot attacks you with the Electric Sock Stick, causing 1 point of 
+damage!
 
 >n
 
@@ -10951,8 +10961,8 @@ They graze all day, but the grass never seems to thin. Through the thick
 hedgrerows to the west lies another of your fields and a track winds north 
 towards Bethlehem. 
 
-Ninety-nine sheep huddle in the middle of the field. Where could the hundredth 
-sheep have got to?
+Huddling for warmth, ninety-nine sheep lie in front of you. Where could that 
+other sheep have gone?
 
 >
 I beg your pardon?
@@ -11089,7 +11099,7 @@ where you went first.
 
 Now you're pulled up outside the house. The rear mirror's showing two steely 
 eyes. You adjust your hat, stiffen up your collar and grab your badge off the 
-dash. Here goes. You've one last chance so...
+dash. Here goes. You've one last chance to...
 
                                 *  *  *  *  *
 
@@ -11824,16 +11834,18 @@ I beg your pardon?
 >no
 That was a rhetorical question.
 
+Biggs exclaims, "Hoo boy! I sure love climbing!".
+
 >n
 Chickening out, are we? That's not the Gary Hikerson spirit (well, at least not 
 in public anyway).
-
-Dark clouds move in overhead, obscuring the otherwise clear sky.
 
 >take
 (Biggs)
 Biggs chuckles, "You know there's know need of that sir, I'm perfectly capable 
 of moving myself around!".
+
+Biggs exclaims, "Hoo boy! I sure love climbing!".
 
 >quit
 Are you sure you want to quit? y
@@ -11917,10 +11929,10 @@ your pumping heart and your pursuers; getting closer.
 
 >That was a rhetorical question.
 
-There must be twenty of them, all running through the forest towards you.
+"I see him!" cries a soldier from the east.
 
->You are unsure which direction is which. You trip on a root, painfully, but 
-pull yourself to your feet and continue to run.
+>For all you know you're running in circles. A gorse bush snags your tunic as 
+you flee.
 
 Tangled Forest (as a young boy)
 You know the woods backwards, the shaded bowers, the winding roots and 
@@ -13703,10 +13715,10 @@ The frame rests on your lap.
 I beg your pardon?
 
 >no
-You are unable to move.
+You can't.
 
 >n
-You can't move a muscle.
+You are fixed firmly in your chair.
 
 >take
 (the picture-frame)
@@ -14604,7 +14616,7 @@ ZIF Checksum : 91F5
 S
 Welcome to Adventure number 3 `MISSION IMPOSSIBLE` by Scott Adams, Dedicated to 
 Maegen Adams.  A minute ago someone ran out of this room! By the way I seem to 
-be carrying something!  Someone came in the room, he saw me and ran out! 
+be carrying something!  
 WHAT SHALL I DO? 
 WHAT SHALL I DO? quit
 *   B O O O O O O O O O M ! * * * * * * 
@@ -14946,11 +14958,11 @@ make a single Christmas delivery.
 
 >That was a rhetorical question.
 
-Cupid champs at his bit.
+Dancer paws the ground with his hoof.
 
 >You'd rather not. You might fall and hurt yourself.
 
-Vixen shakes his head.
+Blitzen champs at his bit.
 
 >What do you want to take?
 
@@ -15645,11 +15657,9 @@ That was a rhetorical question.
 >n
 
 In Forest
-You are in open forest, with a deep valley to one side.
 
 >take
-(the forest)
-That's hardly portable.
+What do you want to take?
 
 >quit
 Are you sure you want to quit? y
@@ -15686,7 +15696,7 @@ you can't. Life's not fair, sometimes.
 >You leave the center for more a wide-open area with less to see, do and take. 
 But hey, you can always come back.
 
-Cryptic Area
+Secretive Area
 You're in the center of the north edge of the little boggle-box. You can see a 
 mural on the north wall.
 
@@ -15828,7 +15838,7 @@ MD5   : 4c16be93822da827120687273c3d36cb
 ZIF Version  : z8
 ZIF Checksum : 6750
 
-You wake up. That's not good. You are one of Klara's dolls. Klara must be in 
+You wake up. That's not good. You are one of Klaus's dolls. Klaus must be in 
 danger.
 
 Starry Seeksorrow
@@ -15836,16 +15846,16 @@ An Interactive Fiction by Caleb Wilson
 Release 2 / Serial number 160602 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) 
 
 Hidden Lawn
-A narrow, secluded spot in which Klara is fond of reading. The ground is 
+A narrow, secluded spot in which Klaus is fond of reading. The ground is 
 covered by beds of lacegrass. The sky is a crescent of deep blue above 
 interlocking squirrel puzzle trees. Archways under bowed trunks open north and 
 east.
 
-Klara is lying on her back in the grass.
+Klaus is lying on his back in the grass.
 
-A starry seeksorrow grows near Klara's head.
+A starry seeksorrow grows near Klaus's head.
 
-A heavy edition of Archibault's 1,001 Knights of Slee has fallen at Klara's 
+A heavy edition of Archibault's 1,001 Knights of Slee has fallen at Klaus's 
 side.
 
 A paper doll stands here, shivering slightly in the breeze.
@@ -15943,6 +15953,8 @@ to. You continue driving, trying to shake this new dread.
 
 >(the rental car)
 You're already driving it.
+
+A lightning strike illuminates the horizon for a split second.
 
 >Are you sure you want to quit? ZIF quit
 ================================================================================
@@ -16130,11 +16142,11 @@ and the sky is gray.
 
 >That was a rhetorical question.
 
-A car drives by slowly.
+A neighbor rides by on a bicycle.
 
 >You decide not to walk on Mrs Timmons' lawn.
 
-A chill wind blows through the dead trees.
+A lonely sounding bird chirps in the distance.
 
 >What do you want to take?
 
@@ -16184,10 +16196,14 @@ I beg your pardon?
 >no
 That was a rhetorical question.
 
-The evil fish is swimming around the tank in lazy circles.
+The evil fish begins to butt his pointy nose against the glass walls of the 
+tank.
 
 >n
 There are no exits.
+
+"Hey, nice SKIN TONE," shouts the evil fish. His words reach you in a spitting 
+gurgle of aquarium water. "You gone over to a pure eggplant diet these days?"
 
 >take
 What do you want to take?
@@ -17059,12 +17075,12 @@ some things floating around, unhindered by gravity or any other force.
 
 >That was a rhetorical question.
 
-A feather drifts past you.
+A glowing light drifts past you.
 
 >You have no real mode of locomotion, and the void looks the same in every 
 direction.
 
-A feather drifts past you.
+A stone drifts past you.
 
 >What do you want to take?
 
@@ -17353,24 +17369,26 @@ floor is a body, covered in blood with a bullet hole straight through his head.
 
 >That was a rhetorical question.
 
-Mr Bromelle seems to have put his hands in his pockets.
+The fire crackles, bringing the room down to an odd feeling.
 
-Mr Kalburry runs his hands along the keys of the piano and creates an ascending 
-sound.
+Mr Bromelle stirs quietly over by the curtains, mumbling some inaudible words 
+to himself.
 
-Sharon looks out the window.
+Mr Kalburry stops to listen for something.
 
-Jack takes a glimpse at Mr Bromelle.
+Sharon just takes a puff off of her cigarette.
+
+Jack Haultairya looks angrily at Mr Bromelle, Mr Kalburry and Sharon.
 
 >You can't go that way.
 
-Mr Bromelle paces around slowly in the corner.
+Mr Bromelle looks around cautiously.
 
-Mr Kalburry frowns at Mr Bromelle.
+Mr Kalburry transitions to Moonlight Sonata.
 
-Sharon looks around the room with careful eyes, as if scanning for something.
+Sharon seems off from her normal personality.
 
-Jack fiddles with his handcuffs.
+Jack Haultairya looks angrily at Mr Bromelle, Mr Kalburry and Sharon.
 
 >What do you want to take?
 
@@ -17780,7 +17798,6 @@ ZIF WRN: op picture_data unimplemented
 ZIF WRN: op draw_picture unimplemented
 
 ZIF quit
-ZIF ERR: PC=00DF89  77 00 02                      2OP-17  [SP] [FP+2] : Division by zero
 ================================================================================
 Index : 370
 File  : The_Crystal_Palace.zblorb
@@ -17860,7 +17877,7 @@ Onstage at the Cherrywood Lounge
 The crowd looked dead before you came on. Now they're lively, as the music 
 begins. You catch a glimpse of Gladys; she gives you a wink.
 
->Come again?
+>I didn't understand that command.
 
 >Yes. Oh, yes.
 
@@ -18029,14 +18046,14 @@ Jeldysh here.
 
 >That was a rhetorical question.
 
-A red light turns on at one of the unattended stations.
+There is silence.  In space.
 
 >Which direction do you think THAT is?  You're in space!  It's probably best to 
 stay here, anyway.
 
 You can't go that way.
 
-Somewhere in the background an alarm begins to honk.
+The ship rocks ominously from side to side.
 
 >What do you want to take?
 
@@ -18363,7 +18380,7 @@ It seems like the dragon expects you to do something...
 
 The clock reads: 9:00 am.
 
->Sorry... If I just asked a question, it was rhetorical.
+>Sorry... If I just asked a question, I was just playing around.
 
 >
 hallway
@@ -18620,8 +18637,7 @@ You can also see a bulletin board and a waiter here.
 
 >The only interesting direction is west.
 
-You overhear snippets of a conversation concerning the recent murders in 
-Whitstone.
+An overweight pigeon waddles into the area, pestering passers-by.
 
 >What do you want to take?
 
@@ -18836,6 +18852,8 @@ case (closed) here.
 
 >That was a rhetorical question.
 
+Are you dreaming? Is this reality?
+
 >There is no way in that direction.
 
 You can see the following exits: south and up.
@@ -18915,7 +18933,7 @@ ZIF Checksum : E549
 
 TREASURES OF A SLAVER'S KINGDOM
 An Authorized ENCOUNTER CRITICAL Quest
-Adapted by S. John Ross from the lost classic.
+Adapted by S. John Ross from the legendary masterpiece.
 Original game by Dr. Saul Leeman, with Henry and Dinah Riley.
 Release 9 / CogniKing SN-130614 / I7-5T18 (I6/v6.31 lib 6/12N) 
 
@@ -18934,8 +18952,7 @@ twitching in your thews, enlivened by the freedom of the open country.
 
 You can see a GLADIUS SWORD here.
 
->I attaint thee, varlet! Thy verbiage, it affrighteth me! Your game manual, or 
-the HELP command, might give aid and succor.
+>You speak madness, barbarian! Seek guidance with the HELP command.
 
 >
 
@@ -18961,8 +18978,8 @@ That seems to belong to the LIZARD MAIDEN.
 
 "Coward!"
 
->In 3 turns, you hath achieved a Quest Rate of 1 out of 500 points. This gives 
-you the rank of "Churl Gone Astray".
+>In 3 turns, you have achieved a Quest Rate of 1 out of 500 points. This bestows 
+upon you the rank of "Jackanapes Gone Astray".
 
 Do you wish to leave the game? (Y is affirmative): ZIF quit
 ================================================================================
@@ -19493,8 +19510,8 @@ big enough for you to walk into. It is closed.
 Come to think about it, the dustbin might also be of significance. It always is 
 in escape games.
 
-"It's paradise, I tell you, once you use my luxurious Virtual Reality machine!" 
-says Bobby, motioning you towards the Virtual Reality machine.
+"Just give it a try, it won't hurt you..." says Bobby, motioning you towards 
+the Virtual Reality machine.
 
 >Are you sure you want to quit? ZIF quit
 ================================================================================
@@ -19665,24 +19682,30 @@ activities including the opposite sex...
 in short everything you could have been
 doing if you weren't playing this game.
 The images fade away...
-A wizard appears, carrying a broken
-zipper out of which fall various items,
-among them a pair of jeans, a poodle and
+More...
 
-a pair of speakers. These items immedi-
-ately disappear through the magic of
-stage-craft. He is almost ready to burst
-into tears as he asks you: "Where can I
-go to get my zipper repaired?"
-Rance the dungeonkeeper appears. He
-takes the wizard by the arm and leads
-him off, saying: "Questions, questions,
-questions, flooding into ze mind of ze
-conzerned young person zoday..."
-What next?
+You are standing at the bottom of a
+short escalator, which is going
+downwards. A passage leads south.
+You can see:
+Your old friend, the over-sized, chrome
+spoon
+Rance the Dungeonkeeper comes gliding
+down the hand-rail. He reaches into his
+steaming briefcase and produces a long
+computer printout. He examines the
+printout and says to you: "Vell,
+according to zis here assembly language
+listing, you vill, to komplete zis
+kvest, have to collect some items: A
+Danish pastry, a brovn paper bag viz
+peepholes in it, a Swedish yellow 3
+skilling banco stamp, a Duran Duran
+album, a salami sausage and a basket-
+ball." He tears off a piece of the
+printout and hands it to you. He then
+disappears in a puff of stage-craft.
 
-What kind of talk is that? I'm not
-Encyclopedia Britannia y'know.
 What next?
 no
 What kind of talk is that? I'm not
@@ -19690,38 +19713,21 @@ Encyclopedia Britannia y'know.
 What next?
 n
 You can't move in that direction.
-A wizard appears, carrying a zipper. He
-takes a pair of jeans out of the zipper,
-looks at you and asks eagerly: "Where
-can I go to get my jeans embroidered?"
-Rance the dungeonkeeper appears. He
-takes the wizard by the arm and leads
-him off, saying: "Questions, questions,
-questions, flooding into ze mind of ze
-conzerned young person zoday..."
 What next?
 take
 That's impossible.
-More...q
-You are standing at the bottom of a
-short escalator, which is going
-downwards. A passage leads south.
-You can see:
-Your old friend, the over-sized, chrome
-spoon
 What next?
-uit
-What kind of talk is that? I'm not
-Encyclopedia Britannia y'know.
-What next?
-y
-What kind of talk is that? I'm not
-Encyclopedia Britannia y'know.
-What next?
+quit
+Quit? That could be a severe mistake.
+Are you sure?yY
+You have taken 3 turnsWhat next?
 
-What kind of talk is that? I'm not
-Encyclopedia Britannia y'know.
-What next?
+                The End.
+
+Are you going to make another pitiful
+attempt
+?
+
 ================================================================================
 Index : 411
 File  : WERNER4.Z5
@@ -20092,7 +20098,7 @@ The source of the aggravation is ten feet back on the path: hair between brown
 and honey, a Marilyn figure, and one of those tipped-up noses that makes a girl 
 look always just a little annoyed.
 
-There is also a short orange animal worrying at her skirt.
+There is also a short yellow animal worrying at her skirt.
 
 "Whatever you call it, it obviously shouldn't be out unleashed."
 
@@ -20479,8 +20485,8 @@ generally hangs out. Vague piles of junk lurk in the corners. The ceiling roils
 with a cloud of thin smoke, which spills out of the room through the doorway to 
 the south.
 
-Drew is here, lounging on a beanbag. "Time to make some stew happen!" he cries, 
-without getting up.
+Drew is here, lounging on a beanbag. "Let's get this stew on the road!" he 
+cries, without getting up.
 
 In the center of the room, over a small fire, sits a stewpot.
 
@@ -21006,7 +21012,7 @@ down a gully.
 > You are in open forest, with a deep valley to one side.  Not far
 is a large billboard.
 
-> You've got to be kidding!
+> You can't be serious!
 
 > Do you really want to quit now?
 
@@ -21214,10 +21220,10 @@ I beg your pardon?
 >no
 That was a rhetorical question.
 
-The black kitten chases its tail.
-
 >n
 You can't go that way.
+
+The white kitten chases its tail.
 
 >take
 What do you want to take?
@@ -21553,7 +21559,7 @@ The hallway comes to an end here, with a very fancy-looking archway leading out
 to the south. The rest of this godforsaken place lies beyond a hallway to the 
 north.
 
-A large sign above the door reads "Now Serving #5."
+A large sign above the door reads "Now Serving #16515."
 
 >
 I beg your pardon?
@@ -21570,9 +21576,10 @@ Hallways lead east and west. The archway to the grand exit lies to the south.
 
 A poster adorns the wall here.
 
+You can also see a stylish fez here.
+
 >take
-(the poster)
-It is glued to the wall.
+What do you want to take?
 
 >quit
 Are you sure you want to quit? y
@@ -23465,6 +23472,10 @@ You are in a forest.
 Forest
 You are in a forest.  There is a wide stream to the north.
 
+Without warning, a short, brutish gnome bursts out of the underbrush, looks at 
+you with a startlingly mean expression, then disappears in a pungent cloud of 
+dust.
+
 >What do you want to take?
 
 >Are you sure you want to quit? ZIF quit
@@ -24529,6 +24540,7 @@ with a pop and a flash.
 
 The firefly is available for questioning. It is happy to help. Just type "hint" 
 and it will come.
+Lornedei shakes her foot to get rid of a painful stone from her sandal. 
 
 >What do you want Lornedei to take?
 
@@ -24545,11 +24557,11 @@ ZIF Checksum : E64D
                               Welcome to CURSES
 
                         [Please press SPACE to begin.]
-[ Curses are like young chickens,
-  they always come home to roost.
+[ Let Rome in Tiber melt, and the wide arch
+  Of the ranged empire fall! Here is my space.
+  Kingdoms are clay.
   
-  -- Robert Southey (1774-1843),
-     "The Curse of Kehama"]
+  -- Shakespeare, "Antony and Cleopatra" I:1]
 
 It's become a matter of pride now not to give up. That tourist map of Paris 
 must be up here somewhere in all this clutter, even if it has been five years 
@@ -24819,10 +24831,10 @@ doors on each side of the stairways. You'll have to walk down one of them.
 Well, actually, there's door 1001. It seems boarded up for effect, but it's got 
 drawings on it.
 
-You hear a hum in the distance--sounds like a natural E. A muscular statue 
-holding a "Best Center Forward Ever" trophy is in the center, and a starry-eyed 
+You hear a hum in the distance--sounds like a natural A. A muscular statue 
+holding a "Best Left Fullback Ever" trophy is in the center, and a starry-eyed 
 statue is carrying a big not-quite-ball with a tag dangling from it. The tag 
-reads "Scorpio."
+reads "Virgo."
 
 You see a table of fractions and a yellowed chart of football positions here, 
 and a small billboard with five electronically rendered dice seems to provide a 
@@ -24843,7 +24855,7 @@ relent. A bit.
 
 >That was a rhetorical question.
 
->You pick a room at random. Specifically, room 748.
+>You pick a room at random. Specifically, room 874.
 
 As you step through the door, you realize the floor underneath was illusory. 
 You have chosen wrong, falling into a vortex of--well, you don't know what it 
@@ -24852,7 +24864,7 @@ is, but you know it gives you that perfect song.
 In that song you realize everyone has that sort of song when they die, that 
 it's the last one and it trumps all factual knowledge and regret--in this case, 
 you never find time--or whatever's beyond time--to lament not choosing door 
-456.
+185.
 
 ...or do you?
 
@@ -25624,6 +25636,9 @@ The summoner known as Seegan stood before me.
 >no
 If I needed to answer, I [talked to "summoner"].
 
+Seegan stared at me.  Her eyes had the typical glaze of awe but lacked the 
+typical glimmer of San.
+
 >n
 I was not impeded by the elements of the physical world.  The farther I 
 traveled from the location of my initial summons, the more Purpose I expended.
@@ -26302,11 +26317,15 @@ takes you out to Main Street, south takes you back to the newsroom.
 
 Mitsey, KTKO's receptionist, sits at her desk polishing her nails.
 
-Mitsey blows a big pink bubble with her gum, until it pops noisily.
+Mitsey slaps her forehead. "Oh!" she exclaims. "I forgot to give Harry that 
+message from two hours ago!"  She leaps out of her seat, dashes back to the 
+newsroom, and reappears moments later.
 
 >take
 (Mitsey)
 I don't suppose Mitsey would care for that.
+
+Mitsey polishes her nails, humming quietly to herself.
 
 >quit
 Are you sure you want to quit? y
@@ -26659,6 +26678,8 @@ That was a rhetorical question.
 
 >n
 You can't, since the front door is in the way.
+
+The cat sneers at you, and leaves to the south.
 
 >take
 What do you want to take?
@@ -27367,12 +27388,12 @@ I beg your pardon?
 >no
 That was a rhetorical question.
 
-The tram moves along south for a while, then southeast, then south.
+The tram moves along south for a while, then southeast.
 
 Shark Valley East Loop Road (in the tram)
 This paved blacktop road was constructed to connect the visitor center to the 
-observation tower. The road runs north and south. Wetlands extend to the west 
-and to the east.
+observation tower. The road runs south and northwest. Wetlands extend to the 
+west and to the east.
 
 You are sitting onboard a tour tram.
 
@@ -27382,12 +27403,12 @@ minutes trying to explain why there aren't any sharks.
 >n
 You'll have to get out of the tram first.
 
-The tram moves along south for a while, then southwest for a while.
+The tram moves along south for a while, then southwest.
 
 Shark Valley East Loop Road (in the tram)
 This paved blacktop road was constructed to connect the visitor center to the 
-observation tower. The road runs northeast and southeast. Wetlands extend to 
-the west.
+observation tower. The road runs northeast and southwest. Wetlands extend to 
+the west and to the east.
 
 You are sitting onboard a tour tram.
 
@@ -27395,18 +27416,15 @@ You are sitting onboard a tour tram.
 (the tram)
 You'd have to get out of the tram first.
 
-The tram moves along southeast, then southwest, then south for a while, then 
-southeast.
+The tram moves along southwest, then southeast, then southwest, then south for 
+a while.
 
 Shark Valley East Loop Road (in the tram)
 This paved blacktop road was constructed to connect the visitor center to the 
-observation tower. The road runs southwest and northwest. Wetlands extend to 
-the east.
+observation tower. The road runs north and southeast. Wetlands extend to the 
+west and to the east.
 
 You are sitting onboard a tour tram.
-
-The tour guide maintains that the Everglades and the nearby city of Miami 
-co-exist in ecological harmony.
 
 >quit
 You have so far scored 0 out of a possible 5, in 3 turns, earning you the rank 
@@ -27511,7 +27529,7 @@ You have completed 0% of this adventure in 3 moves.
 
 At this point you have earned the following microbadges:
 
-Your special GEEK CODE at this time would be: EZREAML-DAJKMXL-BGBTUJX-AE
+Your special GEEK CODE at this time would be: XZLXKEC-RAMFHFZ-GZZGKZP-AE
  Paste this code exactly as you see it here to claim your prizes on 
 www.rpggeek.com. You may only claim prizes once - so be sure you're ready to go 
 through the claim process.
@@ -27549,11 +27567,12 @@ A stone path runs north and south through the center of the graveyard. In the
 middle of the path is an old wooden bench. To the east is a vicious gnarled old 
 tree, to the west is an ancient, leprous, small stone crypt.
 
-A fog slowly drifts in from the north end of the graveyard.
+A dense fog hovers over the middle of the graveyard.
+
+The fog slowly drifts away to the north end of the graveyard.
 
 >take
-(the light fog)
-The fog swirls around you.
+What do you want to take?
 
 >quit
 Are you sure you want to quit? y
@@ -27678,7 +27697,7 @@ You have completed 0% of this adventure in 2 moves.
 
 At this point you have earned the following microbadges:
 
-Your special GEEK CODE at this time would be: EAMDJDK-MXBGBU-[AAA]TUJGKLUXRJE-AA
+Your special GEEK CODE at this time would be: XKERMFF-HFGZZD-[AAA]GKZELMHHUTA-AA
 AC
 
 Paste this code exactly as you see it here to claim your prizes on 
@@ -27866,9 +27885,9 @@ That was a rhetorical question.
 >n
 
 Lost in the forest
-I'm wandering in the forest lost and completely disorientated! Everywhere I 
-look there are strange, twisted trees, and what's more they all look exactly 
-the same! I'm beginning to think it was a really bad idea to leave the path...
+I'm lost in the forest, surrounded on all sides by dense foliage. I knew it was 
+a bad idea to stray from the path! I can go in any direction, but I haven't a 
+clue which is the right one!
 
 >take
 What do you want to take?
@@ -28599,13 +28618,18 @@ In the office you can also see the deputy.
 
 >That was a rhetorical question.
 
+On the other side of the jail bars in the office, the deputy runs his hand 
+through his sparse hair. 
+
 >You can't go that way.
+
+Over in the office, the deputy pokes his head out of the office and yells at 
+some passersby. 
 
 >(Muddy)
 I don't reckon Muddy would much care for that.
 
-Over in the office, the deputy peeks through the jail cell window at the saloon 
-across the street. It's clear he'd rather be there. 
+In the office, the deputy sniffles loudly and wipes his nose on his sleeve. 
 
 >I didn't mark you for a quitter. You sure? (y/n)
 
@@ -28722,6 +28746,8 @@ Near the fountain, with a plate at his feet, a mendicant is playing a violin.
 >take
 (the pad)
 Facing an enemy with a pad would be pointless.
+A man approaches the mendicant and puts two coins in the plate, disappearing to 
+the north.
 
 >quit
 Are you sure you want to quit? y
@@ -29354,16 +29380,15 @@ I beg your pardon?
 That was a rhetorical question.
 
 >n
-You balance your weight lightly on a small piece of granite and proceed into 
-the darkness.
+You stumble through another tight shaft, Jacob right behind you.
 
-You analyze your current situation. What would be the safest route?
+A few small rocks tumble down from the ceiling.
 
 >take
 (Jacob)
 I don't suppose Jacob would care for that.
 
-You can hear a slow drip off in the distance.
+A few small rocks tumble down from the ceiling.
 
 >quit
 Are you sure you want to quit? y
@@ -29868,16 +29893,18 @@ MD5   : 38847116335f622ecd5e37413275ed83
 ZIF Version  : z5
 ZIF Checksum : BC2A
 
-NOW OF COURSE, WHAnTo ONE'D R
-EALLY DEnSIRE A
-T A NAStTaY TIME LIKE THIkS eIS A BLOWTORCH
+N
+OnW OF COURoSE, WH
+AnT ONE'D
+ REALLYt DESIRE AaTk A NASTY eTIME L
+IKE THIqS IS A BLOWTORCHu
 
                                  or
 
-I... WELL; WHO WOULD THINKq MY BOSS uIS SCARED OF iAtN 
-ARCH TyRAITOR? YE
-T I SE
-E AT LEAS================================================================================
+I.i.. WELLt;
+ WHO WOULD THINK MY BOSS yIS SCA
+R
+ED OF AN ARCH T================================================================================
 Index : 601
 File  : leaptime.z8
 Path  : cache
@@ -30194,7 +30221,7 @@ You are in the hills of Nemea, standing outside a cave with two entrances.
 
 A huge rock sits near one of the entrances.
 
-The Nemean lion is here. It growls!
+The Nemean lion is here. It jumps at you, missing by a hairsbreadth!
 
 >
 [ERROR: no command entered.]
@@ -30296,14 +30323,15 @@ and if that egg isn't careful...
 
 The footpath running along the fence veers sharply north.
 
-The egg flicks an invisible piece of lint off his shirt.
+The egg removes a handkerchief from his pocket and polishes a pair of 
+spectacles.
 
 >no
 "Pardon me," apologizes the egg. "I must have forgotten the question."
 
 >n
-"Don't go!" pleads the egg. "The forest is full of loathsome beasts. You'd be 
-much happier here with me. Really, you would."
+"Leaving so soon?" sighs the egg. "Well, be careful. Dangerous creatures lurk 
+in the shadows."
 
 Forest
 The sun has disappeared. Only a narrow north-south passage winds through the 
@@ -33678,7 +33706,7 @@ wooden tables. The bartender nods at you as he tends to his customers.
 Type ABOUT to learn about Nameless Quest!
 Type VERBS for a list of commands!
 
-Someone walks up to the bar and orders a Wizard's Potion.
+Someone walks up to the bar and orders a grog.
 
 Hanging on the wall is a dartboard. There are three red darts stuck in it!
 
@@ -33722,11 +33750,9 @@ You can't go that way.
 What do you want to take?
 
 >quit
-[ Ah! my friend, at last I am about to leave
-  this world, where the heart must be broken
-  or be brass.                              
-                                            
-           Roch Nicolas Chamfort, last words]
+[ Yes, it has been a pleasant world to me.
+                                          
+          William Henry Harvey, last words]
 
 Are you sure you want to quit? y
 ZIF quit
@@ -34778,8 +34804,8 @@ couldn't wait till you were sober enough to drive it yourself. From the way
 he's weaving all over the road, he also apparently couldn't wait till HE was 
 sober enough to drive it, either.
 
-Rob changes the radio station a few times, eventually settling on the station 
-you were listening to in the first place.
+Rob looks over his shoulder as if about to change lanes but then turns on the 
+windshield wipers instead of the turn signal. "Oops," he says.
 
 >quit
 Are you sure you want to quit? y
@@ -35602,18 +35628,19 @@ I beg your pardon?
 >no
 That was a rhetorical question.
 
-The audience roars with approval.
+The crowd screams with pleasure.
 
 >n
 You are attached to the floor of the ring. There is no escape for you.
 
-The crowd screams with pleasure.
+A little girl in the front row bellows with rage. "The robot requires 
+additional pummeling! Continue!"
 
 >take
 (the red robot)
 You don't swing that way!
 
-A man in the audience yells, "Knock his block off, Red!"
+The crowd screams with pleasure.
 
 >quit
 Are you sure you want to quit? y
@@ -35781,6 +35808,10 @@ That was a rhetorical question.
 
 >n
 Type 'exit' to end your session.
+
+A voice is broadcast over the gallery softspeaker:  For your convenience, 
+Damon's Hunger Hut is open every 20 turns.  Damon's is located just outside the 
+front entrance.  Thank you.
 
 >take
 What do you want to take?
@@ -37171,7 +37202,7 @@ Items in sight are:  a sign.
 
 > take
 (the sign)
-An interesting idea....
+I can't do that.
 
 > quit
 Are you sure you want to quit? y
@@ -37622,7 +37653,8 @@ have fled -- you can see them now through the floor-to-ceiling windows on the
 south side of the building, clutching their minnows tightly and waiting to see 
 what will happen next.
 
-The skunk doggie-paddles[1] from one end of the pool to the other. [2]
+Swishing his tail from one side to the other, the skunk propels himself around 
+the pool. [1]
 
 (This game makes use of footnotes. Whenever you see a number in brackets, type 
 NOTE # to read the footnote.)
@@ -37672,8 +37704,6 @@ Nok stops you with a gesture, and points east into the woods.
 >take
 (the trees)
 You reach up and tear a branch from a nearby tree.
-
-Nok grunts.
 
 >quit
 Are you sure you want to quit? y
@@ -38105,7 +38135,7 @@ windows to the east, north and west. And a throne, of course. That's where you
 sit and it also blocks the view of the intricately detailed but slightly 
 unsightly Royal Cabinet which stores the Royal Crown for Royal Safekeeping.
 
->... I'm afraid I didn't quite catch that.
+>... Giving me the silent treatment isn't going to further the story.
 
 >You can't go that way.
 
@@ -38187,7 +38217,7 @@ in effect your entire life's work, the translocation machine.
 
 >That was a rhetorical question.
 
-From outside the building comes the muffled sound of thunder.
+The lights in the room flicker briefly.
 
 >
 Storeroom
@@ -38438,7 +38468,7 @@ I beg your pardon?
 >no
 That was a rhetorical question.
 
-Two of the shadows suddenly disappear.
+A sound like wailing is heard for a few seconds, then it stops.
 
 >n
 You move, or rather you come to a new place. The concept of body and movement 
@@ -38740,19 +38770,19 @@ I beg your pardon?
 >no
 That was a rhetorical question.
 
-Wilkens appears to study the flames in the fire.
+Wilkens stares into the fire.
 
 >n
 On this cold and snowy night you would rather stay and sample Wilkens'excellent 
 single malt scotch.
 
-Wilkens swirls the scotch around in his tumbler.
+Wilkens sips his scotch.
 
 >take
 (Professor Wilkens)
 I don't suppose Professor Wilkens would care for that.
 
-Wilkens swirls the scotch around in his tumbler.
+Wilkens gazes off into the shadows as if deep in thought.
 
 >quit
 Are you sure you want to quit? y
@@ -39440,11 +39470,12 @@ You can also see your car and a road sign here.
 
 >That was a rhetorical question.
 
+Curb gnaws hungrily on his own forepaw.
+
 >Although the idea of traipsing over the endless waste may seem appealing, it 
 won't get you to Aunt Mabel's faster.
 
-Curb tries to gnaw on your tattoos. You shoo him off before he does too much 
-damage.
+Curb peers curiously at Treasure Huntery Lesson 1.
 
 >What do you want to take?
 
@@ -39810,6 +39841,7 @@ That was a rhetorical question.
 
 >n
 "Where do you think you are going?" asks Gladys.
+Gladys coughs alarmingly
 
 >take
 (Gladys Harding)
@@ -40635,6 +40667,8 @@ spans it leans comfortably against the bank at your feet. To the east rises the
 flank of the hill, shining in the afternoon sunlight; two usable trails lead up 
 around it, to the south and the northeast.
 
+You catch a pair of dark eyes in the edge of your vision; then they are gone.
+
 >quit
 Are you sure you want to quit? y
 ZIF quit
@@ -40688,10 +40722,12 @@ You can see a security guard here.
 >no
 Aw, don't be negative.
 
+You can feel a few spots of rain on your face.
+
 >n
-"I don't think so, sunbeam," says the nasty looking guard. He probably heard 
-that line on an old episode of The Bill and has desperately longed for an 
-opportunity to say it since.
+The nasty looking security guard blocks your way with barely concealed glee. 
+"Your name's not down, you're not coming in," he says, though you can't see a 
+list anywhere. Maybe he was a bouncer in his last job.
 
 >take
 What do you want to take?
@@ -41187,8 +41223,8 @@ What do you want to take up?
 
 >quit
 ZIF WRN: op sound_effect unimplemeneted
-You have so far scored 6667 out of a possible 7212, in 965 turns, earning you 
-the rank of Spodgeville Murphy: Superb Adventurer.
+You have so far scored 6692 out of a possible 7237, in 975 turns, earning you 
+the rank of Spodgeville Murphy: Adventurer Extraordinaire.
 Are you sure you want to quit? y
 ZIF quit
 ================================================================================
@@ -41273,17 +41309,15 @@ Copyright 2004 by Muffy St. Bernard.
 
 Release 1 / Serial number 041119 / Inform v6.21 Library 6/10 
 
-A fair-sized, rough, watery dead-end
-You are in room #20, a fair-sized dead-end with rough, orange, fungus-spotted 
-walls. Some of the fungus has been scraped off the wall, but it is slowly 
-growing back. Stalagmites rise out of the floor, reaching for the roof of the 
-cave. A thick, wet fog fills the chamber and gives the surroundings a 
-dream-like quality. 
+A tiny, creased cavern
+You are in room #18, a tiny, cramped cavern with creased, orange, 
+fungus-spotted walls. Some of the fungus has been scraped off the wall, but it 
+is slowly growing back. A thick, wet fog fills the chamber and gives the 
+surroundings a dream-like quality. 
 
-Exit 1 weaves toward an unexplored room. 
-
-A waterfall cascades from an underground source, through the room, and into 
-exit 1.  It fills the entire room with water.
+Exit 1 slowly descends toward some distant unexplored room. 
+Exit 2 rises very slightly toward an unexplored room. 
+Exit 3 curves toward an unexplored room. 
 
 There is an empty canteen here.
 High above your head is the shaft you fell out of.
@@ -41293,8 +41327,7 @@ It appears that this skeleton on the ground has broken your fall.
 A scrap of paper is lying next to the skeleton.
 
 You can also see a Transmat Popper and two food pellets here.
-It's so hot in here that you're sweating profusely.
-The deafening sound of a waterfall roars through the chamber.
+It's hot in here!
 
 >ake
 That's not a verb I recognise.
@@ -41451,13 +41484,12 @@ MD5   : 04446157873a1ef55179d3ad8371c5ab
 ZIF Version  : z8
 ZIF Checksum : 22FE
 
-"Yo momma's so fat when she gets up on the wrong side of the bed it's because 
-she has to use the spare pulley!"
+"Yo momma's so stupid she got lost in the desert and drowned!"
 
 Your heart is pounding and you find it hard to breathe. You didn't supect that 
 the quips would hit this hard in a real situation. Focus. Focus!
 
-"Yo momma's so fat the doctor said she should lose weight..."
+"Yo momma's so stupid she doesn't know anything..."
 
 Oh man. You didn't just say that. You did. Oh man.
 
@@ -42368,30 +42400,30 @@ Federation of Planets and the Imperial Klingon Empire.
 galaxy, your orders are as follows:
 
 4. Engage and destroy any and all Klingon vessels you encounter within your 
-designated patrol zone. Long range sensor scans indicate a total of 14 Klingon 
+designated patrol zone. Long range sensor scans indicate a total of 23 Klingon 
 battlecruisers in your area.
 
-5. Starfleet Operations calculates that it will take approximately 28 days to 
+5. Starfleet Operations calculates that it will take approximately 29 days to 
 mobilize our forces and begin sending reinforcements to the front. We need you 
 to hold off the invading Klingon fleet until those reinforcements arrive.
 
 6. Good luck and good hunting.
 
 [Press any key to accept command]n
-Short range scan of quadrant 8, 5 (Arcturus II)
+Short range scan of quadrant 2, 4 (Rigel IV)
 
      1   2   3   4   5   6   7   8
     --- --- --- --- --- --- --- ---
- 8:  .   #   #   .   .   .   #   . 
- 7:  .   .   .   .   .   #   .   . 
- 6:  .   #   .   .   .   .   .   . 
+ 8:  .   #   .   #   .   .  +K+  # 
+ 7:  .   .   .   .   .   .   .   # 
+ 6:  .   .   .   .  +E+  .   .   . 
  5:  .   .   .   .   .   .   .   . 
- 4:  .   .   #   .   .   .   .   . 
- 3:  .   .   .   .   .   .   .   . 
- 2: +E+  .   .   #   .   .   #   . 
- 1:  .   .   .   .   .   .   .   . 
+ 4:  .   .   .   .   .   .   #   . 
+ 3:  .   .   .   .   .   .   .   # 
+ 2:  .   .   .   .   .   .   .   . 
+ 1:  .   .   .   .   .   #   .   . 
 
-Alert Condition: Green
+Alert Condition: Red
 o
 n
 take
@@ -42496,7 +42528,6 @@ Press 'q' to abort.
 [** Programming error: tried to print (string) on something not a string **]
 ", which has entries 1 up to 11 **]
 ZIF quit
-ZIF ERR: PC=0004EF  01 01 E3                      2OP-01  #0x01 #0xE3 : Bad PC
 ================================================================================
 Index : 817
 File  : etude.z5
@@ -43333,6 +43364,6 @@ Please select a test: qZIF quit
 ================================================================================
 Games      :      819
 Clean exit :      817
-Errors     :        2
+Errors     :        0
 Warnings   :       71
 --------------------------------------------------------------------------------
