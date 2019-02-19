@@ -1327,26 +1327,10 @@ You have taken 4 turns.
 
                            Do you wish to play again?
 >
+Good Bye! 
+Keep tickling the toes of life!!
 
-                          DANGER!  ADVENTURER AT WORK!
-
-                                       BY
-                              SIMON AVERY (c) 1991
-                                   (A.F.I.O.)
-                             For The Guild Software
-
-Your quest in this adventure, is to find a quiet room where all time stops so 
-you can play adventures as long as you like with no interruptions. 
-
-This text-only adventure accepts the usual verb-noun commands and a list of 
-recognised words can be obtained by typing INFO. 
-
-Two unusual abbreviations are; 
-LOUN for LOok UNder 
-LOBE for LOok BEhind.
-
-                           Press any key to continue
-================================================================================
+OK================================================================================
 Index : 32
 File  : Aug4.z8
 Path  : cache
@@ -6421,35 +6405,6 @@ Reality ripples, time wavers... And just as everything is about to end...
 
 (Press any key)
 
-...It all begins again...
-
-Before Ululul can type the last command on the keypad, the plasma burns 
-overcome him, and he slumps to the floor. You're all alone now, isolated; the 
-others can't reach you.
-
-While the energy relays spark and scream, you stare at the keypad, then at your 
-hands, realizing that the only things between you and this recursive nightmare 
-are your fingertips...
-
-Fingertips: Fingertips
-An Interactive Time Loop by Michael D. Hilborn
-Release 2 / Serial number 120324 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
-
-Reactor Core
-Like a dewdrop suspended from a crystalline cocoon, this massive chamber 
-emerges from the underbelly of the Hexergon station, exposed to galactic 
-stillness and storms. You're isolated in what the Hexergons call the Overlook, 
-a translucent, plasticine bubble affixed to the apex of the chamber. It's here 
-with a single keypad that the core is controlled. It's also here that the 
-experiment went awry.
-
-The reactor core blazes chaotically hundreds of meters below your feet. 
-Hundreds of thousands of kilometers beyond the core roils the black hole around 
-which the station now holds a tenuous orbit.
-
-The bodies of Ululul and the translator bot lie motionless, both burnt by the 
-now uncontrollable plasma bursts.
-
 >I beg your pardon?
 
 >What do you want to take?
@@ -7788,26 +7743,9 @@ You have taken 3 turns.
 
 Do you really want to go through all that again?
 >
+Byee. Keep happy.
 
-                             The Gerbil Riot of '67
-
-                                 by Simon Avery
-                                    A.F.I.O.
-                             Title:- Paul Harrison.
-
- You live in a Home. Not your average, middle of the street home, but a home 
-for the Confused. I.e. an asylum. 
- You were put there after being found guilty of instigating the great Gerbil 
-Riot of 1967. A heinous crime. 
-
- You have a hobby - escaping. To date you have been unsuccessful but you decide 
-to give it one last try. 
-
- Type INFO for more information.
-
-                       <<< Press any key to continue >>>
-
-================================================================================
+OK================================================================================
 Index : 154
 File  : Glass.zblorb
 Path  : cache
@@ -14696,29 +14634,9 @@ The more balls that are removed each turn, the higher the score.
 A bonus of 500 points is awarded if all balls are removed.
 
 [Press any key to begin]
-
-Thank you for playing SameGame!
-
-My inspiration came from Andrew Plotkin's Freefall and Torbjœrn Andersson's Robots
-.
-
-SameGame is not my idea - I first saw it as Jon Read's version for the Psion 
-Series 3a and Acorn PocketBook II, although it's been around much longer than 
-that. You can get his version from http://www.ecs.soton.ac.uk/~jnr95r
-/psion/samegame.html.
-
-SameGame is an extreme stress test of your interpreter's Standard compliance; 
-it uses file access, the mouse, font 3, colour, the Unicode extension table and 
-print_unicode, together with the rare opcodes print_table and log_shift, just 
-to check your interpreter author is awake.
-
-It should run okay on an interpreter conforming to version 0.2 of the Standard 
-(except it will probably crash if you manually select display mode 4), and 
-perfectly on an interpreter conforming to version 1.0.
-
 Kevin Bracey, 1998
 
-[Press any key to quit]u
+[Press any key to quit]n
 ZIF quit
 ================================================================================
 Index : 304
@@ -19550,7 +19468,6 @@ MD5   : 0ba36a40c9d5da65905ab654907b5884
 --------------------------------------------------------------------------------
 ZIF Version  : z5
 ZIF Checksum : 7820
-ZIF WRN: Checksum fail
 IQRun
 An interactive Quill interpreter
 Release 4 / Serial number 020225 / Inform v6.14 Unquill library 0.8.1 D
@@ -19594,7 +19511,6 @@ MD5   : 8e21e7bd0e09bc07c1c4175e29cc60bc
 --------------------------------------------------------------------------------
 ZIF Version  : z5
 ZIF Checksum : 7820
-ZIF WRN: Checksum fail
 IQRun
 An interactive Quill interpreter
 Release 4 / Serial number 020225 / Inform v6.14 Unquill library 0.8.1 D
@@ -19656,7 +19572,6 @@ MD5   : 210cc5e6be3de568fe534eb5fcd01f54
 --------------------------------------------------------------------------------
 ZIF Version  : z5
 ZIF Checksum : 7820
-ZIF WRN: Checksum fail
 IQRun
 An interactive Quill interpreter
 Release 4 / Serial number 020225 / Inform v6.14 Unquill library 0.8.1 D
@@ -19736,7 +19651,6 @@ MD5   : a4f332a738bb25b5f31aaecf97d5ab49
 --------------------------------------------------------------------------------
 ZIF Version  : z5
 ZIF Checksum : 7820
-ZIF WRN: Checksum fail
 IQRun
 An interactive Quill interpreter
 Release 4 / Serial number 020225 / Inform v6.14 Unquill library 0.8.1 D
@@ -25210,7 +25124,6 @@ MD5   : 3ca392b9de429d26da6fff22419aac3a
 --------------------------------------------------------------------------------
 ZIF Version  : z3
 ZIF Checksum : 0000
-ZIF Checksum fail
 
 What a horrid dream, all about compiling something. Thank heavens you've 
 finally woken up, even if you seem to have been sleep-walking. As you dizzily 
@@ -36074,25 +35987,7 @@ Your score is 0 (total of 50 points for the Tutorial Game), in 0 moves.
 
 Thanks for playing. Hit the RETURN key to restart the Tutorial/Demonstration.
 
-Welcome to the worlds of Infocom's interactive fiction. This Sampler contains a 
-Tutorial and samples of four Infocom titles: Zork I, Planetfall, Infidel, and 
-The Witness.
-
-The Tutorial is an introduction to the concept of interactive fiction. In it, 
-you will be taken through a brief sample scenario that will allow you to become 
-comfortable with the way to converse with these stories. After the tutorial, 
-there will be a brief explanation of how Infocom's interactive fiction is 
-different from others you might see or hear about.
-
-The sample of Zork I, a fantasy game, includes everything through your 
-discovery of the main caverns of the Great Underground Empire. In Planetfall, a 
-science fiction game, you will scramble to survive a shipwreck and land on a 
-deserted world. If you play Infidel, one of our Tales of Adventure, the sample 
-will include your search for an ancient pyramid buried beneath the desert 
-sands. The sample of The Witness will give you a glimpse of the action in this 
-30's-style detective thriller.
-
-(Hit the RETURN key now to start the tutorial.)>>================================================================================
+>================================================================================
 Index : 703
 File  : sampler1_R52.z3
 Path  : cache
@@ -41548,45 +41443,7 @@ tested mainly on Kevin Bracey's Acorn Z-Machine interpreter, Zip 2000 (v1.15).
 
 Do you want to represent age by colour (dark -> light)? (Y/N) >nNO
 
-[Any key]o[ "Cellular Automata, of which Life is an example, were
-   suggested by Stanislaw Ulam in the 1940s, and first
-   formalized by von Neumann. Conway's 'Game of Life'
-   was popularized in Martin Gardner's mathematical
-   games column in the October 1970 and February 1971
-   issues of Scientific American."
-  
-      -- Mark Kantrowitz, "Answers to Frequently Asked
-         Questions about Artificial Intelligence",
-         comp.ai, January, 1996,
-         ftp.cs.cmu.edu:/user/ai/pubs/faqs/ai/ai_?.faq,
-         mkant+ai-faq@cs.cmu.edu]
-
-[Any key]
-
-Z-LIFE
-A not-very interactive journey into "AI" (honest :)
-by Julian Arnold <jools@arnod.demon.co.uk>
-This program has been placed in the Public Domain.
-
-"Z-Life" was written using Graham Nelson's Inform compiler (5.5, v1503) and 
-tested mainly on Kevin Bracey's Acorn Z-Machine interpreter, Zip 2000 (v1.15).
-
-Do you want to represent age by colour (dark -> light)? (Y/N) >tZIF WRN: op sound_effect unimplemeneted
-aZIF WRN: op sound_effect unimplemeneted
-kZIF WRN: op sound_effect unimplemeneted
-eZIF WRN: op sound_effect unimplemeneted
-
-ZIF WRN: op sound_effect unimplemeneted
-qZIF WRN: op sound_effect unimplemeneted
-uZIF WRN: op sound_effect unimplemeneted
-iZIF WRN: op sound_effect unimplemeneted
-tZIF WRN: op sound_effect unimplemeneted
-
-ZIF WRN: op sound_effect unimplemeneted
-yYES
-
-[Any key]
-================================================================================
+[Any key]o================================================================================
 Index : 800
 File  : zball.z5
 Path  : cache
@@ -42181,20 +42038,7 @@ Your score would be 0 (total of 50 points for the Tutorial Game), in 0 moves.
 
 Thanks for playing. Hit the RETURN key to restart the Tutorial/Demonstration.
 
-Welcome to the worlds of Infocom's interactive fiction. This diskette contains 
-both a Tutorial game and a Demonstration of Zork I (R).
-
-The Tutorial is an introduction to the concept of interactive fiction. In it, 
-you will be taken through a small sample scenario that will allow you to become 
-comfortable with the way these games are played.
-
-The Demonstration is the actual beginning of Zork I, up through your discovery 
-of the main caverns of the Great Underground Empire.
-
-Whenever the word "MORE" appears on your screen, you will need to hit the space 
-bar to see the remainder of the text.
-
-(Hit the RETURN key now to start the tutorial.)================================================================================
+>================================================================================
 Index : 812
 File  : zracer.z5
 Path  : cache
@@ -43365,5 +43209,5 @@ Please select a test: qZIF quit
 Games      :      819
 Clean exit :      817
 Errors     :        0
-Warnings   :       71
+Warnings   :       57
 --------------------------------------------------------------------------------
