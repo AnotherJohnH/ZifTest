@@ -480,7 +480,7 @@ You are in an elaborate formal hallway. Exits are east, south, and up.
 You can see Mr Salt here.
 
 >take knife
-That's not a verb I recognise.
+You can't see any such thing.
 
 >s
 
@@ -731,10 +731,9 @@ I only understood you as far as wanting to use.
 You unlock the steel grate.
 
 >open grate
-That's not a verb I recognise.
+You open the steel grate.
 
 >down
-(first opening the grate)
 
 Below the Grate
 You are in a small chamber beneath a 3x3 steel grate to the surface. A low 
@@ -17676,7 +17675,6 @@ File  : The_Colour_of_Magic__Graphics_.zblorb
 Path  : cache
 MD5   : fbb84a3789219ee42b9964679f38b119
 --------------------------------------------------------------------------------
-ERROR: Exited test #369 with a fault [256]
 ZIF Version  : z6
 ZIF Checksum : 5952
 
@@ -17685,8 +17683,44 @@ ZIF WRN: op picture_data unimplemented
 ZIF WRN: op picture_data unimplemented
 ZIF WRN: op draw_picture unimplemented
 
-ZIF quit
-================================================================================
+The Colour of Magic
+
+Movement across the Disc is perhaps noteworthy at this point. 
+
+Unlike the usual fantasy environment, The Discworld does not have a north, 
+south, east or west. Instead, and more suitably, there are two main directions: 
+Hubward & Rimward. However, as the Disc itself revolves at the rate of once 
+every 800 days, there are two lesser directions: Widdershins & Turnwise.
+
+The Colour of Magic
+A Delta4 adventure
+Based on the novel by Terry Pratchett.
+Copyright (c) 1986-2012 Terry Pratchett.
+Release 1 / Serial number 121103 / Inform v6.31 Library 6/11 
+
+The Broken Drum (Dark Corner)
+Rincewind sat at a little table in a dark corner of the Broken Drum. A fat and 
+noisome candle spluttered above him, casting a dim glow across the alcove.
+Moodily, he sat, nursing a mug of very small beer. It had cost him the last of 
+his money and he was becoming more certain by the moment that it wasn't really 
+worth it.
+
+>
+Even the multi-lingual Rincewind didn't understand that!
+
+>n
+Even the multi-lingual Rincewind didn't understand that!
+
+>take
+What do you want to take?
+
+>quit
+Are you sure you want to quit now? 
+Thus, another epitomous escapade in the drama of the Discworld was ended.
+
+Another attempt could not conceivably be made. Could it? Please answer yes or no.
+
+> ================================================================================
 Index : 370
 File  : The_Crystal_Palace.zblorb
 Path  : cache
@@ -37687,7 +37721,6 @@ Path  : cache
 MD5   : 360022f8b0cdcc6a1fbcbbfd8f06e995
 --------------------------------------------------------------------------------
 ZIF Version  : z5
-
 ZIF Checksum : F55C
 
 "Yes, master?"
@@ -43050,7 +43083,7 @@ Please select a test: ZIF quit
 
 ================================================================================
 Games      :      819
-Clean exit :      817
+Clean exit :      818
 Errors     :        0
 Warnings   :       71
 --------------------------------------------------------------------------------
