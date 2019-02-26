@@ -4069,7 +4069,7 @@ Crobe was written by Jonathan R. Partington in 1986.
 These hints were written by Richard Bos in 2011, using Inform 6.30.
 Inform was written by Graham Nelson in 1993; version 6.30 in 2004.
 
-[Please press ================================================================================
+[Please press SPACE.]================================================================================
 Index : 84
 File  : CtDoom.z5
 Path  : cache
@@ -4897,11 +4897,11 @@ You are out by yourself in the woods.
 
 >
 
-[ Oh hey.]
+>[ Oh hey.]
 
-[ Hold on a second.]
+>[ Hold on a second.]
 
-[ (I forgot to put in the title)]
+>[ (I forgot to put in the title)]
 
 Dig My Grave
 An interactive incident by Ryan Veeder
@@ -4915,7 +4915,7 @@ There's a dead body here.
 
 The soil in this tiny clearing feels uncommonly soft.
 
-[   Okay, you can start now.  ]
+>[   Okay, you can start now.  ]
 
 That was a rhetorical question.
 
@@ -5893,7 +5893,7 @@ of shelves against the far wall.
 
 The only way out is to the west onto the upstairs landing.
 
-[ Let Love clasp Grief lest both be drown'd,
+>[ Let Love clasp Grief lest both be drown'd,
   Let darkness keep her raven gloss:
   Ah, sweeter to be drunk with loss,
   To dance with death, to beat the ground,
@@ -15811,8 +15811,8 @@ ZIF Checksum : 2F50
 This game contain scenes which are violent, sexual and vulgar, and may be 
 considered cruel. 
 
- [...]You've been driving for what feels like hours. A storm brews on the 
-horizon ahead, hastening the onset of night.
+ [...]You've been driving for what feels like hours. A storm brews on the horizon 
+ahead, hastening the onset of night.
 
 A flash of lightning disturbed you from your reverie, and now you can't 
 remember what you'd been thinking about. Couldn't have been important. There's 
@@ -18677,10 +18677,10 @@ Release 2 / Serial number 000615 / Inform v6.21 Library 6/10
 
 New players type INFO or HELP
 
-[         DOWNTOWN TOKYO.
+[MORE][         DOWNTOWN TOKYO.
            PRESENT DAY.         ]
 
-[         DOWNTOWN TOKYO.
+[MORE][         DOWNTOWN TOKYO.
            PRESENT DAY.
   
   Release II: The Director's Cut]
@@ -21247,7 +21247,7 @@ A sullen belch emanates from the clouds, and the rain starts coming down harder
 snowing in New England at this time of year? With a sigh, you open your 
 umbrella.
 
-Welcome to [                 * THE FIRST DAY *
+Welcome to Anchorhead...[                 * THE FIRST DAY *
   
   I was far from home, and the spell of the eastern
   sea was upon me.
@@ -21777,7 +21777,7 @@ hurts so much
 
 room (on bed)
 bed and a knife
-[ You are one of God's mistakes
+>[ You are one of God's mistakes
   You crying, tragic waste of skin
   I'm well aware of how it aches
   And you still won't let me in.
@@ -21932,7 +21932,7 @@ ZIF Checksum : 58DE
 
  And some nights, things somehow turn out for the best...
 
-         [Please press SPACE to [ The children tucked Teddy into his
+         [Please press SPACE to begin.][ The children tucked Teddy into his
   special bed, climbed into their own,
   and soon they were all fast asleep.
   
@@ -22215,7 +22215,7 @@ ZIF Checksum : 556B
   ]
 
                                               [press Q to quit, any other key 
-to [ 
+to continue][ 
         BLOW JOB DRIFTER
   
   An Interactive You Know What
@@ -23055,7 +23055,7 @@ bunny. A chill runs up your spine.
 saw it. The misty fog surrounding it. And now you're in the graveyard, alone, 
 armed only with your apple and your trusty quill pen. 
 
-                          [Press any key to [                                 
+                          [Press any key to continue][                                 
   The Night of the Vampire Bunnies
          Made by Jason Dyer       
                                   ]
@@ -25752,7 +25752,7 @@ ZIF Version  : z8
 ZIF Checksum : 0E82
 
                             
-                         Dracula Prince of [ Macbeth: "How now, you secret, black, and midnight hags!
+                         Dracula Prince of Darkness[ Macbeth: "How now, you secret, black, and midnight hags!
   What is't you do?"
   
   Witches: "A deed without a name."
@@ -27557,7 +27557,7 @@ ZIF Version  : z8
 ZIF Checksum : 498E
 
                           
-                                 The Ghost [ 
+                                 The Ghost Train[ 
   The ghost in the machine sometimes turns out to be a demon.
   
                        - Japanese proverb
@@ -28343,8 +28343,8 @@ Only one is true. But it would not have mattered which.
 
 You will understand soon enough.
 
-[press a key]Do you want to play as an [a]dventurer, an [e]nchanter, a [t]hief, 
-[r]oyalty, or a [d]ragon? t
+[press a key]Do you want to play as an [a]dventurer, an [e]nchanter, a [t]hief, [r]oyalty, 
+or a [d]ragon? t
 Do you want this character to be [m]ale or [f]emale? ================================================================================
 Index : 575
 File  : hints.z5
@@ -28406,13 +28406,13 @@ Release 16 / Serial number 130320 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N)
 Type "help" for instructions and "hints" for hints -- or just roll into town 
 guns a-blazin'.
 
-[Press Space To Continue]In the twilight, you sight the sheriff's sturdy brick office near the 
-edge of town. "That's mighty fine construction," notes Muddy, sounding less 
-feisty now. "Mighty fine indeed." The coach rolls to a halt and a thick arm 
-yanks you roughly from your seat. You land awkwardly in the rutted street, 
-where the sheriff holds you in place with the heel of one boot. He yells to his 
-men, "Bring the coach around back, we got to impound that evidence." You are 
-shoved into the sheriff's office and then into a small holding cell.
+[Press Space To Continue]In the twilight, you sight the sheriff's sturdy brick office near the edge of 
+town. "That's mighty fine construction," notes Muddy, sounding less feisty now. 
+"Mighty fine indeed." The coach rolls to a halt and a thick arm yanks you 
+roughly from your seat. You land awkwardly in the rutted street, where the 
+sheriff holds you in place with the heel of one boot. He yells to his men, 
+"Bring the coach around back, we got to impound that evidence." You are shoved 
+into the sheriff's office and then into a small holding cell.
 
 The deputy wakes with a start, whips his dusty boots off the desk and stands, 
 tucking his shirt back into his pants. The sheriff gives him a brief, 
@@ -29095,7 +29095,7 @@ ZIF Version  : z8
 ZIF Checksum : 9047
 
                           
-                                    [ "Non est ad astra mollis e terris via"
+                                    SCI-FI[ "Non est ad astra mollis e terris via"
   There is no easy way from the earth to the stars
   
                        - Seneca]
@@ -29148,7 +29148,7 @@ been made with Jet-Blue's crew, and early assessment indicates that the
 spacecraft may have broken up in an uncontrolled re-entry.
 
     Gene Kranz
-    Director of Flight Operations [       Dragon's wing of darkness comes:
+    Director of Flight Operations NASA.[       Dragon's wing of darkness comes:
   Through blackness, into bright blue sky,
   thrown into soft forest green your body wrapped,
   tight in the black sleep of the dead.
@@ -29485,7 +29485,7 @@ your head and all goes black and silent...
 
                                   The X-Child
 
-                         [Please press SPACE to [ Student Government Denies Knowledge]
+                         [Please press SPACE to begin.][ Student Government Denies Knowledge]
 
 The X-Child
 The Second Installment In The Kevin Johnson Residence Hall Saga.
@@ -34182,7 +34182,7 @@ Version 1.0B
 
 Still Another Abuse of the Z-Machine, By L. Ross Raszewski
 
-(rraszews@acm.org================================================================================
+(rraszews@acm.org)================================================================================
 Index : 671
 File  : paperchase.z5
 Path  : cache
@@ -36945,8 +36945,7 @@ ZIF Checksum : A930
    Written by Chuck Benton 
                            ]
 
-                          [Press any key to continue]                        Welcome to SOFTPORN ADVENTURE!!                
-        
+                          [Press any key to continue]                        Welcome to SOFTPORN ADVENTURE!!                        
 
 Should a saved game be loaded? (y/n) n                        Welcome to SOFTPORN ADVENTURE!!                        
 
@@ -37786,7 +37785,7 @@ ZIF Checksum : 3AD1
 
       --- MORE --- page 1 of 3
 
-         [Please press SPACE to [ At least 300 or more words
+         [Please press SPACE to begin.][ At least 300 or more words
   at every long description
   such as GET KEY, OPEN DOOR
   
@@ -39256,7 +39255,7 @@ ZIF Version  : z8
 ZIF Checksum : 5BEE
 
                             House of the Midnight Sun
-                                A Vampire's [ Macbeth: "How now, you secret, black, and midnight hags!
+                                A Vampire's Tale[ Macbeth: "How now, you secret, black, and midnight hags!
   What is't you do?"
   
   Witches: "A deed without a name."
@@ -40442,7 +40441,7 @@ ZIF Checksum : A0AB
 
                                   THE WEDDING
                                 By Neil J Brown
-                             [Press space to [ Cheer for the Sergeant's weddin' -
+                             [Press space to begin][ Cheer for the Sergeant's weddin' -
    Give 'em one cheer more!
   Gray gun-'orses in the lando,
    An' a rogue is married to, etc.
@@ -41137,7 +41136,7 @@ WURM
 A blatant abuse of the Z-Machine by C.V.F. Knight
 Release 2 / Serial 021126 / Inform v6.21
 
-[press a ================================================================================
+[press a key]================================================================================
 Index : 796
 File  : yagwad.z5
 Path  : cache
@@ -41295,7 +41294,7 @@ tested mainly on Kevin Bracey's Acorn Z-Machine interpreter, Zip 2000 (v1.15).
 
 Do you want to represent age by colour (dark -> light)? (Y/N) >NO
 
-[Any [ "Cellular Automata, of which Life is an example, were
+[Any key][ "Cellular Automata, of which Life is an example, were
    suggested by Stanislaw Ulam in the 1940s, and first
    formalized by von Neumann. Conway's 'Game of Life'
    was popularized in Martin Gardner's mathematical
@@ -41330,7 +41329,7 @@ ZIF WRN: op sound_effect unimplemeneted
 ZIF WRN: op sound_effect unimplemeneted
 >YES
 
-[Any ================================================================================
+[Any key]================================================================================
 Index : 800
 File  : zball.z5
 Path  : cache
@@ -41353,7 +41352,7 @@ If your interpreter does not support function keys, then please either:
 1. Type 'f' '1' for F1 etc.
 2. Bug your interpreter writer / change it yourself to support them.
 
-[Press any key to ================================================================================
+[Press any key to continue...]================================================================================
 Index : 802
 File  : zcamel.z5
 Path  : cache
@@ -41762,7 +41761,7 @@ evil being known only as "PLOTKIN."
 
 This is the first ever released BLORB game.
 
-[Press any key to return to previous ================================================================================
+[Press any key to return to previous menu.]================================================================================
 Index : 810
 File  : zombies.z5
 Path  : cache
