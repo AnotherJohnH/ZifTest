@@ -2009,7 +2009,7 @@ dead mouse. You dreamt of math last night. Division signs, they, they, they
 divided you. Like Napoleon! Your computer screen glows. You are drawn to it 
 like a - a moth to a - to a - what were you saying again?
 
->GO TO ================================================================================
+>GO TO COMP================================================================================
 Index : 47
 File  : BiCon.zblorb
 Path  : cache
@@ -10710,7 +10710,7 @@ Sure, all you ever did was TAKE and USE them.
 But that was their only purpose...
 
                           
-Press SPACE key to ================================================================================
+Press SPACE key to begin.================================================================================
 Index : 220
 File  : Life_of_A_Librarian.zblorb
 Path  : cache
@@ -19557,7 +19557,7 @@ You have taken 3 turnsWhat next?
 
 Would you, perchance, care to make
 another attempt
-================================================================================
+?================================================================================
 Index : 410
 File  : WERNER3.Z5
 Path  : cache
@@ -19634,7 +19634,7 @@ You have taken 3 turnsWhat next?
 
 Are you going to make another pitiful
 attempt
-================================================================================
+?================================================================================
 Index : 411
 File  : WERNER4.Z5
 Path  : cache
@@ -19702,7 +19702,7 @@ You have taken 3 turnsWhat next?
                The End.
 
 Do you want to have another go
-================================================================================
+?================================================================================
 Index : 412
 File  : WalkInThePark.z5
 Path  : cache
@@ -29714,12 +29714,11 @@ MD5   : 38847116335f622ecd5e37413275ed83
 ZIF Version  : z5
 ZIF Checksum : BC2A
 
-NOW OF COURSE, WHAT ONE'D REALLY DESIRE AT A NASTY TIME LIKE THIS IS A 
-BLOWTORCH
+NOW OF COURSE, WHAT ONE'D REALLY DESIRE AT A NASTY TIME LIKE THIS IS A BLOWTORCH
 
                                  or
 
-I... WELL; WHO WOULD THINK MY BOSS IS SCARED OF AN ARCH ================================================================================
+I... WELL; WHO WOULD THINK MY BOSS IS SCARED OF AN ARCH T================================================================================
 Index : 601
 File  : leaptime.z8
 Path  : cache
@@ -35222,7 +35221,7 @@ INITIALIZING CORE AUDIO....
 FAILED!
 AUDIO SUPPORT DISABLED
 QUICKTIME CD DRIVER FAILED.
-BUILDING ================================================================================
+BUILDING MESHES...================================================================================
 Index : 690
 File  : quick2.zblorb
 Path  : cache
@@ -36282,7 +36281,7 @@ Sorry, your terp screen size is too small (80x56). You need at least 600x400
 (recommended 640x480 or larger).
 Goodbye.
 
-[Hit a ZIF quit
+[Hit a key.]ZIF quit
 ================================================================================
 Index : 711
 File  : see_the_constellation.zblorb
@@ -36929,7 +36928,7 @@ Would you like to start (y or n)? n
 Would you like to start over (y or n)? take
 What a wang and a poor sport you are  see you later asswipe
 
-[Press any ZIF quit
+[Press any key.]ZIF quit
 ================================================================================
 Index : 724
 File  : softporn.z5
@@ -37690,7 +37689,7 @@ You stand right outside the entrance to Geeron Space harbor. To the east there
 is a green park, and through the guarded gate to the north you can see your 
 ship.
 
-================================================================================
+>ty================================================================================
 Index : 739
 File  : sutwin.z5
 Path  : cache
@@ -40995,7 +40994,7 @@ ZIF Checksum : 1A36
                         An Interactive Secret History
                               by Michael Martin
 
-                                [Press ================================================================================
+                                [Press SPACE]================================================================================
 Index : 793
 File  : wump2ka.z5
 Path  : cache
@@ -41317,7 +41316,7 @@ This program has been placed in the Public Domain.
 "Z-Life" was written using Graham Nelson's Inform compiler (5.5, v1503) and 
 tested mainly on Kevin Bracey's Acorn Z-Machine interpreter, Zip 2000 (v1.15).
 
-Do you want to represent age by colour (dark -> light)? (Y/N) ZIF WRN: op sound_effect unimplemeneted
+Do you want to represent age by colour (dark -> light)? (Y/N) >ZIF WRN: op sound_effect unimplemeneted
 ZIF WRN: op sound_effect unimplemeneted
 ZIF WRN: op sound_effect unimplemeneted
 ZIF WRN: op sound_effect unimplemeneted
@@ -41327,7 +41326,7 @@ ZIF WRN: op sound_effect unimplemeneted
 ZIF WRN: op sound_effect unimplemeneted
 ZIF WRN: op sound_effect unimplemeneted
 ZIF WRN: op sound_effect unimplemeneted
->YES
+YES
 
 [Any key]================================================================================
 Index : 800
@@ -41637,8 +41636,8 @@ second...
 Wait, please!!!
 Wait, please!!!
 Wait, please!!!
-Wait, ZIF WRN: op sound_effect unimplemeneted
-please!!!
+Wait, please!!!ZIF WRN: op sound_effect unimplemeneted
+
 [Your frantic typing suggests that the timed input feature of your interpreter 
 is not behaving properly.]
 
