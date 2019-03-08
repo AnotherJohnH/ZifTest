@@ -14610,7 +14610,28 @@ Balls can only be removed if two or more neighbours match.
 The more balls that are removed each turn, the higher the score.
 A bonus of 500 points is awarded if all balls are removed.
 
-[Press any key to begin]Kevin Bracey, 1998
+[Press any key to begin]
+
+Thank you for playing SameGame!
+
+My inspiration came from Andrew Plotkin's Freefall and Torbjœrn Andersson's Robots
+.
+
+SameGame is not my idea - I first saw it as Jon Read's version for the Psion 
+Series 3a and Acorn PocketBook II, although it's been around much longer than 
+that. You can get his version from http://www.ecs.soton.ac.uk/~jnr95r
+/psion/samegame.html.
+
+SameGame is an extreme stress test of your interpreter's Standard compliance; 
+it uses file access, the mouse, font 3, colour, the Unicode extension table and 
+print_unicode, together with the rare opcodes print_table and log_shift, just 
+to check your interpreter author is awake.
+
+It should run okay on an interpreter conforming to version 0.2 of the Standard 
+(except it will probably crash if you manually select display mode 4), and 
+perfectly on an interpreter conforming to version 1.0.
+
+Kevin Bracey, 1998
 
 [Press any key to quit]
 ZIF quit
@@ -42210,7 +42231,6 @@ File  : crashme.z5
 Path  : extra
 MD5   : ec9b0233fffeece157f2dc6431e40c1a
 --------------------------------------------------------------------------------
-ERROR: Exited test #816 with a fault [256]
 ZIF Version  : z5
 ZIF Checksum : 15FD
 This program generates random Z-code which is run to test the robustness of 
@@ -43081,7 +43101,7 @@ Please select a test: ZIF quit
 
 ================================================================================
 Games      :      819
-Clean exit :      818
+Clean exit :      819
 Errors     :        0
 Warnings   :       71
 --------------------------------------------------------------------------------
