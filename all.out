@@ -42269,6 +42269,7 @@ Press 'q' to abort.
 [** Programming error: tried to write to ->0 in the string array "
 [** Programming error: tried to print (string) on something not a string **]
 ", which has entries 1 up to 11 **]
+ZIF ERR: 000019F  00                                             => illegal op
 ZIF quit
 ================================================================================
 Index : 817
@@ -43102,6 +43103,6 @@ Please select a test: ZIF quit
 ================================================================================
 Games      :      819
 Clean exit :      819
-Errors     :        0
+Errors     :        1
 Warnings   :       71
 --------------------------------------------------------------------------------
