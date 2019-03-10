@@ -56,18 +56,18 @@ def listGames(list):
    i=0
    for game in games_list:
       i=i+1
-      print "#%02u  " % (i) + os.path.basename(game)
+      print "#%02u  " % (i) + os.path.basename("Games/"+game)
 
 #--------------------------------------------------------------------------------
 
 def packGames(list):
-   archive=os.getcwd()+"/cache.tar"
+   archive=os.getcwd()+"/Games.tar"
    if os.path.isfile(archive):
       os.remove(archive)
    os.system("tar cvf "+archive)
 
    for game in games_list:
-      os.system("tar rvf "+archive+" "+game)
+      os.system("tar rvf "+archive+" Games/"+game)
 
    os.system("gzip "+archive)
 
@@ -141,7 +141,7 @@ def testAllGames(engine):
    clean=0
    for game in games_list:
       index=index+1
-      if testGame(engine, game, index, "") == 0:
+      if testGame(engine, "Games/"+game, index, "") == 0:
          clean=clean+1
       
 
@@ -193,10 +193,10 @@ def getGames(cache_dir, story_list_file):
    # Compile a list of all the files
    game_list = []
 
-   game_list += ["extra/crashme.z5"]
-   game_list += ["extra/etude.z5"]
-   game_list += ["extra/gntests.z5"]
-   game_list += ["extra/random.z5"]
+   game_list += ["Games/Extra/crashme.z5"]
+   game_list += ["Games/Extra/etude.z5"]
+   game_list += ["Games/Extra/gntests.z5"]
+   game_list += ["Games/Extra/random.z5"]
 
    for ext in ext_list:
       for filename in glob.glob(cache_dir+'/*.'+ext):
@@ -205,7 +205,9 @@ def getGames(cache_dir, story_list_file):
    game_list.sort()
 
    with open(story_list_file, 'w') as outfile:
-      json.dump(game_list, outfile, indent=3)
+      for game in game_list:
+         game=game.replace("Games/", "")
+         outfile.write(game+'\n')
 
    return
 
@@ -261,8 +263,8 @@ if args.test_one:
 frotz             = os.environ['HOME']+"/OpenSource/frotz-2.43d/frotz"
 frotz             = "frotz"
 zif               = "Zif/zif"
-cache_dir         = "cache"
-story_list_file   = "stories.json"
+cache_dir         = "Games/Downloads"
+story_list_file   = "Games/list"
 test_all_out_file = "all.out"
 
 #--------------------------------------------------------------------------------
@@ -283,7 +285,10 @@ if args.build_dbg or args.build_rel:
 if args.get:
    getGames(cache_dir, story_list_file)
 
-games_list=json.load(open(story_list_file))
+games_list=[]
+with open(story_list_file, "r") as infile:
+   games_list = infile.readlines()
+games_list=[line.strip() for line in games_list]
 
 if args.run:
    with open(test_all_out_file, "w") as log:
@@ -307,10 +312,10 @@ if args.play!= 0:
       playOnZif(path)
 
 if args.dump != 0:
-   dump(games_list[args.dump - 1])
+   dump("Games/"+games_list[args.dump - 1])
 
 if args.test_one != 0:
-   path=games_list[args.test_one - 1]
+   path="Games/"+games_list[args.test_one - 1]
    filename=os.path.basename(path)
    with open(filename+".out", "w") as log:
       if args.frotz:
@@ -320,7 +325,7 @@ if args.test_one != 0:
          os.rename("trace.log", filename+".trc")
 
 if args.write != 0:
-   path=games_list[args.write - 1]
+   path="Games/"+games_list[args.write - 1]
    filename=os.path.basename(path)
    os.system(zif+" -k --term "+path)
    os.rename("key.log", "input/"+filename+".in")
