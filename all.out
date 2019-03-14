@@ -453,6 +453,24 @@ Shoot!  Now how will you get out before the owner gets home?
 
 (Press SPACE to continue.)
 
+A Cock and Bull Story
+An Interactive Fiction by Theodore "Ted" C. Lim
+Release 1 / Serial number 170401 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) 
+
+Ahard's Place
+In the room is a couch.  Behind the couch is a large wicker basket.  In front 
+of the couch is a full length mirror, and to one side of the couch is a wooden 
+stand.
+
+(Type HELP at any point during gameplay to bring up the Help Menu.)
+
+>There's no one here to talk to.
+
+>You can't go that way.
+
+>What do you want to take?
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 14
 File  : Accuse.zblorb
@@ -1218,8 +1236,43 @@ ZIF Checksum : 9F29
 Enter a word of significance from the text to revise the poem. 
 To continue, press SPACE.
 
-Please press SPACE to continue.
-================================================================================
+Arid and pale
+
+>no
+
+Arid and pale
+
+(That word is not part of the poem at all.)
+
+>n
+
+Arid and pale
+
+(That word is not part of the poem at all.)
+
+>take
+
+Arid and pale
+
+(That word is not part of the poem at all.)
+
+>quit
+
+Arid and pale
+
+(That word is not part of the poem at all.)
+
+>y
+
+Arid and pale
+
+(That word is not part of the poem at all.)
+
+>
+
+Arid and pale
+
+>================================================================================
 Index : 30
 File  : Asylum.z5
 Path  : Games/Downloads
@@ -6169,7 +6222,7 @@ ZIF Version  : z5
 ZIF Checksum : 2C26
 
 You suspect your wife Susanna of adultery. So you have convinced everyone that 
-you are gone on a trip to C¬rdoba, and have hidden yourself in the big trunk in 
+you are gone on a trip to C?rdoba, and have hidden yourself in the big trunk in 
 your marital bedroom. Let's wait and see what happens.
 
 Figaro
@@ -7951,7 +8004,7 @@ horrendous to consume. You ask for some tomato sauce to drench it in.
 A chilling silence, colder than ice cream, envelopes the room. The kind of 
 silence that makes one reconsider their previous statement.
 
-"Sacrª bleu!" the Queen screams, her face as red as the sauce you so foolishly 
+"Sacr? bleu!" the Queen screams, her face as red as the sauce you so foolishly 
 requested! "You dare to taint our delights with ketchup? Guards! Lock this 
 treacherous cretin in the dungeon while I think of a suitable punishment for 
 this crime against the culinary arts!"
@@ -8691,7 +8744,7 @@ explore the ruined McDaniel site, as isolated from the rest of the village as
 the village was from the rest of the world...
 
 Haunted House
-An Interactive Fiction Remix by Pedro Fern©ndez
+An Interactive Fiction Remix by Pedro Fern?ndez
 Release 2 / Serial number 170103 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
 
 Outside of the house
@@ -9506,9 +9559,9 @@ Interactive Fiction: A Burglary
 Copyright 1998, 1999 by Volker Lanz.
 Release 59 Interpreter 0 Version A Serial Number 990210 
 
-Route de L'Amªlie
+Route de L'Am?lie
 This is a street that runs from north to south along the Atlantic coastline, 
-connecting Soulac-sur-mer with L'Amªlie. The ocean itself is, no surprise, to 
+connecting Soulac-sur-mer with L'Am?lie. The ocean itself is, no surprise, to 
 the west of you. Between it and the place where you are now lies the Kelly 
 summer house, surrounded by a solid iron fence.
 The BMW 325i you rented in Paris is parked here.
@@ -9606,7 +9659,7 @@ each other and there is a humming sound in the place. The music is some old
 school rock'n roll.
 
 You are tired and wet. While waiting for your tea to come, you are trying to 
-have a rest. You are also so busy examining the people in the cafª that you did 
+have a rest. You are also so busy examining the people in the caf? that you did 
 not realize somebody approached... It's a boy. He said something.
 
 >
@@ -9733,8 +9786,8 @@ ZIF Version  : z8
 ZIF Checksum : BA90
 
 Imiagination
-An Interactive Fiction by Lou Ferrand, Maria Rabarison, Micha¤l Schwartz and 
-Grªgoire Yakan 
+An Interactive Fiction by Lou Ferrand, Maria Rabarison, Micha?l Schwartz and 
+Gr?goire Yakan 
 Release 1 / Serial number 110608 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
 
 Parking Entrance
@@ -9961,7 +10014,7 @@ Plotkin whose genie I have stolen and whose idea I have trivialized. And to all
 those others who have been researched. 
 
 Special mention should be made of Douglas R. Hofstadter and his delightful book 
-"Gœdel, Escher, Bach" for many of the ideas that underlie this game. 
+"G?del, Escher, Bach" for many of the ideas that underlie this game. 
 
 [Any character to continue.] 
 
@@ -10438,7 +10491,17 @@ yourself ready for the day, and you've figured out that if you don't leave the
 house by 8:00am today, you can say bye-bye to your job.
 
 Press the SPACE key to continue.
-================================================================================
+
+Just Another Day
+An Interactive Fiction by Theodore C. Lim
+Release 2 / Serial number 170129 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) 
+
+"BRAAAP! BRAAAP! BRAAAP!" The ringing of the alarm continues to sound.
+You're asleep.
+
+Please choose a gender (m/f). >Sorry, we're not ready to go on yet. Please choose a gender (m/f). >Sorry, we're not ready to go on yet. Please choose a gender (m/f). >Sorry, we're not ready to go on yet. Please choose a gender (m/f). >Sorry, we're not ready to go on yet. Please choose a gender (m/f). >I beg your pardon?
+
+Please choose a gender (m/f). >================================================================================
 Index : 213
 File  : KeepingDido.zblorb
 Path  : Games/Downloads
@@ -10710,7 +10773,25 @@ Sure, all you ever did was TAKE and USE them.
 But that was their only purpose...
 
                           
-Press SPACE key to begin.================================================================================
+Press SPACE key to begin.
+...all you ever did was TAKE and USE them...
+
+Lex
+by Zane Mariano
+
+Awaken
+I find myself shrouded in DARKNESS.
+
+>That was a rhetorical question.
+
+>There is nothing in that direction as far as I can remember, maybe it's the 
+sentence...?
+
+>(LIGHT)
+I already have that word within me.
+
+>Are you sure you want to quit? ZIF quit
+================================================================================
 Index : 220
 File  : Life_of_A_Librarian.zblorb
 Path  : Games/Downloads
@@ -11509,7 +11590,7 @@ Drop Team Beta - That means you.
 
 Damn.
 
-Mœbius
+M?bius
 An Interactive Twist by J.D. Clemens
 Release 2 / Serial number 061119 / Inform 7 build 3V01 (I6/v6.31 lib 6/11N) 
 
@@ -12011,6 +12092,30 @@ ZIF Checksum : 0004
   -- Alexander Pope, 'The Rape of the Lock']
 
 Please press SPACE to continue.
+
+My Last Duchess
+A Dramatic Monologue by Robert Browning and Jonas Persson
+Release 1 / Serial number 140510 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
+
+Gallery
+The statue with the trident... Finest bronze,
+ But let's not talk about it for the nonce.
+ The stairs were chiseled out of marble stone
+ From Carrara, and yonder painting lone...
+ You see the one uncovered by the drape?
+ It betrays the Duchess's sightly shape.
+
+ This much is true: I have both loved and lost 
+ In truth, I had my wish, but at what cost? 
+
+>That was a rhetorical question.
+
+>You can't go that way.
+
+>(the Duke)
+I don't suppose the Duke would care for that.
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 247
 File  : MyLittleProjectConceptIsProven.zblorb
@@ -12099,6 +12204,8 @@ slung where I used it for a pillow - whilst we hunted, and we gathered. But
 none of that today. The atmosphere of the hay-loft is so dank it is hard to 
 make my muscles move with the urgency they need, toward the long ladder down to 
 the dusty floor of the barn, and the cattle.
+
+--  ZIF quit
 ================================================================================
 Index : 249
 File  : My_Evil_Twin.zblorb
@@ -12995,7 +13102,7 @@ of the sad fact that it's Christmas Eve.
 
 THE ICE PRINCESS
 An Interactive Fairy-Tale
-Copyright (c) 1996 by Rdiger Hanke.
+Copyright (c) 1996 by R?diger Hanke.
 Release 8 / Serial number 960901 / Inform v6.03 Library 6/1
 Standard interpreter 1.0
 
@@ -13135,6 +13242,46 @@ But Johann could not remember any station. In fact, he could not remember
 boarding the train at all.
 
 Please press SPACE to continue.
+
+Pale Blue Light
+a story by Kazuki Mishima
+Release 2 / Serial number 110708 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
+Inspired by the life and work of Kenji Miyazawa.
+Enter "about" for more information.
+
+I. One More Painted Lantern
+
+"Je tiu tago ni vidos kaj esperon kaj harmonion, kaj chu estos pli au malpli 
+bela sunlevigho de tiu tago ol sunlevigho estas hodiau?"
+
+Sophie actually enjoyed the festival every year. She enjoyed the lights, the 
+songs, and the crispness of the air. It was only the crowds that made her 
+uneasy and drove her into the solitude she had learned to appreciate.
+
+The River's Northern Bank
+There the river was at its widest, flowing with a stealthy swiftness. The only 
+way back to the city was to the northwest.
+
+Painted lanterns undulated just barely within view.
+
+She was surprised to see Franz there.
+
+>no
+That was a rhetorical question.
+
+>n
+She couldn't go that way.
+
+Franz noticed Sophie's presence with a start. He stumbled, fell into the water, 
+and was silently carried downstream.
+
+>take
+What did she want to take?
+
+>quit
+Are you sure you want to end the story like this? 
+y
+ZIF quit
 ================================================================================
 Index : 271
 File  : Parallel.zblorb
@@ -14602,7 +14749,7 @@ Another episode in the Z-Machine abuse saga
 Release 1 / Serial number 980731 / Inform v6.15
 Standard interpreter 1.0
 
-Z-Machine version › 1998 Kevin Bracey (kbracey@acorn.co.uk)
+Z-Machine version ? 1998 Kevin Bracey (kbracey@acorn.co.uk)
 
 Use cursor keys or the mouse to select a ball.
 Remove that ball and its matching neighbours by pressing Enter.
@@ -14614,7 +14761,7 @@ A bonus of 500 points is awarded if all balls are removed.
 
 Thank you for playing SameGame!
 
-My inspiration came from Andrew Plotkin's Freefall and Torbjœrn Andersson's Robots
+My inspiration came from Andrew Plotkin's Freefall and Torbj?rn Andersson's Robots
 .
 
 SameGame is not my idea - I first saw it as Jon Read's version for the Psion 
@@ -15738,7 +15885,29 @@ Whenever you wish to see the list of currently available keywords, type L or
 just press enter.
 
 Please press SPACE to continue.
-================================================================================
+
+                                   STARBORN
+                              by Juhana Leinonen
+
+It's quiet, as always. I've turned the MUSIC off so that it doesn't bother my 
+COUSIN's sleep. A long day of travel and WEIGHTLESSNESS has exhausted him.
+
+The door leads out to the HALLWAY.
+
+>[That is not a keyword the story recognizes.]
+
+>[That is not a keyword the story recognizes.]
+
+>[That is not a keyword the story recognizes.]
+
+>[That is not a keyword the story recognizes.]
+
+>[That is not a keyword the story recognizes.]
+
+>[Available keywords: ME, COUSIN, MUSIC and WEIGHTLESSNESS. Available exits: 
+HALLWAY.]
+
+>================================================================================
 Index : 324
 File  : Starry_Seeksorrow.zblorb
 Path  : Games/Downloads
@@ -15963,6 +16132,33 @@ ZIF Checksum : 2094
   So this is all I have to say]
 
 Please press SPACE to continue.
+
+Tonight's the night you are going to kill yourself. You walk into the bathroom, 
+realizing that this is the last room you're ever going to be in alive. The 
+thought is both terrifying and liberating.
+
+ 
+Suicide
+A self-ordered death sentence by Dan Doyle III
+Release 1 / Serial number 101103 / Inform 7 build 6E72 (I6/v6.31 lib 6/12N) 
+
+Bathroom
+This is the bathroom in the home you've lived in as long as you can remember. 
+The bath tub takes up most of one wall, with the sink standing beside it. 
+Between the sink and the tub is an electrical outlet. Above the sink is a 
+mirror on the medicine cabinet, and below the sink is a lower cabinet. Opposite 
+the bath tub is the toilet. The exit to the room is to the south, but you will 
+not need to use it-the only way you're getting out of this room is via a body 
+bag. 
+
+>That was a rhetorical question.
+
+>You can't go that way.
+
+>(the prom dress)
+You already have that.
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 330
 File  : SundayAfternoon.z8
@@ -18405,6 +18601,32 @@ down.
     -- Anonymous English Civil War tract
 
 Please press SPACE to continue.
+
+The World Turned Upside Down
+A Mere Anarchy side story by Bruno Dias
+Release 2 / Serial number 151224 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) 
+
+Closing Time (behind the bar)
+It's five to three on the last Saturday before Christmas; the green glass light 
+fixtures hanging over the bar have been dimmed, dirty frost speckles the 
+windows, and the hazy scent of alcoholic vomit emanating from the toilets has 
+subdued to a minor note in the far background of the olfactory panoply that 
+fills Herrig's.
+
+The last few regulars left in the place have coalesced into a single group, 
+huddled around the corner table.
+
+(You can complete this story with only the verbs EXAMINE, WAIT, and INTERJECT 
+when prompted; type NOTES at any time to read the author's note.)
+
+>That was a rhetorical question.
+
+>You can't go that way.
+
+>(the group of regulars)
+Taken.
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 385
 File  : They_re_After_You!.z5
@@ -18543,6 +18765,24 @@ It's not a huge list. You even have addresses of where to go. It can't be too
 hard, can it?
 
 Please press SPACE to continue.
+
+Threediopolis
+A Futuristic Word-Play Gofering by Andrew Schultz
+Release 3 / Serial number 140817 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
+
+Threediopolis, Sector 444
+Everything here sort of looks like everything else and doesn't at the same 
+time. Going one direction seems as good as going any other.
+
+You glance quickly at Ed Dunn's list: some things are in sector 444, but you 
+can't see anything resembling them. [NOTE: the room descriptions are random and 
+for amusement only. Type B to get rid of them or V to have them appear again. A 
+different note will appear once you've seen them all.]
+
+>(the transport tubes)
+The tubes aren't worth thinking much about. You just need to get places.
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 388
 File  : TimeForTea.z8
@@ -18948,6 +19188,30 @@ commands.
 Now, follow the hint below and press SPACE.
 
 Please press SPACE to continue.
+
+Tutorial
+An Interactive Fiction by Nereare
+Release 1 / Serial number 111030 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
+
+Cabin
+Several navigational instruments, a radar, a radio and a GPS, all 
+unoperational. There are two working things in this room: the wheel and the 
+ignition key. Both of which you've been keeping for that moment when you find 
+land, a.k.a. now.
+
+South is the door leading outside of the cabin into the deck.
+
+Now, this is the description of the room you're in. This room is filled with 
+the stuff you've just read about, let's try examining them. Type EXAMINE RADAR 
+and hit ENTER.
+
+>That was a rhetorical question.
+
+>You can't go that way.
+
+>What do you want to take?
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 397
 File  : TutorialHotel.z5
@@ -18972,6 +19236,44 @@ Well, I'm here to help you. I'm the Tutorial Guide. We're going to play a very
 small game together, so that you can hurry back to enjoy the main game.
 
 Press SPACE to continue.
+
+Hotel Tutorial
+An Interactive Fiction by Tutorial Guide
+Release 1 / Serial number 100713 / Inform 7 build 5Z71 (I6/v6.31 lib 6/12N) 
+
+Tutorial Room
+You wake up in a strange room, with no idea how you got there. Were you 
+kidnapped? Did you get drunk? What happened?
+
+The room is small and poorly lighted. You can't see anything, except that there 
+is a lamp in a nightstand by the bed. 
+
+The preceding text is the description of your location, but this time it's not 
+very helpfull since you're in the dark. We should try to switch on the lamp and 
+give the room a better look.
+
+Try it: type "switch the lamp on" and press ENTER.
+
+>no
+That was a rhetorical question.
+
+We should try to switch on the lamp and give the room a better look.
+
+Try it: type "switch the lamp on" and press ENTER.
+
+>n
+You can't, since the room door is in the way.
+
+We should try to switch on the lamp and give the room a better look.
+
+Try it: type "switch the lamp on" and press ENTER.
+
+>take
+What do you want to take?
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
 ================================================================================
 Index : 398
 File  : Tuuli.zblorb
@@ -18984,7 +19286,7 @@ ZIF Checksum : A567
 Tuulen Ukko tuulen Akka
  Tuulen kaikki ristikansa
 
-Miest› mustoa rukoilen
+Miest? mustoa rukoilen
  Suuren tuulen nostajaksi --
 
 -- Tuuli, Hedningarna
@@ -18999,10 +19301,10 @@ Release 4 / Serial number 180501 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N)
 [If this is your first time playing interactive fiction type HELP for more 
 information.]
 
-In M©kke's hut
+In M?kke's hut
 You wake in your pallet, the scream still scratching at your throat.
 
-You go to M©kke's bed to tell her about your dream. She isn't there, and you 
+You go to M?kke's bed to tell her about your dream. She isn't there, and you 
 know she's dead even before you know where she is. The room is black as her 
 eyes. Cold as her bones. Empty as her body. 
 
@@ -19907,6 +20209,46 @@ and abide by our instructions during this time. This is a test to see whether
 you are as responsible as you say you are." You smile. Having your parents" 
 trust is a thing you have dreamed of.
 Press space to continue.
+
+Wedding
+An interactive Life Story by Kenya Miller
+Release 1 / Serial number 100221 / Inform 7 build 5Z71 (I6/v6.31 lib 6/12N) 
+
+plane
+This plane is to transport you from Brooklyn, New York to Baltimore, Maryland, 
+where your boyfriend Jaylen is waiting to see you. It is a third-rate aircraft 
+with a first-rate price, which is totally unfair.
+
+You can see Angelina, Ethan and Julia here.
+
+>no
+That was a rhetorical question.
+
+"Remember, Ethan, mama said you're not allowed to talk about chess on this 
+trip, or you're grounded. Mama wants you to do more than moving pieces on a 
+wooden board," Julia says. Ethan groans.
+
+The time is approximately 9:00 am.
+
+>n
+
+Aisle
+A long vertical row of seats in the plane.
+
+Angelina arrives from the south.
+
+Ethan arrives from the south.
+
+Julia arrives from the south.
+
+The time is approximately 9:01 am.
+
+>take
+What do you want to take?
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
 ================================================================================
 Index : 417
 File  : WeirdCityInterloper.zblorb
@@ -19954,6 +20296,31 @@ done a little better, but the game is fully playable and, I hope, a small
 salute to Tim Hartnell for making such a great hobby book in the age of 8-bit!
 
 Please press SPACE to continue.
+
+Werewolves and Wanderer
+A Classic BASIC Adventure by Kristopher Neidecker
+Release 1 / Serial number 080705 / Inform 7 build 5T18 (I6/v6.31 lib 6/12N) 
+
+Entrance
+You are at the entrance to a forbidding-looking stone castle.  You are facing 
+east.
+
+There is a Goody Box here.  You can purchase things from it.
+
+An old note sits on the floor.
+
+Strength - 100>no
+That was a rhetorical question.
+
+Strength - 100>n
+You can't go that way.
+
+Strength - 100>take
+What do you want to take?
+
+Strength - 100>quit
+Are you sure you want to quit? y
+ZIF quit
 ================================================================================
 Index : 419
 File  : WhiteHouses.zblorb
@@ -20019,6 +20386,68 @@ clearly, but you're more than ever certain that it does not belong to the genus 
 .
 
 Please press SPACE to continue.
+
+                     When in Rome 1: Accounting for Taste
+                     A Puzzle Game in Five Brief Episodes
+                                by Emily Short
+
+Please press SPACE to continue.
+"Do you think it might be an escaped monkey?" you ask. There is a rip of 
+stitches coming free: as a matter of theoretical interest, you wonder what the 
+girl will do if the beast manages to tear off her skirt.
+
+"I don't know!" she exclaims, swatting it with her handbag. "But it's--"
+
+There's a flash of yellow arms. "It took my bag!" she exclaims, blinking, as 
+the thing runs off for the shelter of the nearest bridge. "Your dog took my 
+handbag!"
+
+You open your mouth to deny involvement, but she doesn't wait to hear it; 
+instead she strips off her shoes and goes running after the thing. You watch 
+her disappear into the darkness of the underpass; consider going home; then 
+realize that you don't want to figure in this girl's mind as the man who set a 
+rabid animal on her and then left her to her fate.
+
+When in Rome 1: Accounting for Taste
+A Puzzle Game in Five Brief Episodes by Emily Short
+Release 2 / Serial number 060503 / Inform 7 build 3K27 (I6/v6.30 lib 6/10N) 
+
+Central Park Underpass
+The path you were on takes a dip and passes under the road above. At this time 
+of the evening, it's dark down here, even though the rest of the park is still 
+in the pale, lucid stage of twilight.
+
+As you step under the bridge, the girl shrieks.
+
+Before you have time to work out what this is about, something warm and strong 
+drops on your head and shoulders. The animal. Its legs grip you firmly, pinning 
+you so that you cannot move easily; its arms are around your throat.
+
+Your fedora lies on the ground next to a trampled newspaper, where it was 
+knocked off in the scuffle.
+
+The girl hovers nervously near a trash can. "Shoo!" she says. "Scat! Be gone!"
+
+The grip around your throat does not slacken.
+
+>You try walking, but the creature squeezes your throat convulsively, so that 
+you think you will strangle. Spots appear in your eyes. You stop, and the 
+pressure eases.
+
+"Okay," you whisper hoarsely. "Not going anywhere, then."
+
+The creature extracts the letter from the handbag.
+
+The squeeze on your throat is beginning to make you feel dizzy.
+
+"I'm so sorry," says the girl. "I see now that it wasn't your dog at all. And 
+it was nice of you to try to rescue me."
+
+"Suicidal might be more accurate."
+
+>What do you want to take?
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 421
 File  : WiR2.zblorb
@@ -20033,6 +20462,49 @@ ZIF Checksum : 6239
                                 by Emily Short
 
 Please press SPACE to continue.
+Weeks go by; the weather turns hot. Communist spies are investigated, Alan 
+Turing commits suicide, Britain ends food rationing. The Yankees win nine games 
+in a row.
+
+You, you spend many hours within the grey walls of the Office of Alien 
+Protocol. Your blood is tested for alien pathogens. You take memory tests and 
+guess what cards are hidden behind a screen. You have a physical roughly once a 
+week. You are, as you tell Esther, probably the healthiest specimen in New York 
+City, to which she says, "Hunh."
+
+Please press SPACE to continue.
+
+Tuesday, July 13, 1954 
+"Sir--" Esther pokes her head in. "I can bring the radio in later, if you 
+like." In case you're not done by 1:30, she means, when the All-Star game 
+begins.
+
+"Whitey Ford is starting pitcher," you point out.
+
+"I understand the significance of this moment," she says, withdrawing. You're 
+making progress.
+
+When in Rome 2: Far from Home
+A Puzzle Game in Five Brief Episodes by Emily Short
+Release 1 / Serial number 060503 / Inform 7 build 3K27 (I6/v6.30 lib 6/10N) 
+
+Grim Hallway
+Months of your peculiar line of work have brought certain changes. Most of the 
+decorations have been stripped from the walls, giving it a bare, prison-like 
+feel. There is nothing that a particularly vicious creature could take, eat, 
+throw, or use as a weapon. One or two patches in the plaster testify to hasty 
+repair jobs.
+
+Just inside is your office.
+
+A potted plant lurks in the corner, perennially a little dry.
+
+>In seems to be the operative direction here.
+
+>(the potted plant)
+That's fixed in place.
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 422
 File  : Wildflowers.zblorb
@@ -20044,6 +20516,36 @@ ZIF Checksum : 75AF
 
 Press space
 
+whenever you see
+
+(Press space)Press space
+
+whenever you see
+
+the text has stopped
+
+(being mindful that this may clear the screen)
+
+Good, you've got the hang of it.
+
+After the buyers go, there are armloads and armloads of not-quite-perfect 
+flowers that all wind up in Dumpsters.  Lindsey finds you overladen.  She 
+doesn't notice.  She says, "Can we talk?"
+
+Jackie owes you a favor.  You dump the damaged orchids, grab your blue shawl, 
+and go walking with Lindsey in the chill autumn air that no one from Boston 
+would expect in California.  But California's big, you get everything here.
+
+You can tell by her face that the parking lot won't do, but there's a rise 
+behind the flower warehouse where the trees provide some cover.
+
+Lindsey walks beside you with her hands shoved in her pockets.  You say, "So 
+what's up?" because you haven't got all day.
+
+Lindsey kicks at the acorns.  She says, "I think Marissa's been abusing me."
+
+You say "Oh," because it sounds better than WHAT?  Then you say, "Are you 
+okay?" because it sounds better than I didn't know.
 ================================================================================
 Index : 423
 File  : Wrenlaw.zblorb
@@ -20489,7 +20991,7 @@ ZIF Checksum : 6679
 [            ,/+++*++***+****++++++***+\, 
              (*+++*****+++++***+++****++)
              `\++******+*++*++*****+++*/'
-              `à*,.,*à'`à*,.,*à`à*,.,*à'
+              `?*,.,*?'`?*,.,*?`?*,.,*?'
                ___         /  /  /  /  /
                |||          /  /  /  /  /
        /-------'|`-\         /  /  /  /  /
@@ -20509,7 +21011,7 @@ ZIF Checksum : 6679
 Z - T O R N A D O
 A two-player weather action game
 Yet another abuse of the Z-Machine
-Copyright (c) 2003 by Sophie Frhling (sfruehling@aon.at)
+Copyright (c) 2003 by Sophie Fr?hling (sfruehling@aon.at)
 A port of the C port of the C64 game "Tornado"
 The C version is copyright (c) 2000-2002 by Oliver Feiler
 Release 2 / Serial number 030711 / Inform v6.21
@@ -24745,6 +25247,24 @@ you don't feel the least bit grateful or lucky when you find yourself back
 in...
 
 Please press SPACE to continue.
+
+The Room of 1001 Doors
+The 1001 doors still beckon, and door 1001 has a lot of scrawlings on it.
+
+You hear a hum in the distance--sounds like a natural G. A muscular statue 
+holding a "Best Left Half Back Ever" trophy is in the center, and a starry-eyed 
+statue is carrying a big not-quite-ball with a tag dangling from it. The tag 
+reads "Cancer."
+
+You see a table of fractions and a yellowed chart of football positions here, 
+and a small billboard with five electronically rendered dice seems to provide a 
+diversion.
+
+You can see an angel with a pitchfork and a devil with a halo here.
+
+You don't really have that option. North or bust.
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 512
 File  : darkiss1.z5
@@ -24878,7 +25398,7 @@ happening ..."
                                                         [ press the space bar ]
 
 Dead Reckoning
-By Andrªs Viedma Pel©ez
+By Andr?s Viedma Pel?ez
 
 From the Spanish "Olvido Mortal"
 Translated by Nick Montfort, 2003
@@ -26711,8 +27231,50 @@ ZIF Checksum : 1760
 Enter a word of significance from the text to revise the poem. 
 To continue, press SPACE.
 
-Please press SPACE to continue.
-================================================================================
+I had
+Figueres in my basement
+
+>no
+
+I had
+Figueres in my basement
+
+(That word is not part of the poem at all.)
+
+>n
+
+I had
+Figueres in my basement
+
+(That word is not part of the poem at all.)
+
+>take
+
+I had
+Figueres in my basement
+
+(That word is not part of the poem at all.)
+
+>quit
+
+I had
+Figueres in my basement
+
+(That word is not part of the poem at all.)
+
+>y
+
+I had
+Figueres in my basement
+
+(That word is not part of the poem at all.)
+
+>
+
+I had
+Figueres in my basement
+
+>================================================================================
 Index : 544
 File  : findesick.z8
 Path  : Games/Downloads
@@ -26882,7 +27444,68 @@ Congratulations! You found a new way to die, or mess up, or mess up dying, and
 it involved guessing a verb!
 
 Please press SPACE to continue.
-================================================================================
+
+Your Living Room
+You, or someone you're supposed to be, will be spending his last few seconds 
+here. There's a window which may or may not provide fresh air.
+
+Your kid's backpack is here for the snooping.
+
+An ashtray here holds a cigarette that ain't getting finished.
+
+A refrigerator is here. Well, actually, it's visible off to the side in what 
+could pass for a kitchen. There's a refrigerator magnet on it.
+
+There's a wall cell phone here--you know, the sort that still needs to be 
+recharged--with a list of emergency numbers.
+
+You can also see a can of beer, an apple, a box of nicotine gum, a paper note 
+and a chocolate bar here.
+
+>You run around in circles. But there is nowhere to go. Nowhere to escape your 
+fate. Death closes in on you. Wait--no--that's just the lights from the video 
+cameras darkening. "This isn't some goddamn action movie. Or some cartoon. This 
+is serious business."
+
+Congratulations! You found a new way to die, or mess up, or mess up dying!
+
+Please press SPACE to continue.
+
+Your Living Room
+You, or someone you're supposed to be, will be spending his last few seconds 
+here. There's a window which may or may not provide fresh air.
+
+Your kid's backpack is here for the snooping.
+
+An ashtray here holds a cigarette that ain't getting finished.
+
+A refrigerator is here. Well, actually, it's visible off to the side in what 
+could pass for a kitchen. There's a refrigerator magnet on it.
+
+There's a wall cell phone here--you know, the sort that still needs to be 
+recharged--with a list of emergency numbers.
+
+You can also see a can of beer, an apple, a box of nicotine gum, a paper note 
+and a chocolate bar here.
+
+>You get ready for your scene about how important it is to quit, or quit before 
+you start. It will be stirring. Unfortunately, you forgot to die first, which 
+pisses the director off no end. "It's not time for your big monologue yet!"
+
+Congratulations! You found a new way to die, or mess up, or mess up dying!
+
+Please press SPACE to continue.
+Oh, wait. It occurs to me you might actually want to quit THIS GAME, but if you 
+do now, the Tobacco Companies win.
+
+Surely the other 37 games in this archive, some by much more acclaimed and 
+established authors than me, aren't as health conscious and socially motivated 
+as this one?
+
+Surely any game that's worse than this is less fun, and any game that's better 
+will waste even more of your precious time?
+
+Are you sure you want to quit? Please answer yes or no.> ================================================================================
 Index : 548
 File  : fmvpoker.z6
 Path  : Games/Downloads
@@ -27125,7 +27748,7 @@ Your father indicates that he wishes you to hear him out.
 
 - The Babylonian Whore - he continues, flecks of foam appearing in the corners 
 of his mouth - had applied a poisonous ointment to the sides of my chamber-pot. 
-With a consuming rash, the poison scaled the delicate skin of my derri¶re and 
+With a consuming rash, the poison scaled the delicate skin of my derri?re and 
 curdled my blood. The vile nature of the resulting concoction can not be 
 described, so vile it was, only alluded to, and that only by comparing it to a 
 mixture of red wine and sour milk.-
@@ -27842,7 +28465,7 @@ establishment. You make a quick mental readiness check and decide that, all in
 all, things couldn't be worse.
 
 A rash of sickness and bad excuses has decimated your evening staff, and you 
-have a huge entrªe shortage due to some problems with your food supplier. 
+have a huge entr?e shortage due to some problems with your food supplier. 
 Though Mrs. Davenport clearly remembers the 1940s, you've heard that she 
 doesn't like theme restaurants, so you're not sure how she'll take to the big 
 band, or the pneumatic tube food delivery system, or any of the other war-era 
@@ -28494,7 +29117,7 @@ ZIF Version  : z5
 ZIF Checksum : DBC7
 
 Housekey, Part I
-An Interactive Fiction by Ari¤n Holthuizen
+An Interactive Fiction by Ari?n Holthuizen
 Release 1 / Serial number 080112 / Inform 7 build 5J39 (I6/v6.31 lib 6/11N) 
 
 Living room
@@ -28540,21 +29163,21 @@ ZIF Checksum : 71C0
                                   HELLO SWORD
 
                          [Press any key to continue]
-[     £E sono io che vivo ormai dei miei giorni contati,     
+[     ?E sono io che vivo ormai dei miei giorni contati,     
       che faccio sogni sbiaditi, che ho paura anch'io...     
       E sono io che vado via solo con queste mani     
-      per arginare i confini fra il vero e l'irreale...¢     
+      per arginare i confini fra il vero e l'irreale...?     
   
   
-                                  Renato Zero, "Civiltµ"]
+                                  Renato Zero, "Civilt?"]
 
                                   The Journey
 
                          [Press any key to continue]
-[ [£And I who live a life of counted days,
+[ [?And I who live a life of counted days,
   I who have dull dreams, I who have fear...
   And I who go away just with these hands
-  to dyke the limits between true and unreal...¢]
+  to dyke the limits between true and unreal...?]
   
   
                                 Renato Zero, ["Civilization"]]
@@ -28614,19 +29237,19 @@ ZIF Checksum : CCD4
                                   Il  viaggio
 
                          [Premi un tasto per iniziare]
-[ £E sono io che vivo ormai dei miei giorni contati,
+[ ?E sono io che vivo ormai dei miei giorni contati,
   che faccio sogni sbiaditi, che ho paura anch'io...
   E sono io che vado via solo con queste mani
-  per arginare i confini fra il vero e l'irreale...¢
+  per arginare i confini fra il vero e l'irreale...?
   
   
-                       Renato Zero, "Civiltµ"]
+                       Renato Zero, "Civilt?"]
 
-Non avevi nessuna voglia di uscire di casa, oggi: la giornata ¶ fra le pi¹ 
-calde del mese, l'aria ¶ talmente umida da sembrare vischiosa e il letto ti 
-sembrava una valida alternativa a tutto. Nonostante tutto ci¸ ora ti trovi in 
+Non avevi nessuna voglia di uscire di casa, oggi: la giornata ? fra le pi? 
+calde del mese, l'aria ? talmente umida da sembrare vischiosa e il letto ti 
+sembrava una valida alternativa a tutto. Nonostante tutto ci? ora ti trovi in 
 strada, divenendo facile preda per un Sole intento a dimostrare tutto il suo 
-vigore: questo perchª il tuo amico Giulio - che, in questo momento, stai 
+vigore: questo perch? il tuo amico Giulio - che, in questo momento, stai 
 maledendo - ti ha chiesto di sbrigare per lui una commissione... A questo 
 punto, non ti resta che leggere l'appunto che ti ha lasciato Giulio, fargli 
 questo favore e tornartene a casa...
@@ -28641,25 +29264,25 @@ Nel viale, davanti casa tua
 Hai la fortuna di abitare in un bel viale alberato, che conduce a nord ad una 
 piazza: i pini marittimi che ornano il viale formano una barriera naturale fra 
 la strada e il canale che questa costeggia, assicurando inoltre un po' d'ombra. 
-L'unica pecca ¶ il gran numero di zanzare, che hanno fissato nel canale il loro 
+L'unica pecca ? il gran numero di zanzare, che hanno fissato nel canale il loro 
 punto di ritrovo.
 
 >no
-Questo ¶ un verbo che non conosco.
+Questo ? un verbo che non conosco.
 
 >n
 
-Piazza della Libertµ
+Piazza della Libert?
 Una piccola piazza dalla quale si diramano quattro strade, che conducono verso 
 le quattro direzioni cardinali. La piazza, che ospita una fontana dal getto 
-poco vivace, oggi ¶ decisamente trafficata, a causa del mercato settimanale che 
+poco vivace, oggi ? decisamente trafficata, a causa del mercato settimanale che 
 si estende nelle vie a nord e a est.
 
-Accanto alla fontana, con un piattino ai suoi piedi, c'¶ un mendicante che sta 
+Accanto alla fontana, con un piattino ai suoi piedi, c'? un mendicante che sta 
 suonando un violino.
 
 >take
-Questo ¶ un verbo che non conosco.
+Questo ? un verbo che non conosco.
 
 >quit
 Sei sicuro di voler uscire? y
@@ -29957,7 +30580,7 @@ moment of cognition. I step out of the shower and let go of the memory. My
 mouth line is twisted into a bitter smile. My skin is dry.
 
 The Black Lily
-by Hannes Schller
+by Hannes Sch?ller
 Release 2 / Serial number 150318 / Inform v6.33 Library 6/11 
 ORLibrary release 1.3C (2004.06.08)
 
@@ -30823,8 +31446,6 @@ There is a passage east.
 The passage east is guarded by a gorgon.
 
 Command? 
-[** Programming error: tried to print (char) 10, which is not a valid ZSCII 
-character code for output **]
 
 I don't recognize that command.
 
@@ -30855,8 +31476,6 @@ There is a passage east.
 The passage east is guarded by a gorgon.
 
 Command? 
-[** Programming error: tried to print (char) 10, which is not a valid ZSCII 
-character code for output **]
 
 I don't recognize that command.
 
@@ -30947,8 +31566,6 @@ The passage south is guarded by a grizzly bear.
 The passage west is guarded by a gorgon.
 
 Command? 
-[** Programming error: tried to print (char) 10, which is not a valid ZSCII 
-character code for output **]
 
 I don't recognize that command.
 
@@ -31198,7 +31815,7 @@ minutes, it would have gone off, but as usual, you didn't even need it. As you
 won't become more awake, you turn it off.
 
 The Story of Mr. P.
-by Hannes Schller
+by Hannes Sch?ller
 Release 3 / Serial number 140620 / Inform v6.32 Library 6/11 
 
 Bedroom (on the bed)
@@ -35021,6 +35638,47 @@ Survival" (ie. the walkthrough).  You keep it in your desk drawer.
 the new office.
 
 Your Cubicle
+> About.
+
+About this game
+
+Promoted! Copyright 1996 by Mike DeSanto
+
+a game for Rexx-Adventure, submitted to the Second Annual Interactive Fiction 
+Authoring Competition.
+
+This game is public domain.  Feel free to distribute, copy, plagiarize from.
+
+Z-machine port (Release 1.1) by J. Steingraeber 1997, compiled with Linux 
+Inform 6.05
+
+Special thanks to Mike DeSanto, who very patient answered all my questions 
+about Rexx-Adventure!
+
+For menu-navigation use the cursor keys or
+
+               '8' for cursor up,
+                         |
+ '4' for cursor left,  --+--  '6' for cursor right,
+                         |
+               '2' for cursor down.
+
+Use 'Return' to select an entry.
+Use 'Backspace' or 'Esc' or '9' to cancel a menu.
+
+The number of menu lines can be changed in the System Commands.
+
+Your Cubicle
+> Look Your Hair.
+
+     The state of your hair is very important in the corporate environment.  
+Yours is short and neatly combed.  Just right for a programmer or manager.
+
+> Look Your Hair.
+
+     The state of your hair is very important in the corporate environment.  
+Yours is short and neatly combed.  Just right for a programmer or manager.
+
 ================================================================================
 Index : 686
 File  : puerto.z5
@@ -35389,7 +36047,7 @@ came to this coffee house. You are wondering what the protagonist will do next.
 
 You glance at the people who are in light colored clothes and look somewhat 
 dizzy from the lightly blowing wind. The umbrella over you provides an ideal 
-dimness. From the speaker near the entrance of the inner cafª, a woman is 
+dimness. From the speaker near the entrance of the inner caf?, a woman is 
 singing an ultimately boring French song.
 
 Thus, everything is so suitable to read.
@@ -35523,6 +36181,132 @@ tall block capitals.  You can not read the rest without looking more closely.
 this is where everyone starts when they log in, it tends to be a busy place.
 
 GATEWAY-PUB
+
+> About.
+
+This is the Z-machine port of a game originally written for Rexx-Adventure. 
+Rexx-Adventure is a point-and-click interface for textadventures designed by 
+Mike DeSanto. To cite the Rexx-Adventure documentation:
+
+        "Rexx-Adventure is a text adventure engine for OS/2.  The fact that it 
+is an engine means that it is not a set, single adventure.  It is a framework 
+for writing new adventures."
+
+And about gameplay it says:
+
+        "To use an object, click on it.  This will display a list of 
+appropriate actions for that object.  Simply choose the action you wish to 
+perform.  In some cases, an indirect object will be necessary.  In this case, 
+the indirect object window will appear, and you choose one from the list.  The 
+results of your action will be displayed in the text window."
+
+This version of the game simulates Rexx-Adventure by using menus.
+
+Z-machine port by J. Steingraeber 1997, compiled with Linux Inform 6.13
+
+For menu-navigation use the cursor keys or
+
+               '8' for cursor up,
+                         |
+ '4' for cursor left,  --+--  '6' for cursor right,
+                         |
+               '2' for cursor down.
+
+Use 'Return' to select an entry.
+Use 'Backspace' or 'Esc' or '9' to cancel a menu.
+
+The number of menu lines can be changed in the System Commands.
+
+GATEWAY-PUB
+
+> Read Message - C.
+
+ To:    The Resident
+ From:  Ringer
+ Subject:  Welcome back.
+
+    Greetings, Resident.  I am known as Ringer, and I am your new employer.  
+The doctors say you may be confused by the trauma you have suffered, so I will 
+go over the events of the last few days.
+
+    Three days ago, a very nearly successful attempt was made on your life.  An 
+assassin used a shaped explosive to enter your room, and used a flechette rifle 
+to saw you in half from shoulder to hip.
+
+    Luckily, the police and ambulance arrived very quickly, and you were taken 
+to a hospital.  Once there, you were placed on life support while your credit 
+rating was checked.  On my instructions, you were declared dead and brought to 
+a private hospital, where you were implanted with a full nervous link.  All of 
+your senses are fed by the WEB at this point.  To disconnect you from the WEB 
+would leave you in a world here there is only pain, and you would quickly go 
+mad.
+
+    They say that you are called the Resident because you spend more time in 
+the WEB than out of it.  I find it ironic that your name is now more true than 
+ever.  If you perform the tasks I give you satisfactorily, I will have you 
+fitted with cybernetics to replace the limbs and organs that you lost, or with 
+a Clone body, your choice.
+
+    Before you start getting ideas, I did not have you attacked. I do not know 
+who did or why.  I was planning to hire you anyway, because your name is well 
+known on the WEB.  I have some work for you to do.  When you are not busy with 
+my tasks, feel free to track down your assassin.  When you find the who ordered 
+the hit, I will deal with them for you.
+
+    As for your first task, I need to gain entry into Geneva Materials Science 
+Corporation.  You must infiltrate their computer system and sabotage the 
+security systems to let me and my strike team into the building.  Any necessary 
+information about the team will be provide when you are in the system.
+
+    You will receive more instructions when you need them.  Work quickly to 
+finish this task, and good luck finding your attacker.
+
+ The Ringer
+
+> Read Message - C.
+
+ To:    The Resident
+ From:  Ringer
+ Subject:  Welcome back.
+
+    Greetings, Resident.  I am known as Ringer, and I am your new employer.  
+The doctors say you may be confused by the trauma you have suffered, so I will 
+go over the events of the last few days.
+
+    Three days ago, a very nearly successful attempt was made on your life.  An 
+assassin used a shaped explosive to enter your room, and used a flechette rifle 
+to saw you in half from shoulder to hip.
+
+    Luckily, the police and ambulance arrived very quickly, and you were taken 
+to a hospital.  Once there, you were placed on life support while your credit 
+rating was checked.  On my instructions, you were declared dead and brought to 
+a private hospital, where you were implanted with a full nervous link.  All of 
+your senses are fed by the WEB at this point.  To disconnect you from the WEB 
+would leave you in a world here there is only pain, and you would quickly go 
+mad.
+
+    They say that you are called the Resident because you spend more time in 
+the WEB than out of it.  I find it ironic that your name is now more true than 
+ever.  If you perform the tasks I give you satisfactorily, I will have you 
+fitted with cybernetics to replace the limbs and organs that you lost, or with 
+a Clone body, your choice.
+
+    Before you start getting ideas, I did not have you attacked. I do not know 
+who did or why.  I was planning to hire you anyway, because your name is well 
+known on the WEB.  I have some work for you to do.  When you are not busy with 
+my tasks, feel free to track down your assassin.  When you find the who ordered 
+the hit, I will deal with them for you.
+
+    As for your first task, I need to gain entry into Geneva Materials Science 
+Corporation.  You must infiltrate their computer system and sabotage the 
+security systems to let me and my strike team into the building.  Any necessary 
+information about the team will be provide when you are in the system.
+
+    You will receive more instructions when you need them.  Work quickly to 
+finish this task, and good luck finding your attacker.
+
+ The Ringer
+
 ================================================================================
 Index : 695
 File  : reverb.z5
@@ -35706,7 +36490,7 @@ ZIF Version  : z5
 ZIF Checksum : B8C6
 
 ROBOTS - Another abuse of the Z-Machine
-A nostalgic diversion by Torbjœrn Andersson
+A nostalgic diversion by Torbj?rn Andersson
 Release 6 / Serial number 980115 / Inform v6.14
 
 "You can't miss it," they said. "A white house in a clearing with a small 
@@ -37710,7 +38494,19 @@ You stand right outside the entrance to Geeron Space harbor. To the east there
 is a green park, and through the guarded gate to the north you can see your 
 ship.
 
->ty================================================================================
+>t.
+
+I don't understand!
+
+>y.
+
+I don't understand!
+
+>.
+
+Avoiding conversation accomplishes nothing!
+
+>================================================================================
 Index : 739
 File  : sutwin.z5
 Path  : Games/Downloads
@@ -37854,7 +38650,45 @@ ZIF Checksum : 179C
                    - from a saved position :       R
    Quit                                    :       Q
 
-Please press SPACE to continue.
+What is your name? > Hi, x!
+
+ After training with your master, you decided to read a book. What was the 
+book? The legend of the blood Lust Warrior. When your master saw you reading, 
+he snapped at you! "x, you shouldn't be reading that book! That is my book and 
+you know it!" You set down the book, put on your sack and wandered off, on a 
+quest to defeat...
+
+the Blood lust Warrior
+An Interactive RPG by Zorkfire games
+Copyright (C) 2012 by Zorkfire games
+All rights reserved
+Release 11 / Serial number 121030 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) 
+ [ Type "about" for information about this release, and "info" to find out 
+about the legend.]
+forest
+Trees surround you in this tranquil forest. The air is crisp and you have a 
+clear view of the clearings to north and southeast.
+
+You can see Eromix here.
+
+You can go north, southeast, east or west from here.
+
+>
+large clearing
+A large oak stands in the center of this peaceful patch of land.
+
+A corpse, covered in fresh blood, lies under the tree, giving the soil plenty 
+of compost.
+
+On the body is the shortsword.
+
+You can go south to forest from here.
+
+>(the body)
+NO! You do not! want to carry a body around with you! Plus, you can't even pick 
+it up!
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 743
 File  : tKatC-SE.z8
@@ -38312,6 +39146,41 @@ Oh no! The cat's ticking.
 It must have swallowed a bomb!
 
 Please press SPACE to continue.
+
+Attack of the Terror Tabby!!!
+A brief exercise in futility by Eric Mayer
+Release 1 / Serial number 080514 / Inform 7 build 5J39 (I6/v6.31 lib 6/11N) 
+
+Almost Bare Bedroom
+This is your almost bare bedroom. There's room for a bed - barely - but you've 
+settled for a lumpy mattress. There isn't even a dresser with drawers to go 
+through. Actually the only drawers are on the floor and they're dirty.The 
+living room is to the south. To the east is the bathroom.
+
+What really gets your attention is that explosive cat leering up at you. You'd 
+better get that cat and dispose of it before the bomb goes off!
+
+You can see your scabby old tabby cat here.
+
+>no
+That was a rhetorical question.
+
+The horrid feline dances around in the middle of the room.
+
+>n
+Throwing yourself through the walls is not an option.
+
+The horrid feline dances around in the middle of the room.
+
+tick...tick....tick..
+
+>take
+(the cat)
+The cat darts away.
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
 ================================================================================
 Index : 751
 File  : tess.z5
@@ -38422,6 +39291,35 @@ You sit down directly in front of the bartender. He asks you, in clear and
 perfect English, "What would you like to partake of this glorious night?"
 
 Please press SPACE to continue.
+
+The Gallery of Henri Beauchamp
+An Interactive Fiction by Mike Vollmer
+Release 2 / Serial number 080621 / Inform 7 build 5T18 (I6/v6.31 lib 6/12N) 
+
+Dingy bar
+A dark, dank, dirty bar somewhere in Paris. To the south is the exit.
+
+Behind the bartender, sitting on the shelf, are various drinks. You see bottles 
+of absinthe, whiskey, and beer.
+
+The bartender sits behind the counter, eying you suspiciously.
+
+Off to the northeast you see what appears to be an old door, painted the same 
+color as the wall. It is partially hidden in darkness.
+
+>no
+(addressing the bartender)
+You greet him, but he does not respond.
+
+>n
+You can't go that way.
+
+>take
+What do you want to take?
+
+>quit
+Are you sure you want to quit? y
+ZIF quit
 ================================================================================
 Index : 754
 File  : thegreat.z5
@@ -38661,6 +39559,50 @@ on whatever it is they want you to do, and you'll earn your goddamned wings. .
 .
 
 Please press SPACE to continue.
+After a typically useless briefing with two idiots that fancy themselves stars, 
+you are tumbling down to one of the wealthier countries on this bedraggled 
+planet, towards one of the less geographically, historically and culturally 
+distinct regions (even so brimming over with drama, sadness, triumphs and 
+curses that you can smell as well as hear, lingering from times long before 
+anybody currently living here was even thinking about becoming sperm or egg), 
+towards a city named for something whose significance nobody can exactly 
+recall, towards an old looking steam powered apartment building, one of those 
+that was popular after the most recent series of world wars, down through the 
+roof, through the cement floors and lead pipes and dreaming gears, into a 
+little one-bedroom unit on the third floor that rents for a bit over $400 a 
+month...
+
+(Type "about" for gameplay info.)
+
+Please press SPACE to continue.
+
+My Magic Tire Hoax
+An Interactive Fiction by nd
+Release 1 / Serial number 080104 / Inform 7 build 5G67 (I6/v6.31 lib 6/11N) 
+
+Theresa's Room
+It is a magnificent dump. It is a tiny empire. It's a little cramped, honestly, 
+and very very messy. It's riddled with pipes of varying colors, circumferences, 
+opacities and, presumably (but Theresa isn't certain) purposes. They rattle at 
+odd hours of the night... which's weird, because you'll hardly hear a peep out 
+of them during the day. The north side of the room is dominated by a grand 
+radiator. (Winters get very cold here. This winter in particular.) There's a 
+moth eaten easy chair in one corner, beneath a ticking clock, surrounded by 
+overflowing, cheap bookcases. There is a sad looking Murphy bed projecting out 
+of the wall.
+
+Theresa is here, reading intently from something by Hrabal. 
+
+Theresa's magic telescope is perched near the grand radiator, pointing at a 
+downward angle.
+
+Wanting, wanting, here is a radio. The radio is off.
+
+>You can't go that way.
+
+>What do you want to take?
+
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 759
 File  : tk1.z5
@@ -38946,7 +39888,7 @@ shall be construed under the laws of the Commonwealth.
 Press any key to accept the agreement.
 
 Typo!
-Copyright à 2004 Peter Seebach, Kevin Lynn, and Flavorplex
+Copyright ? 2004 Peter Seebach, Kevin Lynn, and Flavorplex
 Release 1 / Serial number 041119 / Inform v6.30 Library 6/11 
 
 A technician in a white lab coat speaks to you as she reads from a clipboard. 
@@ -41015,7 +41957,76 @@ ZIF Checksum : 1A36
                         An Interactive Secret History
                               by Michael Martin
 
-                                [Press SPACE]================================================================================
+                                [Press SPACE]
+
+                              WEISHAUPT SCHOLARS
+
+                                  Chapter 1
+                                   Prelude
+
+                              Active Agent: Hal
+
+                               Hal's status: OK
+                              Benj's status: OK
+                              Janet's status: OK
+
+                                [Press SPACE]
+
+The map that Saint gave you worked out. It's all true. There really is a secret 
+society of alchemists meeting underneath the Chemistry building. They actually 
+have been siphoning materials from the labs. And they are, apparently, totally 
+out of touch with reality.
+
+They're also apparently up to something.
+
+With luck, after this, they won't be anymore.
+
+Weishaupt Scholars
+An Interactive Secret History by Michael Martin
+Release 2 / Serial number 071107 / Inform 7 build 4U65 (I6/v6.31 lib 6/11N) 
+[First-time players should type ABOUT, even if they are familiar with IF.]
+
+Eye of the Storm
+This place was never that organized to begin with, but in the aftermath of your 
+little team's raid, it's even messier than usual. Tables and cabinets have been 
+overturned in the melee which announced your presence -- a fat lot of good it 
+did them, too. Death walks beside you; fortunately, she's on your side. Your 
+lockbreaker has done his job, but you've still got your own part to play.
+
+The sharp scent of chemicals fills the air, but as best you can tell in the dim 
+light, nothing's really been spilled. Those documents your secret masters want 
+should still be intact.
+
+You got the offer clear back in high school, and even now, it sounds like a 
+sweet deal on paper. Secret meetings, a shadowy power structure that reaches 
+throughout the world, and they'll even pay your way through college to grant 
+you the privilege of joining it. Real knowledge, and the opportunity to put it 
+to use. "Training tomorrow's unlikeliest leaders," they said. You'd get 
+on-the-job training too, alongside your studies.
+
+You were never really much for the ROTC aspect of all this, and the direct 
+violence is much more Janet's job, but really, if your Unknown Benefactors are 
+going to have you spend your weekend stealing documents from a mad alchemical 
+brotherhood, couldn't they at least have recommended that you do some wind 
+sprints to get ready?
+
+The documents. Right. They've got to be around here somewhere.
+
+Benj, having gotten you in here and then gotten out of the way, is keeping an 
+eye on your planned escape route.
+
+Janet picks through the room, ensuring that what resistance there was stays 
+neutralized.
+
+>You have not yet completed your assigned task. You need to find the membership 
+information for this alchemical cult.
+
+You hear footsteps somewhere above you. Someone must be working late.
+
+>What do you want to take?
+
+>Are you sure you want to quit? ZIF quit
+================================================================================
 Index : 793
 File  : wump2ka.z5
 Path  : Games/Downloads
@@ -41746,7 +42757,7 @@ This is Release 3 / Serial number 980519 / Inform v6.15 Library 6/7
 
 [Press any key to start.]
 
-Author: Ian le Carrª, aka Graham Nelson
+Author: Ian le Carr?, aka Graham Nelson
 
 Version: Release 1 / Serial Number 980124 / Inform v6.14 Library 6/7 D.
 
@@ -41758,7 +42769,7 @@ evil being known only as "PLOTKIN."
 This is the first ever released BLORB game.
 
 [Press any key to return to previous menu.]
-Author: Ian le Carrª, aka Graham Nelson
+Author: Ian le Carr?, aka Graham Nelson
 
 Version: Release 1 / Serial Number 980124 / Inform v6.14 Library 6/7 D.
 
@@ -41770,7 +42781,7 @@ evil being known only as "PLOTKIN."
 This is the first ever released BLORB game.
 
 [Press any key to return to previous menu.]
-Author: Ian le Carrª, aka Graham Nelson
+Author: Ian le Carr?, aka Graham Nelson
 
 Version: Release 1 / Serial Number 980124 / Inform v6.14 Library 6/7 D.
 
@@ -41792,7 +42803,7 @@ ZIF Checksum : 9FD7
 
 ZOMBIES - Yet another abuse of the Z-Machine
 A nostalgic diversion by David Magnus Ledgard with a large portion
-of the code shamelessly borrowed from Torbjœrn Andersson, a
+of the code shamelessly borrowed from Torbj?rn Andersson, a
 tiny tiny portion being lifted from Infocom's "The Lurking Horror". 
 Release 1 / Serial number 990524 / Inform v6.15
 
@@ -41981,139 +42992,24 @@ ZIF Checksum : FEE7
               T - Turn sound off
               V - Version Information
               Q - Quit
-                 Z-SNAKE
-
-                 TOP SCORES
-                1. ZMX   100
-                2. LPK   100
-                3. RFT   100
-                4. DFX    50
-                5. IWJ    50
-
-         Return - New Game
-              I - Instructions
-              A - Adjust Game Speed (currently 7)
-              C - Change Snake Color
-              K - Set Keyboard Commands
-              S - Save Settings and Scores
-              R - Restore Settings and Scores
-              T - Turn sound off
-              V - Version Information
-              Q - Quit
-                 Z-SNAKE
-
-                 TOP SCORES
-                1. ZMX   100
-                2. LPK   100
-                3. RFT   100
-                4. DFX    50
-                5. IWJ    50
-
-         Return - New Game
-              I - Instructions
-              A - Adjust Game Speed (currently 7)
-              C - Change Snake Color
-              K - Set Keyboard Commands
-              S - Save Settings and Scores
-              R - Restore Settings and Scores
-              T - Turn sound off
-              V - Version Information
-              Q - Quit
-                 Z-SNAKE
-
-                 TOP SCORES
-                1. ZMX   100
-                2. LPK   100
-                3. RFT   100
-                4. DFX    50
-                5. IWJ    50
-
-         Return - New Game
-              I - Instructions
-              A - Adjust Game Speed (currently 7)
-              C - Change Snake Color
-              K - Set Keyboard Commands
-              S - Save Settings and Scores
-              R - Restore Settings and Scores
-              T - Turn sound off
-              V - Version Information
-              Q - Quit
-                 Z-SNAKE
-
-                 TOP SCORES
-                1. ZMX   100
-                2. LPK   100
-                3. RFT   100
-                4. DFX    50
-                5. IWJ    50
-
-         Return - New Game
-              I - Instructions
-              A - Adjust Game Speed (currently 7)
-              C - Change Snake Color
-              K - Set Keyboard Commands
-              S - Save Settings and Scores
-              R - Restore Settings and Scores
-              T - Turn sound off
-              V - Version Information
-              Q - Quit
-                 Z-SNAKE
-
-                 TOP SCORES
-                1. ZMX   100
-                2. LPK   100
-                3. RFT   100
-                4. DFX    50
-                5. IWJ    50
-
-         Return - New Game
-              I - Instructions
-              A - Adjust Game Speed (currently 7)
-              C - Change Snake Color
-              K - Set Keyboard Commands
-              S - Save Settings and Scores
-              R - Restore Settings and Scores
-              T - Turn sound off
-              V - Version Information
-              Q - Quit
-                 Z-SNAKE
-
-                 TOP SCORES
-                1. ZMX   100
-                2. LPK   100
-                3. RFT   100
-                4. DFX    50
-                5. IWJ    50
-
-         Return - New Game
-              I - Instructions
-              A - Adjust Game Speed (currently 7)
-              C - Change Snake Color
-              K - Set Keyboard Commands
-              S - Save Settings and Scores
-              R - Restore Settings and Scores
-              T - Turn sound off
-              V - Version Information
-              Q - Quit
-                 Z-SNAKE
-
-                 TOP SCORES
-                1. ZMX   100
-                2. LPK   100
-                3. RFT   100
-                4. DFX    50
-                5. IWJ    50
-
-         Return - New Game
-              I - Instructions
-              A - Adjust Game Speed (currently 7)
-              C - Change Snake Color
-              K - Set Keyboard Commands
-              S - Save Settings and Scores
-              R - Restore Settings and Scores
-              T - Turn sound on
-              V - Version Information
-              Q - Quit
+            SCORE:0                    HIGH:100                       
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
 ================================================================================
 Index : 814
 File  : ztrek.z5
@@ -42465,24 +43361,24 @@ that the character '>>' is code 162, and '<<' is 163. However, Inform 6.11
 concensus is that the Z-Spec 0.2 and Inform 6.11 are wrong, and Z-Spec 0.99 and 
 later are correct.
 
-a-umlaut:›   o-umlaut:œ   u-umlaut:   A-umlaut:ž
-O-umlaut:Ÿ   U-umlaut:    sz-ligature:¡   >>-quotes:¢
-<<-quotes:£   e-umlaut:¤   i-umlaut:¥   y-umlaut:¦
-E-umlaut:§   I-umlaut:¨   a-acute:©   e-acute:ª
-i-acute:«   o-acute:¬   u-acute:­   y-acute:®
-A-acute:¯   E-acute:°   I-acute:±   O-acute:²
-U-acute:³   Y-acute:´   a-grave:µ   e-grave:¶
-i-grave:·   o-grave:¸   u-grave:¹   A-grave:º
-E-grave:»   I-grave:¼   O-grave:½   U-grave:¾
-a-circumflex:¿   e-circumflex:À   i-circumflex:Á   o-circumflex:Â
-u-circumflex:Ã   A-circumflex:Ä   E-circumflex:Å   I-circumflex:Æ
-O-circumflex:Ç   U-circumflex:È   a-ring:É   A-ring:Ê
-o-slash:Ë   O-slash:Ì   a-tilde:Í   n-tilde:Î
-o-tilde:Ï   A-tilde:Ð   N-tilde:Ñ   O-tilde:Ò
-ae-ligature:Ó   AE-ligature:Ô   c-cedilla:Õ   C-cedilla:Ö
-thorn:×   eth:Ø   Thorn:Ù   Eth:Ú
-pound-symbol:Û   oe-ligature:Ü   OE-ligature:Ý   inverse-!:Þ
-inverse-?:ß   
+a-umlaut:?   o-umlaut:?   u-umlaut:?   A-umlaut:?
+O-umlaut:?   U-umlaut:?   sz-ligature:?   >>-quotes:?
+<<-quotes:?   e-umlaut:?   i-umlaut:?   y-umlaut:?
+E-umlaut:?   I-umlaut:?   a-acute:?   e-acute:?
+i-acute:?   o-acute:?   u-acute:?   y-acute:?
+A-acute:?   E-acute:?   I-acute:?   O-acute:?
+U-acute:?   Y-acute:?   a-grave:?   e-grave:?
+i-grave:?   o-grave:?   u-grave:?   A-grave:?
+E-grave:?   I-grave:?   O-grave:?   U-grave:?
+a-circumflex:?   e-circumflex:?   i-circumflex:?   o-circumflex:?
+u-circumflex:?   A-circumflex:?   E-circumflex:?   I-circumflex:?
+O-circumflex:?   U-circumflex:?   a-ring:?   A-ring:?
+o-slash:?   O-slash:?   a-tilde:?   n-tilde:?
+o-tilde:?   A-tilde:?   N-tilde:?   O-tilde:?
+ae-ligature:?   AE-ligature:?   c-cedilla:?   C-cedilla:?
+thorn:?   eth:?   Thorn:?   Eth:?
+pound-symbol:?   oe-ligature:?   OE-ligature:?   inverse-!:?
+inverse-?:?   
 
 Type a digit (0..7) to repeat this list in a different text style, or "." to 
 end this test.
@@ -42523,7 +43419,7 @@ code=66: ASCII character 'B'
 AccentedInput> 
 code=67: ASCII character 'C'
 AccentedInput> 
-code=10: control character 'ctrl-J' (should NOT occur)
+code=13: control character 'ctrl-M' (z-machine 'newline')
 AccentedInput> 
 
 Test finished.
@@ -42558,9 +43454,9 @@ Hit Enter by itself to return to the main menu.
 
 AccentedInput> ABC
 
-code=65: ASCII character 'A'
-code=66: ASCII character 'B'
-code=67: ASCII character 'C'
+code=97: ASCII character 'a'
+code=98: ASCII character 'b'
+code=99: ASCII character 'c'
 
 AccentedInput> 
 
@@ -42644,7 +43540,7 @@ Beginning test...
 
 TimedString> BC
 
-You just typed "BC".
+You just typed "bc".
 
 TimedString> .
 
@@ -42674,7 +43570,7 @@ If you see the word "Given" twice, your interpreter is printing the given
 characters, which it shouldn't (that's the responsibility of the game file.)
 
 Preload> GivenHello
-You just typed "Hello".
+You just typed "Givenhello".
 
 > 13
 
@@ -42753,75 +43649,75 @@ Accented characters test in font 1
 
 Decimal code:  character     name  plain ASCII equivalent
 
-155:   ›     a-umlaut  ae
-156:   œ     o-unlaut  oe
-157:        u-umlaut  ue
-158:   ž     A-umlaut  Ae
-159:   Ÿ     O-umlaut  Oe
-160:         U-umlaut  Ue
-161:   ¡     sz-ligature  ss
-162:   ¢     quotation mark  >> or "
-163:   £     quotation mark  << or "
-164:   ¤     e-umlaut  e
-165:   ¥     i-umlaut  i
-166:   ¦     y-umlaut  y
-167:   §     E-umlaut  E
-168:   ¨     I-umlaut  I
-169:   ©     a-acute  a
-170:   ª     e-acute  e
-171:   «     i-acute  i
-172:   ¬     o-acute  o
-173:   ­     u-acute  u
-174:   ®     y-acute  y
-175:   ¯     A-acute  A
-176:   °     E-acute  E
-177:   ±     I-acute  I
-178:   ²     O-acute  O
-179:   ³     U-acute  U
-180:   ´     Y-acute  Y
-181:   µ     a-grave  a
-182:   ¶     e-grave  e
-183:   ·     i-grave  i
-184:   ¸     o-grave  o
-185:   ¹     u-grave  u
-186:   º     A-grave  A
-187:   »     E-grave  E
-188:   ¼     I-grave  I
-189:   ½     O-grave  O
-190:   ¾     U-grave  U
-191:   ¿     a-circumflex  a
-192:   À     e-circumflex  e
-193:   Á     i-circumflex  i
-194:   Â     o-circumflex  o
-195:   Ã     u-circumflex  u
-196:   Ä     A-circumflex  A
-197:   Å     E-circumflex  E
-198:   Æ     I-circumflex  I
-199:   Ç     O-circumflex  O
-200:   È     U-circumflex  U
-201:   É     a-ring  a
-202:   Ê     A-ring  A
-203:   Ë     o-slash  o
-204:   Ì     O-slash  O
-205:   Í     a-tilde  a
-206:   Î     n-tilde  n
-207:   Ï     o-tilde  o
-208:   Ð     A-tilde  A
-209:   Ñ     N-tilde  N
-210:   Ò     O-tilde  O
-211:   Ó     ae-ligature  ae
-212:   Ô     AE-ligature  AE
-213:   Õ     c-cedilla  c
-214:   Ö     C-cedilla  C
-215:   ×     Icelandic thorn  th
-216:   Ø     Icelandic eth  th
-217:   Ù     Icelandic Thorn  Th
-218:   Ú     Icelandic Eth  Th
-219:   Û     pound symbol  L
-220:   Ü     oe-ligature oe
-221:   Ý     OE-ligature OE
-222:   Þ     upside-down !
-223:   ß     upside-down ?
+155:   ?     a-umlaut  ae
+156:   ?     o-unlaut  oe
+157:   ?     u-umlaut  ue
+158:   ?     A-umlaut  Ae
+159:   ?     O-umlaut  Oe
+160:   ?     U-umlaut  Ue
+161:   ?     sz-ligature  ss
+162:   ?     quotation mark  >> or "
+163:   ?     quotation mark  << or "
+164:   ?     e-umlaut  e
+165:   ?     i-umlaut  i
+166:   ?     y-umlaut  y
+167:   ?     E-umlaut  E
+168:   ?     I-umlaut  I
+169:   ?     a-acute  a
+170:   ?     e-acute  e
+171:   ?     i-acute  i
+172:   ?     o-acute  o
+173:   ?     u-acute  u
+174:   ?     y-acute  y
+175:   ?     A-acute  A
+176:   ?     E-acute  E
+177:   ?     I-acute  I
+178:   ?     O-acute  O
+179:   ?     U-acute  U
+180:   ?     Y-acute  Y
+181:   ?     a-grave  a
+182:   ?     e-grave  e
+183:   ?     i-grave  i
+184:   ?     o-grave  o
+185:   ?     u-grave  u
+186:   ?     A-grave  A
+187:   ?     E-grave  E
+188:   ?     I-grave  I
+189:   ?     O-grave  O
+190:   ?     U-grave  U
+191:   ?     a-circumflex  a
+192:   ?     e-circumflex  e
+193:   ?     i-circumflex  i
+194:   ?     o-circumflex  o
+195:   ?     u-circumflex  u
+196:   ?     A-circumflex  A
+197:   ?     E-circumflex  E
+198:   ?     I-circumflex  I
+199:   ?     O-circumflex  O
+200:   ?     U-circumflex  U
+201:   ?     a-ring  a
+202:   ?     A-ring  A
+203:   ?     o-slash  o
+204:   ?     O-slash  O
+205:   ?     a-tilde  a
+206:   ?     n-tilde  n
+207:   ?     o-tilde  o
+208:   ?     A-tilde  A
+209:   ?     N-tilde  N
+210:   ?     O-tilde  O
+211:   ?     ae-ligature  ae
+212:   ?     AE-ligature  AE
+213:   ?     c-cedilla  c
+214:   ?     C-cedilla  C
+215:   ?     Icelandic thorn  th
+216:   ?     Icelandic eth  th
+217:   ?     Icelandic Thorn  Th
+218:   ?     Icelandic Eth  Th
+219:   ?     pound symbol  L
+220:   ?     oe-ligature oe
+221:   ?     OE-ligature OE
+222:   ?     upside-down !
+223:   ?     upside-down ?
 
 Please press SPACE.
 Font 4 unavailable.
@@ -42837,7 +43733,7 @@ Exit
 Keyboard input code testing
 (Press keys to see how they respond, and press SPACE to finish.)
 
-10 error: code 10 should not have been returned
+13 return
 32 
 1: Fonts; 2: Accents; 3: InputCodes, 4: Colours, 5: Header, 6: TimedInput, 0: 
 Exit
