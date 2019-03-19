@@ -69,6 +69,8 @@ def packGames(list):
    for game in games_list:
       os.system("tar rvf "+archive+" Games/"+game)
 
+   os.system("tar rvf "+archive+" Games/list")
+
    os.system("gzip "+archive)
 
 #--------------------------------------------------------------------------------
@@ -291,6 +293,7 @@ with open(story_list_file, "r") as infile:
 games_list=[line.strip() for line in games_list]
 
 if args.run:
+   os.system("rm -rf save")
    with open(test_all_out_file, "w") as log:
       if args.frotz:
          testAllGames("frotz")

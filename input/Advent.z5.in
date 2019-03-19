@@ -9,5 +9,11 @@ use key
 unlock gate with key
 open grate
 down
+save
+restore
+look
+restart
+y
+look
 quit
 y

@@ -759,6 +759,45 @@ crawl over cobbles leads inward to the west.
 
 The grate stands open.
 
+>save
+Ok.
+
+>restore
+Ok.
+
+>look
+
+Below the Grate
+You are in a small chamber beneath a 3x3 steel grate to the surface. A low 
+crawl over cobbles leads inward to the west.
+
+The grate stands open.
+
+>restart
+Are you sure you want to restart? y
+
+Welcome to Adventure!
+(Please type HELP for instructions and information.)
+
+ADVENTURE
+The Interactive Original
+By Will Crowther (1976) and Don Woods (1977)
+Reconstructed in three steps by:
+Donald Ekman, David M. Baggett (1993) and Graham Nelson (1994)
+[In memoriam Stephen Bishop (1820?-1857): GN]
+
+Release 9 / Serial number 060321 / Inform v6.31 Library 6/11 S
+
+At End Of Road
+You are standing at the end of a road before a small brick building. Around you 
+is a forest. A small stream flows out of the building and down a gully.
+
+>look
+
+At End Of Road
+You are standing at the end of a road before a small brick building. Around you 
+is a forest. A small stream flows out of the building and down a gully.
+
 >quit
 Are you sure you want to quit? y
 ZIF quit
@@ -789,7 +828,8 @@ is a forest. A small stream flows out of the building and down a gully.
 
 >What? 
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 20
 File  : Adventure_Time.zblorb
 Path  : Games/Downloads
@@ -988,7 +1028,8 @@ Your head is pulled back, held by the rope pressing on your throat. Your toes pi
 >
 I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 24
 File  : AlongTheRiver.z5
 Path  : Games/Downloads
@@ -1133,7 +1174,8 @@ anything else. You look away before anyone catches you staring.
 
 >I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 27
 File  : AndAHippoNewYear.z8
 Path  : Games/Downloads
@@ -1272,7 +1314,8 @@ Arid and pale
 
 Arid and pale
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 30
 File  : Asylum.z5
 Path  : Games/Downloads
@@ -1387,6 +1430,7 @@ LOUN for LOok UNder
 LOBE for LOok BEhind.
 
                            Press any key to continue
+ZIF quit
 ================================================================================
 Index : 32
 File  : Aug4.z8
@@ -2062,7 +2106,8 @@ dead mouse. You dreamt of math last night. Division signs, they, they, they
 divided you. Like Napoleon! Your computer screen glows. You are drawn to it 
 like a - a moth to a - to a - what were you saying again?
 
->GO TO COMP================================================================================
+>GO TO COMPZIF quit
+================================================================================
 Index : 47
 File  : BiCon.zblorb
 Path  : Games/Downloads
@@ -2684,6 +2729,7 @@ speed meter (press the up arrow to accelerate)
 .888........888
 .888...........
 
+ZIF quit
 ================================================================================
 Index : 57
 File  : CARS3.Z5
@@ -2838,7 +2884,8 @@ VERSION 1.6792
 
 THIS GAME IS VOLUNTARILY RATED PG-13 
 
-WILL YOU [START] THE GAME OR DO YOU WANT TO [QUIT]? ================================================================================
+WILL YOU [START] THE GAME OR DO YOU WANT TO [QUIT]? ZIF quit
+================================================================================
 Index : 59
 File  : CIRCUS.Z5
 Path  : Games/Downloads
@@ -3697,7 +3744,8 @@ __________________I I I I_____I                I_____I I I I__________________
 
 Welcome to VIOL's cottage!!!!!
 
-Have you ventured inside before? ================================================================================
+Have you ventured inside before? ZIF quit
+================================================================================
 Index : 79
 File  : Cove.z5
 Path  : Games/Downloads
@@ -4974,7 +5022,8 @@ That was a rhetorical question.
 
 >I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 99
 File  : Dinner_Bell.zblorb
 Path  : Games/Downloads
@@ -5616,7 +5665,8 @@ your reading.
 
 >I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 113
 File  : Egyptian_Walking_Simulator.z8
 Path  : Games/Downloads
@@ -7813,6 +7863,7 @@ to give it one last try.
 
                        <<< Press any key to continue >>>
 
+ZIF quit
 ================================================================================
 Index : 154
 File  : Glass.zblorb
@@ -7881,7 +7932,8 @@ MD5   : 4240654fbf14d08c9ecee05fe1fdf701
 ZIF Version  : z8
 ZIF Checksum : 9E50
 
-Should your character be male or female? >Please choose male or female. > Please choose male or female. > Please choose male or female. > Please choose male or female. > Please choose male or female. > Please choose male or female. > Please choose male or female. > ================================================================================
+Should your character be male or female? >Please choose male or female. > Please choose male or female. > Please choose male or female. > Please choose male or female. > Please choose male or female. > Please choose male or female. > Please choose male or female. > ZIF quit
+================================================================================
 Index : 156
 File  : Gnu_in_the_Zoo.zblorb
 Path  : Games/Downloads
@@ -9249,7 +9301,8 @@ You see a piece of crumpled paper here.
 
 >I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 184
 File  : HugeHint.z5
 Path  : Games/Downloads
@@ -9342,7 +9395,8 @@ different verb.]
 
 >[No input found. Please type a command and press ENTER.]
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 186
 File  : Hypnotist_of_Ladies.z5
 Path  : Games/Downloads
@@ -10229,7 +10283,8 @@ sometimes.
 
 >I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 206
 File  : Iraqi_Invasion_A_Text_Misadvent.zblorb
 Path  : Games/Downloads
@@ -10275,7 +10330,8 @@ sometimes.
 
 >I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 207
 File  : Islands.zblorb
 Path  : Games/Downloads
@@ -10501,7 +10557,8 @@ You're asleep.
 
 Please choose a gender (m/f). >Sorry, we're not ready to go on yet. Please choose a gender (m/f). >Sorry, we're not ready to go on yet. Please choose a gender (m/f). >Sorry, we're not ready to go on yet. Please choose a gender (m/f). >Sorry, we're not ready to go on yet. Please choose a gender (m/f). >I beg your pardon?
 
-Please choose a gender (m/f). >================================================================================
+Please choose a gender (m/f). >ZIF quit
+================================================================================
 Index : 213
 File  : KeepingDido.zblorb
 Path  : Games/Downloads
@@ -11191,7 +11248,8 @@ the door.
 
 >What?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 229
 File  : Mammal.z5
 Path  : Games/Downloads
@@ -12883,7 +12941,8 @@ How old are you? y
 [ Number not understood ]
 How old are you? 
 [ Number not understood ]
-How old are you? ================================================================================
+How old are you? ZIF quit
+================================================================================
 Index : 261
 File  : One_Game_in_Search_of_a_Story.z5
 Path  : Games/Downloads
@@ -15084,7 +15143,8 @@ The roses are equipped with really ferocious thorns.
 
 >I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 308
 File  : School.z5
 Path  : Games/Downloads
@@ -15907,7 +15967,8 @@ The door leads out to the HALLWAY.
 >[Available keywords: ME, COUSIN, MUSIC and WEIGHTLESSNESS. Available exits: 
 HALLWAY.]
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 324
 File  : Starry_Seeksorrow.zblorb
 Path  : Games/Downloads
@@ -17372,7 +17433,8 @@ unimaginative wardrobe for such an ambitious man.
 
 >I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 356
 File  : TheRealisticNascarEXperience.z5
 Path  : Games/Downloads
@@ -17838,7 +17900,8 @@ Thus, another epitomous escapade in the drama of the Discworld was ended.
 Another attempt could not conceivably be made. Could it? 
 Please answer yes or no.
 
-> ================================================================================
+> ZIF quit
+================================================================================
 Index : 368
 File  : The_Colour_of_Magic.zblorb
 Path  : Games/Downloads
@@ -17886,7 +17949,8 @@ Thus, another epitomous escapade in the drama of the Discworld was ended.
 Another attempt could not conceivably be made. Could it? 
 Please answer yes or no.
 
-> ================================================================================
+> ZIF quit
+================================================================================
 Index : 369
 File  : The_Colour_of_Magic__Graphics_.zblorb
 Path  : Games/Downloads
@@ -17937,7 +18001,8 @@ Thus, another epitomous escapade in the drama of the Discworld was ended.
 
 Another attempt could not conceivably be made. Could it? Please answer yes or no.
 
-> ================================================================================
+> ZIF quit
+================================================================================
 Index : 370
 File  : The_Crystal_Palace.zblorb
 Path  : Games/Downloads
@@ -18029,7 +18094,8 @@ Onstage at the Cherrywood Lounge
 The crowd looked dead before you came on. Now they're lively, as the music 
 begins. You catch a glimpse of Gladys; she gives you a wink.
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 372
 File  : The_First_Day_of_My_New_Life.zblorb
 Path  : Games/Downloads
@@ -18464,7 +18530,8 @@ evening, it is doing double duty as a wedding chapel.
 
 Your betrothed, Roland, stands before you.
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 382
 File  : The_Sprout_Pouch.zblorb
 Path  : Games/Downloads
@@ -19364,7 +19431,8 @@ On your bed is Donald Duck.
 
 >I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 400
 File  : UngodlyHour.zblorb
 Path  : Games/Downloads
@@ -19647,7 +19715,8 @@ the weekend?
 
 >Just because you are imagining me doesn't mean I'm a mindreader.
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 406
 File  : Virtuality.zblorb
 Path  : Games/Downloads
@@ -19821,6 +19890,7 @@ You have taken 3 turnsWhat next?
 
     Do you want to try again (Y/N)?
 
+ZIF quit
 ================================================================================
 Index : 409
 File  : WERNER2.Z5
@@ -19880,7 +19950,8 @@ You have taken 3 turnsWhat next?
 
 Would you, perchance, care to make
 another attempt
-?================================================================================
+?ZIF quit
+================================================================================
 Index : 410
 File  : WERNER3.Z5
 Path  : Games/Downloads
@@ -19957,7 +20028,8 @@ You have taken 3 turnsWhat next?
 
 Are you going to make another pitiful
 attempt
-?================================================================================
+?ZIF quit
+================================================================================
 Index : 411
 File  : WERNER4.Z5
 Path  : Games/Downloads
@@ -20025,7 +20097,8 @@ You have taken 3 turnsWhat next?
                The End.
 
 Do you want to have another go
-?================================================================================
+?ZIF quit
+================================================================================
 Index : 412
 File  : WalkInThePark.z5
 Path  : Games/Downloads
@@ -20546,6 +20619,7 @@ Lindsey kicks at the acorns.  She says, "I think Marissa's been abusing me."
 
 You say "Oh," because it sounds better than WHAT?  Then you say, "Are you 
 okay?" because it sounds better than I didn't know.
+ZIF quit
 ================================================================================
 Index : 423
 File  : Wrenlaw.zblorb
@@ -21022,6 +21096,7 @@ Release 2 / Serial number 030711 / Inform v6.21
 (P) Play Z-Tornado
 (Q) Quit
 
+ZIF quit
 ================================================================================
 Index : 430
 File  : Zokoban.z5
@@ -21839,6 +21914,7 @@ R    set the random number seed
 C    credits 
 Q    quit
 
+ZIF quit
 ================================================================================
 Index : 450
 File  : annoy.z5
@@ -23415,7 +23491,8 @@ feeling makes you want to possess it.
 
 >I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 480
 File  : bse.z5
 Path  : Games/Downloads
@@ -24079,7 +24156,8 @@ That's not a verb I recognise.
 >
 I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 492
 File  : cavetrip.z5
 Path  : Games/Downloads
@@ -24506,6 +24584,7 @@ house.  While half expecting to get mugged any second in some elaborate gang
 set up, you hear a refined, feminine voice interrupt the music through the 
 intercom, "Who's next, please?"  [1-4]
 
+ZIF quit
 ================================================================================
 Index : 499
 File  : chix.z5
@@ -26756,7 +26835,8 @@ Come come elucidate your thoughts.
 
 >
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 535
 File  : enter.z5
 Path  : Games/Downloads
@@ -27274,7 +27354,8 @@ Figueres in my basement
 I had
 Figueres in my basement
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 544
 File  : findesick.z8
 Path  : Games/Downloads
@@ -27505,7 +27586,8 @@ as this one?
 Surely any game that's worse than this is less fun, and any game that's better 
 will waste even more of your precious time?
 
-Are you sure you want to quit? Please answer yes or no.> ================================================================================
+Are you sure you want to quit? Please answer yes or no.> ZIF quit
+================================================================================
 Index : 548
 File  : fmvpoker.z6
 Path  : Games/Downloads
@@ -28448,7 +28530,8 @@ That's not a dape I recognise.
 >quit
 Are you sure you want to quit? y
 Please answer bal or da.> 
-Please answer bal or da.> ================================================================================
+Please answer bal or da.> ZIF quit
+================================================================================
 Index : 565
 File  : gourmet.zblorb
 Path  : Games/Downloads
@@ -28674,6 +28757,7 @@ y
  Type "1" to continue, "2" to turn back, or "No" to take a different path.
 
  Type "1" to continue, "2" to turn back, or "No" to take a different path.
+ZIF quit
 ================================================================================
 Index : 569
 File  : gussdeath.z3
@@ -28989,7 +29073,8 @@ You will understand soon enough.
 
 [press a key]Do you want to play as an [a]dventurer, an [e]nchanter, a [t]hief, [r]oyalty, 
 or a [d]ragon? t
-Do you want this character to be [m]ale or [f]emale? ================================================================================
+Do you want this character to be [m]ale or [f]emale? ZIF quit
+================================================================================
 Index : 575
 File  : hints.z5
 Path  : Games/Downloads
@@ -29287,7 +29372,8 @@ Questo ? un verbo che non conosco.
 >quit
 Sei sicuro di voler uscire? y
 Per favore, rispondi SI o NO.> 
-Per favore, rispondi SI o NO.> ================================================================================
+Per favore, rispondi SI o NO.> ZIF quit
+================================================================================
 Index : 580
 File  : huntdark.z5
 Path  : Games/Downloads
@@ -30362,7 +30448,8 @@ NOW OF COURSE, WHAT ONE'D REALLY DESIRE AT A NASTY TIME LIKE THIS IS A BLOWTORCH
 
                                  or
 
-I... WELL; WHO WOULD THINK MY BOSS IS SCARED OF AN ARCH T================================================================================
+I... WELL; WHO WOULD THINK MY BOSS IS SCARED OF AN ARCH TZIF quit
+================================================================================
 Index : 601
 File  : leaptime.z8
 Path  : Games/Downloads
@@ -31879,6 +31966,7 @@ ZIF Checksum : 152A
 
            If you require further help, please stay on the line and
            an operator will assist you.
+ZIF quit
 ================================================================================
 Index : 629
 File  : mst3k1_2.z5
@@ -34513,7 +34601,8 @@ rokci
 .i do gasnu le nu 
 .i ki'a
 
-.i do gasnu le nu ================================================================================
+.i do gasnu le nu ZIF quit
+================================================================================
 Index : 664
 File  : oad.z5
 Path  : Games/Downloads
@@ -35038,7 +35127,8 @@ Please choose a gender for your character (male or female) >Sorry, please pick a
 Please choose a gender for your character (male or female) >Sorry, please pick a gender to begin. >
 Please choose a gender for your character (male or female) >I beg your pardon?
 
-Please choose a gender for your character (male or female) >================================================================================
+Please choose a gender for your character (male or female) >ZIF quit
+================================================================================
 Index : 675
 File  : pentari.z5
 Path  : Games/Downloads
@@ -35559,7 +35649,8 @@ chocolate chips and chocolate icing.
 
 >I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 684
 File  : praser5.z5
 Path  : Games/Downloads
@@ -35900,7 +35991,8 @@ INITIALIZING CORE AUDIO....
 FAILED!
 AUDIO SUPPORT DISABLED
 QUICKTIME CD DRIVER FAILED.
-BUILDING MESHES...================================================================================
+BUILDING MESHES...ZIF quit
+================================================================================
 Index : 690
 File  : quick2.zblorb
 Path  : Games/Downloads
@@ -36691,7 +36783,8 @@ will include your search for an ancient pyramid buried beneath the desert
 sands. The sample of The Witness will give you a glimpse of the action in this 
 30's-style detective thriller.
 
-(Hit the RETURN key now to start the tutorial.)>>================================================================================
+(Hit the RETURN key now to start the tutorial.)>>ZIF quit
+================================================================================
 Index : 703
 File  : sampler1_R52.z3
 Path  : Games/Downloads
@@ -36929,7 +37022,8 @@ Type the first letter of your choice, and hit the RETURN/ENTER key.
 
 (Your choice:) >
 What you typed was invalid. Please try again.
-(Your choice:) >================================================================================
+(Your choice:) >ZIF quit
+================================================================================
 Index : 707
 File  : saveprinceton.z8
 Path  : Games/Downloads
@@ -37373,7 +37467,8 @@ Please enter bonus for Artifice (0-3)>
 
 Please enter bonus for Artifice (0-3)> 
 
-Please enter bonus for Artifice (0-3)> ================================================================================
+Please enter bonus for Artifice (0-3)> ZIF quit
+================================================================================
 Index : 716
 File  : sh2.zblorb
 Path  : Games/Downloads
@@ -37416,7 +37511,8 @@ Please enter bonus for Artifice (0-3)>
 Please enter bonus for Artifice (0-3)> 
 Please enter bonus for Artifice (0-3)> 
 Please enter bonus for Artifice (0-3)> 
-Please enter bonus for Artifice (0-3)> ================================================================================
+Please enter bonus for Artifice (0-3)> ZIF quit
+================================================================================
 Index : 717
 File  : sh3.z5
 Path  : Games/Downloads
@@ -37465,7 +37561,8 @@ Please enter bonus for Artifice (0-3)>
 
 Please enter bonus for Artifice (0-3)> 
 
-Please enter bonus for Artifice (0-3)> ================================================================================
+Please enter bonus for Artifice (0-3)> ZIF quit
+================================================================================
 Index : 718
 File  : sh4.z5
 Path  : Games/Downloads
@@ -37514,7 +37611,8 @@ Please enter bonus for Artifice (0-3)>
 
 Please enter bonus for Artifice (0-3)> 
 
-Please enter bonus for Artifice (0-3)> ================================================================================
+Please enter bonus for Artifice (0-3)> ZIF quit
+================================================================================
 Index : 719
 File  : shade.z5
 Path  : Games/Downloads
@@ -38210,6 +38308,7 @@ ZIF Checksum : A4F6
            To read the introduction, then play the game, press <2>.
            If you possess finer sensibilities and are offended by graphic
            portrayal of sexual activities, press <3> to quit.
+ZIF quit
 ================================================================================
 Index : 734
 File  : stinkorswim.z8
@@ -38506,7 +38605,8 @@ I don't understand!
 
 Avoiding conversation accomplishes nothing!
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 739
 File  : sutwin.z5
 Path  : Games/Downloads
@@ -38812,7 +38912,8 @@ Standard interpreter 1.0 (0A)
 Special thanks to Kevin Bracey for providing an Inform floating-point library.
 
 Would you like the game to be (0) silent, (1) slightly noisy, or (2) 
-intolerably noisy? ================================================================================
+intolerably noisy? ZIF quit
+================================================================================
 Index : 745
 File  : tatctae.z8
 Path  : Games/Downloads
@@ -39760,7 +39861,8 @@ east leading out of the bedroom.
 
 On the bedstand are a newspaper and an alarm clock.
 
-What do you, the aspiring TRW, want to do now? > ================================================================================
+What do you, the aspiring TRW, want to do now? > ZIF quit
+================================================================================
 Index : 762
 File  : tryst205.z5
 Path  : Games/Downloads
@@ -40608,6 +40710,7 @@ order of their release. If you had reservations about trying this game because
                                       ---
 
                             Press SPACE to continue
+ZIF quit
 ================================================================================
 Index : 779
 File  : warp.z5
@@ -41262,7 +41365,8 @@ only in the displaying of coordinates and in teleporting, so the only thing to
 bear in mind is that whichever mode you are playing in, you simply need to 
 enter the coordinates when teleporting in the same order as they are printed.
 
-Enter C, N, S or M to select mode: ================================================================================
+Enter C, N, S or M to select mode: ZIF quit
+================================================================================
 Index : 781
 File  : weapon.z5
 Path  : Games/Downloads
@@ -41570,7 +41674,8 @@ default, whole words are required.
 Sarah decides to (the shell)
 So she does.
 
-Sarah decides to -- Abandon this dream? -- Type "yes" or "no" as a reply: -- Type "yes" or "no" as a reply: ================================================================================
+Sarah decides to -- Abandon this dream? -- Type "yes" or "no" as a reply: -- Type "yes" or "no" as a reply: ZIF quit
+================================================================================
 Index : 787
 File  : windhal1.z8
 Path  : Games/Downloads
@@ -42136,6 +42241,7 @@ Release 1 / Serial number 991216 / Inform v6.21
 
 Type 1 to read the instructions, 2 to read the implementation notes, 3 to play 
 the game, or 4 to quit.
+ZIF quit
 ================================================================================
 Index : 795
 File  : wurm.z5
@@ -42454,7 +42560,8 @@ What is your command?
 What is your command? yYou have travelled 0 miles altogether.
 What is your command? 
 What is your command? 
-What is your command? ================================================================================
+What is your command? ZIF quit
+================================================================================
 Index : 803
 File  : zchess.z5
 Path  : Games/Downloads
@@ -42730,7 +42837,8 @@ attached to the wall.
 >
 I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 809
 File  : zfiles.z8
 Path  : Games/Downloads
@@ -42864,6 +42972,7 @@ At last the tape stops spinning and the word "Ready." appears on the screen.
 
 >TYPE RUN
 The screen displays, "Do you want (s)hallow or (d)eep pits?"
+ZIF quit
 ================================================================================
 Index : 811
 File  : zork_1_demo.z3
@@ -42957,7 +43066,8 @@ of the main caverns of the Great Underground Empire.
 Whenever the word "MORE" appears on your screen, you will need to hit the space 
 bar to see the remainder of the text.
 
-(Hit the RETURN key now to start the tutorial.)================================================================================
+(Hit the RETURN key now to start the tutorial.)ZIF quit
+================================================================================
 Index : 812
 File  : zracer.z5
 Path  : Games/Downloads
@@ -43069,6 +43179,7 @@ Short range scan of quadrant 2, 4 (Rigel IV)
  1:  .   .   .   .   .   #   .   . 
 
 Alert Condition: Red
+ZIF quit
 ================================================================================
 Index : 815
 File  : zugzwang.z5
@@ -43121,12 +43232,14 @@ stupid Pawns? It's not fair!"
 >
 I beg your pardon?
 
->================================================================================
+>ZIF quit
+================================================================================
 Index : 816
 File  : crashme.z5
 Path  : Games/Extra
 MD5   : ec9b0233fffeece157f2dc6431e40c1a
 --------------------------------------------------------------------------------
+ERROR: Exited test #816 with a fault [256]
 ZIF Version  : z5
 ZIF Checksum : 15FD
 This program generates random Z-code which is run to test the robustness of 
@@ -43165,7 +43278,7 @@ Press 'q' to abort.
 [** Programming error: tried to write to ->0 in the string array "
 [** Programming error: tried to print (string) on something not a string **]
 ", which has entries 1 up to 11 **]
-ZIF ERR: 000019F  00                                             => illegal op
+ZIF ERR: 000019F      "illegal op"
 ZIF quit
 ================================================================================
 Index : 817
@@ -43998,7 +44111,7 @@ Please select a test: ZIF quit
 
 ================================================================================
 Games      :      819
-Clean exit :      819
+Clean exit :      818
 Errors     :        1
 Warnings   :       71
 --------------------------------------------------------------------------------
