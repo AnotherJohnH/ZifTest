@@ -822,13 +822,7 @@ Welcome to Adventure!! Would you like instructions?
 You are standing at the end of a road before a small brick building. Around you 
 is a forest. A small stream flows out of the building and down a gully.
 
->I don't know that word. 
-
->examine what? 
-
->What? 
-
->ZIF quit
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 20
 File  : Adventure_Time.zblorb
@@ -1151,30 +1145,26 @@ you watch her gracefully dancing with the old general.
 
 >I beg your pardon?
 
->(the ambassador's daughter)
-Her tall slender body, long silver hair and sparkling blue eyes captivate you - 
-ever since you first laid eyes upon her, you have been unable to think of 
-anything else. You look away before anyone catches you staring.
+>That was a rhetorical question.
 
->(the ambassador's daughter)
-Her tall slender body, long silver hair and sparkling blue eyes captivate you - 
-ever since you first laid eyes upon her, you have been unable to think of 
-anything else. You look away before anyone catches you staring.
+>You slip into the kitchens unnoticed.
 
-The band start up a new Tanith waltz.
+Kitchens
+Though you would not normally be in such lowly quarters, none of the servants 
+appear to be here to notice. The remnants of the earlier banquet have been 
+cleared away, leaving only empty tables and a cauldron simmering over the 
+embers of a fire.
 
->That's not a verb I recognise.
+The ball room lies back south.
 
->That's not a verb I recognise.
+On the kitchen tables are some empty mugs.
 
->(the ambassador's daughter)
-Her tall slender body, long silver hair and sparkling blue eyes captivate you - 
-ever since you first laid eyes upon her, you have been unable to think of 
-anything else. You look away before anyone catches you staring.
+Someone has left a box of tea on a shelf beside the door.
 
->I beg your pardon?
+>(the box of tea leaves)
+You don't need to carry that round with you.
 
->ZIF quit
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 27
 File  : AndAHippoNewYear.z8
@@ -9381,21 +9371,16 @@ distance, you can see Dr. Sinister's island fortress.
 
 >[No input found. Please type a command and press ENTER.]
 
->What do you want to examine?
+>[Yes/no questions are handled by the conversation system.]
 
->The walls extend for hundreds of feet and seem to be made of polished steel.
+>In the interests of containing the forces of villainy, the local authorities 
+have surrounded the area with impenetrable green force walls. It should go down 
+once you get your man.
 
->[The parser couldn't handle that sentence. Try rephrasing it, or use a 
-different verb.]
+>(the energy drink)
+Taken.
 
->[The parser couldn't handle that sentence. Try rephrasing it, or use a 
-different verb.]
-
->What do you want to examine?
-
->[No input found. Please type a command and press ENTER.]
-
->ZIF quit
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 186
 File  : Hypnotist_of_Ladies.z5
@@ -15960,14 +15945,7 @@ The door leads out to the HALLWAY.
 
 >[That is not a keyword the story recognizes.]
 
->[That is not a keyword the story recognizes.]
-
->[That is not a keyword the story recognizes.]
-
->[Available keywords: ME, COUSIN, MUSIC and WEIGHTLESSNESS. Available exits: 
-HALLWAY.]
-
->ZIF quit
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 324
 File  : Starry_Seeksorrow.zblorb
@@ -17415,25 +17393,22 @@ be heard from that direction.
 
 >I beg your pardon?
 
->(the clothes on his back)
-He is wearing leather breeches, leather boots and a leather jacket. Quite an 
-unimaginative wardrobe for such an ambitious man.
+>That was a rhetorical question.
+
+>
+Windy Cave
+It appears the gusts of wind that occasionally blow through this part of the 
+cave are responsible for the wailing. Every time it sounds, he can feel the 
+breeze blowing from the hole high on the wall and out the mouth of the cave to 
+the north. Above the hole admitting the wind, a cracked stone outcropping hangs 
+precariously. A building can be seen in the valley beyond the exit to the north 
+and the maze leading here is back to the south.
 
 >(the clothes on his back)
-He is wearing leather breeches, leather boots and a leather jacket. Quite an 
-unimaginative wardrobe for such an ambitious man.
+He already has those.
 
->That's not a verb I recognize.
-
->That's not a verb I recognize.
-
->(the clothes on his back)
-He is wearing leather breeches, leather boots and a leather jacket. Quite an 
-unimaginative wardrobe for such an ambitious man.
-
->I beg your pardon?
-
->ZIF quit
+>Are you sure you want to quit? 
+ZIF quit
 ================================================================================
 Index : 356
 File  : TheRealisticNascarEXperience.z5
@@ -18154,7 +18129,7 @@ ZIF Checksum : BF22
 
 Hi there! What is your first name? > I beg your pardon?
 
-Hi there! What is your first name? > XWelcome, ! I am sure we're going to have a great time together.
+Hi there! What is your first name? > NoWelcome, ! I am sure we're going to have a great time together.
 
 The Game Formerly Known as Hidden Nazi Mode
 A cute game for unattended young children by Victor Gijsbers
@@ -18514,23 +18489,23 @@ evening, it is doing double duty as a wedding chapel.
 
 Your betrothed, Roland, stands before you.
 
->What do you want to    x  Kjs?
+>You need to specify who you want to speak to.
 
->What do you want to    x  Kjs?
+Father Alfred begins the ceremony, "We are gathered here today to witness the 
+joining of two hearts." Roland smiles shyly at you.
 
->What do you want to    x  Kjs?
+>You're not sure you actually want to get married. How well do you even know 
+Roland? You hand your bouquet to the nearest guest and walk off.
 
->What do you want to    x  Kjs?
+    *** And they didn't get married after all! ***
 
->What do you want to    x  Kjs?
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last 
+command?
+> Please give one of the answers above.
 
->Castle Garden
-You are standing in the garden behind your family's castle. On this lovely fall 
-evening, it is doing double duty as a wedding chapel.
-
-Your betrothed, Roland, stands before you.
-
->ZIF quit
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last 
+command?
+> ZIF quit
 ================================================================================
 Index : 382
 File  : The_Sprout_Pouch.zblorb
@@ -19419,19 +19394,16 @@ On your bed is Donald Duck.
 
 >I beg your pardon?
 
->What do you want to examine?
+>That was a rhetorical question.
 
->You see nothing unexpected in that direction.
+>There's a wall there. And you've run into enough of those to know that you 
+aren't going through it.
 
->That noun did not make sense in this context.
+Danny coos quietly in his crib.
 
->That noun did not make sense in this context.
+>What do you want to take?
 
->What do you want to examine?
-
->I beg your pardon?
-
->ZIF quit
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 400
 File  : UngodlyHour.zblorb
@@ -23467,27 +23439,51 @@ behind a huge box fan.
 
 >I beg your pardon?
 
->(the old dented strongbox)
-This strongbox is made of metal, and is a foot across in each dimension.  It is 
-covered in rust and dented in a few places.  A tattered label on the lid reads 
-"Laura Bryant Collection."  A garish orange sticker asks for $23.  Some inner 
-feeling makes you want to possess it.
+>That was a rhetorical question.
+
+>You don't have a compass.  If you would like to go to a place, please type GO 
+TO (PLACE).
 
 >(the old dented strongbox)
-This strongbox is made of metal, and is a foot across in each dimension.  It is 
-covered in rust and dented in a few places.  A tattered label on the lid reads 
-"Laura Bryant Collection."  A garish orange sticker asks for $23.  Some inner 
-feeling makes you want to possess it.
+You pick up the strongbox.  The rest of the transaction is fuzzy in your 
+memory.  Money changed hands, and you got in your car.  Afterwards, you kicked 
+yourself for not asking the family's name or checking the street signs on your 
+way out of the neighborhood.
 
->That's not a verb I recognize.
+Please press SPACE to continue.
 
->That's not a verb I recognize.
+"It's kind of silly, I know, making up 
+ little story worlds like this.  But it's 
+ always reminded me of my Uncle Ted, 
+ who says Great-Grandfather Bryant used 
+ to do it with him.  Thought you might 
+ find it fun."
 
->(the old dented strongbox)
-This strongbox is made of metal, and is a foot across in each dimension.  It is 
-covered in rust and dented in a few places.  A tattered label on the lid reads 
-"Laura Bryant Collection."  A garish orange sticker asks for $23.  Some inner 
-feeling makes you want to possess it.
+-- Laura Bryant
+
+Please press SPACE to continue.
+
+The Bryant Collection
+An Interactive Anthology by Gregory Weir
+Release 1 / Serial number 090401 / Inform 7 build 5U92 (I6/v6.31 lib 6/12N) 
+
+Living Room
+You've never been an especially tidy person, and being self-employed has done 
+nothing to improve your habits.  Still, you keep your place clean, for the most 
+part.  It's just cluttered.  The clutter is worse than usual at the moment, 
+thanks to a portion of the contents of the strongbox scattered over the surface 
+of your table.
+
+The strongbox itself sits open under the table.
+
+On the wooden table are a pile of letters, a memo book labeled "The End of the 
+World", a composition book labeled "Morning in the Garden", a sketchbook 
+labeled "The Tower of Hanoi", a stapled packet labeled "Going Home Again", an 
+envelope labeled "Undelivered Love Letter", a wrinkled sheet of paper, and a 
+wooden toy.
+
+(For information on the origins of this collection, type ABOUT.  To return to 
+this room from within a story, type RETURN.)
 
 >I beg your pardon?
 
@@ -29353,7 +29349,7 @@ L'unica pecca ? il gran numero di zanzare, che hanno fissato nel canale il loro
 punto di ritrovo.
 
 >no
-Questo ? un verbo che non conosco.
+Non puoi andare in quella direzione.
 
 >n
 
@@ -29365,6 +29361,8 @@ si estende nelle vie a nord e a est.
 
 Accanto alla fontana, con un piattino ai suoi piedi, c'? un mendicante che sta 
 suonando un violino.
+Un uomo si avvicina al mendicante e mette nel piattino un paio di monetine, 
+sparendo nella via a nord.
 
 >take
 Questo ? un verbo che non conosco.
@@ -31716,7 +31714,7 @@ You are facing the north side of a white house. There is no door here, and all
 the windows are boarded up. A narrow path winds north through the trees.
 
 >take
-[What do you want to xtak?]
+[What do you want to ake?]
 
 >quit
 Your score is 0 (of 350 points), in 1 move. This gives you the rank of 
@@ -31797,9 +31795,7 @@ Greetings! What should we call you?
 
 >I beg your pardon?
 
->Do you mind if I call you X for short?
-
-Y/N? >No, of course you don't. We're going to be really great friends, X.
+>That is a wonderful name. "No". It rolls easily off the tongue.
 Monster Maker
 A silly character creation toy by Erin Gigglecreek
 Release 2 / Serial number 150817 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
@@ -31807,6 +31803,8 @@ Release 2 / Serial number 150817 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 Starry Room
 The room is entirely black, save only for the glowing stars painted on the 
 floor.
+
+>You can't go that way.
 
 >What do you want to take?
 
@@ -33978,8 +33976,7 @@ Resume play on a game ?
 Welcome to MYSTERIOUS ADVENTURES 
 Prepare yourself for anything! 
 WHAT SHALL I DO? I don't know how to "o".
-WHAT SHALL I DO? I don't know how to "n".
-WHAT SHALL I DO? What? 
+WHAT SHALL I DO? WHAT SHALL I DO? What? 
 WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again? ZIF quit
 ================================================================================
 Index : 646
@@ -33997,8 +33994,7 @@ Resume play on a game ?
 Welcome to THE TIME MACHINE 
 For LIZ & MICHAEL my Wife & Son 
 WHAT SHALL I DO? I don't know how to "o".
-WHAT SHALL I DO? I don't know how to "n".
-WHAT SHALL I DO? What? 
+WHAT SHALL I DO? WHAT SHALL I DO? What? 
 WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again? ZIF quit
 ================================================================================
 Index : 647
@@ -34016,8 +34012,7 @@ Resume play on a game ?
 Good luck on ARROW OF DEATH (Pt.1) 
 For those who journey in Dreams.. 
 WHAT SHALL I DO? I don't know how to "o".
-WHAT SHALL I DO? I don't know how to "n".
-WHAT SHALL I DO? What? 
+WHAT SHALL I DO? WHAT SHALL I DO? What? 
 WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again? ZIF quit
 ================================================================================
 Index : 648
@@ -34035,8 +34030,7 @@ Resume play on a game ?
 ARROW OF DEATH (Pt.2) 
 There is no joy in reality 
 WHAT SHALL I DO? I don't know how to "o".
-WHAT SHALL I DO? I don't know how to "n".
-WHAT SHALL I DO? What? 
+WHAT SHALL I DO? WHAT SHALL I DO? What? 
 WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again? ZIF quit
 ================================================================================
 Index : 649
@@ -34055,7 +34049,7 @@ Welcome to `ESCAPE FROM PULSAR 7` by Brian Howarth & Wherner Barnes Dedicated
 to Wherner's Mother - MILDRED. 
 
 WHAT SHALL I DO? I don't know how to "o".
-WHAT SHALL I DO? I don't know how to "n".
+WHAT SHALL I DO? I can't go in that direction. 
 WHAT SHALL I DO? What? 
 WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again? ZIF quit
 ================================================================================
@@ -34074,7 +34068,7 @@ Resume play on a game ?
 Roll up! Roll up! 
 The CIRCUS is in town! 
 WHAT SHALL I DO? I don't know how to "o".
-WHAT SHALL I DO? I don't know how to "n".
+WHAT SHALL I DO? I can't go in that direction. 
 WHAT SHALL I DO? What? 
 WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again? ZIF quit
 ================================================================================
@@ -34094,7 +34088,7 @@ Resume play on a game ?
 Ultimate Warrior,  Gather the *Treasures* of our Ancient Culture or we are 
 DOOMED! 
 WHAT SHALL I DO? I don't know how to "o".
-WHAT SHALL I DO? I don't know how to "n".
+WHAT SHALL I DO? I can't go in that direction. 
 WHAT SHALL I DO? What? 
 WHAT SHALL I DO? O.K. 
 This adventure is over. Do you want to try this adventure again? ZIF quit
@@ -34115,7 +34109,7 @@ Welcome to MYSTERIOUS ADVENTURE No. 8 by Brian Howarth & Cliff Ogden (C) 1983
 The King says: 'Save the Princess & find the Jewels Your reward will be  
 Priceless!` 
 WHAT SHALL I DO? I don't know how to "o".
-WHAT SHALL I DO? I don't know how to "n".
+WHAT SHALL I DO? I can't go in that direction. 
 WHAT SHALL I DO? What? 
 WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again? ZIF quit
 ================================================================================
@@ -34134,8 +34128,7 @@ Resume play on a game ?
 Welcome to Mysterious Adventure No.9 PERSEUS & ANDROMEDA 
 Dedicated to A.J.HARDING and staff at MOLIMERX LTD. Who made this possible 
 WHAT SHALL I DO? I don't know how to "o".
-WHAT SHALL I DO? I don't know how to "n".
-WHAT SHALL I DO? What? 
+WHAT SHALL I DO? WHAT SHALL I DO? What? 
 WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again? ZIF quit
 ================================================================================
 Index : 654
@@ -34153,7 +34146,7 @@ Resume play on a game ?
 Welcome to Mysterious Adventure No.10 TEN LITTLE INDIANS By Brian Howarth & 
 Wherner Barnes 
 WHAT SHALL I DO? I don't know how to "o".
-WHAT SHALL I DO? I don't know how to "n".
+WHAT SHALL I DO? I can't go in that direction. 
 WHAT SHALL I DO? What? 
 WHAT SHALL I DO? O.K. 
 This adventure is over. Do you want to try this adventure again? ZIF quit
@@ -34175,8 +34168,7 @@ Cliff Ogden Dedicated to Margaret
 I remember coming to the Waxworks.. I must have dozed off. I'm locked in! It's 
 SPOOKY! 
 WHAT SHALL I DO? I don't know how to "o".
-WHAT SHALL I DO? I don't know how to "n".
-WHAT SHALL I DO? What? 
+WHAT SHALL I DO? WHAT SHALL I DO? What? 
 WHAT SHALL I DO? This adventure is over. Do you want to try this adventure again? ZIF quit
 ================================================================================
 Index : 656
@@ -35633,23 +35625,19 @@ On the table are a carton of milk, a plate of brownies, and two cups.
 
 >I beg your pardon?
 
+>That was a rhetorical question.
+
+>You stand up and walk away. Sam throws his cup at you.
+
+*** You did not pass the milk. ***
+Kitchen
+Your brother Sam is sitting across from you.
+
+On the table are a carton of milk, a plate of brownies, and two cups.
+
 >That's not a verb I recognize.
 
->(the brownie)
-Your mother makes the best brownies ever. These are chocolate fudge with 
-chocolate chips and chocolate icing.
-
->That's not a verb I recognize.
-
->That's not a verb I recognize.
-
->(the brownie)
-Your mother makes the best brownies ever. These are chocolate fudge with 
-chocolate chips and chocolate icing.
-
->I beg your pardon?
-
->ZIF quit
+>Are you sure you want to quit? ZIF quit
 ================================================================================
 Index : 684
 File  : praser5.z5
@@ -38750,11 +38738,11 @@ ZIF Checksum : 179C
                    - from a saved position :       R
    Quit                                    :       Q
 
-What is your name? > Hi, x!
+What is your name? > Hi, no!
 
  After training with your master, you decided to read a book. What was the 
 book? The legend of the blood Lust Warrior. When your master saw you reading, 
-he snapped at you! "x, you shouldn't be reading that book! That is my book and 
+he snapped at you! "no, you shouldn't be reading that book! That is my book and 
 you know it!" You set down the book, put on your sack and wandered off, on a 
 quest to defeat...
 
